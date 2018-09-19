@@ -1,0 +1,25 @@
+﻿@model OfflineExamSystem.Areas.Examination.ViewModels.SessionViewModel
+<div class="container">
+    <br /><br />
+    <div class="row">
+        <div class="col-md-6">
+            <h2>@ViewBag.ExamName</h2>
+            @ViewBag.ExamDescription
+        </div>
+        <div class="col-md-6">
+            Test Duration : @(ViewBag.ExamDuration) minutes
+            <br />Total Question : @ViewBag.QuestionCount
+        </div>
+    </div>
+    <br /><br />
+    @if (Model != null)
+    {
+        using (Html.BeginForm("RegisterSimulation", "Home", FormMethod.Post, new { @id = "formRegister" }))
+        {
+            @Html.HiddenFor(x => Model.ExamId)
+            @Html.Hidden("Resume")
+            <a href="javascript:void(0);" onclick="getElementById('formRegister').submit();" class="btn btn-primary">Register and Start</a>
+        }
+    }
+
+</div>

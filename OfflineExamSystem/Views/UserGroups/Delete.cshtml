@@ -1,0 +1,43 @@
+﻿@model OfflineExamSystem.Models.UserGroupViewModel
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">
+        <span aria-hidden="true">&times;</span>
+    </button>
+    <h3 class="modal-title">@Resources.Resources.Delete</h3>
+</div>
+<div class="modal-body">
+    <div>
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.UserName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.UserName)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.GroupName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.GroupName)
+            </dd>
+        </dl>
+    </div>
+</div>
+
+@using (Ajax.BeginForm("Delete", "UserGroups", null, new AjaxOptions()
+{
+    HttpMethod = "POST",
+    UpdateTargetId = "deleteContainer",
+    OnSuccess = "OnSuccessDelete",
+}))
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(model => model.UserId, new { id = "roleId" })
+    @Html.HiddenFor(model => model.GroupId, new { id = "groupId" })
+    <div class="modal-footer">
+            <button type="submit" id="btnDelete" class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i> @Resources.Resources.Delete</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times" aria-hidden="true"></i> @Resources.Resources.Close</button>
+    </div>
+}

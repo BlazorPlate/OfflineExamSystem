@@ -1,0 +1,2103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BackToList" xml:space="preserve">
+    <value>חזרה לרשימת</value>
+  </data>
+  <data name="Calendar" xml:space="preserve">
+    <value>לוח שנה</value>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>תצורה</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>אשר את הסיסמה</value>
+  </data>
+  <data name="ConfirmPasswordCompare" xml:space="preserve">
+    <value>סיסמה, סיסמת האימות אינן תואמות</value>
+  </data>
+  <data name="Contents" xml:space="preserve">
+    <value>תוכן</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>צור</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>מחק</value>
+  </data>
+  <data name="DeleteConfirmation" xml:space="preserve">
+    <value>האם אתה בטוח שברצונך למחוק את זה?</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>תיאור</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>פרטים</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>עריכה</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>דוא</value>
+  </data>
+  <data name="EmailRegularExpression" xml:space="preserve">
+    <value>דואר אלקטרוני אינו חוקי.</value>
+  </data>
+  <data name="Events" xml:space="preserve">
+    <value>אירועים</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>שם פרטי</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>קבוצה</value>
+  </data>
+  <data name="GroupRolesAssignment" xml:space="preserve">
+    <value>התפקידים שהוקצו לקבוצה:</value>
+  </data>
+  <data name="Groups" xml:space="preserve">
+    <value>קבוצות</value>
+  </data>
+  <data name="GroupsAssignment" xml:space="preserve">
+    <value>קבוצות שהוקצה עבור משתמש:</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>הבית</value>
+  </data>
+  <data name="Images" xml:space="preserve">
+    <value>תמונות</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>שפה</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>שם משפחה</value>
+  </data>
+  <data name="LogOff" xml:space="preserve">
+    <value>התנתק</value>
+  </data>
+  <data name="LogOn" xml:space="preserve">
+    <value>כנס</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>שם</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>סיסמה</value>
+  </data>
+  <data name="PasswordStringLength" xml:space="preserve">
+    <value>הסיסמה להיות באורך לפחות 6 תווים.</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>תפקיד</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>תפקידי</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>הקופה</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>שמור</value>
+  </data>
+  <data name="SelectGroups" xml:space="preserve">
+    <value>בחר קבוצת</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>המשתמש</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>שם משתמש</value>
+  </data>
+  <data name="UserRolesAssignment" xml:space="preserve">
+    <value>התפקידים שהוקצו עבור משתמש:</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>משתמשים</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>מחבר</value>
+  </data>
+  <data name="CreatedOn" xml:space="preserve">
+    <value>תאריך יצירה</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>תאריך סיום פעילות</value>
+  </data>
+  <data name="Index" xml:space="preserve">
+    <value>אינדקס</value>
+  </data>
+  <data name="IsPublished" xml:space="preserve">
+    <value>לאור?</value>
+  </data>
+  <data name="IsTranslated" xml:space="preserve">
+    <value>מתורגם?</value>
+  </data>
+  <data name="LanguageId" xml:space="preserve">
+    <value>מזהה השפה</value>
+  </data>
+  <data name="ModifiedBy" xml:space="preserve">
+    <value>עודכן לאחרונה על-ידי</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>מיקום</value>
+  </data>
+  <data name="ModifiedOn" xml:space="preserve">
+    <value>תאריך השינוי</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>תאריך ההתחלה של פעילות</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>כותרת</value>
+  </data>
+  <data name="TranslationId" xml:space="preserve">
+    <value>תרגום</value>
+  </data>
+  <data name="Event" xml:space="preserve">
+    <value>אירוע</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>קובץ</value>
+  </data>
+  <data name="FilePath" xml:space="preserve">
+    <value>נתיב הקובץ</value>
+  </data>
+  <data name="MIME" xml:space="preserve">
+    <value>MIME</value>
+  </data>
+  <data name="Tag" xml:space="preserve">
+    <value>תג</value>
+  </data>
+  <data name="Tags" xml:space="preserve">
+    <value>תגיות</value>
+  </data>
+  <data name="ThumbPath" xml:space="preserve">
+    <value>נתיב האגודל</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>תצוגה</value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>תוכן</value>
+  </data>
+  <data name="MainContent" xml:space="preserve">
+    <value>התוכן הראשי</value>
+  </data>
+  <data name="MetaDescription" xml:space="preserve">
+    <value>Meta Description</value>
+  </data>
+  <data name="MetaKeywords" xml:space="preserve">
+    <value>Meta Keywords</value>
+  </data>
+  <data name="Languages" xml:space="preserve">
+    <value>שפות</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>שינוי סיסמה</value>
+  </data>
+  <data name="CurrentPassword" xml:space="preserve">
+    <value>הסיסמה הנוכחית</value>
+  </data>
+  <data name="ManageAccount" xml:space="preserve">
+    <value>לנהל את החשבון</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>סיסמה חדשה</value>
+  </data>
+  <data name="OldPassword" xml:space="preserve">
+    <value>הסיסמה הישנה</value>
+  </data>
+  <data name="RememberMe" xml:space="preserve">
+    <value>זוכר אותי</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>חיפוש</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>קטגוריה</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>תפריט</value>
+  </data>
+  <data name="MenuItem" xml:space="preserve">
+    <value>פריט התפריט</value>
+  </data>
+  <data name="MenuItems" xml:space="preserve">
+    <value>פריטים בתפריט</value>
+  </data>
+  <data name="Menus" xml:space="preserve">
+    <value>תפריטים</value>
+  </data>
+  <data name="IsCms" xml:space="preserve">
+    <value>? האם Cms</value>
+  </data>
+  <data name="IsLeaf" xml:space="preserve">
+    <value>זה עלה?</value>
+  </data>
+  <data name="IsParent" xml:space="preserve">
+    <value>? האם האב</value>
+  </data>
+  <data name="Ordinal" xml:space="preserve">
+    <value>סודר</value>
+  </data>
+  <data name="Parent" xml:space="preserve">
+    <value>האב</value>
+  </data>
+  <data name="CreateNewAccount" xml:space="preserve">
+    <value>צור חשבון חדש.</value>
+  </data>
+  <data name="Deleted" xml:space="preserve">
+    <value>נמחק</value>
+  </data>
+  <data name="Published" xml:space="preserve">
+    <value>לאור</value>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>הציל</value>
+  </data>
+  <data name="MaximumAllowedSize" xml:space="preserve">
+    <value>הגודל המירבי הוא:</value>
+  </data>
+  <data name="PleaseUploadImageOfType" xml:space="preserve">
+    <value>אנא העלו תמונה מסוג:</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>הערות</value>
+  </data>
+  <data name="AddTranslation" xml:space="preserve">
+    <value>הוספת תרגום</value>
+  </data>
+  <data name="ViewTranslation" xml:space="preserve">
+    <value>תרגום תצוגה</value>
+  </data>
+  <data name="HasShortcut" xml:space="preserve">
+    <value>Dispaly-דף הבית</value>
+  </data>
+  <data name="IsScheduled" xml:space="preserve">
+    <value>מתוזמנת?</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>מצב</value>
+  </data>
+  <data name="Announcements" xml:space="preserve">
+    <value>הכרזות</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>חדשות</value>
+  </data>
+  <data name="NoAnnouncements" xml:space="preserve">
+    <value>ישנם אין הודעות.</value>
+  </data>
+  <data name="NoEvents" xml:space="preserve">
+    <value>ישנם אירועים.</value>
+  </data>
+  <data name="NoNews" xml:space="preserve">
+    <value>ישנם אין חדשות.</value>
+  </data>
+  <data name="ContentTypes" xml:space="preserve">
+    <value>סוגי תוכן</value>
+  </data>
+  <data name="Building" xml:space="preserve">
+    <value>בניין</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>קוד</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>מדינה</value>
+  </data>
+  <data name="Locality" xml:space="preserve">
+    <value>העיר</value>
+  </data>
+  <data name="PostalCode" xml:space="preserve">
+    <value>מיקוד</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>פרופיל</value>
+  </data>
+  <data name="Street" xml:space="preserve">
+    <value>רחוב</value>
+  </data>
+  <data name="Telephone" xml:space="preserve">
+    <value>טלפון</value>
+  </data>
+  <data name="EnterCredentials" xml:space="preserve">
+    <value>הזן את שם המשתמש והסיסמה שלך כדי להיכנס למערכת.</value>
+  </data>
+  <data name="ForgetPassword" xml:space="preserve">
+    <value>שכחת הסיסמא?</value>
+  </data>
+  <data name="JoinUs" xml:space="preserve">
+    <value>הצטרפו אלינו @</value>
+  </data>
+  <data name="LoginToSite" xml:space="preserve">
+    <value>כניסה לאתר שלנו</value>
+  </data>
+  <data name="LoginWithSocialMedia" xml:space="preserve">
+    <value>. או כניסה עם:</value>
+  </data>
+  <data name="PasswordMatch" xml:space="preserve">
+    <value>הסיסמה החדשה ואת סיסמת האימות אינן תואמות.</value>
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>מספר טלפון</value>
+  </data>
+  <data name="RegisterNewUser" xml:space="preserve">
+    <value>רישום משתמש חדש</value>
+  </data>
+  <data name="StringLength" xml:space="preserve">
+    <value>{0} חייב להיות לפחות {2} תווים.</value>
+  </data>
+  <data name="FillForm" xml:space="preserve">
+    <value>מלאו את הטופס שלהלן כדי לקבל גישה מיידית.</value>
+  </data>
+  <data name="EmailInvalid" xml:space="preserve">
+    <value>כתובת הדואר האלקטרוני אינה חוקית.</value>
+  </data>
+  <data name="SignUp" xml:space="preserve">
+    <value>הירשם</value>
+  </data>
+  <data name="SignUpInSeconds" xml:space="preserve">
+    <value>הירשם שניות</value>
+  </data>
+  <data name="AlreadyMember" xml:space="preserve">
+    <value>משתמש רשום?</value>
+  </data>
+  <data name="EmailLink" xml:space="preserve">
+    <value>קישור דוא</value>
+  </data>
+  <data name="EmailConfirmationCheck" xml:space="preserve">
+    <value>נא בדוק את הדוא ל שלך כדי להפעיל את חשבונך.</value>
+  </data>
+  <data name="EnterEmail" xml:space="preserve">
+    <value>הזן את הדוא ל שלך לקבל דואר אלקטרוני הקישור איפוס הסיסמה.</value>
+  </data>
+  <data name="Instruction" xml:space="preserve">
+    <value>שלחנו לך מייל כולל קישור לאימות. אנא בדוק את הדוא ל שלך, לאשר את המינוי שלך.</value>
+  </data>
+  <data name="InvalidLoginAttempt" xml:space="preserve">
+    <value>נסיון כניסה לא חוקית.</value>
+  </data>
+  <data name="Regards" xml:space="preserve">
+    <value>ברכות חמות</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>תודה שהצטרפתם אלינו!</value>
+  </data>
+  <data name="ThankYouFor" xml:space="preserve">
+    <value>. תודה שהצטרפת</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>ברוך הבא</value>
+  </data>
+  <data name="EnterVerificationCode" xml:space="preserve">
+    <value>הזן את קוד האימות.</value>
+  </data>
+  <data name="RememberBrowser" xml:space="preserve">
+    <value>זוכר את הדפדפן הזה</value>
+  </data>
+  <data name="SelectTwoFactor" xml:space="preserve">
+    <value>בחר שיטת אימות שני הגורמים.</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>שלח</value>
+  </data>
+  <data name="TwoFactor" xml:space="preserve">
+    <value>אימות דו-גורמי</value>
+  </data>
+  <data name="TwoFactorType" xml:space="preserve">
+    <value>שיטת אימות שני הגורמים</value>
+  </data>
+  <data name="VerificationCode" xml:space="preserve">
+    <value>קוד אימות</value>
+  </data>
+  <data name="Verify" xml:space="preserve">
+    <value>ודא עכשיו</value>
+  </data>
+  <data name="ChangeAccountSettings" xml:space="preserve">
+    <value>לשנות את הגדרות החשבון שלך.</value>
+  </data>
+  <data name="ExternalLogins" xml:space="preserve">
+    <value>כניסות חיצוניות</value>
+  </data>
+  <data name="AddPhoneNumber" xml:space="preserve">
+    <value>להוסיף מספר טלפון</value>
+  </data>
+  <data name="ChangeCurrentPassword" xml:space="preserve">
+    <value>שינוי הסיסמה הנוכחית.</value>
+  </data>
+  <data name="Disable" xml:space="preserve">
+    <value>בטל</value>
+  </data>
+  <data name="Enable" xml:space="preserve">
+    <value>לאפשר</value>
+  </data>
+  <data name="ExploreOurSite" xml:space="preserve">
+    <value>לחקור את האתר שלנו</value>
+  </data>
+  <data name="ManageLogins" xml:space="preserve">
+    <value>ניהול כניסות חיצוניות</value>
+  </data>
+  <data name="PhoneNumberOption" xml:space="preserve">
+    <value>להוסיף מספר טלפון על מנת להיות מסוגלים לקבל קוד אימות.</value>
+  </data>
+  <data name="SetPassword" xml:space="preserve">
+    <value>הגדרת סיסמה</value>
+  </data>
+  <data name="VerifyPhoneNumber" xml:space="preserve">
+    <value>ודא את מספר הטלפון</value>
+  </data>
+  <data name="VerifyPhoneNumberOption" xml:space="preserve">
+    <value>להזין קוד אימות כדי לאמת את זהותך. </value>
+  </data>
+  <data name="ChooseContentType" xml:space="preserve">
+    <value>-- בחר סוג תוכן.</value>
+  </data>
+  <data name="ChooseLanguage" xml:space="preserve">
+    <value>-- בחר שפה...</value>
+  </data>
+  <data name="ChooseParentMenuItem" xml:space="preserve">
+    <value>-- בחר האב תפריט פריט...</value>
+  </data>
+  <data name="ContentType" xml:space="preserve">
+    <value>סוג תוכן</value>
+  </data>
+  <data name="HasMenuItem" xml:space="preserve">
+    <value>מספק קישור בתפריט?</value>
+  </data>
+  <data name="ChooseMenu" xml:space="preserve">
+    <value>-- בחר תפריט...</value>
+  </data>
+  <data name="FacebookUrl" xml:space="preserve">
+    <value>פייסבוק</value>
+  </data>
+  <data name="IsUrgent" xml:space="preserve">
+    <value>האם להציג בשורת דחוף?</value>
+  </data>
+  <data name="Logo" xml:space="preserve">
+    <value>לוגו</value>
+  </data>
+  <data name="ParentMenuItem" xml:space="preserve">
+    <value>פריט תפריט האב</value>
+  </data>
+  <data name="StatusId" xml:space="preserve">
+    <value>מצב</value>
+  </data>
+  <data name="TwitterUrl" xml:space="preserve">
+    <value>טוויטר</value>
+  </data>
+  <data name="YouTubeUrl" xml:space="preserve">
+    <value>YouTube</value>
+  </data>
+  <data name="AcademicJournal" xml:space="preserve">
+    <value>סטודנטים קול מגזין</value>
+  </data>
+  <data name="ShortcutTitle" xml:space="preserve">
+    <value>קיצור כותרת</value>
+  </data>
+  <data name="NoArticles" xml:space="preserve">
+    <value>ישנם אין מאמרים.</value>
+  </data>
+  <data name="Vacancy" xml:space="preserve">
+    <value>עבודה Annoucement</value>
+  </data>
+  <data name="Degree" xml:space="preserve">
+    <value>תואר </value>
+  </data>
+  <data name="Degrees" xml:space="preserve">
+    <value>מעלות</value>
+  </data>
+  <data name="AddAttachments" xml:space="preserve">
+    <value>להוסיף עוד החזקה...</value>
+  </data>
+  <data name="Applicant" xml:space="preserve">
+    <value>המבקש</value>
+  </data>
+  <data name="Requirements" xml:space="preserve">
+    <value>דרישות</value>
+  </data>
+  <data name="CoverLetter" xml:space="preserve">
+    <value>כיסוי מכתב</value>
+  </data>
+  <data name="FileName" xml:space="preserve">
+    <value>שם קובץ</value>
+  </data>
+  <data name="Id" xml:space="preserve">
+    <value>מספר סידורי</value>
+  </data>
+  <data name="IsActive" xml:space="preserve">
+    <value>האם פעיל?</value>
+  </data>
+  <data name="VacancyType" xml:space="preserve">
+    <value>סוג משרה פנויה</value>
+  </data>
+  <data name="Documents" xml:space="preserve">
+    <value>מסמכים</value>
+  </data>
+  <data name="Submissions" xml:space="preserve">
+    <value>הגשות</value>
+  </data>
+  <data name="SubmittedOn" xml:space="preserve">
+    <value>תאריך Submittion</value>
+  </data>
+  <data name="Rank" xml:space="preserve">
+    <value>דרגה אקדמית</value>
+  </data>
+  <data name="Ranks" xml:space="preserve">
+    <value>אקדמי</value>
+  </data>
+  <data name="ChooseVacancy" xml:space="preserve">
+    <value>-- בחר כותרת העבודה.</value>
+  </data>
+  <data name="Applicants" xml:space="preserve">
+    <value>מועמדים</value>
+  </data>
+  <data name="ApplicantFullName" xml:space="preserve">
+    <value>שם המועמד</value>
+  </data>
+  <data name="Attachments" xml:space="preserve">
+    <value>קבצים מצורפים</value>
+  </data>
+  <data name="CurriculumVitae" xml:space="preserve">
+    <value>קורות חיים</value>
+  </data>
+  <data name="DOB" xml:space="preserve">
+    <value>תאריך לידה</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>להורדה</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>מגדר</value>
+  </data>
+  <data name="JobTitle" xml:space="preserve">
+    <value>תפקיד</value>
+  </data>
+  <data name="MiddleName" xml:space="preserve">
+    <value>השם האמצעי</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>מספר נייד</value>
+  </data>
+  <data name="ResumeFileName" xml:space="preserve">
+    <value>קורות חיים</value>
+  </data>
+  <data name="ResumeFilePath" xml:space="preserve">
+    <value>קורות חיים</value>
+  </data>
+  <data name="Submission" xml:space="preserve">
+    <value>כניעה</value>
+  </data>
+  <data name="NoParentItem" xml:space="preserve">
+    <value>לא פריט האב...</value>
+  </data>
+  <data name="ContentList" xml:space="preserve">
+    <value>רשימת תוכן</value>
+  </data>
+  <data name="ItemContent" xml:space="preserve">
+    <value>פריט תוכן</value>
+  </data>
+  <data name="PleaseUploadFileOfType" xml:space="preserve">
+    <value>אנא העלו קובץ מסוג:</value>
+  </data>
+  <data name="JobType" xml:space="preserve">
+    <value>סוג משימה</value>
+  </data>
+  <data name="ListItem" xml:space="preserve">
+    <value>פריט רשימה</value>
+  </data>
+  <data name="ListItems" xml:space="preserve">
+    <value>פריטי רשימה</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>אתר אינטרנט</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>פקס</value>
+  </data>
+  <data name="Latitude" xml:space="preserve">
+    <value>קו רוחב</value>
+  </data>
+  <data name="Longitude" xml:space="preserve">
+    <value>קו אורך</value>
+  </data>
+  <data name="Organization" xml:space="preserve">
+    <value>הארגון</value>
+  </data>
+  <data name="Organizations" xml:space="preserve">
+    <value>ארגונים</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>העיר</value>
+  </data>
+  <data name="District" xml:space="preserve">
+    <value>מחוז</value>
+  </data>
+  <data name="Province" xml:space="preserve">
+    <value>מחוז</value>
+  </data>
+  <data name="POBox" xml:space="preserve">
+    <value>P.O. Box</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>מידע ליצירת קשר</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>המחלקה</value>
+  </data>
+  <data name="Office" xml:space="preserve">
+    <value>Office</value>
+  </data>
+  <data name="PersonalTitle" xml:space="preserve">
+    <value>כותרת אישית</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>מיקום</value>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>צור קשר</value>
+  </data>
+  <data name="OurLocationOnMap" xml:space="preserve">
+    <value>המיקום שלנו על המפה</value>
+  </data>
+  <data name="PersonalTitles" xml:space="preserve">
+    <value>PersonalTitles</value>
+  </data>
+  <data name="Extension" xml:space="preserve">
+    <value>סיומת</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>מספר טלפון</value>
+  </data>
+  <data name="ManageLists" xml:space="preserve">
+    <value>ניהול רשימות</value>
+  </data>
+  <data name="Articles" xml:space="preserve">
+    <value>מאמרים</value>
+  </data>
+  <data name="ApplyNow" xml:space="preserve">
+    <value>הגש מועמדות עכשיו</value>
+  </data>
+  <data name="Class" xml:space="preserve">
+    <value>מחלקת CSS</value>
+  </data>
+  <data name="CopyRights" xml:space="preserve">
+    <value>כל הזכויות שמורות</value>
+  </data>
+  <data name="GooglePlusUrl" xml:space="preserve">
+    <value>גוגל פלוס</value>
+  </data>
+  <data name="LinkedInUrl" xml:space="preserve">
+    <value>LinkedIn</value>
+  </data>
+  <data name="Privacy" xml:space="preserve">
+    <value>פרטיות</value>
+  </data>
+  <data name="RSS" xml:space="preserve">
+    <value>RSS Feed</value>
+  </data>
+  <data name="Terms" xml:space="preserve">
+    <value>תרגומים</value>
+  </data>
+  <data name="WebDevelopedBy" xml:space="preserve">
+    <value>שם מפתח האתר</value>
+  </data>
+  <data name="EnterYourEmail" xml:space="preserve">
+    <value>הזן את הדוא ל...</value>
+  </data>
+  <data name="Explore" xml:space="preserve">
+    <value>לחקור</value>
+  </data>
+  <data name="KeepInTouch" xml:space="preserve">
+    <value>שמור על קשר</value>
+  </data>
+  <data name="LatestNews" xml:space="preserve">
+    <value>חדשות אחרונות</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>טלפון</value>
+  </data>
+  <data name="Subscribe" xml:space="preserve">
+    <value>הצטרף כמנוי</value>
+  </data>
+  <data name="SubscriptionMessage" xml:space="preserve">
+    <value>הירשם לניוזלטר שלנו כדי לקבל חדשות חשובות</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>כתובת</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>החל</value>
+  </data>
+  <data name="Arrow" xml:space="preserve">
+    <value>סמל-ארוך-חץ-ימינה</value>
+  </data>
+  <data name="For" xml:space="preserve">
+    <value>עבור</value>
+  </data>
+  <data name="MarginDirClass" xml:space="preserve">
+    <value>שוליים-שמאל-10</value>
+  </data>
+  <data name="AllowedAttachmentExtensions" xml:space="preserve">
+    <value>Attachmetns אחד או יותר אינם חוקיים: בלבד. PDF. DOCX. דוק. PNG. JPG. קבצי JPEG מותרים.</value>
+  </data>
+  <data name="AttachmentsNotes" xml:space="preserve">
+    <value>אנא העלו של קבצים מצורפים מסוג:. PDF. DOCX. דוק. PNG. JPG. JPEG</value>
+  </data>
+  <data name="CVNotes" xml:space="preserve">
+    <value>נא צרף קורות חיים מסוג:. PDF. DOCX. דוק</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>שלח</value>
+  </data>
+  <data name="Program" xml:space="preserve">
+    <value>תוכנית</value>
+  </data>
+  <data name="Programs" xml:space="preserve">
+    <value>תוכניות</value>
+  </data>
+  <data name="JobAnnouncement" xml:space="preserve">
+    <value>עבודה</value>
+  </data>
+  <data name="JobAnnouncements" xml:space="preserve">
+    <value>איוב הכרזות</value>
+  </data>
+  <data name="Departments" xml:space="preserve">
+    <value>מחלקות</value>
+  </data>
+  <data name="EmployeeTypes" xml:space="preserve">
+    <value>סוגי עובדים</value>
+  </data>
+  <data name="EmpInDepts" xml:space="preserve">
+    <value>עובדי מחלקות</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>עובדים</value>
+  </data>
+  <data name="Occupation" xml:space="preserve">
+    <value>הכיבוש</value>
+  </data>
+  <data name="Occupations" xml:space="preserve">
+    <value>מקצועות</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>השם המלא</value>
+  </data>
+  <data name="ImagePath" xml:space="preserve">
+    <value>נתיב תמונה</value>
+  </data>
+  <data name="LandLine" xml:space="preserve">
+    <value>קרקע קו מס</value>
+  </data>
+  <data name="OfficeNumber" xml:space="preserve">
+    <value>משרד מס</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>העובד</value>
+  </data>
+  <data name="ImageNotes" xml:space="preserve">
+    <value>אנא העלו תמונה של סוג:. PNG. JPG. JPEG. BMP</value>
+  </data>
+  <data name="PersonalPhoto" xml:space="preserve">
+    <value>תמונה אישית</value>
+  </data>
+  <data name="ViewCV" xml:space="preserve">
+    <value>תצוגת CV</value>
+  </data>
+  <data name="PersonalPhotoName" xml:space="preserve">
+    <value>שם תמונה אישית</value>
+  </data>
+  <data name="PersonalPhotoPath" xml:space="preserve">
+    <value>תמונה אישית</value>
+  </data>
+  <data name="UploadPersonalPhoto" xml:space="preserve">
+    <value>להעלות תמונה אישית</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>מנהל</value>
+  </data>
+  <data name="AllLanguages" xml:space="preserve">
+    <value>כל השפות</value>
+  </data>
+  <data name="Director" xml:space="preserve">
+    <value>הבמאי</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>עיון</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>הערה</value>
+  </data>
+  <data name="AcademicInfo" xml:space="preserve">
+    <value>מידע אקדמי</value>
+  </data>
+  <data name="Biography" xml:space="preserve">
+    <value>ביוגרפיה</value>
+  </data>
+  <data name="ContactInfo" xml:space="preserve">
+    <value>מידע ליצירת קשר</value>
+  </data>
+  <data name="PersonalInfo" xml:space="preserve">
+    <value>פרטים אישיים</value>
+  </data>
+  <data name="Manage" xml:space="preserve">
+    <value>ניהול</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>הסר</value>
+  </data>
+  <data name="FillOutPersonalInfo" xml:space="preserve">
+    <value>נא למלא טופס פרטים אישיים.</value>
+  </data>
+  <data name="AccountSettings" xml:space="preserve">
+    <value>הגדרות חשבון</value>
+  </data>
+  <data name="ManageContacts" xml:space="preserve">
+    <value>ניהול אנשי קשר</value>
+  </data>
+  <data name="ManagePublications" xml:space="preserve">
+    <value>ניהול פרסומים</value>
+  </data>
+  <data name="NoCVUploaded" xml:space="preserve">
+    <value>CV לא נטען!</value>
+  </data>
+  <data name="NoPersonalPhotoUploaded" xml:space="preserve">
+    <value>תמונה אישית לא נטען!</value>
+  </data>
+  <data name="Publication" xml:space="preserve">
+    <value>פרסום</value>
+  </data>
+  <data name="Publications" xml:space="preserve">
+    <value>פרסומים</value>
+  </data>
+  <data name="Abstract" xml:space="preserve">
+    <value>מופשט</value>
+  </data>
+  <data name="CompletedProfile" xml:space="preserve">
+    <value>פרופיל שהושלמו</value>
+  </data>
+  <data name="EmployeeType" xml:space="preserve">
+    <value>סוג העובד</value>
+  </data>
+  <data name="ViewProfile" xml:space="preserve">
+    <value>צפה בפרופיל</value>
+  </data>
+  <data name="Hello" xml:space="preserve">
+    <value>שלום</value>
+  </data>
+  <data name="OurStaffDirectory" xml:space="preserve">
+    <value>מדריך הצוות שלנו</value>
+  </data>
+  <data name="SearchBy" xml:space="preserve">
+    <value>חיפוש לפי</value>
+  </data>
+  <data name="SearchByDepartmet" xml:space="preserve">
+    <value>חיפוש לפי departmet</value>
+  </data>
+  <data name="DuplicateEmail" xml:space="preserve">
+    <value>כתובת הדוא ל רשום כבר.</value>
+  </data>
+  <data name="InvalidOrganizationEmail" xml:space="preserve">
+    <value>הזן את כתובת הדוא של עבודה.</value>
+  </data>
+  <data name="DepartmentStaffList" xml:space="preserve">
+    <value>רשימת צוות המחלקה</value>
+  </data>
+  <data name="SearchResult" xml:space="preserve">
+    <value>תוצאת חיפוש</value>
+  </data>
+  <data name="DuplicateError" xml:space="preserve">
+    <value>לא ניתן להוסיף רשומות כפולות.</value>
+  </data>
+  <data name="EmployeeName" xml:space="preserve">
+    <value>שם העובד</value>
+  </data>
+  <data name="ClickHereToLogin" xml:space="preserve">
+    <value>לחץ כאן כדי להיכנס</value>
+  </data>
+  <data name="ConfirmEmail" xml:space="preserve">
+    <value>אשרר דוא</value>
+  </data>
+  <data name="ConfirmEmailThanks" xml:space="preserve">
+    <value>. תודה לך על. שאישרת את הדוא ל שלך.</value>
+  </data>
+  <data name="ForgotPasswordCheck" xml:space="preserve">
+    <value>נא בדוק את הדוא ל שלך כדי לאפס את הסיסמה שלך.</value>
+  </data>
+  <data name="ForgotPasswordConfirmation" xml:space="preserve">
+    <value>שכחתי סיסמה</value>
+  </data>
+  <data name="Please" xml:space="preserve">
+    <value>בבקשה</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>איפוס</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>איפוס סיסמה</value>
+  </data>
+  <data name="ResetYourPassword" xml:space="preserve">
+    <value>לאפס את הסיסמה.</value>
+  </data>
+  <data name="SecurityCode" xml:space="preserve">
+    <value>קוד אבטחה</value>
+  </data>
+  <data name="ApplyFor" xml:space="preserve">
+    <value>מועמדות</value>
+  </data>
+  <data name="ChooseDepartment" xml:space="preserve">
+    <value>-- בחר מחלקה...</value>
+  </data>
+  <data name="SubmissionId" xml:space="preserve">
+    <value>מספר יישומים</value>
+  </data>
+  <data name="DownloadApplications" xml:space="preserve">
+    <value>להוריד יישומים</value>
+  </data>
+  <data name="NotAvailable" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="GoCuteCMS" xml:space="preserve">
+    <value>ללכת CuteCMS</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>שגיאה</value>
+  </data>
+  <data name="ErrorNotification" xml:space="preserve">
+    <value>הצוות הטכני שלנו יהיה באופן אוטומטי, יחפש את זה עם הדבר הכי דחוף.</value>
+  </data>
+  <data name="GenericError" xml:space="preserve">
+    <value>משהו השתבש.</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>העמוד שביקשת לא נמצאה!</value>
+  </data>
+  <data name="NotPublished" xml:space="preserve">
+    <value>העמוד שביקשת לא פורסם.</value>
+  </data>
+  <data name="NotTranslated" xml:space="preserve">
+    <value>העמוד שביקשת לא מתורגמת.</value>
+  </data>
+  <data name="DataTableLanguage" xml:space="preserve">
+    <value>http://cdn.datatables.net/plug-ins/1.10.12/i18n/English.json</value>
+  </data>
+  <data name="LanguageSelector" xml:space="preserve">
+    <value>שפה</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>ייצוא</value>
+  </data>
+  <data name="PleaseUploadAttachments" xml:space="preserve">
+    <value>בבקשה להעלות את הקבצים המצורפים הנדרש.</value>
+  </data>
+  <data name="Oops" xml:space="preserve">
+    <value>. אופס!</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>פעולות</value>
+  </data>
+  <data name="ColVis" xml:space="preserve">
+    <value>העמודה ניראות</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>העתק</value>
+  </data>
+  <data name="ExportExcel" xml:space="preserve">
+    <value>ייצוא Excel</value>
+  </data>
+  <data name="ExportPDF" xml:space="preserve">
+    <value>ייצוא PDF</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>הדפסה</value>
+  </data>
+  <data name="Reload" xml:space="preserve">
+    <value>טען מחדש</value>
+  </data>
+  <data name="NoUpcomingEvents" xml:space="preserve">
+    <value>ישנם אירועים לא צפויים.</value>
+  </data>
+  <data name="UpcomingEvents" xml:space="preserve">
+    <value>ארועים קרבים</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>אודות</value>
+  </data>
+  <data name="RnC" xml:space="preserve">
+    <value>מחקרים &amp; כנסים</value>
+  </data>
+  <data name="MyProfile" xml:space="preserve">
+    <value>הפרופיל שלי</value>
+  </data>
+  <data name="NoRecordFound" xml:space="preserve">
+    <value>לא נמצאו רשומות!</value>
+  </data>
+  <data name="ViewMySocialNetwork" xml:space="preserve">
+    <value>הצג את הרשת החברתית שלי.</value>
+  </data>
+  <data name="CssClass" xml:space="preserve">
+    <value>מחלקת Css</value>
+  </data>
+  <data name="Backend" xml:space="preserve">
+    <value>Backend</value>
+  </data>
+  <data name="Frontend" xml:space="preserve">
+    <value>Frontend</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>התמונה</value>
+  </data>
+  <data name="Visible" xml:space="preserve">
+    <value>גלוי?</value>
+  </data>
+  <data name="IsDefault" xml:space="preserve">
+    <value>היא ברירת המחדל?</value>
+  </data>
+  <data name="PrimaryLogoName" xml:space="preserve">
+    <value>הלוגו הראשי שם</value>
+  </data>
+  <data name="PrimaryLogoPath" xml:space="preserve">
+    <value>סמל ראשי נתיב</value>
+  </data>
+  <data name="SecondaryLogoName" xml:space="preserve">
+    <value>לוגו משני שם</value>
+  </data>
+  <data name="SecondaryLogoPath" xml:space="preserve">
+    <value>לוגו משני נתיב</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>גובה</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>רוחב</value>
+  </data>
+  <data name="ChooseRole" xml:space="preserve">
+    <value>-- בחר תפקיד...</value>
+  </data>
+  <data name="ChooseStatus" xml:space="preserve">
+    <value>-- בחר מצב...</value>
+  </data>
+  <data name="ChooseAuthor" xml:space="preserve">
+    <value>-- בחר המחבר...</value>
+  </data>
+  <data name="ChooseTag" xml:space="preserve">
+    <value>-- בחר תג...</value>
+  </data>
+  <data name="CountryCode" xml:space="preserve">
+    <value>קוד מדינה</value>
+  </data>
+  <data name="CountryName" xml:space="preserve">
+    <value>שם המדינה</value>
+  </data>
+  <data name="IP" xml:space="preserve">
+    <value>ה-IP</value>
+  </data>
+  <data name="MetroCode" xml:space="preserve">
+    <value>קוד מטרו</value>
+  </data>
+  <data name="RegionCode" xml:space="preserve">
+    <value>קוד אזור</value>
+  </data>
+  <data name="RegionName" xml:space="preserve">
+    <value>שם אזור</value>
+  </data>
+  <data name="RequestDate" xml:space="preserve">
+    <value>תאריך בקשה</value>
+  </data>
+  <data name="TimeZone" xml:space="preserve">
+    <value>אזור זמן</value>
+  </data>
+  <data name="Count" xml:space="preserve">
+    <value>ספירה</value>
+  </data>
+  <data name="Translations" xml:space="preserve">
+    <value>תרגומים</value>
+  </data>
+  <data name="VacancyUnableToDelete" xml:space="preserve">
+    <value>אין אפשרות למחוק פנוי זה בגלל זה יש קשורות submission(s).</value>
+  </data>
+  <data name="ChoosePersonalTitle" xml:space="preserve">
+    <value>-- בחר כותרת אישית.</value>
+  </data>
+  <data name="Acknowledgement" xml:space="preserve">
+    <value>אישור</value>
+  </data>
+  <data name="ApplicationNumber" xml:space="preserve">
+    <value>מספר היישומים שלך הוא:</value>
+  </data>
+  <data name="Dear" xml:space="preserve">
+    <value>יקירתי</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>ערך</value>
+  </data>
+  <data name="FlagCode" xml:space="preserve">
+    <value>דגל קוד</value>
+  </data>
+  <data name="Flag" xml:space="preserve">
+    <value>דגל</value>
+  </data>
+  <data name="CultureName" xml:space="preserve">
+    <value>שם התרבות</value>
+  </data>
+  <data name="IsEnabled" xml:space="preserve">
+    <value>. מופעלת?</value>
+  </data>
+  <data name="SMTP" xml:space="preserve">
+    <value>SMTP</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>נושא</value>
+  </data>
+  <data name="Body" xml:space="preserve">
+    <value>הגוף</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>ההודעות</value>
+  </data>
+  <data name="Term" xml:space="preserve">
+    <value>תרגום</value>
+  </data>
+  <data name="Attachment" xml:space="preserve">
+    <value>קובץ מצורף</value>
+  </data>
+  <data name="Statistic" xml:space="preserve">
+    <value>סטטיסטיקה</value>
+  </data>
+  <data name="SMTPSetting" xml:space="preserve">
+    <value>הגדרת SMTP</value>
+  </data>
+  <data name="ImageTag" xml:space="preserve">
+    <value>תגיות תמונות</value>
+  </data>
+  <data name="JobTypes" xml:space="preserve">
+    <value>סוגי העבודה</value>
+  </data>
+  <data name="Genders" xml:space="preserve">
+    <value>המינים</value>
+  </data>
+  <data name="PhoneNumbers" xml:space="preserve">
+    <value>מספרי טלפון</value>
+  </data>
+  <data name="Notifications" xml:space="preserve">
+    <value>הודעות</value>
+  </data>
+  <data name="Contacts" xml:space="preserve">
+    <value>אנשי קשר</value>
+  </data>
+  <data name="ImageFiles" xml:space="preserve">
+    <value>קבצי תמונה</value>
+  </data>
+  <data name="ContentLists" xml:space="preserve">
+    <value>רשימות תוכן</value>
+  </data>
+  <data name="HomeVisible" xml:space="preserve">
+    <value>האם להציג דף הבית?</value>
+  </data>
+  <data name="TOC" xml:space="preserve">
+    <value>תנאי השימוש באתר</value>
+  </data>
+  <data name="ShowHeaderDate" xml:space="preserve">
+    <value>הצגת תאריכים</value>
+  </data>
+  <data name="ExpiredOn" xml:space="preserve">
+    <value>פג</value>
+  </data>
+  <data name="PublishedOn" xml:space="preserve">
+    <value>פורסם ב</value>
+  </data>
+  <data name="LastUpdatedOn" xml:space="preserve">
+    <value>עדכון אחרון ב-</value>
+  </data>
+  <data name="InvalidPublishDate" xml:space="preserve">
+    <value>פרסום תאריך חייב להיות קטן או שווה תאריך התחלה לפעילות.</value>
+  </data>
+  <data name="InvalidExpiryDate" xml:space="preserve">
+    <value>תאריך התפוגה להיות תאריך סיום פעילות גדול או שווה.</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>מ</value>
+  </data>
+  <data name="Till" xml:space="preserve">
+    <value>עד</value>
+  </data>
+  <data name="NoResult" xml:space="preserve">
+    <value>. אין תוצאות</value>
+  </data>
+  <data name="BreakingNews" xml:space="preserve">
+    <value>מבזק חדשות</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>זמינים</value>
+  </data>
+  <data name="Skills" xml:space="preserve">
+    <value>מיומנויות</value>
+  </data>
+  <data name="Validity" xml:space="preserve">
+    <value>תוקף</value>
+  </data>
+  <data name="ChooseJobType" xml:space="preserve">
+    <value>-- בחר סוג העבודה.</value>
+  </data>
+  <data name="AbsolutePath" xml:space="preserve">
+    <value>נתיב מוחלט</value>
+  </data>
+  <data name="Keywords" xml:space="preserve">
+    <value>מילות מפתח</value>
+  </data>
+  <data name="PoweredBy" xml:space="preserve">
+    <value>באמצעות</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>נתיב</value>
+  </data>
+  <data name="UrgentExpiredOn" xml:space="preserve">
+    <value>דחוף פג</value>
+  </data>
+  <data name="BackToHome" xml:space="preserve">
+    <value>חזרה לדף הבית עכשיו!</value>
+  </data>
+  <data name="PageNotFound" xml:space="preserve">
+    <value>הדף לא נמצא</value>
+  </data>
+  <data name="PageNotTranslated" xml:space="preserve">
+    <value>דף לא לתרגם</value>
+  </data>
+  <data name="PageNotPublished" xml:space="preserve">
+    <value>עמוד לא Pubished</value>
+  </data>
+  <data name="CreatePassword" xml:space="preserve">
+    <value>יצירת סיסמה</value>
+  </data>
+  <data name="ResetPasswordConfirmation" xml:space="preserve">
+    <value>איפוס סיסמה</value>
+  </data>
+  <data name="PasswordReset" xml:space="preserve">
+    <value>איפוס הסיסמה שלך.</value>
+  </data>
+  <data name="ClickLogin" xml:space="preserve">
+    <value>לחץ כאן כדי להיכנס</value>
+  </data>
+  <data name="YourAppNumber" xml:space="preserve">
+    <value>מספר היישומים שלך הוא</value>
+  </data>
+  <data name="ImageTags" xml:space="preserve">
+    <value>תגיות תמונות</value>
+  </data>
+  <data name="SMTPSettings" xml:space="preserve">
+    <value>הגדרות SMTP</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>סטטיסטיקה</value>
+  </data>
+  <data name="Statuses" xml:space="preserve">
+    <value>סטטוסים</value>
+  </data>
+  <data name="Vacancies" xml:space="preserve">
+    <value>משרות פנויות</value>
+  </data>
+  <data name="LockedOutMessage" xml:space="preserve">
+    <value>חשבון זה ננעל, אנא נסה שוב מאוחר יותר.</value>
+  </data>
+  <data name="LockedOut" xml:space="preserve">
+    <value>נעול</value>
+  </data>
+  <data name="TakeTour" xml:space="preserve">
+    <value>סיור</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>שתפו עמוד זה</value>
+  </data>
+  <data name="ForgotPasswordInstructions" xml:space="preserve">
+    <value>מלא את הטופס שלהלן כדי לקבל הודעת דוא עם קוד אישור הדרושים כדי לאפס את הסיסמה שלך.</value>
+  </data>
+  <data name="InvalidToken" xml:space="preserve">
+    <value>Token לא חוקי</value>
+  </data>
+  <data name="ReadMore" xml:space="preserve">
+    <value>קרא עוד</value>
+  </data>
+  <data name="LogIn" xml:space="preserve">
+    <value>כנס</value>
+  </data>
+  <data name="Dimensions" xml:space="preserve">
+    <value>מידות</value>
+  </data>
+  <data name="GetInTouch" xml:space="preserve">
+    <value>. תשאר בקשר</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>קטגוריות</value>
+  </data>
+  <data name="YourName" xml:space="preserve">
+    <value>שמך</value>
+  </data>
+  <data name="YourEmail" xml:space="preserve">
+    <value>הדוא ל שלך</value>
+  </data>
+  <data name="SendMessage" xml:space="preserve">
+    <value>שלח הודעה</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>ההודעה</value>
+  </data>
+  <data name="SenderName" xml:space="preserve">
+    <value>שמך</value>
+  </data>
+  <data name="Careers" xml:space="preserve">
+    <value>קריירה</value>
+  </data>
+  <data name="SocialNetwork" xml:space="preserve">
+    <value>רשת חברתית</value>
+  </data>
+  <data name="SocialNetworks" xml:space="preserve">
+    <value>רשתות חברתיות</value>
+  </data>
+  <data name="ShowAll" xml:space="preserve">
+    <value>הצג הכל</value>
+  </data>
+  <data name="ChooseCategory" xml:space="preserve">
+    <value>-- בחר קטגוריה...</value>
+  </data>
+  <data name="AddressLine1" xml:space="preserve">
+    <value>שורת כתובת 1</value>
+  </data>
+  <data name="AddressLine2" xml:space="preserve">
+    <value>שורת כתובת 2</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>המדינה</value>
+  </data>
+  <data name="ZIP" xml:space="preserve">
+    <value>מיקוד</value>
+  </data>
+  <data name="Newsletter" xml:space="preserve">
+    <value>ידיעון</value>
+  </data>
+  <data name="LatestTweets" xml:space="preserve">
+    <value>ציוצים אחרונים</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>חכה בבקשה...</value>
+  </data>
+  <data name="FollowUs" xml:space="preserve">
+    <value>עקבו אחרינו</value>
+  </data>
+  <data name="ChooseEmployeeType" xml:space="preserve">
+    <value>-- בחר סוג העובד.</value>
+  </data>
+  <data name="HasAccount" xml:space="preserve">
+    <value>יש חשבון?</value>
+  </data>
+  <data name="EmailConfirmed" xml:space="preserve">
+    <value>דוא ל אישר?</value>
+  </data>
+  <data name="UsefulLinks" xml:space="preserve">
+    <value>להלן מספר קישורים שימושיים</value>
+  </data>
+  <data name="AwaitingTranslation" xml:space="preserve">
+    <value>מחכה לתרגום...</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>בחזרה</value>
+  </data>
+  <data name="StaffDirectory" xml:space="preserve">
+    <value>צוות הספריה</value>
+  </data>
+  <data name="SubscribedToMailingList" xml:space="preserve">
+    <value> אתה כבר נוספה לרשימת התפוצה שלנו.</value>
+  </data>
+  <data name="ThankYouForInterest" xml:space="preserve">
+    <value>תודה לך על התעניינותך העדכונים האחרונים שלנו. זמן קצר תקבלו הודעת דוא ל המאשרת את המנוי שלך.</value>
+  </data>
+  <data name="DeleteProfileConfirmation" xml:space="preserve">
+    <value>האם אתה בטוח שברצונך למחוק את הפרופיל שלך?</value>
+  </data>
+  <data name="DeleteProfile" xml:space="preserve">
+    <value>מחק את הפרופיל שלי</value>
+  </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>גלריה:</value>
+  </data>
+  <data name="ChooseGallery" xml:space="preserve">
+    <value>-- בחר תמונה בגלריה...</value>
+  </data>
+  <data name="Galleries" xml:space="preserve">
+    <value>גלריות תמונות</value>
+  </data>
+  <data name="GalleryCategory" xml:space="preserve">
+    <value>קטגוריה</value>
+  </data>
+  <data name="GalleryCategories" xml:space="preserve">
+    <value>קטגוריות</value>
+  </data>
+  <data name="UrlSlug" xml:space="preserve">
+    <value>קישור ידידותי</value>
+  </data>
+  <data name="Url" xml:space="preserve">
+    <value>קישור</value>
+  </data>
+  <data name="DeveloperURL" xml:space="preserve">
+    <value>מפתח האתר</value>
+  </data>
+  <data name="Reference" xml:space="preserve">
+    <value>הפניה</value>
+  </data>
+  <data name="ContentItems" xml:space="preserve">
+    <value>פריטי תוכן</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>הגדרות</value>
+  </data>
+  <data name="Recruitment" xml:space="preserve">
+    <value>גיוס</value>
+  </data>
+  <data name="Identity" xml:space="preserve">
+    <value>זהות</value>
+  </data>
+  <data name="Lorem1" xml:space="preserve">
+    <value>הדרך המהירה ביותר לעסק שלך לגדול.</value>
+  </data>
+  <data name="Lorem2" xml:space="preserve">
+    <value>בדוק אפשרויות ואת התכונות הכלולות שלנו.</value>
+  </data>
+  <data name="GetStarted" xml:space="preserve">
+    <value>. נתחיל, עכשיו!</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>או</value>
+  </data>
+  <data name="LearnMore" xml:space="preserve">
+    <value>למד עוד.</value>
+  </data>
+  <data name="Lorem3" xml:space="preserve">
+    <value>טקסט זה הוא דוגמה של טקסט שניתן להחליפו באותו מרחב, טקסט זה נוצר מן הגנרטור טקסט לטיני.</value>
+  </data>
+  <data name="January" xml:space="preserve">
+    <value>ינואר</value>
+  </data>
+  <data name="JohnSmith" xml:space="preserve">
+    <value>ג'ון סמית</value>
+  </data>
+  <data name="JobTitleName" xml:space="preserve">
+    <value>מנכ ל &amp; מייסד - חברת ABC</value>
+  </data>
+  <data name="WhatClientsSay" xml:space="preserve">
+    <value>מה אומרים לקוחות</value>
+  </data>
+  <data name="LoremTitle" xml:space="preserve">
+    <value>טקסט זה הוא דוגמה של טקסט שניתן להחליפו באותו מרחב.</value>
+  </data>
+  <data name="UploadIcon" xml:space="preserve">
+    <value>הכנס  סמל</value>
+  </data>
+  <data name="UploadImage" xml:space="preserve">
+    <value>העלאת תמונה</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>תקציר</value>
+  </data>
+  <data name="Icon" xml:space="preserve">
+    <value>סמל</value>
+  </data>
+  <data name="PleaseUploadIconOfType" xml:space="preserve">
+    <value>אנא העלו לאייקון של סוג:!</value>
+  </data>
+  <data name="IconNotes" xml:space="preserve">
+    <value>אנא העלו לאייקון של סוג:. PNG!</value>
+  </data>
+  <data name="IconName" xml:space="preserve">
+    <value>סמל</value>
+  </data>
+  <data name="IconPath" xml:space="preserve">
+    <value>סמל</value>
+  </data>
+  <data name="MeetOurTeam" xml:space="preserve">
+    <value>פגוש את הצוות</value>
+  </data>
+  <data name="MainDepts" xml:space="preserve">
+    <value>ראשי מחלקות</value>
+  </data>
+  <data name="PrimaryCaption" xml:space="preserve">
+    <value>כיתוב הראשי</value>
+  </data>
+  <data name="SecondaryCaption" xml:space="preserve">
+    <value>כיתוב משני</value>
+  </data>
+  <data name="TertiaryCaption" xml:space="preserve">
+    <value>כיתוב שלישוני</value>
+  </data>
+  <data name="MedicalTreatment" xml:space="preserve">
+    <value>טיפול רפואי</value>
+  </data>
+  <data name="DoctorsTimetable" xml:space="preserve">
+    <value>לוח הזמנים של רופאים</value>
+  </data>
+  <data name="OpeningHours" xml:space="preserve">
+    <value>שעות פתיחה</value>
+  </data>
+  <data name="EmergencyCase" xml:space="preserve">
+    <value>בקר בפורום תמיכת לקוח</value>
+  </data>
+  <data name="Sunday" xml:space="preserve">
+    <value>יום ראשון</value>
+  </data>
+  <data name="Monday" xml:space="preserve">
+    <value>יום שני</value>
+  </data>
+  <data name="Tuesday" xml:space="preserve">
+    <value>יום שלישי</value>
+  </data>
+  <data name="Wednesday" xml:space="preserve">
+    <value>יום רביעי</value>
+  </data>
+  <data name="Thursday" xml:space="preserve">
+    <value>יום חמישי</value>
+  </data>
+  <data name="Friday" xml:space="preserve">
+    <value>יום שישי</value>
+  </data>
+  <data name="Saturday" xml:space="preserve">
+    <value>יום שבת</value>
+  </data>
+  <data name="Subtitle" xml:space="preserve">
+    <value>כתוביות</value>
+  </data>
+  <data name="ViewMore" xml:space="preserve">
+    <value>ראה עוד</value>
+  </data>
+  <data name="Doctors" xml:space="preserve">
+    <value>רופאים</value>
+  </data>
+  <data name="OurSpecialists" xml:space="preserve">
+    <value>המומחים שלנו</value>
+  </data>
+  <data name="Staff" xml:space="preserve">
+    <value>הנהלה</value>
+  </data>
+  <data name="MedicalStaff" xml:space="preserve">
+    <value>הצוות הרפואי</value>
+  </data>
+  <data name="LatestEvents" xml:space="preserve">
+    <value>האירועים האחרונים</value>
+  </data>
+  <data name="DoctorName" xml:space="preserve">
+    <value>הרופא</value>
+  </data>
+  <data name="DoctorType" xml:space="preserve">
+    <value>סוּג הרופא</value>
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>מספר</value>
+  </data>
+  <data name="EnableSsl" xml:space="preserve">
+    <value>אפשר</value>
+  </data>
+  <data name="SenderEmail" xml:space="preserve">
+    <value>אימייל השולח</value>
+  </data>
+  <data name="SenderPassword" xml:space="preserve">
+    <value>שולח סיסמה!</value>
+  </data>
+  <data name="RecipientEmail" xml:space="preserve">
+    <value>דוא״ל נמען</value>
+  </data>
+  <data name="VisitorCounter" xml:space="preserve">
+    <value>מונה מבקרים!</value>
+  </data>
+  <data name="RoleInUse" xml:space="preserve">
+    <value>שם תפקיד זה כבר היה בשימוש.</value>
+  </data>
+  <data name="Administration" xml:space="preserve">
+    <value>ניהול הקבוצה</value>
+  </data>
+  <data name="SystemSettings" xml:space="preserve">
+    <value>הגדרות מערכת</value>
+  </data>
+  <data name="InvalidCode" xml:space="preserve">
+    <value>קוד שגוי!</value>
+  </data>
+  <data name="UserExist" xml:space="preserve">
+    <value>שם המשתמש כבר תפוס. נא לבחור שם אחר.</value>
+  </data>
+  <data name="FailedToVerifyPhone" xml:space="preserve">
+    <value>מספר טלפון</value>
+  </data>
+  <data name="Maintenance" xml:space="preserve">
+    <value>תחזוקה</value>
+  </data>
+  <data name="Forms" xml:space="preserve">
+    <value>טפסים</value>
+  </data>
+  <data name="DontHaveAccount" xml:space="preserve">
+    <value>אין לך חשבון?</value>
+  </data>
+  <data name="Page" xml:space="preserve">
+    <value>דף</value>
+  </data>
+  <data name="Of" xml:space="preserve">
+    <value>של</value>
+  </data>
+  <data name="TotalRows" xml:space="preserve">
+    <value>סה"כ שורות</value>
+  </data>
+  <data name="ChooseInventory" xml:space="preserve">
+    <value>-- בחר המלאי...!</value>
+  </data>
+  <data name="ChooseModel" xml:space="preserve">
+    <value>-- בחר דגם...!</value>
+  </data>
+  <data name="ChooseSite" xml:space="preserve">
+    <value>-- בחר--</value>
+  </data>
+  <data name="ChooseManufacturer" xml:space="preserve">
+    <value>-- בחר יצרן...!</value>
+  </data>
+  <data name="ChooseMaintenanceType" xml:space="preserve">
+    <value>-- בחר תחזוקה סוג...!</value>
+  </data>
+  <data name="DeviceCard" xml:space="preserve">
+    <value>מכשיר</value>
+  </data>
+  <data name="Installation" xml:space="preserve">
+    <value>התקנה</value>
+  </data>
+  <data name="BasicInformation" xml:space="preserve">
+    <value>מידע בסיסי</value>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>חודש</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>שנה</value>
+  </data>
+  <data name="ChooseFormStatus" xml:space="preserve">
+    <value>-- בחר מצב - טופס</value>
+  </data>
+  <data name="ChooseDataType" xml:space="preserve">
+    <value>-- בחר סוג נתונים!</value>
+  </data>
+  <data name="Form" xml:space="preserve">
+    <value>טופסים</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>דו"ח</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>דו"חות</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>מעבד ...</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>הבא</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>קודם</value>
+  </data>
+  <data name="SummaryMessage" xml:space="preserve">
+    <value>מראה {0} {1} של ערכי {2}!</value>
+  </data>
+  <data name="Fields" xml:space="preserve">
+    <value>שדות</value>
+  </data>
+  <data name="Reorder" xml:space="preserve">
+    <value>לסדר מחדש</value>
+  </data>
+  <data name="Sections" xml:space="preserve">
+    <value>מקטעים</value>
+  </data>
+  <data name="Section" xml:space="preserve">
+    <value>Section</value>
+  </data>
+  <data name="Choices" xml:space="preserve">
+    <value>אפשרויות</value>
+  </data>
+  <data name="Choice" xml:space="preserve">
+    <value>בחירה</value>
+  </data>
+  <data name="DataType" xml:space="preserve">
+    <value>טיפוס נתונים</value>
+  </data>
+  <data name="DataTypes" xml:space="preserve">
+    <value>סוגים</value>
+  </data>
+  <data name="Field" xml:space="preserve">
+    <value>שדה</value>
+  </data>
+  <data name="Property" xml:space="preserve">
+    <value>נכס</value>
+  </data>
+  <data name="Properties" xml:space="preserve">
+    <value>נכסים</value>
+  </data>
+  <data name="ChoiceList" xml:space="preserve">
+    <value>בחירה</value>
+  </data>
+  <data name="Values" xml:space="preserve">
+    <value>ערכים</value>
+  </data>
+  <data name="ChoiceLists" xml:space="preserve">
+    <value>רשימות</value>
+  </data>
+  <data name="WorkflowPath" xml:space="preserve">
+    <value>זרימת עבודה</value>
+  </data>
+  <data name="Workflow" xml:space="preserve">
+    <value>זרימת עבודה</value>
+  </data>
+  <data name="WorkflowSettings" xml:space="preserve">
+    <value>הגדרות</value>
+  </data>
+  <data name="ActionDate" xml:space="preserve">
+    <value>ActionDate!</value>
+  </data>
+  <data name="EmpNumber" xml:space="preserve">
+    <value>שם חברת התעופה</value>
+  </data>
+  <data name="EmpNumberInvalid" xml:space="preserve">
+    <value>הקובץ שהוסף לא תקף.</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>סגור חלון</value>
+  </data>
+  <data name="Approval" xml:space="preserve">
+    <value>אישור</value>
+  </data>
+  <data name="ActionStatus" xml:space="preserve">
+    <value>סטטוס</value>
+  </data>
+  <data name="ChangeStatusConfirmation" xml:space="preserve">
+    <value>האם אתה בטוח שברצונך לשנות?</value>
+  </data>
+  <data name="PendingPrev" xml:space="preserve">
+    <value>האטום הקודם</value>
+  </data>
+  <data name="PendingNext" xml:space="preserve">
+    <value>הרמה הבאה</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>הושלם</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>רשימה</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>עדכון</value>
+  </data>
+  <data name="ChooseFields" xml:space="preserve">
+    <value>שדות</value>
+  </data>
+  <data name="ApprovalTracking" xml:space="preserve">
+    <value>גשש</value>
+  </data>
+  <data name="ChooseGroup" xml:space="preserve">
+    <value>בחר קבוצה:</value>
+  </data>
+  <data name="Items" xml:space="preserve">
+    <value>פריטים</value>
+  </data>
+  <data name="SubmissionDate" xml:space="preserve">
+    <value>תאריו הגשה:</value>
+  </data>
+  <data name="ChangeUserName" xml:space="preserve">
+    <value>שנה את הסיסמה של username</value>
+  </data>
+  <data name="ChangeUserEmail" xml:space="preserve">
+    <value>שינוי כתובת דוא"ל</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>כן</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>לא</value>
+  </data>
+  <data name="DeleteAccount" xml:space="preserve">
+    <value>מחק חשבון</value>
+  </data>
+  <data name="ChangeConfirmEmail" xml:space="preserve">
+    <value>אישור האימייל</value>
+  </data>
+  <data name="AccountSummary" xml:space="preserve">
+    <value>סיכום תיק לקוח</value>
+  </data>
+  <data name="SendVerificationCode" xml:space="preserve">
+    <value>שלח קוד אימות</value>
+  </data>
+  <data name="RecordCreated" xml:space="preserve">
+    <value>רשומה נוצרה ב:</value>
+  </data>
+  <data name="RecordCreatedSuccessfully" xml:space="preserve">
+    <value>נוצר בהצלחה</value>
+  </data>
+  <data name="RecordUpdated" xml:space="preserve">
+    <value>הרשומה עודכנה.</value>
+  </data>
+  <data name="RecordUpdatedSuccessfully" xml:space="preserve">
+    <value>רשומה עודכנה בהצלחה</value>
+  </data>
+  <data name="RecordDeleted" xml:space="preserve">
+    <value>רשומות שנמחקו</value>
+  </data>
+  <data name="RecordDeletedSuccessfully" xml:space="preserve">
+    <value>שיא נמחק בהצלחה</value>
+  </data>
+  <data name="NoUsersInRole" xml:space="preserve">
+    <value>אין משתמשים נמצא בתפקיד זה.!</value>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>הרשאות</value>
+  </data>
+  <data name="NoPermissionsInGroup" xml:space="preserve">
+    <value>אין הרשאות למצוא בקבוצה זו.!</value>
+  </data>
+  <data name="ListGroupPermissions" xml:space="preserve">
+    <value>רשימת הרשאות שהוענקו לקבוצה זו:!</value>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>שנה</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>הוסף</value>
+  </data>
+  <data name="TFAEnabled" xml:space="preserve">
+    <value>אין כותבים המוגדרים כזמינים כעת</value>
+  </data>
+  <data name="TFADisabled" xml:space="preserve">
+    <value>הרשמה כרגע לא זמינה</value>
+  </data>
+  <data name="TFABrowserRemembered" xml:space="preserve">
+    <value>תוספות לדפדפן כרגע לא זמינים. אנא נסה שוב מאוחר יותר.</value>
+  </data>
+  <data name="ListUserPermissions" xml:space="preserve">
+    <value>רשימת המשתמשים בתפקיד זה:!</value>
+  </data>
+  <data name="NoGroupsForUser" xml:space="preserve">
+    <value>לא נמצאו קבוצות!</value>
+  </data>
+  <data name="ListGroupsForUser" xml:space="preserve">
+    <value>רשימת הקבוצות משתמש זה שייך:!</value>
+  </data>
+  <data name="NoPermissionsForUser" xml:space="preserve">
+    <value>לא נמצאו קורסים לתלמיד זה.</value>
+  </data>
+  <data name="EmailStatus" xml:space="preserve">
+    <value>..--מצב דוא ל.!</value>
+  </data>
+  <data name="Confirmed" xml:space="preserve">
+    <value>אושר</value>
+  </data>
+  <data name="Unconfirmed" xml:space="preserve">
+    <value>לא מאושר</value>
+  </data>
+  <data name="TFABrowserNotRemembered" xml:space="preserve">
+    <value>הדפדפן הנוכחי לא נזכר לאימות גורם שני:!</value>
+  </data>
+  <data name="ListUsersInPermission" xml:space="preserve">
+    <value>רשימת המשתמשים הרשאה זו שייכת:!</value>
+  </data>
+  <data name="ConfirmAccount" xml:space="preserve">
+    <value>אישור החשבון שלך</value>
+  </data>
+  <data name="ConfirmAccountMessage" xml:space="preserve">
+    <value>בבקשה לאשר את החשבון שלך על ידי לחיצה על קישור זה</value>
+  </data>
+  <data name="ResetPasswordMessage" xml:space="preserve">
+    <value>בבקשה לאפס את הסיסמה שלך על ידי לחיצה כאן!</value>
+  </data>
+  <data name="ConfirmNewPassword" xml:space="preserve">
+    <value>אשר סיסמה חדשה</value>
+  </data>
+  <data name="GroupExist" xml:space="preserve">
+    <value>הקבוצה היא קיימת כבר.</value>
+  </data>
+  <data name="ForgetBrowser" xml:space="preserve">
+    <value>תשכח הדפדפן הזה</value>
+  </data>
+  <data name="ChangePasswordSuccess" xml:space="preserve">
+    <value>הסיסמה שלך השתנתה!</value>
+  </data>
+  <data name="SetPasswordSuccess" xml:space="preserve">
+    <value>הסיסמה שלך הוגדר.!</value>
+  </data>
+  <data name="SetTwoFactorSuccess" xml:space="preserve">
+    <value>ספק גורם שני הוגדר.!</value>
+  </data>
+  <data name="AddPhoneSuccess" xml:space="preserve">
+    <value>מספר טלפון נוסף.!</value>
+  </data>
+  <data name="RemovePhoneSuccess" xml:space="preserve">
+    <value>מספר הטלפון שלך הוסר.!</value>
+  </data>
+  <data name="Showing" xml:space="preserve">
+    <value>הצגה</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>אל</value>
+  </data>
+  <data name="Entries" xml:space="preserve">
+    <value>ערכים</value>
+  </data>
+  <data name="Documentation" xml:space="preserve">
+    <value>תיעוד</value>
+  </data>
+  <data name="BuyNow" xml:space="preserve">
+    <value>קנה כעת</value>
+  </data>
+  <data name="Searching" xml:space="preserve">
+    <value>‏‏‫מחפש...</value>
+  </data>
+  <data name="Roles1" xml:space="preserve">
+    <value>תפקידים</value>
+  </data>
+  <data name="Role1" xml:space="preserve">
+    <value>תפקיד</value>
+  </data>
+  <data name="CRMModules" xml:space="preserve">
+    <value>מודולים</value>
+  </data>
+  <data name="Sales" xml:space="preserve">
+    <value>מכירות</value>
+  </data>
+  <data name="Marketing" xml:space="preserve">
+    <value>שיווק</value>
+  </data>
+  <data name="Operations" xml:space="preserve">
+    <value>תפעול</value>
+  </data>
+  <data name="Accounting" xml:space="preserve">
+    <value>חשבונאות</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>תמיכה</value>
+  </data>
+  <data name="DefaultPasswordFor" xml:space="preserve">
+    <value>:סיסמא ברירת מחדל</value>
+  </data>
+  <data name="DefaultUserPassword" xml:space="preserve">
+    <value>סיסמת ברירת המחדל עבור משתמשים אחרים:</value>
+  </data>
+  <data name="AdminUsername" xml:space="preserve">
+    <value>שם המשתמש מנהל:</value>
+  </data>
+  <data name="AdminPassword" xml:space="preserve">
+    <value>סיסמה של מנהל יער מקור:</value>
+  </data>
+</root>

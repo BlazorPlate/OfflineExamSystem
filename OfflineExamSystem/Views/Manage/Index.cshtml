@@ -1,0 +1,75 @@
+﻿@model OfflineExamSystem.Models.IndexViewModel
+@{
+    ViewBag.Title = Resources.Resources.ManageAccount;
+}
+<h2>@ViewBag.Title</h2>
+<hr />
+<p class="text-success">@ViewBag.StatusMessage</p>
+<div class="row">
+    <div class="col-md-8">
+        <p>
+            @if (Model.HasPassword)
+            {
+                @Html.ActionLink(Resources.Resources.ChangePassword, "ChangePassword")
+            }
+            else
+            {
+                @Html.ActionLink(Resources.Resources.SetPassword, "SetPassword")
+            }
+        </p>
+        <p>
+            @Html.Label(Resources.Resources.PhoneNumber): @(Model.PhoneNumber ?? "None") [
+            @if (Model.PhoneNumber != null)
+            {
+                @Html.ActionLink(Resources.Resources.Change, "AddPhoneNumber")
+                @: &nbsp;|&nbsp;
+                @Html.ActionLink(Resources.Resources.Remove, "RemovePhoneNumber")
+            }
+            else
+            {
+                @Html.ActionLink(Resources.Resources.Add, "AddPhoneNumber")
+            }
+            ]
+        </p>
+        <p>
+            @Html.Label(Resources.Resources.ExternalLogins): @Model.Logins.Count
+            @Html.ActionLink(Resources.Resources.ManageLogins, "ManageLogins")
+        </p>
+        @if (Model.TwoFactor)
+        {
+            <form method="post" action="@Url.Action("DisableTFA","Manage")">
+                <p>
+                    @Resources.Resources.TFAEnabled
+                    <input type="submit" value="@Resources.Resources.Disable" class="btn btn-default" />
+                </p>
+            </form>
+        }
+        else
+        {
+            <form method="post" action="@Url.Action("EnableTFA","Manage")">
+                <p>
+                    @Resources.Resources.TFADisabled
+                    <input type="submit" value="@Resources.Resources.Enable" class="btn btn-default" />
+                </p>
+            </form>
+        }
+        @if (Model.BrowserRemembered)
+        {
+            <form method="post" action="@Url.Action("ForgetBrowser","Manage")">
+                <p>
+                    @Resources.Resources.TFABrowserRemembered
+                    <input type="submit" value="@Resources.Resources.ForgetBrowser"  class="btn btn-default" />
+                </p>
+            </form>
+        }
+        else
+        {
+            <form method="post" action="@Url.Action("RememberBrowser","Manage")">
+                <p>
+                    @Resources.Resources.TFABrowserNotRemembered
+                    <input type="submit" value="@Resources.Resources.RememberBrowser" class="btn btn-default" />
+                </p>
+            </form>
+        }
+    </div>
+</div>

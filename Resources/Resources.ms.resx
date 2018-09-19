@@ -1,0 +1,2103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BackToList" xml:space="preserve">
+    <value>Kembali ke senarai</value>
+  </data>
+  <data name="Calendar" xml:space="preserve">
+    <value>Kalendar</value>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>Konfigurasi</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Sahkan kata laluan</value>
+  </data>
+  <data name="ConfirmPasswordCompare" xml:space="preserve">
+    <value>Kata laluan dan pengesahan kata laluan tidak sepadan</value>
+  </data>
+  <data name="Contents" xml:space="preserve">
+    <value>Kandungan</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Mencipta</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Hapus</value>
+  </data>
+  <data name="DeleteConfirmation" xml:space="preserve">
+    <value>Adakah anda pasti hendak menghapuskan ini?</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description/kawalan</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Butir-butir</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-mel</value>
+  </data>
+  <data name="EmailRegularExpression" xml:space="preserve">
+    <value>E-mel adalah tidak sah.</value>
+  </data>
+  <data name="Events" xml:space="preserve">
+    <value>Acara-acara</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Nama pertama</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Kumpulan</value>
+  </data>
+  <data name="GroupRolesAssignment" xml:space="preserve">
+    <value>Peranan yang diperuntukkan untuk Kumpulan:</value>
+  </data>
+  <data name="Groups" xml:space="preserve">
+    <value>Kumpulan</value>
+  </data>
+  <data name="GroupsAssignment" xml:space="preserve">
+    <value>Kumpulan yang ditugaskan untuk pengguna:</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Rumah</value>
+  </data>
+  <data name="Images" xml:space="preserve">
+    <value>Imej</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Bahasa</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Nama bapa/keluarga</value>
+  </data>
+  <data name="LogOff" xml:space="preserve">
+    <value>Log keluar</value>
+  </data>
+  <data name="LogOn" xml:space="preserve">
+    <value>log masuk</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nama</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Kata laluan</value>
+  </data>
+  <data name="PasswordStringLength" xml:space="preserve">
+    <value>Kata laluan mestilah sekurang-kurangnya 6 aksara panjangnya.</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>Peranan</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Peranan</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Mendaftar</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Simpan</value>
+  </data>
+  <data name="SelectGroups" xml:space="preserve">
+    <value>Pilih Kumpulan</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Pengguna</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Nama pengguna</value>
+  </data>
+  <data name="UserRolesAssignment" xml:space="preserve">
+    <value>Peranan yang diperuntukkan untuk pengguna:</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Pengguna</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>Penulis</value>
+  </data>
+  <data name="CreatedOn" xml:space="preserve">
+    <value>Tarikh ciptaan</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>Tarikh tamat aktiviti</value>
+  </data>
+  <data name="Index" xml:space="preserve">
+    <value>Indeks</value>
+  </data>
+  <data name="IsPublished" xml:space="preserve">
+    <value>Diterbitkan?</value>
+  </data>
+  <data name="IsTranslated" xml:space="preserve">
+    <value>Diterjemahkan?</value>
+  </data>
+  <data name="LanguageId" xml:space="preserve">
+    <value>ID Bahasa</value>
+  </data>
+  <data name="ModifiedBy" xml:space="preserve">
+    <value>Dikemaskini oleh</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Lokasi</value>
+  </data>
+  <data name="ModifiedOn" xml:space="preserve">
+    <value>Tarikh pengubahsuaian</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Tarikh mula aktiviti</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Tajuk</value>
+  </data>
+  <data name="TranslationId" xml:space="preserve">
+    <value>Penterjemahan</value>
+  </data>
+  <data name="Event" xml:space="preserve">
+    <value>Acara</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>Fail</value>
+  </data>
+  <data name="FilePath" xml:space="preserve">
+    <value>Laluan fail</value>
+  </data>
+  <data name="MIME" xml:space="preserve">
+    <value>MIME</value>
+  </data>
+  <data name="Tag" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="Tags" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="ThumbPath" xml:space="preserve">
+    <value>Ibu jari laluan</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Pandangan</value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>Kandungan</value>
+  </data>
+  <data name="MainContent" xml:space="preserve">
+    <value>Kandungan utama</value>
+  </data>
+  <data name="MetaDescription" xml:space="preserve">
+    <value>Perihal Meta</value>
+  </data>
+  <data name="MetaKeywords" xml:space="preserve">
+    <value>Kata kunci Meta</value>
+  </data>
+  <data name="Languages" xml:space="preserve">
+    <value>Bahasa-Bahasa</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Tukar kata laluan</value>
+  </data>
+  <data name="CurrentPassword" xml:space="preserve">
+    <value>Kata laluan semasa</value>
+  </data>
+  <data name="ManageAccount" xml:space="preserve">
+    <value>Menguruskan akaun</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>Kata laluan baru</value>
+  </data>
+  <data name="OldPassword" xml:space="preserve">
+    <value>Kata laluan lama</value>
+  </data>
+  <data name="RememberMe" xml:space="preserve">
+    <value>Ingat saya</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Cari</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Kategori</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="MenuItem" xml:space="preserve">
+    <value>Menu Item</value>
+  </data>
+  <data name="MenuItems" xml:space="preserve">
+    <value>Perkara menu</value>
+  </data>
+  <data name="Menus" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="IsCms" xml:space="preserve">
+    <value>Adakah Cms?</value>
+  </data>
+  <data name="IsLeaf" xml:space="preserve">
+    <value>Adakah daun?</value>
+  </data>
+  <data name="IsParent" xml:space="preserve">
+    <value>Adakah ibu bapa?</value>
+  </data>
+  <data name="Ordinal" xml:space="preserve">
+    <value>Batuk</value>
+  </data>
+  <data name="Parent" xml:space="preserve">
+    <value>Ibu bapa</value>
+  </data>
+  <data name="CreateNewAccount" xml:space="preserve">
+    <value>Cipta akaun baru.</value>
+  </data>
+  <data name="Deleted" xml:space="preserve">
+    <value>Dihapuskan</value>
+  </data>
+  <data name="Published" xml:space="preserve">
+    <value>Diterbitkan</value>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>Disimpan</value>
+  </data>
+  <data name="MaximumAllowedSize" xml:space="preserve">
+    <value>Saiz maksima yang dibenarkan adalah:</value>
+  </data>
+  <data name="PleaseUploadImageOfType" xml:space="preserve">
+    <value>Sila muat naik imej jenis:</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Nota-Nota</value>
+  </data>
+  <data name="AddTranslation" xml:space="preserve">
+    <value>Menambah penterjemahan</value>
+  </data>
+  <data name="ViewTranslation" xml:space="preserve">
+    <value>Lihat terjemahan</value>
+  </data>
+  <data name="HasShortcut" xml:space="preserve">
+    <value>Dispaly pada halaman rumah</value>
+  </data>
+  <data name="IsScheduled" xml:space="preserve">
+    <value>Dijangka?</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Announcements" xml:space="preserve">
+    <value>Pengumuman</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>Berita</value>
+  </data>
+  <data name="NoAnnouncements" xml:space="preserve">
+    <value>Terdapat tiada pengumuman.</value>
+  </data>
+  <data name="NoEvents" xml:space="preserve">
+    <value>Terdapat sebarang peristiwa.</value>
+  </data>
+  <data name="NoNews" xml:space="preserve">
+    <value>Terdapat tiada berita.</value>
+  </data>
+  <data name="ContentTypes" xml:space="preserve">
+    <value>Jenis kandungan</value>
+  </data>
+  <data name="Building" xml:space="preserve">
+    <value>Bangunan</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Kod</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Negara</value>
+  </data>
+  <data name="Locality" xml:space="preserve">
+    <value>Bandar</value>
+  </data>
+  <data name="PostalCode" xml:space="preserve">
+    <value>Poskod</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="Street" xml:space="preserve">
+    <value>Jalan</value>
+  </data>
+  <data name="Telephone" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="EnterCredentials" xml:space="preserve">
+    <value>Masukkan nama pengguna dan kata laluan untuk log masuk.</value>
+  </data>
+  <data name="ForgetPassword" xml:space="preserve">
+    <value>Lupa kata laluan anda?</value>
+  </data>
+  <data name="JoinUs" xml:space="preserve">
+    <value>Sertai kami @</value>
+  </data>
+  <data name="LoginToSite" xml:space="preserve">
+    <value>Log masuk ke laman web kami</value>
+  </data>
+  <data name="LoginWithSocialMedia" xml:space="preserve">
+    <value>.. .or log masuk dengan:</value>
+  </data>
+  <data name="PasswordMatch" xml:space="preserve">
+    <value>Kata laluan baru dan pengesahan kata laluan yang tidak sepadan.</value>
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>Nombor telefon</value>
+  </data>
+  <data name="RegisterNewUser" xml:space="preserve">
+    <value>Mendaftar sebagai pengguna baru</value>
+  </data>
+  <data name="StringLength" xml:space="preserve">
+    <value>{0} ini mestilah sekurang-kurangnya {2} aksara panjangnya.</value>
+  </data>
+  <data name="FillForm" xml:space="preserve">
+    <value>Isi borang di bawah untuk mendapatkan akses serta-merta.</value>
+  </data>
+  <data name="EmailInvalid" xml:space="preserve">
+    <value>Alamat emel adalah tidak sah.</value>
+  </data>
+  <data name="SignUp" xml:space="preserve">
+    <value>mendaftar</value>
+  </data>
+  <data name="SignUpInSeconds" xml:space="preserve">
+    <value>Mendaftar saat</value>
+  </data>
+  <data name="AlreadyMember" xml:space="preserve">
+    <value>Sudah menjadi ahli?</value>
+  </data>
+  <data name="EmailLink" xml:space="preserve">
+    <value>Pautan e-mel</value>
+  </data>
+  <data name="EmailConfirmationCheck" xml:space="preserve">
+    <value>Sila semak emel anda untuk mengaktifkan akaun anda.</value>
+  </data>
+  <data name="EnterEmail" xml:space="preserve">
+    <value>Masukkan email anda untuk menerima pautan set semula kata laluan e-mel.</value>
+  </data>
+  <data name="Instruction" xml:space="preserve">
+    <value>Kami telah menghantar kepada anda e-mel termasuk suatu link pengesahan. Sila semak e-mel anda dan mengesahkan langganan anda.</value>
+  </data>
+  <data name="InvalidLoginAttempt" xml:space="preserve">
+    <value>Cubaan log masuk yang tidak sah.</value>
+  </data>
+  <data name="Regards" xml:space="preserve">
+    <value>salam ikhlas</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>Terima kerana menyertai kami!</value>
+  </data>
+  <data name="ThankYouFor" xml:space="preserve">
+    <value>Terima kasih untuk menyertai</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Mengalu-alukan</value>
+  </data>
+  <data name="EnterVerificationCode" xml:space="preserve">
+    <value>Masukkan kod pengesahan.</value>
+  </data>
+  <data name="RememberBrowser" xml:space="preserve">
+    <value>Ingat pelayar ini</value>
+  </data>
+  <data name="SelectTwoFactor" xml:space="preserve">
+    <value>Pilih kaedah pengesahan dua faktor.</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Hantar</value>
+  </data>
+  <data name="TwoFactor" xml:space="preserve">
+    <value>Pengesahan dua faktor</value>
+  </data>
+  <data name="TwoFactorType" xml:space="preserve">
+    <value>Kaedah pengesahan dua faktor</value>
+  </data>
+  <data name="VerificationCode" xml:space="preserve">
+    <value>Kod pengesahan</value>
+  </data>
+  <data name="Verify" xml:space="preserve">
+    <value>Tentu sekarang</value>
+  </data>
+  <data name="ChangeAccountSettings" xml:space="preserve">
+    <value>Tukar seting akaun anda.</value>
+  </data>
+  <data name="ExternalLogins" xml:space="preserve">
+    <value>Login luar</value>
+  </data>
+  <data name="AddPhoneNumber" xml:space="preserve">
+    <value>Menambah nombor telefon</value>
+  </data>
+  <data name="ChangeCurrentPassword" xml:space="preserve">
+    <value>Tukar kata laluan semasa.</value>
+  </data>
+  <data name="Disable" xml:space="preserve">
+    <value>Mematikan</value>
+  </data>
+  <data name="Enable" xml:space="preserve">
+    <value>Membolehkan</value>
+  </data>
+  <data name="ExploreOurSite" xml:space="preserve">
+    <value>Layari laman web</value>
+  </data>
+  <data name="ManageLogins" xml:space="preserve">
+    <value>Menguruskan luar login</value>
+  </data>
+  <data name="PhoneNumberOption" xml:space="preserve">
+    <value>Menambah nombor telefon supaya dapat menerima kod pengesahan.</value>
+  </data>
+  <data name="SetPassword" xml:space="preserve">
+    <value>Set kata laluan</value>
+  </data>
+  <data name="VerifyPhoneNumber" xml:space="preserve">
+    <value>Sahkan nombor telefon</value>
+  </data>
+  <data name="VerifyPhoneNumberOption" xml:space="preserve">
+    <value>Masukkan kod pengesahan untuk mengesahkan identiti anda. </value>
+  </data>
+  <data name="ChooseContentType" xml:space="preserve">
+    <value>--Pilih jenis kandungan--</value>
+  </data>
+  <data name="ChooseLanguage" xml:space="preserve">
+    <value>-Pilih Bahasa--</value>
+  </data>
+  <data name="ChooseParentMenuItem" xml:space="preserve">
+    <value>--Pilih induk menu item--</value>
+  </data>
+  <data name="ContentType" xml:space="preserve">
+    <value>Jenis kandungan</value>
+  </data>
+  <data name="HasMenuItem" xml:space="preserve">
+    <value>Menyediakan pautan menu?</value>
+  </data>
+  <data name="ChooseMenu" xml:space="preserve">
+    <value>-Pilih menu--</value>
+  </data>
+  <data name="FacebookUrl" xml:space="preserve">
+    <value>Facebook</value>
+  </data>
+  <data name="IsUrgent" xml:space="preserve">
+    <value>Menunjukkan di bar segera?</value>
+  </data>
+  <data name="Logo" xml:space="preserve">
+    <value>Logo</value>
+  </data>
+  <data name="ParentMenuItem" xml:space="preserve">
+    <value>Item Menu ibu bapa</value>
+  </data>
+  <data name="StatusId" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="TwitterUrl" xml:space="preserve">
+    <value>Twitter</value>
+  </data>
+  <data name="YouTubeUrl" xml:space="preserve">
+    <value>YouTube</value>
+  </data>
+  <data name="AcademicJournal" xml:space="preserve">
+    <value>Majalah suara pelajar-pelajar</value>
+  </data>
+  <data name="ShortcutTitle" xml:space="preserve">
+    <value>Tajuk pintasan</value>
+  </data>
+  <data name="NoArticles" xml:space="preserve">
+    <value>Terdapat tiada artikel.</value>
+  </data>
+  <data name="Vacancy" xml:space="preserve">
+    <value>Pengumuman kerja</value>
+  </data>
+  <data name="Degree" xml:space="preserve">
+    <value>Ijazah </value>
+  </data>
+  <data name="Degrees" xml:space="preserve">
+    <value>Darjah</value>
+  </data>
+  <data name="AddAttachments" xml:space="preserve">
+    <value>Tambah satu lagi lampiran...</value>
+  </data>
+  <data name="Applicant" xml:space="preserve">
+    <value>Pemohon</value>
+  </data>
+  <data name="Requirements" xml:space="preserve">
+    <value>Syarat-syarat</value>
+  </data>
+  <data name="CoverLetter" xml:space="preserve">
+    <value>Meliputi Surat</value>
+  </data>
+  <data name="FileName" xml:space="preserve">
+    <value>Nama fail</value>
+  </data>
+  <data name="Id" xml:space="preserve">
+    <value>Nombor siri</value>
+  </data>
+  <data name="IsActive" xml:space="preserve">
+    <value>Sedang aktif?</value>
+  </data>
+  <data name="VacancyType" xml:space="preserve">
+    <value>Jenis jawatan kosong</value>
+  </data>
+  <data name="Documents" xml:space="preserve">
+    <value>Dokumen-dokumen</value>
+  </data>
+  <data name="Submissions" xml:space="preserve">
+    <value>Penyerahan</value>
+  </data>
+  <data name="SubmittedOn" xml:space="preserve">
+    <value>Tarikh Submittion</value>
+  </data>
+  <data name="Rank" xml:space="preserve">
+    <value>Kedudukan akademik</value>
+  </data>
+  <data name="Ranks" xml:space="preserve">
+    <value>Pangkat akademik</value>
+  </data>
+  <data name="ChooseVacancy" xml:space="preserve">
+    <value>-Pilih Tajuk kerja--</value>
+  </data>
+  <data name="Applicants" xml:space="preserve">
+    <value>Pemohon-pemohon</value>
+  </data>
+  <data name="ApplicantFullName" xml:space="preserve">
+    <value>Nama pemohon</value>
+  </data>
+  <data name="Attachments" xml:space="preserve">
+    <value>Lampiran</value>
+  </data>
+  <data name="CurriculumVitae" xml:space="preserve">
+    <value>Resume</value>
+  </data>
+  <data name="DOB" xml:space="preserve">
+    <value>tarikh lahir</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Muat turun</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Jantina</value>
+  </data>
+  <data name="JobTitle" xml:space="preserve">
+    <value>Tajuk kerja</value>
+  </data>
+  <data name="MiddleName" xml:space="preserve">
+    <value>Nama tengah</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>Telefon bimbit No.</value>
+  </data>
+  <data name="ResumeFileName" xml:space="preserve">
+    <value>Resume</value>
+  </data>
+  <data name="ResumeFilePath" xml:space="preserve">
+    <value>Resume</value>
+  </data>
+  <data name="Submission" xml:space="preserve">
+    <value>Penyerahan</value>
+  </data>
+  <data name="NoParentItem" xml:space="preserve">
+    <value>--Item induk tiada--</value>
+  </data>
+  <data name="ContentList" xml:space="preserve">
+    <value>Senarai kandungan</value>
+  </data>
+  <data name="ItemContent" xml:space="preserve">
+    <value>Kandungan perkara</value>
+  </data>
+  <data name="PleaseUploadFileOfType" xml:space="preserve">
+    <value>Sila muat naik fail jenis:</value>
+  </data>
+  <data name="JobType" xml:space="preserve">
+    <value>Jenis pekerjaan</value>
+  </data>
+  <data name="ListItem" xml:space="preserve">
+    <value>Item senarai</value>
+  </data>
+  <data name="ListItems" xml:space="preserve">
+    <value>Senarai item</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Laman web</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>Perkhidmatan Faks</value>
+  </data>
+  <data name="Latitude" xml:space="preserve">
+    <value>Latitud</value>
+  </data>
+  <data name="Longitude" xml:space="preserve">
+    <value>Longitud</value>
+  </data>
+  <data name="Organization" xml:space="preserve">
+    <value>Organisasi</value>
+  </data>
+  <data name="Organizations" xml:space="preserve">
+    <value>Pertubuhan-pertubuhan</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Bandar</value>
+  </data>
+  <data name="District" xml:space="preserve">
+    <value>Daerah</value>
+  </data>
+  <data name="Province" xml:space="preserve">
+    <value>Wilayah</value>
+  </data>
+  <data name="POBox" xml:space="preserve">
+    <value>P.O. Box</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Maklumat untuk dihubungi</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>Jabatan</value>
+  </data>
+  <data name="Office" xml:space="preserve">
+    <value>Pejabat</value>
+  </data>
+  <data name="PersonalTitle" xml:space="preserve">
+    <value>Jadual peribadi</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Kedudukan</value>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>Hubungi kami</value>
+  </data>
+  <data name="OurLocationOnMap" xml:space="preserve">
+    <value>Peta lokasi kami</value>
+  </data>
+  <data name="PersonalTitles" xml:space="preserve">
+    <value>PersonalTitles</value>
+  </data>
+  <data name="Extension" xml:space="preserve">
+    <value>Sambungan</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Nombor telefon</value>
+  </data>
+  <data name="ManageLists" xml:space="preserve">
+    <value>Menguruskan senarai</value>
+  </data>
+  <data name="Articles" xml:space="preserve">
+    <value>Artikel-artikel</value>
+  </data>
+  <data name="ApplyNow" xml:space="preserve">
+    <value>Mohon sekarang</value>
+  </data>
+  <data name="Class" xml:space="preserve">
+    <value>Kelas CSS</value>
+  </data>
+  <data name="CopyRights" xml:space="preserve">
+    <value>Hak Cipta Terpelihara</value>
+  </data>
+  <data name="GooglePlusUrl" xml:space="preserve">
+    <value>Google Plus</value>
+  </data>
+  <data name="LinkedInUrl" xml:space="preserve">
+    <value>LinkedIn</value>
+  </data>
+  <data name="Privacy" xml:space="preserve">
+    <value>Privasi</value>
+  </data>
+  <data name="RSS" xml:space="preserve">
+    <value>Suapan RSS</value>
+  </data>
+  <data name="Terms" xml:space="preserve">
+    <value>Terjemahan</value>
+  </data>
+  <data name="WebDevelopedBy" xml:space="preserve">
+    <value>Nama pembangun Laman web</value>
+  </data>
+  <data name="EnterYourEmail" xml:space="preserve">
+    <value>Masukkan email anda...</value>
+  </data>
+  <data name="Explore" xml:space="preserve">
+    <value>Meneroka</value>
+  </data>
+  <data name="KeepInTouch" xml:space="preserve">
+    <value>terus berhubung</value>
+  </data>
+  <data name="LatestNews" xml:space="preserve">
+    <value>Berita-berita terkini</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="Subscribe" xml:space="preserve">
+    <value>Melanggan</value>
+  </data>
+  <data name="SubscriptionMessage" xml:space="preserve">
+    <value>Langgan Newsletter kami untuk mendapatkan maklumat penting</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Alamat</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Memohon</value>
+  </data>
+  <data name="Arrow" xml:space="preserve">
+    <value>ikon-lama-anak panah-hak</value>
+  </data>
+  <data name="For" xml:space="preserve">
+    <value>bagi</value>
+  </data>
+  <data name="MarginDirClass" xml:space="preserve">
+    <value>margin-kiri-10</value>
+  </data>
+  <data name="AllowedAttachmentExtensions" xml:space="preserve">
+    <value>Attachmetns satu atau lebih adalah tidak sah: sahaja. PDF. DOCX. DOC. PNG. JPG. Fail JPEG dibenarkan.</value>
+  </data>
+  <data name="AttachmentsNotes" xml:space="preserve">
+    <value>Sila muat naik lampiran untuk jenis:. PDF. DOCX. DOC. PNG. JPG. JPEG</value>
+  </data>
+  <data name="CVNotes" xml:space="preserve">
+    <value>Sila upload CV jenis:. PDF. DOCX. DOC</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Mengemukakan</value>
+  </data>
+  <data name="Program" xml:space="preserve">
+    <value>Atur cara</value>
+  </data>
+  <data name="Programs" xml:space="preserve">
+    <value>Program-program</value>
+  </data>
+  <data name="JobAnnouncement" xml:space="preserve">
+    <value>Pengumuman kerja</value>
+  </data>
+  <data name="JobAnnouncements" xml:space="preserve">
+    <value>Pengumuman kerja</value>
+  </data>
+  <data name="Departments" xml:space="preserve">
+    <value>Jabatan-Jabatan</value>
+  </data>
+  <data name="EmployeeTypes" xml:space="preserve">
+    <value>Jenis pekerja</value>
+  </data>
+  <data name="EmpInDepts" xml:space="preserve">
+    <value>Kakitangan Jabatan</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Pekerja-pekerja</value>
+  </data>
+  <data name="Occupation" xml:space="preserve">
+    <value>Pekerjaan</value>
+  </data>
+  <data name="Occupations" xml:space="preserve">
+    <value>Pekerjaan</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>Nama penuh</value>
+  </data>
+  <data name="ImagePath" xml:space="preserve">
+    <value>Laluan imej</value>
+  </data>
+  <data name="LandLine" xml:space="preserve">
+    <value>Tanah talian No.</value>
+  </data>
+  <data name="OfficeNumber" xml:space="preserve">
+    <value>Pejabat No.</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Pekerja</value>
+  </data>
+  <data name="ImageNotes" xml:space="preserve">
+    <value>Sila muat naik imej jenis:. PNG. JPG. JPEG. BMP</value>
+  </data>
+  <data name="PersonalPhoto" xml:space="preserve">
+    <value>Foto peribadi</value>
+  </data>
+  <data name="ViewCV" xml:space="preserve">
+    <value>Lihat CV</value>
+  </data>
+  <data name="PersonalPhotoName" xml:space="preserve">
+    <value>Foto peribadi nama</value>
+  </data>
+  <data name="PersonalPhotoPath" xml:space="preserve">
+    <value>Foto peribadi</value>
+  </data>
+  <data name="UploadPersonalPhoto" xml:space="preserve">
+    <value>Meng-upload gambar peribadi</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>Pengurus</value>
+  </data>
+  <data name="AllLanguages" xml:space="preserve">
+    <value>Semua bahasa</value>
+  </data>
+  <data name="Director" xml:space="preserve">
+    <value>Pengarah</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>Semak seimbas</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Nota</value>
+  </data>
+  <data name="AcademicInfo" xml:space="preserve">
+    <value>Maklumat akademik</value>
+  </data>
+  <data name="Biography" xml:space="preserve">
+    <value>Butiran peribadi</value>
+  </data>
+  <data name="ContactInfo" xml:space="preserve">
+    <value>Maklumat untuk dihubungi</value>
+  </data>
+  <data name="PersonalInfo" xml:space="preserve">
+    <value>Maklumat peribadi</value>
+  </data>
+  <data name="Manage" xml:space="preserve">
+    <value>Menguruskan</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Alih Keluar</value>
+  </data>
+  <data name="FillOutPersonalInfo" xml:space="preserve">
+    <value>Sila isi borang maklumat peribadi.</value>
+  </data>
+  <data name="AccountSettings" xml:space="preserve">
+    <value>Tetapan akaun</value>
+  </data>
+  <data name="ManageContacts" xml:space="preserve">
+    <value>Menguruskan orang hubungan</value>
+  </data>
+  <data name="ManagePublications" xml:space="preserve">
+    <value>Menguruskan penerbitan</value>
+  </data>
+  <data name="NoCVUploaded" xml:space="preserve">
+    <value>CV tiada upload!</value>
+  </data>
+  <data name="NoPersonalPhotoUploaded" xml:space="preserve">
+    <value>Tiada gambar peribadi dimuat naik!</value>
+  </data>
+  <data name="Publication" xml:space="preserve">
+    <value>Penerbitan</value>
+  </data>
+  <data name="Publications" xml:space="preserve">
+    <value>Penerbitan</value>
+  </data>
+  <data name="Abstract" xml:space="preserve">
+    <value>ABSTRAK</value>
+  </data>
+  <data name="CompletedProfile" xml:space="preserve">
+    <value>Profil lengkap</value>
+  </data>
+  <data name="EmployeeType" xml:space="preserve">
+    <value>Jenis pekerja</value>
+  </data>
+  <data name="ViewProfile" xml:space="preserve">
+    <value>Lihat Profail</value>
+  </data>
+  <data name="Hello" xml:space="preserve">
+    <value>Hello</value>
+  </data>
+  <data name="OurStaffDirectory" xml:space="preserve">
+    <value>Direktori Kakitangan kami</value>
+  </data>
+  <data name="SearchBy" xml:space="preserve">
+    <value>Cari mengikut</value>
+  </data>
+  <data name="SearchByDepartmet" xml:space="preserve">
+    <value>Carian departmet</value>
+  </data>
+  <data name="DuplicateEmail" xml:space="preserve">
+    <value>Alamat e-mel yang telah didaftarkan.</value>
+  </data>
+  <data name="InvalidOrganizationEmail" xml:space="preserve">
+    <value>Masukkan alamat e-mel kerja anda.</value>
+  </data>
+  <data name="DepartmentStaffList" xml:space="preserve">
+    <value>Senarai kakitangan Jabatan</value>
+  </data>
+  <data name="SearchResult" xml:space="preserve">
+    <value>Hasil carian</value>
+  </data>
+  <data name="DuplicateError" xml:space="preserve">
+    <value>Tidak boleh masukkan rekod pendua.</value>
+  </data>
+  <data name="EmployeeName" xml:space="preserve">
+    <value>Nama kakitangan</value>
+  </data>
+  <data name="ClickHereToLogin" xml:space="preserve">
+    <value>Klik di sini untuk log masuk</value>
+  </data>
+  <data name="ConfirmEmail" xml:space="preserve">
+    <value>Mengesahkan e-mel</value>
+  </data>
+  <data name="ConfirmEmailThanks" xml:space="preserve">
+    <value>Terima kasih kerana mengesahkan e-mel anda.</value>
+  </data>
+  <data name="ForgotPasswordCheck" xml:space="preserve">
+    <value>Sila semak email anda untuk set semula kata laluan anda.</value>
+  </data>
+  <data name="ForgotPasswordConfirmation" xml:space="preserve">
+    <value>Terlupa kata laluan pengesahan</value>
+  </data>
+  <data name="Please" xml:space="preserve">
+    <value>Sila</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Set semula</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>Set semula kata laluan</value>
+  </data>
+  <data name="ResetYourPassword" xml:space="preserve">
+    <value>Set semula kata laluan anda.</value>
+  </data>
+  <data name="SecurityCode" xml:space="preserve">
+    <value>Kod Keselamatan</value>
+  </data>
+  <data name="ApplyFor" xml:space="preserve">
+    <value>Memohon untuk</value>
+  </data>
+  <data name="ChooseDepartment" xml:space="preserve">
+    <value>--Pilih Jabatan--</value>
+  </data>
+  <data name="SubmissionId" xml:space="preserve">
+    <value>Bilangan permohonan</value>
+  </data>
+  <data name="DownloadApplications" xml:space="preserve">
+    <value>Muat turun aplikasi</value>
+  </data>
+  <data name="NotAvailable" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="GoCuteCMS" xml:space="preserve">
+    <value>Pergi ke CuteCMS</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Ralat</value>
+  </data>
+  <data name="ErrorNotification" xml:space="preserve">
+    <value>Kakitangan teknikal kami telah diberitahu secara automatik dan akan melihat ke dalam dengan segera penuh.</value>
+  </data>
+  <data name="GenericError" xml:space="preserve">
+    <value>Sesuatu yang silap.</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>Laman yang anda minta tidak boleh ditemui!</value>
+  </data>
+  <data name="NotPublished" xml:space="preserve">
+    <value>Laman yang anda minta itu tidak diterbitkan.</value>
+  </data>
+  <data name="NotTranslated" xml:space="preserve">
+    <value>Laman yang anda minta tidak diterjemahkan.</value>
+  </data>
+  <data name="DataTableLanguage" xml:space="preserve">
+    <value>http://CDN.datatables.net/plug-ins/1.10.12/i18n/English.JSON</value>
+  </data>
+  <data name="LanguageSelector" xml:space="preserve">
+    <value>Bahasa</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Eksport</value>
+  </data>
+  <data name="PleaseUploadAttachments" xml:space="preserve">
+    <value>Sila muat naik lampiran yang diperlukan.</value>
+  </data>
+  <data name="Oops" xml:space="preserve">
+    <value>Oops!</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Tindakan-tindakan</value>
+  </data>
+  <data name="ColVis" xml:space="preserve">
+    <value>Medan penglihatan</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Salinan</value>
+  </data>
+  <data name="ExportExcel" xml:space="preserve">
+    <value>Eksport Excel</value>
+  </data>
+  <data name="ExportPDF" xml:space="preserve">
+    <value>Eksport PDF</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Cetak</value>
+  </data>
+  <data name="Reload" xml:space="preserve">
+    <value>Tambah nilai</value>
+  </data>
+  <data name="NoUpcomingEvents" xml:space="preserve">
+    <value>Terdapat sebarang peristiwa yang akan datang.</value>
+  </data>
+  <data name="UpcomingEvents" xml:space="preserve">
+    <value>Aktiviti akan datang</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Kira-kira</value>
+  </data>
+  <data name="RnC" xml:space="preserve">
+    <value>Penyelidikan &amp; persidangan</value>
+  </data>
+  <data name="MyProfile" xml:space="preserve">
+    <value>Profil saya</value>
+  </data>
+  <data name="NoRecordFound" xml:space="preserve">
+    <value>Tiada rekod yang dicari!</value>
+  </data>
+  <data name="ViewMySocialNetwork" xml:space="preserve">
+    <value>Lihat rangkaian sosial saya.</value>
+  </data>
+  <data name="CssClass" xml:space="preserve">
+    <value>Kelas CSS</value>
+  </data>
+  <data name="Backend" xml:space="preserve">
+    <value>Backend</value>
+  </data>
+  <data name="Frontend" xml:space="preserve">
+    <value>Antara muka</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Imej</value>
+  </data>
+  <data name="Visible" xml:space="preserve">
+    <value>Boleh dilihat?</value>
+  </data>
+  <data name="IsDefault" xml:space="preserve">
+    <value>Itu lalai?</value>
+  </data>
+  <data name="PrimaryLogoName" xml:space="preserve">
+    <value>Logo utama nama</value>
+  </data>
+  <data name="PrimaryLogoPath" xml:space="preserve">
+    <value>Laluan utama Logo</value>
+  </data>
+  <data name="SecondaryLogoName" xml:space="preserve">
+    <value>Logo sekolah menengah nama</value>
+  </data>
+  <data name="SecondaryLogoPath" xml:space="preserve">
+    <value>Laluan sekunder Logo</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Ketinggian</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>Lebar</value>
+  </data>
+  <data name="ChooseRole" xml:space="preserve">
+    <value>--Pilih peranan--</value>
+  </data>
+  <data name="ChooseStatus" xml:space="preserve">
+    <value>-Pilih status--</value>
+  </data>
+  <data name="ChooseAuthor" xml:space="preserve">
+    <value>--Pilih penulis--</value>
+  </data>
+  <data name="ChooseTag" xml:space="preserve">
+    <value>--Pilih tag--</value>
+  </data>
+  <data name="CountryCode" xml:space="preserve">
+    <value>Kod negara</value>
+  </data>
+  <data name="CountryName" xml:space="preserve">
+    <value>Nama negara</value>
+  </data>
+  <data name="IP" xml:space="preserve">
+    <value>HARTA INTELEK</value>
+  </data>
+  <data name="MetroCode" xml:space="preserve">
+    <value>Kod Metro</value>
+  </data>
+  <data name="RegionCode" xml:space="preserve">
+    <value>Kod rantau</value>
+  </data>
+  <data name="RegionName" xml:space="preserve">
+    <value>Nama rantau</value>
+  </data>
+  <data name="RequestDate" xml:space="preserve">
+    <value>Tarikh permintaan</value>
+  </data>
+  <data name="TimeZone" xml:space="preserve">
+    <value>Zon masa</value>
+  </data>
+  <data name="Count" xml:space="preserve">
+    <value>Kiraan</value>
+  </data>
+  <data name="Translations" xml:space="preserve">
+    <value>Terjemahan</value>
+  </data>
+  <data name="VacancyUnableToDelete" xml:space="preserve">
+    <value>Tidak dapat menghapuskan kekosongan ini kerana ia telah berkaitan submission(s).</value>
+  </data>
+  <data name="ChoosePersonalTitle" xml:space="preserve">
+    <value>-Pilih Tajuk peribadi--</value>
+  </data>
+  <data name="Acknowledgement" xml:space="preserve">
+    <value>Sijil Perakuan</value>
+  </data>
+  <data name="ApplicationNumber" xml:space="preserve">
+    <value>Nombor permohonan anda adalah:</value>
+  </data>
+  <data name="Dear" xml:space="preserve">
+    <value>Dear</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Nilai</value>
+  </data>
+  <data name="FlagCode" xml:space="preserve">
+    <value>Bendera kod</value>
+  </data>
+  <data name="Flag" xml:space="preserve">
+    <value>Bendera</value>
+  </data>
+  <data name="CultureName" xml:space="preserve">
+    <value>Nama budaya</value>
+  </data>
+  <data name="IsEnabled" xml:space="preserve">
+    <value>Dibolehkan?</value>
+  </data>
+  <data name="SMTP" xml:space="preserve">
+    <value>SMTP</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Subjek</value>
+  </data>
+  <data name="Body" xml:space="preserve">
+    <value>Badan</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>Pemberitahuan</value>
+  </data>
+  <data name="Term" xml:space="preserve">
+    <value>Penterjemahan</value>
+  </data>
+  <data name="Attachment" xml:space="preserve">
+    <value>Lampiran</value>
+  </data>
+  <data name="Statistic" xml:space="preserve">
+    <value>Statistik</value>
+  </data>
+  <data name="SMTPSetting" xml:space="preserve">
+    <value>Persekitaran SMTP</value>
+  </data>
+  <data name="ImageTag" xml:space="preserve">
+    <value>Tag gambar</value>
+  </data>
+  <data name="JobTypes" xml:space="preserve">
+    <value>Jenis kerja</value>
+  </data>
+  <data name="Genders" xml:space="preserve">
+    <value>Jantina</value>
+  </data>
+  <data name="PhoneNumbers" xml:space="preserve">
+    <value>Nombor telefon</value>
+  </data>
+  <data name="Notifications" xml:space="preserve">
+    <value>Pemberitahuan</value>
+  </data>
+  <data name="Contacts" xml:space="preserve">
+    <value>Orang hubungan</value>
+  </data>
+  <data name="ImageFiles" xml:space="preserve">
+    <value>Fail imej</value>
+  </data>
+  <data name="ContentLists" xml:space="preserve">
+    <value>Senarai kandungan</value>
+  </data>
+  <data name="HomeVisible" xml:space="preserve">
+    <value>Menunjukkan di halaman rumah?</value>
+  </data>
+  <data name="TOC" xml:space="preserve">
+    <value>Terma penggunaan</value>
+  </data>
+  <data name="ShowHeaderDate" xml:space="preserve">
+    <value>Tarikh Papar</value>
+  </data>
+  <data name="ExpiredOn" xml:space="preserve">
+    <value>Tamat pada</value>
+  </data>
+  <data name="PublishedOn" xml:space="preserve">
+    <value>Diterbitkan pada</value>
+  </data>
+  <data name="LastUpdatedOn" xml:space="preserve">
+    <value>Dikemaskini pada</value>
+  </data>
+  <data name="InvalidPublishDate" xml:space="preserve">
+    <value>Menerbitkan tarikh mesti kurang daripada atau sama dengan tarikh mula aktiviti.</value>
+  </data>
+  <data name="InvalidExpiryDate" xml:space="preserve">
+    <value>Tarikh tamat mestilah lebih besar daripada atau sama dengan aktiviti tamat.</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>Dari</value>
+  </data>
+  <data name="Till" xml:space="preserve">
+    <value>Sehingga</value>
+  </data>
+  <data name="NoResult" xml:space="preserve">
+    <value>Tiada keputusan.</value>
+  </data>
+  <data name="BreakingNews" xml:space="preserve">
+    <value>Berita-berita terbaru</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>Disediakan</value>
+  </data>
+  <data name="Skills" xml:space="preserve">
+    <value>Kemahiran</value>
+  </data>
+  <data name="Validity" xml:space="preserve">
+    <value>Kesahan</value>
+  </data>
+  <data name="ChooseJobType" xml:space="preserve">
+    <value>--Pilih jenis kerja--</value>
+  </data>
+  <data name="AbsolutePath" xml:space="preserve">
+    <value>Laluan mutlak</value>
+  </data>
+  <data name="Keywords" xml:space="preserve">
+    <value>Kata kunci</value>
+  </data>
+  <data name="PoweredBy" xml:space="preserve">
+    <value>dikuasakan oleh</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>Laluan</value>
+  </data>
+  <data name="UrgentExpiredOn" xml:space="preserve">
+    <value>Segera tamat pada</value>
+  </data>
+  <data name="BackToHome" xml:space="preserve">
+    <value>kembali ke Laman Utama sekarang!</value>
+  </data>
+  <data name="PageNotFound" xml:space="preserve">
+    <value>Laman tidak dijumpai</value>
+  </data>
+  <data name="PageNotTranslated" xml:space="preserve">
+    <value>Laman tidak diterjemahkan</value>
+  </data>
+  <data name="PageNotPublished" xml:space="preserve">
+    <value>Laman tidak Pubished</value>
+  </data>
+  <data name="CreatePassword" xml:space="preserve">
+    <value>Cipta kata laluan</value>
+  </data>
+  <data name="ResetPasswordConfirmation" xml:space="preserve">
+    <value>Set semula kata laluan pengesahan</value>
+  </data>
+  <data name="PasswordReset" xml:space="preserve">
+    <value>Kata laluan anda telah disetkan semula.</value>
+  </data>
+  <data name="ClickLogin" xml:space="preserve">
+    <value>Klik di sini untuk log masuk</value>
+  </data>
+  <data name="YourAppNumber" xml:space="preserve">
+    <value>Nombor permohonan anda</value>
+  </data>
+  <data name="ImageTags" xml:space="preserve">
+    <value>Tag gambar</value>
+  </data>
+  <data name="SMTPSettings" xml:space="preserve">
+    <value>Seting SMTP</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Statistik</value>
+  </data>
+  <data name="Statuses" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Vacancies" xml:space="preserve">
+    <value>Jawatan kosong</value>
+  </data>
+  <data name="LockedOutMessage" xml:space="preserve">
+    <value>Akaun ini telah dikunci, sila cuba lagi nanti.</value>
+  </data>
+  <data name="LockedOut" xml:space="preserve">
+    <value>Dikunci</value>
+  </data>
+  <data name="TakeTour" xml:space="preserve">
+    <value>Menyertai Lawatan</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>Kongsi Laman ini</value>
+  </data>
+  <data name="ForgotPasswordInstructions" xml:space="preserve">
+    <value>Lengkapkan borang di bawah untuk menerima e-mel dengan kod kebenaran diperlukan untuk set semula kata laluan anda.</value>
+  </data>
+  <data name="InvalidToken" xml:space="preserve">
+    <value>Token yang tidak sah</value>
+  </data>
+  <data name="ReadMore" xml:space="preserve">
+    <value>Baca lebih lanjut</value>
+  </data>
+  <data name="LogIn" xml:space="preserve">
+    <value>log masuk</value>
+  </data>
+  <data name="Dimensions" xml:space="preserve">
+    <value>Dimensi</value>
+  </data>
+  <data name="GetInTouch" xml:space="preserve">
+    <value>Sentiasa berhubung</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>Kategori</value>
+  </data>
+  <data name="YourName" xml:space="preserve">
+    <value>nama awak</value>
+  </data>
+  <data name="YourEmail" xml:space="preserve">
+    <value>E-mel anda</value>
+  </data>
+  <data name="SendMessage" xml:space="preserve">
+    <value>Menghantar mesej</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Mesej</value>
+  </data>
+  <data name="SenderName" xml:space="preserve">
+    <value>nama awak</value>
+  </data>
+  <data name="Careers" xml:space="preserve">
+    <value>Kerjaya</value>
+  </data>
+  <data name="SocialNetwork" xml:space="preserve">
+    <value>Rangkaian sosial</value>
+  </data>
+  <data name="SocialNetworks" xml:space="preserve">
+    <value>Rangkaian sosial</value>
+  </data>
+  <data name="ShowAll" xml:space="preserve">
+    <value>Tunjukkan semua</value>
+  </data>
+  <data name="ChooseCategory" xml:space="preserve">
+    <value>--Pilih kategori--</value>
+  </data>
+  <data name="AddressLine1" xml:space="preserve">
+    <value>Alamat baris 1</value>
+  </data>
+  <data name="AddressLine2" xml:space="preserve">
+    <value>Alamat baris 2</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Negeri</value>
+  </data>
+  <data name="ZIP" xml:space="preserve">
+    <value>poskod</value>
+  </data>
+  <data name="Newsletter" xml:space="preserve">
+    <value>Buletin</value>
+  </data>
+  <data name="LatestTweets" xml:space="preserve">
+    <value>Tweets Tempahan</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>sila tunggu...</value>
+  </data>
+  <data name="FollowUs" xml:space="preserve">
+    <value>Follow Us</value>
+  </data>
+  <data name="ChooseEmployeeType" xml:space="preserve">
+    <value>--Pilih jenis pekerja--</value>
+  </data>
+  <data name="HasAccount" xml:space="preserve">
+    <value>Mempunyai akaun?</value>
+  </data>
+  <data name="EmailConfirmed" xml:space="preserve">
+    <value>E-mel yang disahkan?</value>
+  </data>
+  <data name="UsefulLinks" xml:space="preserve">
+    <value>Berikut adalah beberapa link yang berguna</value>
+  </data>
+  <data name="AwaitingTranslation" xml:space="preserve">
+    <value>Menunggu untuk terjemahan...</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Belakang</value>
+  </data>
+  <data name="StaffDirectory" xml:space="preserve">
+    <value>Direktori Kakitangan</value>
+  </data>
+  <data name="SubscribedToMailingList" xml:space="preserve">
+    <value> Anda telah ditambah ke senarai mel kami.</value>
+  </data>
+  <data name="ThankYouForInterest" xml:space="preserve">
+    <value>Terima kasih kerana minat anda untuk Kemaskini Terakhir kami. Anda tidak lama akan menerima emel mengesahkan langganan anda.</value>
+  </data>
+  <data name="DeleteProfileConfirmation" xml:space="preserve">
+    <value>Adakah anda pasti anda ingin menghapuskan profil anda?</value>
+  </data>
+  <data name="DeleteProfile" xml:space="preserve">
+    <value>Menghapuskan profil saya</value>
+  </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>Galeri Foto</value>
+  </data>
+  <data name="ChooseGallery" xml:space="preserve">
+    <value>--Pilih photo gallery--</value>
+  </data>
+  <data name="Galleries" xml:space="preserve">
+    <value>Galeri Foto</value>
+  </data>
+  <data name="GalleryCategory" xml:space="preserve">
+    <value>Kategori</value>
+  </data>
+  <data name="GalleryCategories" xml:space="preserve">
+    <value>Kategori</value>
+  </data>
+  <data name="UrlSlug" xml:space="preserve">
+    <value>Pautan mesra</value>
+  </data>
+  <data name="Url" xml:space="preserve">
+    <value>Pautan</value>
+  </data>
+  <data name="DeveloperURL" xml:space="preserve">
+    <value>Laman web pemaju</value>
+  </data>
+  <data name="Reference" xml:space="preserve">
+    <value>Rujukan</value>
+  </data>
+  <data name="ContentItems" xml:space="preserve">
+    <value>Kandungan item</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Seting</value>
+  </data>
+  <data name="Recruitment" xml:space="preserve">
+    <value>Pengambilan</value>
+  </data>
+  <data name="Identity" xml:space="preserve">
+    <value>Identiti</value>
+  </data>
+  <data name="Lorem1" xml:space="preserve">
+    <value>Cara terpantas untuk mengembangkan perniagaan anda.</value>
+  </data>
+  <data name="Lorem2" xml:space="preserve">
+    <value>Check out kami pilihan dan ciri-ciri yang disertakan.</value>
+  </data>
+  <data name="GetStarted" xml:space="preserve">
+    <value>Mulakan sekarang!</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>atau</value>
+  </data>
+  <data name="LearnMore" xml:space="preserve">
+    <value>belajar lagi.</value>
+  </data>
+  <data name="Lorem3" xml:space="preserve">
+    <value>Teks ini adalah satu contoh teks yang akan diganti di tempat yang sama, teks ini telah dihasilkan daripada penjana teks bahasa Latin.</value>
+  </data>
+  <data name="January" xml:space="preserve">
+    <value>Januari</value>
+  </data>
+  <data name="JohnSmith" xml:space="preserve">
+    <value>John Smith</value>
+  </data>
+  <data name="JobTitleName" xml:space="preserve">
+    <value>Ketua Pegawai Eksekutif &amp; pengasas - syarikat ABC</value>
+  </data>
+  <data name="WhatClientsSay" xml:space="preserve">
+    <value>Katakanlah Apakah pelanggan</value>
+  </data>
+  <data name="LoremTitle" xml:space="preserve">
+    <value>Teks ini adalah satu contoh teks yang akan diganti di tempat yang sama.</value>
+  </data>
+  <data name="UploadIcon" xml:space="preserve">
+    <value>Muat Naik</value>
+  </data>
+  <data name="UploadImage" xml:space="preserve">
+    <value>Memuat naik imej!</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>Ringkasan</value>
+  </data>
+  <data name="Icon" xml:space="preserve">
+    <value>Ikon</value>
+  </data>
+  <data name="PleaseUploadIconOfType" xml:space="preserve">
+    <value>Sila muat naik ikon jenis :!</value>
+  </data>
+  <data name="IconNotes" xml:space="preserve">
+    <value>Sila muat naik ikon type: PNG!</value>
+  </data>
+  <data name="IconName" xml:space="preserve">
+    <value>Ikon</value>
+  </data>
+  <data name="IconPath" xml:space="preserve">
+    <value>Ikon</value>
+  </data>
+  <data name="MeetOurTeam" xml:space="preserve">
+    <value>Pasukan Kami</value>
+  </data>
+  <data name="MainDepts" xml:space="preserve">
+    <value>Jabatan utama</value>
+  </data>
+  <data name="PrimaryCaption" xml:space="preserve">
+    <value>Caption utama</value>
+  </data>
+  <data name="SecondaryCaption" xml:space="preserve">
+    <value>Caption menengah</value>
+  </data>
+  <data name="TertiaryCaption" xml:space="preserve">
+    <value>Caption tinggi</value>
+  </data>
+  <data name="MedicalTreatment" xml:space="preserve">
+    <value>Rawatan Perubatan</value>
+  </data>
+  <data name="DoctorsTimetable" xml:space="preserve">
+    <value>Jadual doktor</value>
+  </data>
+  <data name="OpeningHours" xml:space="preserve">
+    <value>Waktu Pembukaan EPC</value>
+  </data>
+  <data name="EmergencyCase" xml:space="preserve">
+    <value>Kecemasan</value>
+  </data>
+  <data name="Sunday" xml:space="preserve">
+    <value>Ahad</value>
+  </data>
+  <data name="Monday" xml:space="preserve">
+    <value>Isnin</value>
+  </data>
+  <data name="Tuesday" xml:space="preserve">
+    <value>Selasa</value>
+  </data>
+  <data name="Wednesday" xml:space="preserve">
+    <value>Rabu</value>
+  </data>
+  <data name="Thursday" xml:space="preserve">
+    <value>Khamis</value>
+  </data>
+  <data name="Friday" xml:space="preserve">
+    <value>Jumaat</value>
+  </data>
+  <data name="Saturday" xml:space="preserve">
+    <value>Sabtu</value>
+  </data>
+  <data name="Subtitle" xml:space="preserve">
+    <value>walaunagaimanapun</value>
+  </data>
+  <data name="ViewMore" xml:space="preserve">
+    <value>Saksikan lebih banyak...</value>
+  </data>
+  <data name="Doctors" xml:space="preserve">
+    <value>Doktor!</value>
+  </data>
+  <data name="OurSpecialists" xml:space="preserve">
+    <value>Pakar kami</value>
+  </data>
+  <data name="Staff" xml:space="preserve">
+    <value>Staf</value>
+  </data>
+  <data name="MedicalStaff" xml:space="preserve">
+    <value>Kakitangan perubatan</value>
+  </data>
+  <data name="LatestEvents" xml:space="preserve">
+    <value>Acara terkini</value>
+  </data>
+  <data name="DoctorName" xml:space="preserve">
+    <value>Nama doktor</value>
+  </data>
+  <data name="DoctorType" xml:space="preserve">
+    <value>Jenis doktor</value>
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>Nombor</value>
+  </data>
+  <data name="EnableSsl" xml:space="preserve">
+    <value>Aktifkan</value>
+  </data>
+  <data name="SenderEmail" xml:space="preserve">
+    <value>Emel pengirim!</value>
+  </data>
+  <data name="SenderPassword" xml:space="preserve">
+    <value>Kata laluan pengirim!</value>
+  </data>
+  <data name="RecipientEmail" xml:space="preserve">
+    <value>E-mel penerima!</value>
+  </data>
+  <data name="VisitorCounter" xml:space="preserve">
+    <value>Bilangan pelawat!</value>
+  </data>
+  <data name="RoleInUse" xml:space="preserve">
+    <value>Nama peranan tersebut telah sedia ada.</value>
+  </data>
+  <data name="Administration" xml:space="preserve">
+    <value>Pentadbiran</value>
+  </data>
+  <data name="SystemSettings" xml:space="preserve">
+    <value>Tetapan Sistem</value>
+  </data>
+  <data name="InvalidCode" xml:space="preserve">
+    <value>Tidak sah</value>
+  </data>
+  <data name="UserExist" xml:space="preserve">
+    <value>ID telah diambil</value>
+  </data>
+  <data name="FailedToVerifyPhone" xml:space="preserve">
+    <value>Nombor telefon</value>
+  </data>
+  <data name="Maintenance" xml:space="preserve">
+    <value>Penyelenggaraan</value>
+  </data>
+  <data name="Forms" xml:space="preserve">
+    <value>Borang</value>
+  </data>
+  <data name="DontHaveAccount" xml:space="preserve">
+    <value>Saya belum memiliki akaun?</value>
+  </data>
+  <data name="Page" xml:space="preserve">
+    <value>Laman</value>
+  </data>
+  <data name="Of" xml:space="preserve">
+    <value>daripada</value>
+  </data>
+  <data name="TotalRows" xml:space="preserve">
+    <value>Jumlah</value>
+  </data>
+  <data name="ChooseMaintenanceType" xml:space="preserve">
+    <value>--Pilih penyenggaraan jenis--!</value>
+  </data>
+  <data name="ChooseInventory" xml:space="preserve">
+    <value>--Pilih inventori--!</value>
+  </data>
+  <data name="ChooseModel" xml:space="preserve">
+    <value>--Pilih--</value>
+  </data>
+  <data name="ChooseSite" xml:space="preserve">
+    <value>--Pilih--</value>
+  </data>
+  <data name="ChooseManufacturer" xml:space="preserve">
+    <value>--Pilih pengeluar--!</value>
+  </data>
+  <data name="DeviceCard" xml:space="preserve">
+    <value>contoh ayat menggunakan perkataan device</value>
+  </data>
+  <data name="Installation" xml:space="preserve">
+    <value>Pemasangan</value>
+  </data>
+  <data name="BasicInformation" xml:space="preserve">
+    <value>Maklumat</value>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>Bulan</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>Tahun 4 tak best lansung org lagi nakbuat</value>
+  </data>
+  <data name="ChooseFormStatus" xml:space="preserve">
+    <value>--Pilih status borang -</value>
+  </data>
+  <data name="ChooseDataType" xml:space="preserve">
+    <value>--Pilih jenis data--!</value>
+  </data>
+  <data name="Form" xml:space="preserve">
+    <value>fishing</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Lapor</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>Laporan</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>Apstrāde ...</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Seterusnya</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Sebelum</value>
+  </data>
+  <data name="SummaryMessage" xml:space="preserve">
+    <value>Menunjukkan {0} ke {1} daripada {2} entri!</value>
+  </data>
+  <data name="Fields" xml:space="preserve">
+    <value>sawah Kering</value>
+  </data>
+  <data name="Reorder" xml:space="preserve">
+    <value>Susun semula!</value>
+  </data>
+  <data name="Section" xml:space="preserve">
+    <value>Seksyen</value>
+  </data>
+  <data name="Choices" xml:space="preserve">
+    <value>Pilihan</value>
+  </data>
+  <data name="Choice" xml:space="preserve">
+    <value>Pilihan</value>
+  </data>
+  <data name="DataType" xml:space="preserve">
+    <value>data</value>
+  </data>
+  <data name="DataTypes" xml:space="preserve">
+    <value>Jenis</value>
+  </data>
+  <data name="Field" xml:space="preserve">
+    <value>Bidang</value>
+  </data>
+  <data name="Property" xml:space="preserve">
+    <value>Sifat</value>
+  </data>
+  <data name="Properties" xml:space="preserve">
+    <value>Sifat</value>
+  </data>
+  <data name="ChoiceList" xml:space="preserve">
+    <value>Pilihan</value>
+  </data>
+  <data name="Values" xml:space="preserve">
+    <value>NILAI-NILAI</value>
+  </data>
+  <data name="ChoiceLists" xml:space="preserve">
+    <value>Senarai</value>
+  </data>
+  <data name="WorkflowPath" xml:space="preserve">
+    <value>rintis</value>
+  </data>
+  <data name="Workflow" xml:space="preserve">
+    <value>Struktur Kerja/Aliran Kerja Asas</value>
+  </data>
+  <data name="WorkflowSettings" xml:space="preserve">
+    <value>Seting aliran kerja!</value>
+  </data>
+  <data name="EmpNumber" xml:space="preserve">
+    <value>Pekerja</value>
+  </data>
+  <data name="EmpNumberInvalid" xml:space="preserve">
+    <value>ID pekerja tidak sah.!</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Tutup</value>
+  </data>
+  <data name="Approval" xml:space="preserve">
+    <value>Kelulusan</value>
+  </data>
+  <data name="ActionStatus" xml:space="preserve">
+    <value>Status Tindakan!</value>
+  </data>
+  <data name="ChangeStatusConfirmation" xml:space="preserve">
+    <value>Adakah anda pasti anda mahu memadam</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Selesai</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>Senarai</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Kemas kini</value>
+  </data>
+  <data name="ChooseFields" xml:space="preserve">
+    <value>Pilih</value>
+  </data>
+  <data name="ApprovalTracking" xml:space="preserve">
+    <value>Kelulusan</value>
+  </data>
+  <data name="ActionDate" xml:space="preserve">
+    <value>Tindakan</value>
+  </data>
+  <data name="PendingPrev" xml:space="preserve">
+    <value>menunggu kelulusan peringkat sebelumnya!</value>
+  </data>
+  <data name="PendingNext" xml:space="preserve">
+    <value>sementara menunggu kelulusan peringkat seterusnya!</value>
+  </data>
+  <data name="Sections" xml:space="preserve">
+    <value>Seksyen!</value>
+  </data>
+  <data name="ChooseGroup" xml:space="preserve">
+    <value>Pilih kumpulan</value>
+  </data>
+  <data name="Items" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="SubmissionDate" xml:space="preserve">
+    <value>PENYERAHAN</value>
+  </data>
+  <data name="ChangeUserName" xml:space="preserve">
+    <value>Tukar kata laluan %username%'s</value>
+  </data>
+  <data name="ChangeUserEmail" xml:space="preserve">
+    <value>Ubah e-mel</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ya</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Tidak</value>
+  </data>
+  <data name="DeleteAccount" xml:space="preserve">
+    <value>Padamkan akaun</value>
+  </data>
+  <data name="ChangeConfirmEmail" xml:space="preserve">
+    <value>Sahkan alamat e-mel</value>
+  </data>
+  <data name="AccountSummary" xml:space="preserve">
+    <value>Ringkasan Akaun</value>
+  </data>
+  <data name="SendVerificationCode" xml:space="preserve">
+    <value>Hantarkan kod pengesahan</value>
+  </data>
+  <data name="RecordCreated" xml:space="preserve">
+    <value>Rekod dicipta!!</value>
+  </data>
+  <data name="RecordCreatedSuccessfully" xml:space="preserve">
+    <value>Berjaya mencipta Order</value>
+  </data>
+  <data name="RecordUpdated" xml:space="preserve">
+    <value>merakam</value>
+  </data>
+  <data name="RecordUpdatedSuccessfully" xml:space="preserve">
+    <value>Rekod berjaya dikemas kini!</value>
+  </data>
+  <data name="RecordDeleted" xml:space="preserve">
+    <value>Rekod dihapuskan!!</value>
+  </data>
+  <data name="RecordDeletedSuccessfully" xml:space="preserve">
+    <value>Semua Rakaman dipadam</value>
+  </data>
+  <data name="NoUsersInRole" xml:space="preserve">
+    <value>Tiada penguna ditemui</value>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>Kebenaran</value>
+  </data>
+  <data name="NoPermissionsInGroup" xml:space="preserve">
+    <value>Kebenaran tidak ditemui dalam Kumpulan ini.!</value>
+  </data>
+  <data name="ListGroupPermissions" xml:space="preserve">
+    <value>&lt;g x=1 id="252"/&gt; menambah anda kepada kumpulan ini</value>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>Ubah</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Tambah</value>
+  </data>
+  <data name="TFAEnabled" xml:space="preserve">
+    <value>- Aktifkan ciri pengesahan-2-faktor</value>
+  </data>
+  <data name="TFADisabled" xml:space="preserve">
+    <value>Dua faktor pengesahan semasa ini dinyahdayakan:!</value>
+  </data>
+  <data name="TFABrowserRemembered" xml:space="preserve">
+    <value>Demi keselamatan akaun anda, aktifkan pengesahan dua faktor (2FA).</value>
+  </data>
+  <data name="ListUserPermissions" xml:space="preserve">
+    <value>Senarai pengguna yang dibenarkan but masukan ini.</value>
+  </data>
+  <data name="NoGroupsForUser" xml:space="preserve">
+    <value>Maklumat DMA</value>
+  </data>
+  <data name="ListGroupsForUser" xml:space="preserve">
+    <value>Aksi radio dimana dimiliki kumpulan aksi ini.</value>
+  </data>
+  <data name="NoPermissionsForUser" xml:space="preserve">
+    <value>Tiada peranan didapati untuk pengguna ini.!</value>
+  </data>
+  <data name="EmailStatus" xml:space="preserve">
+    <value>--E-mel status--!</value>
+  </data>
+  <data name="Confirmed" xml:space="preserve">
+    <value>Disahkan</value>
+  </data>
+  <data name="Unconfirmed" xml:space="preserve">
+    <value>Belum disahkan</value>
+  </data>
+  <data name="TFABrowserNotRemembered" xml:space="preserve">
+    <value>Penyemak imbas semasa tidak diingati kerana dua faktor pengesahan:!</value>
+  </data>
+  <data name="ListUsersInPermission" xml:space="preserve">
+    <value>Senarai pengguna kebenaran ini kepunyaan:!</value>
+  </data>
+  <data name="ConfirmAccount" xml:space="preserve">
+    <value>Sahkan akaun anda</value>
+  </data>
+  <data name="ConfirmAccountMessage" xml:space="preserve">
+    <value>Sila sahkan akaun anda dengan mengklik pautan ini</value>
+  </data>
+  <data name="ResetPasswordMessage" xml:space="preserve">
+    <value>Sila set semula kata laluan anda dengan klik di sini!</value>
+  </data>
+  <data name="ConfirmNewPassword" xml:space="preserve">
+    <value>Sahkan kata laluan baharu</value>
+  </data>
+  <data name="GroupExist" xml:space="preserve">
+    <value>Kumpulan sudah wujud</value>
+  </data>
+  <data name="ForgetBrowser" xml:space="preserve">
+    <value>Lupakan pelayar ini</value>
+  </data>
+  <data name="ChangePasswordSuccess" xml:space="preserve">
+    <value>Kata laluan anda telah diubah.</value>
+  </data>
+  <data name="SetPasswordSuccess" xml:space="preserve">
+    <value>Kata laluan anda telah disetkan.</value>
+  </data>
+  <data name="SetTwoFactorSuccess" xml:space="preserve">
+    <value>Pembekal kedua-dua faktor telah disetkan.</value>
+  </data>
+  <data name="AddPhoneSuccess" xml:space="preserve">
+    <value>Nombor telefon yang telah ditambah.</value>
+  </data>
+  <data name="RemovePhoneSuccess" xml:space="preserve">
+    <value>Nombor telefon anda telah dialih keluar.</value>
+  </data>
+  <data name="Showing" xml:space="preserve">
+    <value>Menunjukkan</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>Kepada</value>
+  </data>
+  <data name="Entries" xml:space="preserve">
+    <value>Entri</value>
+  </data>
+  <data name="Documentation" xml:space="preserve">
+    <value>Dokumentasi</value>
+  </data>
+  <data name="BuyNow" xml:space="preserve">
+    <value>Beli Sekarang</value>
+  </data>
+  <data name="Searching" xml:space="preserve">
+    <value>Mencari...</value>
+  </data>
+  <data name="Roles1" xml:space="preserve">
+    <value>Peranan</value>
+  </data>
+  <data name="Role1" xml:space="preserve">
+    <value>Peranan</value>
+  </data>
+  <data name="CRMModules" xml:space="preserve">
+    <value>Modul</value>
+  </data>
+  <data name="Sales" xml:space="preserve">
+    <value>Jualan</value>
+  </data>
+  <data name="Marketing" xml:space="preserve">
+    <value>Pemasaran</value>
+  </data>
+  <data name="Operations" xml:space="preserve">
+    <value>Pengendalian</value>
+  </data>
+  <data name="Accounting" xml:space="preserve">
+    <value>Perakaunan</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>Sokongan</value>
+  </data>
+  <data name="DefaultPasswordFor" xml:space="preserve">
+    <value>Kata laluan lalai untuk::</value>
+  </data>
+  <data name="DefaultUserPassword" xml:space="preserve">
+    <value>Pengguna Lain:</value>
+  </data>
+  <data name="AdminUsername" xml:space="preserve">
+    <value>Nama pengguna pentadbir:</value>
+  </data>
+  <data name="AdminPassword" xml:space="preserve">
+    <value>Kata laluan pentadbir:</value>
+  </data>
+</root>

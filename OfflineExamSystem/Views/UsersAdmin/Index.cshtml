@@ -1,0 +1,318 @@
+﻿@using OfflineExamSystem.Helpers
+@using System.Threading
+@{
+    ViewBag.Title = Resources.Resources.Users;
+}
+<div class="panel panel-default m-t-20">
+    <div class="panel-heading">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/@Thread.CurrentThread.CurrentCulture.Name">@Resources.Resources.Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">@Resources.Resources.Users</li>
+            </ol>
+        </nav>
+        <div class="form-inline">
+            <div class="form-group">
+                @Html.TextBox("username", null, new { id = "username", @class = "form-control", placeholder = Resources.Resources.Username })
+            </div>
+            <div class="form-group">
+                @Html.TextBox("roleId", null, new { placeholder = Resources.Resources.Role })
+            </div>
+            <div class="form-group">
+                @Html.DropDownList("emailConfirmed", new List<SelectListItem> { new SelectListItem { Text = Resources.Resources.Confirmed, Value = "true" }, new SelectListItem { Text = Resources.Resources.Unconfirmed, Value = "false" } }, Resources.Resources.EmailStatus, new { @class = "form-control" })
+            </div>
+            <button type="button" id="filter" class="btn btn-primary">
+                <i class="fa fa-search" aria-hidden="true"></i> @Resources.Resources.Search
+            </button>
+            <div class="@(CultureHelper.IsRighToLeft() ? "pull-left" : "pull-right")">
+                <button type="button" class="btn btn-primary create" data-id="1" data-toggle="modal" data-target="#createModal"> <i class="fa fa-plus" aria-hidden="true"></i> @Resources.Resources.Create</button>
+                <a href="@Url.Action("Index","RolesAdmin")" class="btn btn-danger"><i class="fa fa-user-secret" aria-hidden="true"></i> @Resources.Resources.Roles1</a>
+                <a href="@Url.Action("Index","GroupsAdmin")" class="btn btn-danger"><i class="fa fa-users" aria-hidden="true"></i> @Resources.Resources.Groups</a>
+            </div>
+        </div>
+    </div>
+    <div class="panel-body">
+        <pre>@Resources.Resources.DefaultPasswordFor admin@example.com: <code style="color:red">admin</code></pre>
+        <pre>@Resources.Resources.DefaultUserPassword <code style="color:red">user</code></pre>
+        @Html.AjaxGrid(Url.Action("UserGrid"))
+    </div>
+</div>
+<!--Create Modal -->
+<div class="modal fade" id="createModal" role="dialog" aria-labelledby="createLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div id='createContainer'></div>
+    </div>
+</div>
+<!--Edit Modal -->
+<div class="modal fade" id="edit" role="dialog" aria-labelledby="editLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div id='editContainer'></div>
+    </div>
+</div>
+<!--Details Modal -->
+<div class="modal fade" id="detailsModal" role="dialog" aria-labelledby="detailsLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div id='detailsContainer'></div>
+        </div>
+    </div>
+</div>
+<!--Roles Modal -->
+<div class="modal fade" id="rolesModal" role="dialog" aria-labelledby="rolesLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div id='rolesContainer'></div>
+        </div>
+    </div>
+</div>
+<!--Delete Modal -->
+<div class="modal fade" id="deleteModal" role="dialog" aria-labelledby="deleteLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div id='deleteContainer'></div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script>
+
+        $("#filter").click(function (e) {
+            $('.mvc-grid').mvcgrid({
+                query: 'username=' + $('#username').val() + '&' + 'roleId=' + $('#roleId').val() + '&' + 'emailConfirmed=' + $('#emailConfirmed').val(),
+                reload: true
+            });
+        });
+    </script>
+    <!--Create Modal Script -->
+    <script>
+            $(function () {
+                $(document).on('click', '.create', function () {
+                    var url = '@Url.Action("Create", "UsersAdmin")';
+                    var $buttonClicked = $(this);
+                    var id = $buttonClicked.attr('data-id');
+                    $.ajax({
+                        type: "GET",
+                        url: url,
+                        contentType: "application/json; charset=utf-8",
+                        data: { "Id": id },
+                        datatype: "json",
+                        success: function (data) {
+                            $('#createContainer').html(data);
+                            $('#createModal').modal('show');
+                        },
+                        error: function () {
+                            alert("Dynamic content load failed.");
+                        }
+                    });
+                });
+                $("#closbtn").click(function () {
+                    $('#createModal').modal('hide');
+                });
+            });
+
+            function OnSuccessCreate(data) {
+                if (data.Success) {
+
+                    $('#createModal').modal('hide');
+
+                    $('.mvc-grid').mvcgrid({reload: true });
+
+                    $.toast({
+                        heading: '@Resources.Resources.RecordCreated',
+                        text: '@Resources.Resources.RecordCreatedSuccessfully',
+                        position: 'top-right',
+                        loaderBg: '#ff6849',
+                        icon: 'success',
+                        hideAfter: 3000,
+                        stack: 6
+                    });
+                }
+            }
+    </script>
+    <!--Edit Modal Script -->
+    <script>
+    $(function () {
+        $(document).on('click', '.edit', function () {
+            var url = '@Url.Action("Edit", "UsersAdmin")';
+            var $buttonClicked = $(this);
+            var id = $buttonClicked.attr('data-id');
+            $.ajax({
+                type: "GET",
+                url: url,
+                contentType: "application/json; charset=utf-8",
+                data: { "Id": id },
+                datatype: "json",
+                success: function (data) {
+                    $('#editContainer').html(data);
+                    $('#edit').modal('show');
+                },
+                error: function () {
+                    alert("Dynamic content load failed.");
+                }
+            });
+        });
+        $("#closbtn").click(function () {
+            $('#edit').modal('hide');
+        });
+    });
+    function OnSuccessEdit(data) {
+        if (data.Success) {
+            $('#edit').modal('hide');
+            $('.mvc-grid').mvcgrid({reload: true });
+            $.toast({
+                heading: '@Resources.Resources.RecordUpdated',
+                text: '@Resources.Resources.RecordUpdatedSuccessfully',
+                position: 'top-right',
+                loaderBg: '#ff6849',
+                icon: 'success',
+                hideAfter: 3000,
+                stack: 6
+            });
+        }
+
+    }
+    </script>
+    <!--Details Modal Script -->
+    <script>
+    $(function () {
+        $(document).on('click', '.details', function () {
+            var url = '@Url.Action("Details", "UsersAdmin")';
+            var $buttonClicked = $(this);
+            var id = $buttonClicked.attr('data-id');
+            $.ajax({
+                type: "GET",
+                url: url,
+                contentType: "application/json; charset=utf-8",
+                data: { "Id": id },
+                datatype: "json",
+                success: function (data) {
+                    $('#detailsContainer').html(data);
+                    $('#detailsModal').modal('show');
+                },
+                error: function () {
+                    alert("Dynamic content load failed.");
+                }
+            });
+        });
+        $("#closbtn").click(function () {
+            $('#detailsModal').modal('hide');
+        });
+    });
+    </script>
+    <!--Roles Modal Script -->
+    <script>
+    $(function () {
+        $(document).on('click', '.roles', function () {
+            var url = '@Url.Action("Roles", "UsersAdmin")';
+            var $buttonClicked = $(this);
+            var id = $buttonClicked.attr('data-id');
+            $.ajax({
+                type: "GET",
+                url: url,
+                contentType: "application/json; charset=utf-8",
+                data: { "Id": id },
+                datatype: "json",
+                success: function (data) {
+                    $('#rolesContainer').html(data);
+                    $('#rolesModal').modal('show');
+                },
+                error: function () {
+                    alert("Dynamic content load failed.");
+                }
+            });
+        });
+        $("#closbtn").click(function () {
+            $('#rolesModal').modal('hide');
+        });
+    });
+    </script>
+    <!--Delete Modal Script -->
+    <script>
+    $(function () {
+        $(document).on('click', '.delete', function () {
+            var url = '@Url.Action("Delete", "UsersAdmin")';
+            var $buttonClicked = $(this);
+            var id = $buttonClicked.attr('data-id');
+            $.ajax({
+                type: "GET",
+                url: url,
+                contentType: "application/json; charset=utf-8",
+                data: { "Id": id },
+                datatype: "json",
+                success: function (data) {
+                    $('#deleteContainer').html(data);
+                    $('#deleteModal').modal('show');
+                },
+                error: function () {
+                    alert("Dynamic content load failed.");
+                }
+            });
+        });
+        $("#closbtn").click(function () {
+            $('#deleteModal').modal('hide');
+        });
+    });
+    function OnSuccessDelete(data) {
+        if (data.Success) {
+            $('#deleteModal').modal('hide');
+
+            $('.mvc-grid').mvcgrid({reload: true });
+
+            $.toast({
+                heading: '@Resources.Resources.RecordDeleted',
+                text: '@Resources.Resources.RecordDeletedSuccessfully',
+                position: 'top-right',
+                loaderBg: '#ff6849',
+                icon: 'error',
+                hideAfter: 3000,
+                stack: 6
+            });
+            //window.location.href = data.RedirectUrl;
+        }
+    }
+    </script>
+    <!--Roles Select2 Script -->
+    <script>
+    $(document).ready(function () {
+        //The url we will send our get request to
+        var roleUrl = '@Url.Action("GetRoles", "UsersAdmin")';
+        var pageSize = 20;
+        $('#roleId').select2(
+            {
+            width: 'resolve',
+            //tags: true,
+            formatNoMatches: function (term) {
+                return '@Resources.Resources.NoResult';
+                },
+            formatSearching:function (term) {
+                return '@Resources.Resources.Searching';
+                },
+            //Does the role have to enter any data before sending the ajax request
+            minimumInputLength: 0,
+            allowClear: true,
+            ajax: {
+                //How long the role has to pause their typing before sending the next request
+                quietMillis: 150,
+                //The url of the json service
+                url: roleUrl,
+                dataType: 'jsonp',
+                //Our search term and what page we are on
+                data: function (term, page) {
+                    return {
+                        pageSize: pageSize,
+                        pageNum: page,
+                        searchTerm: term
+                    };
+                },
+                results: function (data, page) {
+                    //Used to determine whether or not there are more results available,
+                    //and if requests for more data should be sent in the infinite scrolling
+                    var more = (page * pageSize) < data.Total;
+                    return { results: data.Results, more: more };
+                },
+            }
+        });
+
+    });
+    </script>
+}

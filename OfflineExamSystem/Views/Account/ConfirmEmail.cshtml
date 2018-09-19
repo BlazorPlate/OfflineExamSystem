@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = Resources.Resources.ConfirmEmail;
+}
+<h2>@ViewBag.Title</h2>
+<hr />
+<div>
+    <p>
+        @Resources.Resources.ConfirmEmailThanks @Resources.Resources.Please @Html.ActionLink(@Resources.Resources.ClickHereToLogin, "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })
+    </p>
+</div>

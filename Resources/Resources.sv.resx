@@ -1,0 +1,2103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BackToList" xml:space="preserve">
+    <value>Tillbaka till listan</value>
+  </data>
+  <data name="Calendar" xml:space="preserve">
+    <value>Kalendern</value>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>Konfiguration</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Bekräfta lösenord</value>
+  </data>
+  <data name="ConfirmPasswordCompare" xml:space="preserve">
+    <value>Lösenord och bekräfta lösenord matchar inte</value>
+  </data>
+  <data name="Contents" xml:space="preserve">
+    <value>Innehåll</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Skapa</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="DeleteConfirmation" xml:space="preserve">
+    <value>Är du säker du vill ta bort detta?</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Beskrivning</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Detaljer</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Redigera</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-post</value>
+  </data>
+  <data name="EmailRegularExpression" xml:space="preserve">
+    <value>E-post är inte giltig.</value>
+  </data>
+  <data name="Events" xml:space="preserve">
+    <value>Händelser</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Förnamn</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Grupp</value>
+  </data>
+  <data name="GroupRolesAssignment" xml:space="preserve">
+    <value>Roller som tilldelats för gruppen:</value>
+  </data>
+  <data name="Groups" xml:space="preserve">
+    <value>Grupper</value>
+  </data>
+  <data name="GroupsAssignment" xml:space="preserve">
+    <value>Grupper som tilldelas för användare:</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Hem</value>
+  </data>
+  <data name="Images" xml:space="preserve">
+    <value>Bilder</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Språk</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Efternamn</value>
+  </data>
+  <data name="LogOff" xml:space="preserve">
+    <value>Logga ut</value>
+  </data>
+  <data name="LogOn" xml:space="preserve">
+    <value>Logga in</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Namn</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Lösenord</value>
+  </data>
+  <data name="PasswordStringLength" xml:space="preserve">
+    <value>Lösenordet måste vara minst 6 tecken långt.</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>Roll</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Roller</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Registrera dig</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Spara</value>
+  </data>
+  <data name="SelectGroups" xml:space="preserve">
+    <value>Välj grupp</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Användaren</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Användarnamn</value>
+  </data>
+  <data name="UserRolesAssignment" xml:space="preserve">
+    <value>Roller som tilldelats för användare:</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Användare</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>Författare</value>
+  </data>
+  <data name="CreatedOn" xml:space="preserve">
+    <value>Datum för skapande</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>Slutdatum för aktiviteten</value>
+  </data>
+  <data name="Index" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="IsPublished" xml:space="preserve">
+    <value>Publicerad?</value>
+  </data>
+  <data name="IsTranslated" xml:space="preserve">
+    <value>Översätts?</value>
+  </data>
+  <data name="LanguageId" xml:space="preserve">
+    <value>Språk-ID</value>
+  </data>
+  <data name="ModifiedBy" xml:space="preserve">
+    <value>Ändrades senast av</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Läge</value>
+  </data>
+  <data name="ModifiedOn" xml:space="preserve">
+    <value>Ändringsdatum</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Startdatum för aktiviteten</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Avdelning</value>
+  </data>
+  <data name="TranslationId" xml:space="preserve">
+    <value>Översättning</value>
+  </data>
+  <data name="Event" xml:space="preserve">
+    <value>Händelse</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>Fil</value>
+  </data>
+  <data name="FilePath" xml:space="preserve">
+    <value>Sökväg</value>
+  </data>
+  <data name="MIME" xml:space="preserve">
+    <value>MIME</value>
+  </data>
+  <data name="Tag" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="Tags" xml:space="preserve">
+    <value>Taggar</value>
+  </data>
+  <data name="ThumbPath" xml:space="preserve">
+    <value>Tummen väg</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Visa</value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>Innehåll</value>
+  </data>
+  <data name="MainContent" xml:space="preserve">
+    <value>Huvudsakliga innehåll</value>
+  </data>
+  <data name="MetaDescription" xml:space="preserve">
+    <value>Meta-beskrivning</value>
+  </data>
+  <data name="MetaKeywords" xml:space="preserve">
+    <value>Meta-nyckelord</value>
+  </data>
+  <data name="Languages" xml:space="preserve">
+    <value>Språk</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Ändra lösenord</value>
+  </data>
+  <data name="CurrentPassword" xml:space="preserve">
+    <value>Nuvarande lösenord</value>
+  </data>
+  <data name="ManageAccount" xml:space="preserve">
+    <value>Hantera konto</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>Nytt lösenord</value>
+  </data>
+  <data name="OldPassword" xml:space="preserve">
+    <value>Gammalt lösenord</value>
+  </data>
+  <data name="RememberMe" xml:space="preserve">
+    <value>Kom ihåg mig</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Sök</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Kategori</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>Menyn</value>
+  </data>
+  <data name="MenuItem" xml:space="preserve">
+    <value>Menyalternativet</value>
+  </data>
+  <data name="MenuItems" xml:space="preserve">
+    <value>Menyalternativ</value>
+  </data>
+  <data name="Menus" xml:space="preserve">
+    <value>Menyer</value>
+  </data>
+  <data name="IsCms" xml:space="preserve">
+    <value>Är Cms?</value>
+  </data>
+  <data name="IsLeaf" xml:space="preserve">
+    <value>Är blad?</value>
+  </data>
+  <data name="IsParent" xml:space="preserve">
+    <value>Är förälder?</value>
+  </data>
+  <data name="Ordinal" xml:space="preserve">
+    <value>Ordningstal</value>
+  </data>
+  <data name="Parent" xml:space="preserve">
+    <value>Förälder</value>
+  </data>
+  <data name="CreateNewAccount" xml:space="preserve">
+    <value>Skapa nytt konto.</value>
+  </data>
+  <data name="Deleted" xml:space="preserve">
+    <value>Bort</value>
+  </data>
+  <data name="Published" xml:space="preserve">
+    <value>Publicerad</value>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>Sparad i</value>
+  </data>
+  <data name="MaximumAllowedSize" xml:space="preserve">
+    <value>Högsta tillåtna storlek är:</value>
+  </data>
+  <data name="PleaseUploadImageOfType" xml:space="preserve">
+    <value>Lägg upp en bild av typen:</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Anteckningar</value>
+  </data>
+  <data name="AddTranslation" xml:space="preserve">
+    <value>Lägg till översättning</value>
+  </data>
+  <data name="ViewTranslation" xml:space="preserve">
+    <value>Visa översättning</value>
+  </data>
+  <data name="HasShortcut" xml:space="preserve">
+    <value>Dispaly på startsidan</value>
+  </data>
+  <data name="IsScheduled" xml:space="preserve">
+    <value>Är schemalagd?</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Announcements" xml:space="preserve">
+    <value>Meddelanden</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>Nyheter</value>
+  </data>
+  <data name="NoAnnouncements" xml:space="preserve">
+    <value>Det finns inga meddelanden.</value>
+  </data>
+  <data name="NoEvents" xml:space="preserve">
+    <value>Det finns inga händelser.</value>
+  </data>
+  <data name="NoNews" xml:space="preserve">
+    <value>Det finns inga nyheter.</value>
+  </data>
+  <data name="ContentTypes" xml:space="preserve">
+    <value>Innehållstyper</value>
+  </data>
+  <data name="Building" xml:space="preserve">
+    <value>Byggnad</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Koden</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Land</value>
+  </data>
+  <data name="Locality" xml:space="preserve">
+    <value>Staden</value>
+  </data>
+  <data name="PostalCode" xml:space="preserve">
+    <value>Postnummer</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="Street" xml:space="preserve">
+    <value>Street</value>
+  </data>
+  <data name="Telephone" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="EnterCredentials" xml:space="preserve">
+    <value>Ange ditt användarnamn och lösenord för att logga.</value>
+  </data>
+  <data name="ForgetPassword" xml:space="preserve">
+    <value>Glömt ditt lösenord?</value>
+  </data>
+  <data name="JoinUs" xml:space="preserve">
+    <value>Följ @</value>
+  </data>
+  <data name="LoginToSite" xml:space="preserve">
+    <value>Logga in till vår webbplats</value>
+  </data>
+  <data name="LoginWithSocialMedia" xml:space="preserve">
+    <value>.. .eller logga in med:</value>
+  </data>
+  <data name="PasswordMatch" xml:space="preserve">
+    <value>Det nytt lösenord och bekräfta lösenord matchar inte.</value>
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>Telefonnummer</value>
+  </data>
+  <data name="RegisterNewUser" xml:space="preserve">
+    <value>Registrera dig som ny användare</value>
+  </data>
+  <data name="StringLength" xml:space="preserve">
+    <value>{0} måste vara minst {2} tecken lång.</value>
+  </data>
+  <data name="FillForm" xml:space="preserve">
+    <value>Fyll i formuläret nedan för att få omedelbar tillgång.</value>
+  </data>
+  <data name="EmailInvalid" xml:space="preserve">
+    <value>E-postadressen är inte giltig.</value>
+  </data>
+  <data name="SignUp" xml:space="preserve">
+    <value>Registrera sig</value>
+  </data>
+  <data name="SignUpInSeconds" xml:space="preserve">
+    <value>Registrera dig i sekunder</value>
+  </data>
+  <data name="AlreadyMember" xml:space="preserve">
+    <value>Redan medlem?</value>
+  </data>
+  <data name="EmailLink" xml:space="preserve">
+    <value>E-postlänk</value>
+  </data>
+  <data name="EmailConfirmationCheck" xml:space="preserve">
+    <value>Vänligen kontrollera din e-post för att aktivera kontot.</value>
+  </data>
+  <data name="EnterEmail" xml:space="preserve">
+    <value>Ange din e-postadress för att få e-postlänk för återställning av lösenord.</value>
+  </data>
+  <data name="Instruction" xml:space="preserve">
+    <value>Vi har skickat dig ett e-postmeddelande med en bekräftelse. Kontrollera din e-postadress och bekräfta din prenumeration.</value>
+  </data>
+  <data name="InvalidLoginAttempt" xml:space="preserve">
+    <value>Ogiltiga inloggningsförsök.</value>
+  </data>
+  <data name="Regards" xml:space="preserve">
+    <value>Vänliga hälsningar</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>Tack för att gå med oss!</value>
+  </data>
+  <data name="ThankYouFor" xml:space="preserve">
+    <value>Tack för att gå</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Välkommen</value>
+  </data>
+  <data name="EnterVerificationCode" xml:space="preserve">
+    <value>Ange verifieringskod.</value>
+  </data>
+  <data name="RememberBrowser" xml:space="preserve">
+    <value>Kom ihåg denna webbläsare</value>
+  </data>
+  <data name="SelectTwoFactor" xml:space="preserve">
+    <value>Välj två-faktorn Authentication metod.</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Skicka</value>
+  </data>
+  <data name="TwoFactor" xml:space="preserve">
+    <value>Tvåfaktorsautentisering</value>
+  </data>
+  <data name="TwoFactorType" xml:space="preserve">
+    <value>Två-faktorn Authentication metod</value>
+  </data>
+  <data name="VerificationCode" xml:space="preserve">
+    <value>Verifieringskod</value>
+  </data>
+  <data name="Verify" xml:space="preserve">
+    <value>Kontrollera nu</value>
+  </data>
+  <data name="ChangeAccountSettings" xml:space="preserve">
+    <value>Ändra dina kontoinställningar.</value>
+  </data>
+  <data name="ExternalLogins" xml:space="preserve">
+    <value>Extern inloggning</value>
+  </data>
+  <data name="AddPhoneNumber" xml:space="preserve">
+    <value>Lägg till telefonnummer</value>
+  </data>
+  <data name="ChangeCurrentPassword" xml:space="preserve">
+    <value>Ändra nuvarande lösenord.</value>
+  </data>
+  <data name="Disable" xml:space="preserve">
+    <value>Inaktivera</value>
+  </data>
+  <data name="Enable" xml:space="preserve">
+    <value>Aktivera</value>
+  </data>
+  <data name="ExploreOurSite" xml:space="preserve">
+    <value>Utforska vår webbplats</value>
+  </data>
+  <data name="ManageLogins" xml:space="preserve">
+    <value>Hantera externa inloggningar</value>
+  </data>
+  <data name="PhoneNumberOption" xml:space="preserve">
+    <value>Lägg till telefonnummer för att kunna ta emot verifieringskoden.</value>
+  </data>
+  <data name="SetPassword" xml:space="preserve">
+    <value>Ange lösenord</value>
+  </data>
+  <data name="VerifyPhoneNumber" xml:space="preserve">
+    <value>Verifiera telefonnummer</value>
+  </data>
+  <data name="VerifyPhoneNumberOption" xml:space="preserve">
+    <value>Ange verifieringskod för att verifiera din identitet. </value>
+  </data>
+  <data name="ChooseContentType" xml:space="preserve">
+    <value>--Välj innehåll typ--</value>
+  </data>
+  <data name="ChooseLanguage" xml:space="preserve">
+    <value>--Välj språk--</value>
+  </data>
+  <data name="ChooseParentMenuItem" xml:space="preserve">
+    <value>--Välj överordnad meny objekt--</value>
+  </data>
+  <data name="ContentType" xml:space="preserve">
+    <value>Innehållstyp</value>
+  </data>
+  <data name="HasMenuItem" xml:space="preserve">
+    <value>Ge en länk i menyn?</value>
+  </data>
+  <data name="ChooseMenu" xml:space="preserve">
+    <value>--Välj menyn--</value>
+  </data>
+  <data name="FacebookUrl" xml:space="preserve">
+    <value>Facebook</value>
+  </data>
+  <data name="IsUrgent" xml:space="preserve">
+    <value>Visa i brådskande bar?</value>
+  </data>
+  <data name="Logo" xml:space="preserve">
+    <value>Logotyp</value>
+  </data>
+  <data name="ParentMenuItem" xml:space="preserve">
+    <value>Överordnade menyalternativ</value>
+  </data>
+  <data name="StatusId" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="TwitterUrl" xml:space="preserve">
+    <value>Twitter</value>
+  </data>
+  <data name="YouTubeUrl" xml:space="preserve">
+    <value>YouTube</value>
+  </data>
+  <data name="AcademicJournal" xml:space="preserve">
+    <value>Studenter röst Magazine</value>
+  </data>
+  <data name="ShortcutTitle" xml:space="preserve">
+    <value>Genvägstitel</value>
+  </data>
+  <data name="NoArticles" xml:space="preserve">
+    <value>Det finns inga artiklar.</value>
+  </data>
+  <data name="Vacancy" xml:space="preserve">
+    <value>Jobb Annoucement</value>
+  </data>
+  <data name="Degree" xml:space="preserve">
+    <value>Grad </value>
+  </data>
+  <data name="Degrees" xml:space="preserve">
+    <value>Grader</value>
+  </data>
+  <data name="AddAttachments" xml:space="preserve">
+    <value>Lägga till en annan bilaga...</value>
+  </data>
+  <data name="Applicant" xml:space="preserve">
+    <value>Sökanden</value>
+  </data>
+  <data name="Requirements" xml:space="preserve">
+    <value>Krav</value>
+  </data>
+  <data name="CoverLetter" xml:space="preserve">
+    <value>Följebrev</value>
+  </data>
+  <data name="FileName" xml:space="preserve">
+    <value>Filnamn</value>
+  </data>
+  <data name="Id" xml:space="preserve">
+    <value>Serienumret</value>
+  </data>
+  <data name="IsActive" xml:space="preserve">
+    <value>Är aktiv?</value>
+  </data>
+  <data name="VacancyType" xml:space="preserve">
+    <value>Vakans typ</value>
+  </data>
+  <data name="Documents" xml:space="preserve">
+    <value>Dokument</value>
+  </data>
+  <data name="Submissions" xml:space="preserve">
+    <value>Inlagor</value>
+  </data>
+  <data name="SubmittedOn" xml:space="preserve">
+    <value>Submittion datum</value>
+  </data>
+  <data name="Rank" xml:space="preserve">
+    <value>Den akademiska graden</value>
+  </data>
+  <data name="Ranks" xml:space="preserve">
+    <value>Akademiska leden</value>
+  </data>
+  <data name="ChooseVacancy" xml:space="preserve">
+    <value>--Välj jobb titel--</value>
+  </data>
+  <data name="Applicants" xml:space="preserve">
+    <value>Sökande</value>
+  </data>
+  <data name="ApplicantFullName" xml:space="preserve">
+    <value>Sökandens namn</value>
+  </data>
+  <data name="Attachments" xml:space="preserve">
+    <value>Bilagor</value>
+  </data>
+  <data name="CurriculumVitae" xml:space="preserve">
+    <value>Curriculum Vitae</value>
+  </data>
+  <data name="DOB" xml:space="preserve">
+    <value>Födelsedatum</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Ladda ner</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Kön</value>
+  </data>
+  <data name="JobTitle" xml:space="preserve">
+    <value>Jobbtitel</value>
+  </data>
+  <data name="MiddleName" xml:space="preserve">
+    <value>Mellannamn</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>Mobilnummer</value>
+  </data>
+  <data name="ResumeFileName" xml:space="preserve">
+    <value>Curriculum Vitae</value>
+  </data>
+  <data name="ResumeFilePath" xml:space="preserve">
+    <value>Curriculum Vitae</value>
+  </data>
+  <data name="Submission" xml:space="preserve">
+    <value>Inlämning</value>
+  </data>
+  <data name="NoParentItem" xml:space="preserve">
+    <value>--Ingen överordnad artikel--</value>
+  </data>
+  <data name="ContentList" xml:space="preserve">
+    <value>Innehållslistan</value>
+  </data>
+  <data name="ItemContent" xml:space="preserve">
+    <value>Innehållstypen objekt</value>
+  </data>
+  <data name="PleaseUploadFileOfType" xml:space="preserve">
+    <value>Ladda upp en fil av typen:</value>
+  </data>
+  <data name="JobType" xml:space="preserve">
+    <value>Jobbtyp</value>
+  </data>
+  <data name="ListItem" xml:space="preserve">
+    <value>Listobjekt</value>
+  </data>
+  <data name="ListItems" xml:space="preserve">
+    <value>Listobjekt</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Webbplats</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="Latitude" xml:space="preserve">
+    <value>Latitude</value>
+  </data>
+  <data name="Longitude" xml:space="preserve">
+    <value>Longitud</value>
+  </data>
+  <data name="Organization" xml:space="preserve">
+    <value>Organisation</value>
+  </data>
+  <data name="Organizations" xml:space="preserve">
+    <value>Organisationer</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Staden</value>
+  </data>
+  <data name="District" xml:space="preserve">
+    <value>Distriktet</value>
+  </data>
+  <data name="Province" xml:space="preserve">
+    <value>Provins</value>
+  </data>
+  <data name="POBox" xml:space="preserve">
+    <value>P.O. Box</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Kontaktuppgifter</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>Institutionen</value>
+  </data>
+  <data name="Office" xml:space="preserve">
+    <value>Office</value>
+  </data>
+  <data name="PersonalTitle" xml:space="preserve">
+    <value>Personlig titel</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Ställning</value>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>Kontakta oss</value>
+  </data>
+  <data name="OurLocationOnMap" xml:space="preserve">
+    <value>Vårt läge på karta</value>
+  </data>
+  <data name="PersonalTitles" xml:space="preserve">
+    <value>PersonalTitles</value>
+  </data>
+  <data name="Extension" xml:space="preserve">
+    <value>Förlängning</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Telefonnummer</value>
+  </data>
+  <data name="ManageLists" xml:space="preserve">
+    <value>Hantera listor</value>
+  </data>
+  <data name="Articles" xml:space="preserve">
+    <value>Artiklar</value>
+  </data>
+  <data name="ApplyNow" xml:space="preserve">
+    <value>Ansök nu</value>
+  </data>
+  <data name="Class" xml:space="preserve">
+    <value>CSS-klass</value>
+  </data>
+  <data name="CopyRights" xml:space="preserve">
+    <value>Alla rättigheter reserverade</value>
+  </data>
+  <data name="GooglePlusUrl" xml:space="preserve">
+    <value>Google Plus</value>
+  </data>
+  <data name="LinkedInUrl" xml:space="preserve">
+    <value>LinkedIn</value>
+  </data>
+  <data name="Privacy" xml:space="preserve">
+    <value>Sekretess</value>
+  </data>
+  <data name="RSS" xml:space="preserve">
+    <value>RSS-flöde</value>
+  </data>
+  <data name="Terms" xml:space="preserve">
+    <value>Översättningar</value>
+  </data>
+  <data name="WebDevelopedBy" xml:space="preserve">
+    <value>Webbplats utvecklarnamn</value>
+  </data>
+  <data name="EnterYourEmail" xml:space="preserve">
+    <value>Ange din e-postadress...</value>
+  </data>
+  <data name="Explore" xml:space="preserve">
+    <value>Utforska</value>
+  </data>
+  <data name="KeepInTouch" xml:space="preserve">
+    <value>Hålla kontakten</value>
+  </data>
+  <data name="LatestNews" xml:space="preserve">
+    <value>Senaste nyheterna</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="Subscribe" xml:space="preserve">
+    <value>Prenumerera</value>
+  </data>
+  <data name="SubscriptionMessage" xml:space="preserve">
+    <value>Prenumerera på vårt nyhetsbrev för att få viktiga nyheter</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Adress</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Applicera</value>
+  </data>
+  <data name="Arrow" xml:space="preserve">
+    <value>ikon-lång-pil-höger</value>
+  </data>
+  <data name="For" xml:space="preserve">
+    <value>för</value>
+  </data>
+  <data name="MarginDirClass" xml:space="preserve">
+    <value>marginal-vänster-10</value>
+  </data>
+  <data name="AllowedAttachmentExtensions" xml:space="preserve">
+    <value>En eller flera attachmetns är ogiltiga: endast. PDF. DOCX. DOC. PNG. JPG. JPEG-filer är tillåtna.</value>
+  </data>
+  <data name="AttachmentsNotes" xml:space="preserve">
+    <value>Vänligen skicka en bifogade filer av typ:. PDF. DOCX. DOC. PNG. JPG. JPEG</value>
+  </data>
+  <data name="CVNotes" xml:space="preserve">
+    <value>Ladda upp CV av typ:. PDF. DOCX. DOC</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Lämna in</value>
+  </data>
+  <data name="Program" xml:space="preserve">
+    <value>Programmet</value>
+  </data>
+  <data name="Programs" xml:space="preserve">
+    <value>Program</value>
+  </data>
+  <data name="JobAnnouncement" xml:space="preserve">
+    <value>Jobbannons</value>
+  </data>
+  <data name="JobAnnouncements" xml:space="preserve">
+    <value>Jobb-meddelanden</value>
+  </data>
+  <data name="Departments" xml:space="preserve">
+    <value>Avdelningar</value>
+  </data>
+  <data name="EmployeeTypes" xml:space="preserve">
+    <value>Medarbetartyper</value>
+  </data>
+  <data name="EmpInDepts" xml:space="preserve">
+    <value>Anställda avdelningar</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Anställda</value>
+  </data>
+  <data name="Occupation" xml:space="preserve">
+    <value>Ockupation</value>
+  </data>
+  <data name="Occupations" xml:space="preserve">
+    <value>Yrken</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>Fullständigt namn</value>
+  </data>
+  <data name="ImagePath" xml:space="preserve">
+    <value>Bild sökväg</value>
+  </data>
+  <data name="LandLine" xml:space="preserve">
+    <value>Mark Radnr</value>
+  </data>
+  <data name="OfficeNumber" xml:space="preserve">
+    <value>Office No.</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Anställd</value>
+  </data>
+  <data name="ImageNotes" xml:space="preserve">
+    <value>Ladda upp en bild av typ:. PNG. JPG. JPEG. BMP</value>
+  </data>
+  <data name="PersonalPhoto" xml:space="preserve">
+    <value>Personliga foto</value>
+  </data>
+  <data name="ViewCV" xml:space="preserve">
+    <value>Visa CV</value>
+  </data>
+  <data name="PersonalPhotoName" xml:space="preserve">
+    <value>Personliga foto namn</value>
+  </data>
+  <data name="PersonalPhotoPath" xml:space="preserve">
+    <value>Personliga foto</value>
+  </data>
+  <data name="UploadPersonalPhoto" xml:space="preserve">
+    <value>Ladda upp foto</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>Manager</value>
+  </data>
+  <data name="AllLanguages" xml:space="preserve">
+    <value>Alla språk</value>
+  </data>
+  <data name="Director" xml:space="preserve">
+    <value>Direktör</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>Bläddra</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Obs</value>
+  </data>
+  <data name="AcademicInfo" xml:space="preserve">
+    <value>Akademiska information</value>
+  </data>
+  <data name="Biography" xml:space="preserve">
+    <value>Biografi</value>
+  </data>
+  <data name="ContactInfo" xml:space="preserve">
+    <value>Kontakt information</value>
+  </data>
+  <data name="PersonalInfo" xml:space="preserve">
+    <value>Personlig information</value>
+  </data>
+  <data name="Manage" xml:space="preserve">
+    <value>Hantera</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="FillOutPersonalInfo" xml:space="preserve">
+    <value>Fyll i det personliga information formuläret.</value>
+  </data>
+  <data name="AccountSettings" xml:space="preserve">
+    <value>Kontoinställningar</value>
+  </data>
+  <data name="ManageContacts" xml:space="preserve">
+    <value>Hantera kontakter</value>
+  </data>
+  <data name="ManagePublications" xml:space="preserve">
+    <value>Hantera publikationer</value>
+  </data>
+  <data name="NoCVUploaded" xml:space="preserve">
+    <value>Inget CV laddat upp!</value>
+  </data>
+  <data name="NoPersonalPhotoUploaded" xml:space="preserve">
+    <value>Inga personliga foto laddas upp!</value>
+  </data>
+  <data name="Publication" xml:space="preserve">
+    <value>Offentliggörande</value>
+  </data>
+  <data name="Publications" xml:space="preserve">
+    <value>Publikationer</value>
+  </data>
+  <data name="Abstract" xml:space="preserve">
+    <value>Abstrakt</value>
+  </data>
+  <data name="CompletedProfile" xml:space="preserve">
+    <value>slutförda profil</value>
+  </data>
+  <data name="EmployeeType" xml:space="preserve">
+    <value>Medarbetartypen</value>
+  </data>
+  <data name="ViewProfile" xml:space="preserve">
+    <value>Visa profil</value>
+  </data>
+  <data name="Hello" xml:space="preserve">
+    <value>Hej</value>
+  </data>
+  <data name="OurStaffDirectory" xml:space="preserve">
+    <value>Vår personal-katalog</value>
+  </data>
+  <data name="SearchBy" xml:space="preserve">
+    <value>Sök efter</value>
+  </data>
+  <data name="SearchByDepartmet" xml:space="preserve">
+    <value>Sök efter avdelning</value>
+  </data>
+  <data name="DuplicateEmail" xml:space="preserve">
+    <value>E-postadressen är redan registrerad.</value>
+  </data>
+  <data name="InvalidOrganizationEmail" xml:space="preserve">
+    <value>Ange din e-postadress.</value>
+  </data>
+  <data name="DepartmentStaffList" xml:space="preserve">
+    <value>Personalen avdelningslistan</value>
+  </data>
+  <data name="SearchResult" xml:space="preserve">
+    <value>Sökresultat</value>
+  </data>
+  <data name="DuplicateError" xml:space="preserve">
+    <value>Kan inte infoga dubblettposter.</value>
+  </data>
+  <data name="EmployeeName" xml:space="preserve">
+    <value>Anställdes namn</value>
+  </data>
+  <data name="ClickHereToLogin" xml:space="preserve">
+    <value>Klicka här för att logga in</value>
+  </data>
+  <data name="ConfirmEmail" xml:space="preserve">
+    <value>Bekräfta e-postadress</value>
+  </data>
+  <data name="ConfirmEmailThanks" xml:space="preserve">
+    <value>Tack för att bekräfta din e-post.</value>
+  </data>
+  <data name="ForgotPasswordCheck" xml:space="preserve">
+    <value>Vänligen kontrollera din e-postadress för att återställa lösenordet.</value>
+  </data>
+  <data name="ForgotPasswordConfirmation" xml:space="preserve">
+    <value>Glömde lösenord bekräftelse</value>
+  </data>
+  <data name="Please" xml:space="preserve">
+    <value>Snälla</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Återställa</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>Återställ lösenord</value>
+  </data>
+  <data name="ResetYourPassword" xml:space="preserve">
+    <value>Återställa ditt lösenord.</value>
+  </data>
+  <data name="SecurityCode" xml:space="preserve">
+    <value>Säkerhetskod</value>
+  </data>
+  <data name="ApplyFor" xml:space="preserve">
+    <value>Ansöka om</value>
+  </data>
+  <data name="ChooseDepartment" xml:space="preserve">
+    <value>--Välj Institutionen--</value>
+  </data>
+  <data name="SubmissionId" xml:space="preserve">
+    <value>Ansökningsnummer</value>
+  </data>
+  <data name="DownloadApplications" xml:space="preserve">
+    <value>Ladda ner program</value>
+  </data>
+  <data name="NotAvailable" xml:space="preserve">
+    <value>EJ TILLÄMPLIGT</value>
+  </data>
+  <data name="GoCuteCMS" xml:space="preserve">
+    <value>Gå till CuteCMS</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Fel</value>
+  </data>
+  <data name="ErrorNotification" xml:space="preserve">
+    <value>Vår tekniska personal har anmälts automatiskt och kommer att titta in här med den största skyndsamhet.</value>
+  </data>
+  <data name="GenericError" xml:space="preserve">
+    <value>Något gick fel.</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>Den sida du begärt kan inte hittas!</value>
+  </data>
+  <data name="NotPublished" xml:space="preserve">
+    <value>Den begärda sidan är inte publicerad.</value>
+  </data>
+  <data name="NotTranslated" xml:space="preserve">
+    <value>Sidan du begärde är inte översatt.</value>
+  </data>
+  <data name="DataTableLanguage" xml:space="preserve">
+    <value>http://CDN.DataTables.net/plug-ins/1.10.12/i18n/English.JSON</value>
+  </data>
+  <data name="LanguageSelector" xml:space="preserve">
+    <value>Språk</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Exportera</value>
+  </data>
+  <data name="PleaseUploadAttachments" xml:space="preserve">
+    <value>Vänligen ladda upp bilagor obligatoriska.</value>
+  </data>
+  <data name="Oops" xml:space="preserve">
+    <value>Oops!</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Åtgärder</value>
+  </data>
+  <data name="ColVis" xml:space="preserve">
+    <value>Synlighet för kolumn</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Kopia</value>
+  </data>
+  <data name="ExportExcel" xml:space="preserve">
+    <value>Exportera Excel</value>
+  </data>
+  <data name="ExportPDF" xml:space="preserve">
+    <value>Exportera PDF</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Skriv ut</value>
+  </data>
+  <data name="Reload" xml:space="preserve">
+    <value>Reload</value>
+  </data>
+  <data name="NoUpcomingEvents" xml:space="preserve">
+    <value>Det finns inga kommande händelser.</value>
+  </data>
+  <data name="UpcomingEvents" xml:space="preserve">
+    <value>Kommande evenemang</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Om</value>
+  </data>
+  <data name="RnC" xml:space="preserve">
+    <value>Forskningar &amp; konferenser</value>
+  </data>
+  <data name="MyProfile" xml:space="preserve">
+    <value>Min profil</value>
+  </data>
+  <data name="NoRecordFound" xml:space="preserve">
+    <value>Ingen post hittade!</value>
+  </data>
+  <data name="ViewMySocialNetwork" xml:space="preserve">
+    <value>Visa mitt sociala nätverk.</value>
+  </data>
+  <data name="CssClass" xml:space="preserve">
+    <value>CSS-klass</value>
+  </data>
+  <data name="Backend" xml:space="preserve">
+    <value>Backend</value>
+  </data>
+  <data name="Frontend" xml:space="preserve">
+    <value>Frontend</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Bild</value>
+  </data>
+  <data name="Visible" xml:space="preserve">
+    <value>Synliga?</value>
+  </data>
+  <data name="IsDefault" xml:space="preserve">
+    <value>Är standard?</value>
+  </data>
+  <data name="PrimaryLogoName" xml:space="preserve">
+    <value>Primära logotyp namn</value>
+  </data>
+  <data name="PrimaryLogoPath" xml:space="preserve">
+    <value>Primära logotyp sökväg</value>
+  </data>
+  <data name="SecondaryLogoName" xml:space="preserve">
+    <value>Sekundära logotyp namn</value>
+  </data>
+  <data name="SecondaryLogoPath" xml:space="preserve">
+    <value>Sekundära logotypen sökväg</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Höjd</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>Bredd</value>
+  </data>
+  <data name="ChooseRole" xml:space="preserve">
+    <value>--Välj roll--</value>
+  </data>
+  <data name="ChooseStatus" xml:space="preserve">
+    <value>--Välj status--</value>
+  </data>
+  <data name="ChooseAuthor" xml:space="preserve">
+    <value>--Välj författare--</value>
+  </data>
+  <data name="ChooseTag" xml:space="preserve">
+    <value>--Välj tagg--</value>
+  </data>
+  <data name="CountryCode" xml:space="preserve">
+    <value>Landskoden</value>
+  </data>
+  <data name="CountryName" xml:space="preserve">
+    <value>Landsnamn</value>
+  </data>
+  <data name="IP" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="MetroCode" xml:space="preserve">
+    <value>Metro-kod</value>
+  </data>
+  <data name="RegionCode" xml:space="preserve">
+    <value>Regionkod</value>
+  </data>
+  <data name="RegionName" xml:space="preserve">
+    <value>Regionens namn</value>
+  </data>
+  <data name="RequestDate" xml:space="preserve">
+    <value>Begära datum</value>
+  </data>
+  <data name="TimeZone" xml:space="preserve">
+    <value>Tidszon</value>
+  </data>
+  <data name="Count" xml:space="preserve">
+    <value>Greve</value>
+  </data>
+  <data name="Translations" xml:space="preserve">
+    <value>Översättningar</value>
+  </data>
+  <data name="VacancyUnableToDelete" xml:space="preserve">
+    <value>Det går inte ta bort denna tjänst eftersom det har relaterade submission(s).</value>
+  </data>
+  <data name="ChoosePersonalTitle" xml:space="preserve">
+    <value>--Välj personlig titel--</value>
+  </data>
+  <data name="Acknowledgement" xml:space="preserve">
+    <value>Bekräftelse</value>
+  </data>
+  <data name="ApplicationNumber" xml:space="preserve">
+    <value>Ditt ansökningsnummer är:</value>
+  </data>
+  <data name="Dear" xml:space="preserve">
+    <value>Kära</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Värde</value>
+  </data>
+  <data name="FlagCode" xml:space="preserve">
+    <value>Flagga kod</value>
+  </data>
+  <data name="Flag" xml:space="preserve">
+    <value>Flagga</value>
+  </data>
+  <data name="CultureName" xml:space="preserve">
+    <value>Kulturnamn</value>
+  </data>
+  <data name="IsEnabled" xml:space="preserve">
+    <value>Är aktiverad?</value>
+  </data>
+  <data name="SMTP" xml:space="preserve">
+    <value>SMTP</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Ämne</value>
+  </data>
+  <data name="Body" xml:space="preserve">
+    <value>Kroppen</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>Anmälan</value>
+  </data>
+  <data name="Term" xml:space="preserve">
+    <value>Översättning</value>
+  </data>
+  <data name="Attachment" xml:space="preserve">
+    <value>Bifogad fil</value>
+  </data>
+  <data name="Statistic" xml:space="preserve">
+    <value>Statistik</value>
+  </data>
+  <data name="SMTPSetting" xml:space="preserve">
+    <value>SMTP-inställning</value>
+  </data>
+  <data name="ImageTag" xml:space="preserve">
+    <value>Bildtaggar</value>
+  </data>
+  <data name="JobTypes" xml:space="preserve">
+    <value>Jobbtyper</value>
+  </data>
+  <data name="Genders" xml:space="preserve">
+    <value>Könen</value>
+  </data>
+  <data name="PhoneNumbers" xml:space="preserve">
+    <value>Telefonnummer</value>
+  </data>
+  <data name="Notifications" xml:space="preserve">
+    <value>Meddelanden</value>
+  </data>
+  <data name="Contacts" xml:space="preserve">
+    <value>Kontakter</value>
+  </data>
+  <data name="ImageFiles" xml:space="preserve">
+    <value>Bildfiler</value>
+  </data>
+  <data name="ContentLists" xml:space="preserve">
+    <value>Innehåll listor</value>
+  </data>
+  <data name="HomeVisible" xml:space="preserve">
+    <value>Visa startsidan?</value>
+  </data>
+  <data name="TOC" xml:space="preserve">
+    <value>Kundvillkor</value>
+  </data>
+  <data name="ShowHeaderDate" xml:space="preserve">
+    <value>Visa datum</value>
+  </data>
+  <data name="ExpiredOn" xml:space="preserve">
+    <value>Löpte ut den</value>
+  </data>
+  <data name="PublishedOn" xml:space="preserve">
+    <value>Publiceras på</value>
+  </data>
+  <data name="LastUpdatedOn" xml:space="preserve">
+    <value>Senast uppdaterad</value>
+  </data>
+  <data name="InvalidPublishDate" xml:space="preserve">
+    <value>Publicera datum måste vara mindre än eller lika aktivitet startdatum.</value>
+  </data>
+  <data name="InvalidExpiryDate" xml:space="preserve">
+    <value>Utgångsdatum måste vara större än eller lika aktivitet slutdatum.</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>Från</value>
+  </data>
+  <data name="Till" xml:space="preserve">
+    <value>Tills</value>
+  </data>
+  <data name="NoResult" xml:space="preserve">
+    <value>Inga resultat.</value>
+  </data>
+  <data name="BreakingNews" xml:space="preserve">
+    <value>Breaking News</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>Tillgängliga</value>
+  </data>
+  <data name="Skills" xml:space="preserve">
+    <value>Färdigheter</value>
+  </data>
+  <data name="Validity" xml:space="preserve">
+    <value>Giltighet</value>
+  </data>
+  <data name="ChooseJobType" xml:space="preserve">
+    <value>--Välj jobb typ--</value>
+  </data>
+  <data name="AbsolutePath" xml:space="preserve">
+    <value>Absolut sökväg</value>
+  </data>
+  <data name="Keywords" xml:space="preserve">
+    <value>Sökord</value>
+  </data>
+  <data name="PoweredBy" xml:space="preserve">
+    <value>Styrt av</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>Sökväg</value>
+  </data>
+  <data name="UrgentExpiredOn" xml:space="preserve">
+    <value>Brådskande löpte ut den</value>
+  </data>
+  <data name="BackToHome" xml:space="preserve">
+    <value>tillbaka till hemsida nu!</value>
+  </data>
+  <data name="PageNotFound" xml:space="preserve">
+    <value>Sidan hittades inte</value>
+  </data>
+  <data name="PageNotTranslated" xml:space="preserve">
+    <value>Sidan översätts inte</value>
+  </data>
+  <data name="PageNotPublished" xml:space="preserve">
+    <value>Sida inte bestraffas</value>
+  </data>
+  <data name="CreatePassword" xml:space="preserve">
+    <value>Skapa lösenord</value>
+  </data>
+  <data name="ResetPasswordConfirmation" xml:space="preserve">
+    <value>Återställ lösenord bekräftelse</value>
+  </data>
+  <data name="PasswordReset" xml:space="preserve">
+    <value>Ditt lösenord har återställts.</value>
+  </data>
+  <data name="ClickLogin" xml:space="preserve">
+    <value>Klicka här för att logga in</value>
+  </data>
+  <data name="YourAppNumber" xml:space="preserve">
+    <value>Ditt ansökningsnummer är</value>
+  </data>
+  <data name="ImageTags" xml:space="preserve">
+    <value>Bildtaggar</value>
+  </data>
+  <data name="SMTPSettings" xml:space="preserve">
+    <value>SMTP-inställningar</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Statistik</value>
+  </data>
+  <data name="Statuses" xml:space="preserve">
+    <value>Statusar</value>
+  </data>
+  <data name="Vacancies" xml:space="preserve">
+    <value>Lediga tjänster</value>
+  </data>
+  <data name="LockedOutMessage" xml:space="preserve">
+    <value>Detta konto har låsts ute, försök vänligen igen senare.</value>
+  </data>
+  <data name="LockedOut" xml:space="preserve">
+    <value>Utelåst</value>
+  </data>
+  <data name="TakeTour" xml:space="preserve">
+    <value>Ta en tur</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>Dela sidan</value>
+  </data>
+  <data name="ForgotPasswordInstructions" xml:space="preserve">
+    <value>Fyll i formuläret nedan för att få ett mail med den behörighetskod som behövs för att återställa ditt lösenord.</value>
+  </data>
+  <data name="InvalidToken" xml:space="preserve">
+    <value>Ogiltig Token</value>
+  </data>
+  <data name="ReadMore" xml:space="preserve">
+    <value>Läs mer</value>
+  </data>
+  <data name="LogIn" xml:space="preserve">
+    <value>Logga in</value>
+  </data>
+  <data name="Dimensions" xml:space="preserve">
+    <value>Dimensioner</value>
+  </data>
+  <data name="GetInTouch" xml:space="preserve">
+    <value>Håll kontakten</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>Kategorier</value>
+  </data>
+  <data name="YourName" xml:space="preserve">
+    <value>Ditt namn</value>
+  </data>
+  <data name="YourEmail" xml:space="preserve">
+    <value>Din e-post</value>
+  </data>
+  <data name="SendMessage" xml:space="preserve">
+    <value>Skicka meddelande</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Meddelande</value>
+  </data>
+  <data name="SenderName" xml:space="preserve">
+    <value>Ditt namn</value>
+  </data>
+  <data name="Careers" xml:space="preserve">
+    <value>karriärer</value>
+  </data>
+  <data name="SocialNetwork" xml:space="preserve">
+    <value>Sociala nätverk</value>
+  </data>
+  <data name="SocialNetworks" xml:space="preserve">
+    <value>Sociala nätverk</value>
+  </data>
+  <data name="ShowAll" xml:space="preserve">
+    <value>Visa alla</value>
+  </data>
+  <data name="ChooseCategory" xml:space="preserve">
+    <value>--Välj kategori--</value>
+  </data>
+  <data name="AddressLine1" xml:space="preserve">
+    <value>Adress linje 1</value>
+  </data>
+  <data name="AddressLine2" xml:space="preserve">
+    <value>Adressrad 2</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Statliga</value>
+  </data>
+  <data name="ZIP" xml:space="preserve">
+    <value>Postnummer</value>
+  </data>
+  <data name="Newsletter" xml:space="preserve">
+    <value>Nyhetsbrev</value>
+  </data>
+  <data name="LatestTweets" xml:space="preserve">
+    <value>Senaste Tweets</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Snälla vänta...</value>
+  </data>
+  <data name="FollowUs" xml:space="preserve">
+    <value>Följ oss</value>
+  </data>
+  <data name="ChooseEmployeeType" xml:space="preserve">
+    <value>--Välj anställd typ--</value>
+  </data>
+  <data name="HasAccount" xml:space="preserve">
+    <value>Har konto?</value>
+  </data>
+  <data name="EmailConfirmed" xml:space="preserve">
+    <value>E-post bekräftat?</value>
+  </data>
+  <data name="UsefulLinks" xml:space="preserve">
+    <value>Här är några användbara länkar</value>
+  </data>
+  <data name="AwaitingTranslation" xml:space="preserve">
+    <value>Väntar för översättning...</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Tillbaka</value>
+  </data>
+  <data name="StaffDirectory" xml:space="preserve">
+    <value>Personalen katalog</value>
+  </data>
+  <data name="SubscribedToMailingList" xml:space="preserve">
+    <value> Du har lagts till vår mailinglista.</value>
+  </data>
+  <data name="ThankYouForInterest" xml:space="preserve">
+    <value>Tack för ditt intresse för våra senaste uppdateringar. Du får inom kort ett mail som bekräftar din prenumeration.</value>
+  </data>
+  <data name="DeleteProfileConfirmation" xml:space="preserve">
+    <value>Är du säker du vill ta bort din profil?</value>
+  </data>
+  <data name="DeleteProfile" xml:space="preserve">
+    <value>Radera min profil</value>
+  </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>Photo Gallery</value>
+  </data>
+  <data name="ChooseGallery" xml:space="preserve">
+    <value>--Välj foto galleri--</value>
+  </data>
+  <data name="Galleries" xml:space="preserve">
+    <value>Fotogallerier</value>
+  </data>
+  <data name="GalleryCategory" xml:space="preserve">
+    <value>Kategori</value>
+  </data>
+  <data name="GalleryCategories" xml:space="preserve">
+    <value>Kategorier</value>
+  </data>
+  <data name="UrlSlug" xml:space="preserve">
+    <value>Länk</value>
+  </data>
+  <data name="Url" xml:space="preserve">
+    <value>Länk</value>
+  </data>
+  <data name="DeveloperURL" xml:space="preserve">
+    <value>Utvecklarens webbplats</value>
+  </data>
+  <data name="Reference" xml:space="preserve">
+    <value>Referens</value>
+  </data>
+  <data name="ContentItems" xml:space="preserve">
+    <value>Innehållsobjekt</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Inställningar</value>
+  </data>
+  <data name="Recruitment" xml:space="preserve">
+    <value>Rekrytering</value>
+  </data>
+  <data name="Identity" xml:space="preserve">
+    <value>Identitet</value>
+  </data>
+  <data name="Lorem1" xml:space="preserve">
+    <value>Det snabbaste sättet att utveckla din verksamhet.</value>
+  </data>
+  <data name="Lorem2" xml:space="preserve">
+    <value>Kolla in våra alternativ och funktioner som ingår.</value>
+  </data>
+  <data name="GetStarted" xml:space="preserve">
+    <value>Kom igång nu!</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>eller</value>
+  </data>
+  <data name="LearnMore" xml:space="preserve">
+    <value>Lära sig mer.</value>
+  </data>
+  <data name="Lorem3" xml:space="preserve">
+    <value>Denna text är ett exempel på text som kan ersättas i samma utrymme, denna text har genererats från latinsk text generator.</value>
+  </data>
+  <data name="January" xml:space="preserve">
+    <value>Januari</value>
+  </data>
+  <data name="JohnSmith" xml:space="preserve">
+    <value>John Smith</value>
+  </data>
+  <data name="JobTitleName" xml:space="preserve">
+    <value>VD &amp; grundare - ABC företaget</value>
+  </data>
+  <data name="WhatClientsSay" xml:space="preserve">
+    <value>Vad kunder säger</value>
+  </data>
+  <data name="LoremTitle" xml:space="preserve">
+    <value>Denna text är ett exempel på text som kan ersättas i samma utrymme.</value>
+  </data>
+  <data name="UploadIcon" xml:space="preserve">
+    <value>Ladda upp ikon</value>
+  </data>
+  <data name="UploadImage" xml:space="preserve">
+    <value>Ladda upp bild</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>Sammanfattning</value>
+  </data>
+  <data name="Icon" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="PleaseUploadIconOfType" xml:space="preserve">
+    <value>Var god ladda upp en ikon för typ:!</value>
+  </data>
+  <data name="IconNotes" xml:space="preserve">
+    <value>Var god ladda upp en ikon för typ: .PNG!</value>
+  </data>
+  <data name="IconName" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="IconPath" xml:space="preserve">
+    <value>Ikonväg!</value>
+  </data>
+  <data name="MeetOurTeam" xml:space="preserve">
+    <value>Vårt team</value>
+  </data>
+  <data name="MainDepts" xml:space="preserve">
+    <value>Avdelningar</value>
+  </data>
+  <data name="PrimaryCaption" xml:space="preserve">
+    <value>Primärt bildtext</value>
+  </data>
+  <data name="SecondaryCaption" xml:space="preserve">
+    <value>Sekundär beskrift</value>
+  </data>
+  <data name="TertiaryCaption" xml:space="preserve">
+    <value>Tertiär Bildtext</value>
+  </data>
+  <data name="MedicalTreatment" xml:space="preserve">
+    <value>Terapi</value>
+  </data>
+  <data name="DoctorsTimetable" xml:space="preserve">
+    <value>Och det gjorde läkarna också</value>
+  </data>
+  <data name="OpeningHours" xml:space="preserve">
+    <value>Öppettider</value>
+  </data>
+  <data name="EmergencyCase" xml:space="preserve">
+    <value>NÖDSITUATION</value>
+  </data>
+  <data name="Sunday" xml:space="preserve">
+    <value>söndag</value>
+  </data>
+  <data name="Monday" xml:space="preserve">
+    <value>Måndag</value>
+  </data>
+  <data name="Tuesday" xml:space="preserve">
+    <value>tisdag</value>
+  </data>
+  <data name="Wednesday" xml:space="preserve">
+    <value>Onsdag</value>
+  </data>
+  <data name="Thursday" xml:space="preserve">
+    <value>torsdag</value>
+  </data>
+  <data name="Friday" xml:space="preserve">
+    <value>Fredag</value>
+  </data>
+  <data name="Saturday" xml:space="preserve">
+    <value>Lördag</value>
+  </data>
+  <data name="Subtitle" xml:space="preserve">
+    <value>Underrubrik</value>
+  </data>
+  <data name="ViewMore" xml:space="preserve">
+    <value>Visa fler</value>
+  </data>
+  <data name="Doctors" xml:space="preserve">
+    <value>Läkare!</value>
+  </data>
+  <data name="OurSpecialists" xml:space="preserve">
+    <value>Våra specialister</value>
+  </data>
+  <data name="Staff" xml:space="preserve">
+    <value>Personal</value>
+  </data>
+  <data name="MedicalStaff" xml:space="preserve">
+    <value>Medicinsk personal</value>
+  </data>
+  <data name="LatestEvents" xml:space="preserve">
+    <value>SENASTE HÄNDELSERNA</value>
+  </data>
+  <data name="DoctorName" xml:space="preserve">
+    <value>Läkare namn</value>
+  </data>
+  <data name="DoctorType" xml:space="preserve">
+    <value>Läkare typ</value>
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>Portnummer</value>
+  </data>
+  <data name="EnableSsl" xml:space="preserve">
+    <value>Aktivera SSL</value>
+  </data>
+  <data name="SenderEmail" xml:space="preserve">
+    <value>e-post</value>
+  </data>
+  <data name="SenderPassword" xml:space="preserve">
+    <value>Avsändaren lösenord</value>
+  </data>
+  <data name="RecipientEmail" xml:space="preserve">
+    <value>Mottagarens e-post</value>
+  </data>
+  <data name="VisitorCounter" xml:space="preserve">
+    <value>Besöksräknare!</value>
+  </data>
+  <data name="RoleInUse" xml:space="preserve">
+    <value>Det rollnamnet har redan använts.</value>
+  </data>
+  <data name="Administration" xml:space="preserve">
+    <value>Administration</value>
+  </data>
+  <data name="SystemSettings" xml:space="preserve">
+    <value>Systeminställningar</value>
+  </data>
+  <data name="InvalidCode" xml:space="preserve">
+    <value>Ogiltig kod</value>
+  </data>
+  <data name="UserExist" xml:space="preserve">
+    <value>Den här e-postadressen är upptagen.</value>
+  </data>
+  <data name="FailedToVerifyPhone" xml:space="preserve">
+    <value>Verifiera telefonnummer</value>
+  </data>
+  <data name="Maintenance" xml:space="preserve">
+    <value>Underhåll</value>
+  </data>
+  <data name="Forms" xml:space="preserve">
+    <value>Formulär</value>
+  </data>
+  <data name="DontHaveAccount" xml:space="preserve">
+    <value>Har inget konto</value>
+  </data>
+  <data name="Page" xml:space="preserve">
+    <value>Sida</value>
+  </data>
+  <data name="Of" xml:space="preserve">
+    <value>av</value>
+  </data>
+  <data name="TotalRows" xml:space="preserve">
+    <value>Totalresultat rader</value>
+  </data>
+  <data name="ChooseInventory" xml:space="preserve">
+    <value>--Välj lager--!</value>
+  </data>
+  <data name="ChooseModel" xml:space="preserve">
+    <value>--Välj modell--!</value>
+  </data>
+  <data name="ChooseSite" xml:space="preserve">
+    <value>--välj--</value>
+  </data>
+  <data name="ChooseManufacturer" xml:space="preserve">
+    <value>--välj--</value>
+  </data>
+  <data name="ChooseMaintenanceType" xml:space="preserve">
+    <value>--Välj underhåll typ--!</value>
+  </data>
+  <data name="DeviceCard" xml:space="preserve">
+    <value>Enhet</value>
+  </data>
+  <data name="Installation" xml:space="preserve">
+    <value>Installation</value>
+  </data>
+  <data name="BasicInformation" xml:space="preserve">
+    <value>Grundinformation</value>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>Månad</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>År</value>
+  </data>
+  <data name="ChooseFormStatus" xml:space="preserve">
+    <value>- Välj form status--</value>
+  </data>
+  <data name="ChooseDataType" xml:space="preserve">
+    <value>--Välj datatyp--!</value>
+  </data>
+  <data name="Form" xml:space="preserve">
+    <value>Formulär</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Anmälan</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>Rapporter</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>Bearbetar...</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Nästa!</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Föregående</value>
+  </data>
+  <data name="SummaryMessage" xml:space="preserve">
+    <value>Visar {0} till {1} {2} poster!</value>
+  </data>
+  <data name="Fields" xml:space="preserve">
+    <value>Fält</value>
+  </data>
+  <data name="Reorder" xml:space="preserve">
+    <value>Arrangera</value>
+  </data>
+  <data name="Sections" xml:space="preserve">
+    <value>Sektioner</value>
+  </data>
+  <data name="Section" xml:space="preserve">
+    <value>Avsnitt</value>
+  </data>
+  <data name="Choices" xml:space="preserve">
+    <value>Val</value>
+  </data>
+  <data name="Choice" xml:space="preserve">
+    <value>Val</value>
+  </data>
+  <data name="DataType" xml:space="preserve">
+    <value>Datatyp</value>
+  </data>
+  <data name="DataTypes" xml:space="preserve">
+    <value>Datatyper</value>
+  </data>
+  <data name="Field" xml:space="preserve">
+    <value>Detta fält måste vara ett giltigt datum.</value>
+  </data>
+  <data name="Property" xml:space="preserve">
+    <value>Egendom</value>
+  </data>
+  <data name="Properties" xml:space="preserve">
+    <value>Egenskaper</value>
+  </data>
+  <data name="ChoiceList" xml:space="preserve">
+    <value>urvalslista</value>
+  </data>
+  <data name="Values" xml:space="preserve">
+    <value>Värden</value>
+  </data>
+  <data name="ChoiceLists" xml:space="preserve">
+    <value>Val</value>
+  </data>
+  <data name="WorkflowPath" xml:space="preserve">
+    <value>arbetsflöde</value>
+  </data>
+  <data name="Workflow" xml:space="preserve">
+    <value>Arbetsflöde</value>
+  </data>
+  <data name="WorkflowSettings" xml:space="preserve">
+    <value>Arbetsflödessteg</value>
+  </data>
+  <data name="EmpNumber" xml:space="preserve">
+    <value>Anställnings-ID: __________________________</value>
+  </data>
+  <data name="EmpNumberInvalid" xml:space="preserve">
+    <value>URL:en är ogiltig.</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Stäng</value>
+  </data>
+  <data name="Approval" xml:space="preserve">
+    <value>Godkännande</value>
+  </data>
+  <data name="ActionStatus" xml:space="preserve">
+    <value>Åtgärdsstatus</value>
+  </data>
+  <data name="ChangeStatusConfirmation" xml:space="preserve">
+    <value>Är du säker på att du vill ändra statusen ?!</value>
+  </data>
+  <data name="PendingPrev" xml:space="preserve">
+    <value>väntar på tidigare nivå godkännande!</value>
+  </data>
+  <data name="PendingNext" xml:space="preserve">
+    <value>Väntar på nästa nivå godkännande!</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Färdig!</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>Lista</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Uppdatera</value>
+  </data>
+  <data name="ChooseFields" xml:space="preserve">
+    <value>Väl…</value>
+  </data>
+  <data name="ApprovalTracking" xml:space="preserve">
+    <value>spårning</value>
+  </data>
+  <data name="ActionDate" xml:space="preserve">
+    <value>Åtgärd datum</value>
+  </data>
+  <data name="ChooseGroup" xml:space="preserve">
+    <value>Välj en grupp</value>
+  </data>
+  <data name="Items" xml:space="preserve">
+    <value>Objekt</value>
+  </data>
+  <data name="SubmissionDate" xml:space="preserve">
+    <value>Överföringsdatum</value>
+  </data>
+  <data name="ChangeUserName" xml:space="preserve">
+    <value>Ändra lösenord för %username%</value>
+  </data>
+  <data name="ChangeUserEmail" xml:space="preserve">
+    <value>Ändra e-postinställningar</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Nej</value>
+  </data>
+  <data name="DeleteAccount" xml:space="preserve">
+    <value>Ta bort konto</value>
+  </data>
+  <data name="AccountSummary" xml:space="preserve">
+    <value>Kontosammanfattning</value>
+  </data>
+  <data name="SendVerificationCode" xml:space="preserve">
+    <value>Skicka verifieringskod</value>
+  </data>
+  <data name="RecordCreated" xml:space="preserve">
+    <value>Posten skapades den</value>
+  </data>
+  <data name="RecordUpdated" xml:space="preserve">
+    <value>Posten har uppdaterats.</value>
+  </data>
+  <data name="RecordDeleted" xml:space="preserve">
+    <value>Är den aktuella posten borttagen?</value>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>Behörighet</value>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>Ändra</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Lägg till...</value>
+  </data>
+  <data name="EmailStatus" xml:space="preserve">
+    <value>E-poststatus</value>
+  </data>
+  <data name="Confirmed" xml:space="preserve">
+    <value>Bekräftad</value>
+  </data>
+  <data name="Unconfirmed" xml:space="preserve">
+    <value>Obekräftat</value>
+  </data>
+  <data name="ChangeConfirmEmail" xml:space="preserve">
+    <value>Ändra / bekräfta e-postadress!</value>
+  </data>
+  <data name="RecordCreatedSuccessfully" xml:space="preserve">
+    <value>Användare skapades!</value>
+  </data>
+  <data name="RecordUpdatedSuccessfully" xml:space="preserve">
+    <value>Posten uppdaterades framgångsrikt.</value>
+  </data>
+  <data name="RecordDeletedSuccessfully" xml:space="preserve">
+    <value>Register har raderats framgångsrikt</value>
+  </data>
+  <data name="NoUsersInRole" xml:space="preserve">
+    <value>Hittade ﻿inga Användare !</value>
+  </data>
+  <data name="NoPermissionsInGroup" xml:space="preserve">
+    <value>Inga behörigheter finns i denna grupp.!</value>
+  </data>
+  <data name="ListGroupPermissions" xml:space="preserve">
+    <value>Lista över behörigheter till denna grupp:!</value>
+  </data>
+  <data name="TFAEnabled" xml:space="preserve">
+    <value>Två-faktors autentisering är &lt;strong class="label label-success"&gt;påslaget&lt;/strong&gt;</value>
+  </data>
+  <data name="TFADisabled" xml:space="preserve">
+    <value>Två-faktors autentisering är &lt;strong class="label"&gt;avslaget&lt;/strong&gt;</value>
+  </data>
+  <data name="TFABrowserRemembered" xml:space="preserve">
+    <value>Webbläsaren är för närvarande ihågkommen för två faktorsautentisering:!</value>
+  </data>
+  <data name="ListUserPermissions" xml:space="preserve">
+    <value>Lista över användare</value>
+  </data>
+  <data name="NoGroupsForUser" xml:space="preserve">
+    <value>Inga grupper hittade för den här användaren.!</value>
+  </data>
+  <data name="ListGroupsForUser" xml:space="preserve">
+    <value>Visa grupper som användare tillhör</value>
+  </data>
+  <data name="NoPermissionsForUser" xml:space="preserve">
+    <value>Hittade inga roller för den här användaren.!</value>
+  </data>
+  <data name="TFABrowserNotRemembered" xml:space="preserve">
+    <value>Webbläsaren är för närvarande inte ihågkommen för två faktorsautentisering:!</value>
+  </data>
+  <data name="ListUsersInPermission" xml:space="preserve">
+    <value>Lista över användare behörigheten tillhör</value>
+  </data>
+  <data name="ConfirmAccount" xml:space="preserve">
+    <value>Bekräfta ditt konto</value>
+  </data>
+  <data name="ConfirmAccountMessage" xml:space="preserve">
+    <value>Vänligen bekräfta ditt konto genom att klicka på denna länk!</value>
+  </data>
+  <data name="ResetPasswordMessage" xml:space="preserve">
+    <value>Vänligen återställ ditt lösenord genom att klicka här: {0}</value>
+  </data>
+  <data name="ConfirmNewPassword" xml:space="preserve">
+    <value>Bekräfta nytt lösenord</value>
+  </data>
+  <data name="GroupExist" xml:space="preserve">
+    <value>Grupp existerar redan.</value>
+  </data>
+  <data name="ForgetBrowser" xml:space="preserve">
+    <value>Glöm denna webbläsare</value>
+  </data>
+  <data name="ChangePasswordSuccess" xml:space="preserve">
+    <value>Du har ändrat ditt lösenord.</value>
+  </data>
+  <data name="SetPasswordSuccess" xml:space="preserve">
+    <value>Ditt lösenord har ställts in.</value>
+  </data>
+  <data name="SetTwoFactorSuccess" xml:space="preserve">
+    <value>Din tvåfaktorer har ställts in.</value>
+  </data>
+  <data name="AddPhoneSuccess" xml:space="preserve">
+    <value>Telefonnumret tillkom.</value>
+  </data>
+  <data name="RemovePhoneSuccess" xml:space="preserve">
+    <value>Ditt telefonnummer togs bort.</value>
+  </data>
+  <data name="Showing" xml:space="preserve">
+    <value>Visar</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>Till</value>
+  </data>
+  <data name="Entries" xml:space="preserve">
+    <value>Poster</value>
+  </data>
+  <data name="Documentation" xml:space="preserve">
+    <value>Dokumentation</value>
+  </data>
+  <data name="BuyNow" xml:space="preserve">
+    <value>Köp nu</value>
+  </data>
+  <data name="Searching" xml:space="preserve">
+    <value>Söker...</value>
+  </data>
+  <data name="Roles1" xml:space="preserve">
+    <value>Roller</value>
+  </data>
+  <data name="Role1" xml:space="preserve">
+    <value>Roll</value>
+  </data>
+  <data name="CRMModules" xml:space="preserve">
+    <value>Moduler</value>
+  </data>
+  <data name="Sales" xml:space="preserve">
+    <value>Försäljning</value>
+  </data>
+  <data name="Marketing" xml:space="preserve">
+    <value>Marknadsföring</value>
+  </data>
+  <data name="Operations" xml:space="preserve">
+    <value>Åtgärder</value>
+  </data>
+  <data name="Accounting" xml:space="preserve">
+    <value>Redovisning</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="DefaultPasswordFor" xml:space="preserve">
+    <value>Förvalt lösenord:</value>
+  </data>
+  <data name="DefaultUserPassword" xml:space="preserve">
+    <value>Andra Användare:</value>
+  </data>
+  <data name="AdminUsername" xml:space="preserve">
+    <value>Användarnamn för administratör:</value>
+  </data>
+  <data name="AdminPassword" xml:space="preserve">
+    <value>Administratörslösenord:</value>
+  </data>
+</root>

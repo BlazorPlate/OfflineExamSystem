@@ -1,0 +1,2103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BackToList" xml:space="preserve">
+    <value>Quay lại danh sách</value>
+  </data>
+  <data name="Calendar" xml:space="preserve">
+    <value>Lịch</value>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>Cấu hình</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Xác nhận mật khẩu</value>
+  </data>
+  <data name="ConfirmPasswordCompare" xml:space="preserve">
+    <value>Mật khẩu và xác nhận mật khẩu không khớp</value>
+  </data>
+  <data name="Contents" xml:space="preserve">
+    <value>Nội dung</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Tạo ra</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Xóa bỏ</value>
+  </data>
+  <data name="DeleteConfirmation" xml:space="preserve">
+    <value>Bạn có chắc bạn muốn xóa bỏ điều này?</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Mô tả</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Thông tin chi tiết</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Chỉnh sửa</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Thư điện tử</value>
+  </data>
+  <data name="EmailRegularExpression" xml:space="preserve">
+    <value>Thư điện tử là không hợp lệ.</value>
+  </data>
+  <data name="Events" xml:space="preserve">
+    <value>Sự kiện</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Tên đầu tiên</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Nhóm</value>
+  </data>
+  <data name="GroupRolesAssignment" xml:space="preserve">
+    <value>Vai trò được gán cho Nhóm:</value>
+  </data>
+  <data name="Groups" xml:space="preserve">
+    <value>Nhóm</value>
+  </data>
+  <data name="GroupsAssignment" xml:space="preserve">
+    <value>Nhóm được gán cho người dùng:</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Trang chủ</value>
+  </data>
+  <data name="Images" xml:space="preserve">
+    <value>Hình ảnh</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Ngôn ngữ</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Tên cuối cùng</value>
+  </data>
+  <data name="LogOff" xml:space="preserve">
+    <value>Đăng xuất</value>
+  </data>
+  <data name="LogOn" xml:space="preserve">
+    <value>Đăng nhập</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Mật khẩu</value>
+  </data>
+  <data name="PasswordStringLength" xml:space="preserve">
+    <value>Mật khẩu phải có ít nhất 6 ký tự.</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>Vai trò</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Vai trò</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Đăng ký</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Tiết kiệm</value>
+  </data>
+  <data name="SelectGroups" xml:space="preserve">
+    <value>Chọn Nhóm</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Người sử dụng</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Tên người dùng</value>
+  </data>
+  <data name="UserRolesAssignment" xml:space="preserve">
+    <value>Vai trò được gán cho người dùng:</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Người dùng</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>Tác giả</value>
+  </data>
+  <data name="CreatedOn" xml:space="preserve">
+    <value>Ngày tạo</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>Ngày kết thúc hoạt động</value>
+  </data>
+  <data name="Index" xml:space="preserve">
+    <value>Chỉ số</value>
+  </data>
+  <data name="IsPublished" xml:space="preserve">
+    <value>Được xuất bản?</value>
+  </data>
+  <data name="IsTranslated" xml:space="preserve">
+    <value>Được dịch?</value>
+  </data>
+  <data name="LanguageId" xml:space="preserve">
+    <value>Ngôn ngữ ID</value>
+  </data>
+  <data name="ModifiedBy" xml:space="preserve">
+    <value>Lần cuối bởi</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Vị trí</value>
+  </data>
+  <data name="ModifiedOn" xml:space="preserve">
+    <value>Sửa đổi ngày</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Ngày bắt đầu hoạt động</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="TranslationId" xml:space="preserve">
+    <value>Dịch thuật</value>
+  </data>
+  <data name="Event" xml:space="preserve">
+    <value>Tổ chức sự kiện</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>Tập tin</value>
+  </data>
+  <data name="FilePath" xml:space="preserve">
+    <value>Đường dẫn tệp</value>
+  </data>
+  <data name="MIME" xml:space="preserve">
+    <value>MIME</value>
+  </data>
+  <data name="Tag" xml:space="preserve">
+    <value>Từ khóa</value>
+  </data>
+  <data name="Tags" xml:space="preserve">
+    <value>Tags</value>
+  </data>
+  <data name="ThumbPath" xml:space="preserve">
+    <value>Đường dẫn thumb</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Xem</value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>Nội dung</value>
+  </data>
+  <data name="MainContent" xml:space="preserve">
+    <value>Nội dung chính</value>
+  </data>
+  <data name="MetaDescription" xml:space="preserve">
+    <value>Mô tả meta</value>
+  </data>
+  <data name="MetaKeywords" xml:space="preserve">
+    <value>Meta từ khoá</value>
+  </data>
+  <data name="Languages" xml:space="preserve">
+    <value>Ngôn ngữ</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Thay đổi mật khẩu</value>
+  </data>
+  <data name="CurrentPassword" xml:space="preserve">
+    <value>Mật khẩu hiện thời</value>
+  </data>
+  <data name="ManageAccount" xml:space="preserve">
+    <value>Quản lý tài khoản</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>Mật khẩu mới</value>
+  </data>
+  <data name="OldPassword" xml:space="preserve">
+    <value>Mật khẩu cũ</value>
+  </data>
+  <data name="RememberMe" xml:space="preserve">
+    <value>Ghi nhớ tôi</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Tìm kiếm</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Thể loại</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>Thực đơn</value>
+  </data>
+  <data name="MenuItem" xml:space="preserve">
+    <value>Khoản mục menu</value>
+  </data>
+  <data name="MenuItems" xml:space="preserve">
+    <value>Mục trình đơn</value>
+  </data>
+  <data name="Menus" xml:space="preserve">
+    <value>Thực đơn</value>
+  </data>
+  <data name="IsCms" xml:space="preserve">
+    <value>Là Cms?</value>
+  </data>
+  <data name="IsLeaf" xml:space="preserve">
+    <value>Là lá?</value>
+  </data>
+  <data name="IsParent" xml:space="preserve">
+    <value>Là phụ huynh?</value>
+  </data>
+  <data name="Ordinal" xml:space="preserve">
+    <value>Thứ tự</value>
+  </data>
+  <data name="Parent" xml:space="preserve">
+    <value>Phụ huynh</value>
+  </data>
+  <data name="CreateNewAccount" xml:space="preserve">
+    <value>Tạo tài khoản mới.</value>
+  </data>
+  <data name="Deleted" xml:space="preserve">
+    <value>Xóa bỏ</value>
+  </data>
+  <data name="Published" xml:space="preserve">
+    <value>Xuất bản</value>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>Lưu</value>
+  </data>
+  <data name="MaximumAllowedSize" xml:space="preserve">
+    <value>Kích thước tối đa là:</value>
+  </data>
+  <data name="PleaseUploadImageOfType" xml:space="preserve">
+    <value>Xin vui lòng tải lên một hình ảnh của loại:</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Ghi chú</value>
+  </data>
+  <data name="AddTranslation" xml:space="preserve">
+    <value>Thêm bản dịch</value>
+  </data>
+  <data name="ViewTranslation" xml:space="preserve">
+    <value>Xem bản dịch</value>
+  </data>
+  <data name="HasShortcut" xml:space="preserve">
+    <value>Dispaly trên trang chủ</value>
+  </data>
+  <data name="IsScheduled" xml:space="preserve">
+    <value>Dự kiến?</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Tình trạng</value>
+  </data>
+  <data name="Announcements" xml:space="preserve">
+    <value>Thông báo</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>Tin tức</value>
+  </data>
+  <data name="NoAnnouncements" xml:space="preserve">
+    <value>Không có thông báo không có.</value>
+  </data>
+  <data name="NoEvents" xml:space="preserve">
+    <value>Không có không có sự kiện.</value>
+  </data>
+  <data name="NoNews" xml:space="preserve">
+    <value>Không có không có tin tức.</value>
+  </data>
+  <data name="ContentTypes" xml:space="preserve">
+    <value>Loại nội dung</value>
+  </data>
+  <data name="Building" xml:space="preserve">
+    <value>Xây dựng</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Mã số</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Quốc gia</value>
+  </data>
+  <data name="Locality" xml:space="preserve">
+    <value>Thành phố</value>
+  </data>
+  <data name="PostalCode" xml:space="preserve">
+    <value>Mã bưu chính</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Hồ sơ</value>
+  </data>
+  <data name="Street" xml:space="preserve">
+    <value>Street</value>
+  </data>
+  <data name="Telephone" xml:space="preserve">
+    <value>Điện thoại</value>
+  </data>
+  <data name="EnterCredentials" xml:space="preserve">
+    <value>Nhập tên người dùng và mật khẩu để đăng nhập.</value>
+  </data>
+  <data name="ForgetPassword" xml:space="preserve">
+    <value>Quên Mật khẩu?</value>
+  </data>
+  <data name="JoinUs" xml:space="preserve">
+    <value>Tham gia với chúng tôi @</value>
+  </data>
+  <data name="LoginToSite" xml:space="preserve">
+    <value>Đăng nhập vào trang web của chúng tôi</value>
+  </data>
+  <data name="LoginWithSocialMedia" xml:space="preserve">
+    <value>.. .hoặc đăng nhập với:</value>
+  </data>
+  <data name="PasswordMatch" xml:space="preserve">
+    <value>Mật khẩu mới và xác nhận mật khẩu không khớp.</value>
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>Số điện thoại</value>
+  </data>
+  <data name="RegisterNewUser" xml:space="preserve">
+    <value>Đăng ký như một người dùng mới</value>
+  </data>
+  <data name="StringLength" xml:space="preserve">
+    <value>{0} phải có ít nhất {2} ký tự.</value>
+  </data>
+  <data name="FillForm" xml:space="preserve">
+    <value>Điền vào mẫu dưới đây để truy cập nhanh.</value>
+  </data>
+  <data name="EmailInvalid" xml:space="preserve">
+    <value>Địa chỉ thư điện tử là không hợp lệ.</value>
+  </data>
+  <data name="SignUp" xml:space="preserve">
+    <value>Đăng ký</value>
+  </data>
+  <data name="SignUpInSeconds" xml:space="preserve">
+    <value>Đăng ký trong giây</value>
+  </data>
+  <data name="AlreadyMember" xml:space="preserve">
+    <value>Đã là thành viên?</value>
+  </data>
+  <data name="EmailLink" xml:space="preserve">
+    <value>Liên kết email</value>
+  </data>
+  <data name="EmailConfirmationCheck" xml:space="preserve">
+    <value>Xin vui lòng kiểm tra email để kích hoạt tài khoản của bạn.</value>
+  </data>
+  <data name="EnterEmail" xml:space="preserve">
+    <value>Nhập email của bạn để nhận được email liên kết đặt lại mật khẩu.</value>
+  </data>
+  <data name="Instruction" xml:space="preserve">
+    <value>Chúng tôi đã gửi cho bạn một email trong đó có một liên kết xác nhận. Xin vui lòng kiểm tra email và xác nhận đăng ký của bạn.</value>
+  </data>
+  <data name="InvalidLoginAttempt" xml:space="preserve">
+    <value>Cố gắng đăng nhập không hợp lệ.</value>
+  </data>
+  <data name="Regards" xml:space="preserve">
+    <value>Trân trọng</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>Cảm ơn bạn đã tham gia với chúng tôi!</value>
+  </data>
+  <data name="ThankYouFor" xml:space="preserve">
+    <value>Cảm ơn bạn đã tham gia</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Chào mừng</value>
+  </data>
+  <data name="EnterVerificationCode" xml:space="preserve">
+    <value>Nhập mã xác minh.</value>
+  </data>
+  <data name="RememberBrowser" xml:space="preserve">
+    <value>Hãy nhớ rằng trình duyệt này</value>
+  </data>
+  <data name="SelectTwoFactor" xml:space="preserve">
+    <value>Chọn phương thức xác thực 2 yếu tố.</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Gửi</value>
+  </data>
+  <data name="TwoFactor" xml:space="preserve">
+    <value>Xác thực 2 yếu tố</value>
+  </data>
+  <data name="TwoFactorType" xml:space="preserve">
+    <value>Phương thức xác thực 2 yếu tố</value>
+  </data>
+  <data name="VerificationCode" xml:space="preserve">
+    <value>Mã xác minh</value>
+  </data>
+  <data name="Verify" xml:space="preserve">
+    <value>Xác minh bây giờ</value>
+  </data>
+  <data name="ChangeAccountSettings" xml:space="preserve">
+    <value>Thay đổi cài đặt tài khoản của bạn.</value>
+  </data>
+  <data name="ExternalLogins" xml:space="preserve">
+    <value>Ngoài các thông tin đăng nhập</value>
+  </data>
+  <data name="AddPhoneNumber" xml:space="preserve">
+    <value>Thêm số điện thoại</value>
+  </data>
+  <data name="ChangeCurrentPassword" xml:space="preserve">
+    <value>Thay đổi mật khẩu hiện thời.</value>
+  </data>
+  <data name="Disable" xml:space="preserve">
+    <value>Vô hiệu hoá</value>
+  </data>
+  <data name="Enable" xml:space="preserve">
+    <value>Kích hoạt</value>
+  </data>
+  <data name="ExploreOurSite" xml:space="preserve">
+    <value>Khám phá trang web của chúng tôi</value>
+  </data>
+  <data name="ManageLogins" xml:space="preserve">
+    <value>Quản lý thông tin đăng nhập bên ngoài</value>
+  </data>
+  <data name="PhoneNumberOption" xml:space="preserve">
+    <value>Thêm số điện thoại để có thể nhận được mã xác minh.</value>
+  </data>
+  <data name="SetPassword" xml:space="preserve">
+    <value>Thiết lập mật khẩu</value>
+  </data>
+  <data name="VerifyPhoneNumber" xml:space="preserve">
+    <value>Xác minh số điện thoại</value>
+  </data>
+  <data name="VerifyPhoneNumberOption" xml:space="preserve">
+    <value>Nhập mã xác minh để xác minh danh tính của bạn. </value>
+  </data>
+  <data name="ChooseContentType" xml:space="preserve">
+    <value>--Chọn loại nội dung...</value>
+  </data>
+  <data name="ChooseLanguage" xml:space="preserve">
+    <value>--Chọn ngôn ngữ...</value>
+  </data>
+  <data name="ChooseParentMenuItem" xml:space="preserve">
+    <value>--Chọn phụ huynh đơn mục--</value>
+  </data>
+  <data name="ContentType" xml:space="preserve">
+    <value>Loại nội dung</value>
+  </data>
+  <data name="HasMenuItem" xml:space="preserve">
+    <value>Cung cấp một liên kết đơn?</value>
+  </data>
+  <data name="ChooseMenu" xml:space="preserve">
+    <value>--Chọn menu--</value>
+  </data>
+  <data name="FacebookUrl" xml:space="preserve">
+    <value>Facebook</value>
+  </data>
+  <data name="IsUrgent" xml:space="preserve">
+    <value>Hiển thị trong thanh khẩn cấp?</value>
+  </data>
+  <data name="Logo" xml:space="preserve">
+    <value>Biểu tượng</value>
+  </data>
+  <data name="ParentMenuItem" xml:space="preserve">
+    <value>Mục trình đơn phụ huynh</value>
+  </data>
+  <data name="StatusId" xml:space="preserve">
+    <value>Tình trạng</value>
+  </data>
+  <data name="TwitterUrl" xml:space="preserve">
+    <value>Twitter</value>
+  </data>
+  <data name="YouTubeUrl" xml:space="preserve">
+    <value>YouTube</value>
+  </data>
+  <data name="AcademicJournal" xml:space="preserve">
+    <value>Tạp chí tiếng nói sinh viên</value>
+  </data>
+  <data name="ShortcutTitle" xml:space="preserve">
+    <value>Phím tắt tiêu đề</value>
+  </data>
+  <data name="NoArticles" xml:space="preserve">
+    <value>Không có không có bài viết.</value>
+  </data>
+  <data name="Vacancy" xml:space="preserve">
+    <value>Thông báo việc làm</value>
+  </data>
+  <data name="Degree" xml:space="preserve">
+    <value>Mức độ </value>
+  </data>
+  <data name="Degrees" xml:space="preserve">
+    <value>Độ</value>
+  </data>
+  <data name="AddAttachments" xml:space="preserve">
+    <value>Thêm một phần đính kèm...</value>
+  </data>
+  <data name="Applicant" xml:space="preserve">
+    <value>Nộp đơn</value>
+  </data>
+  <data name="Requirements" xml:space="preserve">
+    <value>Yêu cầu</value>
+  </data>
+  <data name="CoverLetter" xml:space="preserve">
+    <value>Bao thư</value>
+  </data>
+  <data name="FileName" xml:space="preserve">
+    <value>Tên tập tin</value>
+  </data>
+  <data name="Id" xml:space="preserve">
+    <value>Số sê-ri</value>
+  </data>
+  <data name="IsActive" xml:space="preserve">
+    <value>Đang hoạt động?</value>
+  </data>
+  <data name="VacancyType" xml:space="preserve">
+    <value>Loại hình công việc</value>
+  </data>
+  <data name="Documents" xml:space="preserve">
+    <value>Tài liệu</value>
+  </data>
+  <data name="Submissions" xml:space="preserve">
+    <value>Đệ trình</value>
+  </data>
+  <data name="SubmittedOn" xml:space="preserve">
+    <value>Submittion ngày</value>
+  </data>
+  <data name="Rank" xml:space="preserve">
+    <value>Xếp hạng học thuật</value>
+  </data>
+  <data name="Ranks" xml:space="preserve">
+    <value>Bậc học</value>
+  </data>
+  <data name="ChooseVacancy" xml:space="preserve">
+    <value>--Chọn công việc tiêu đề...</value>
+  </data>
+  <data name="Applicants" xml:space="preserve">
+    <value>Ứng viên</value>
+  </data>
+  <data name="ApplicantFullName" xml:space="preserve">
+    <value>Tên người nộp đơn</value>
+  </data>
+  <data name="Attachments" xml:space="preserve">
+    <value>File đính kèm</value>
+  </data>
+  <data name="CurriculumVitae" xml:space="preserve">
+    <value>Sơ yếu lý lịch</value>
+  </data>
+  <data name="DOB" xml:space="preserve">
+    <value>Ngày sinh</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Tải về</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Giới tính</value>
+  </data>
+  <data name="JobTitle" xml:space="preserve">
+    <value>Tiêu đề công việc</value>
+  </data>
+  <data name="MiddleName" xml:space="preserve">
+    <value>Tên lót</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>Số điện thoại di động</value>
+  </data>
+  <data name="ResumeFileName" xml:space="preserve">
+    <value>Sơ yếu lý lịch</value>
+  </data>
+  <data name="ResumeFilePath" xml:space="preserve">
+    <value>Sơ yếu lý lịch</value>
+  </data>
+  <data name="Submission" xml:space="preserve">
+    <value>Nộp hồ sơ</value>
+  </data>
+  <data name="NoParentItem" xml:space="preserve">
+    <value>--Không có phụ huynh mục--</value>
+  </data>
+  <data name="ContentList" xml:space="preserve">
+    <value>Danh sách nội dung</value>
+  </data>
+  <data name="ItemContent" xml:space="preserve">
+    <value>Mục nội dung</value>
+  </data>
+  <data name="PleaseUploadFileOfType" xml:space="preserve">
+    <value>Xin vui lòng tải lên một tệp loại:</value>
+  </data>
+  <data name="JobType" xml:space="preserve">
+    <value>Loại hình công việc</value>
+  </data>
+  <data name="ListItem" xml:space="preserve">
+    <value>Danh mục</value>
+  </data>
+  <data name="ListItems" xml:space="preserve">
+    <value>Danh mục</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Trang web</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="Latitude" xml:space="preserve">
+    <value>Vĩ độ</value>
+  </data>
+  <data name="Longitude" xml:space="preserve">
+    <value>Kinh độ</value>
+  </data>
+  <data name="Organization" xml:space="preserve">
+    <value>Tổ chức</value>
+  </data>
+  <data name="Organizations" xml:space="preserve">
+    <value>Tổ chức</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Thành phố</value>
+  </data>
+  <data name="District" xml:space="preserve">
+    <value>Huyện</value>
+  </data>
+  <data name="Province" xml:space="preserve">
+    <value>Tỉnh</value>
+  </data>
+  <data name="POBox" xml:space="preserve">
+    <value>P.O. Box</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Thông tin liên lạc</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>Tỉnh</value>
+  </data>
+  <data name="Office" xml:space="preserve">
+    <value>Văn phòng</value>
+  </data>
+  <data name="PersonalTitle" xml:space="preserve">
+    <value>Danh hiệu cá nhân</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Vị trí</value>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>Liên hệ với chúng tôi</value>
+  </data>
+  <data name="OurLocationOnMap" xml:space="preserve">
+    <value>Chúng tôi vị trí trên bản đồ</value>
+  </data>
+  <data name="PersonalTitles" xml:space="preserve">
+    <value>PersonalTitles</value>
+  </data>
+  <data name="Extension" xml:space="preserve">
+    <value>Tiện ích mở rộng</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Số điện thoại</value>
+  </data>
+  <data name="ManageLists" xml:space="preserve">
+    <value>Quản lý danh sách</value>
+  </data>
+  <data name="Articles" xml:space="preserve">
+    <value>Bài viết</value>
+  </data>
+  <data name="ApplyNow" xml:space="preserve">
+    <value>Đăng ký ngay</value>
+  </data>
+  <data name="Class" xml:space="preserve">
+    <value>Lớp CSS</value>
+  </data>
+  <data name="CopyRights" xml:space="preserve">
+    <value>Tất cả các quyền</value>
+  </data>
+  <data name="GooglePlusUrl" xml:space="preserve">
+    <value>Google Plus</value>
+  </data>
+  <data name="LinkedInUrl" xml:space="preserve">
+    <value>LinkedIn</value>
+  </data>
+  <data name="Privacy" xml:space="preserve">
+    <value>Sự riêng tư</value>
+  </data>
+  <data name="RSS" xml:space="preserve">
+    <value>Nguồn cấp dữ liệu RSS</value>
+  </data>
+  <data name="Terms" xml:space="preserve">
+    <value>Bản dịch</value>
+  </data>
+  <data name="WebDevelopedBy" xml:space="preserve">
+    <value>Tên trang web phát triển</value>
+  </data>
+  <data name="EnterYourEmail" xml:space="preserve">
+    <value>Nhập email của bạn...</value>
+  </data>
+  <data name="Explore" xml:space="preserve">
+    <value>Khám phá</value>
+  </data>
+  <data name="KeepInTouch" xml:space="preserve">
+    <value>Giữ liên lạc</value>
+  </data>
+  <data name="LatestNews" xml:space="preserve">
+    <value>Tin tức mới nhất</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Điện thoại</value>
+  </data>
+  <data name="Subscribe" xml:space="preserve">
+    <value>Đăng ký</value>
+  </data>
+  <data name="SubscriptionMessage" xml:space="preserve">
+    <value>Đăng ký nhận bản tin của chúng tôi để có được tin tức quan trọng</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Địa chỉ</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Áp dụng</value>
+  </data>
+  <data name="Arrow" xml:space="preserve">
+    <value>biểu tượng long-mũi tên phải</value>
+  </data>
+  <data name="For" xml:space="preserve">
+    <value>cho</value>
+  </data>
+  <data name="MarginDirClass" xml:space="preserve">
+    <value>margin-left-10</value>
+  </data>
+  <data name="AllowedAttachmentExtensions" xml:space="preserve">
+    <value>Một hoặc nhiều attachmetns là không hợp lệ: chỉ. PDF. DOCX. BÁC SĨ. PNG. JPG. JPEG tập tin được phép.</value>
+  </data>
+  <data name="AttachmentsNotes" xml:space="preserve">
+    <value>Xin vui lòng tải lên một tập tin đính kèm của loại:. PDF. DOCX. BÁC SĨ. PNG. JPG. JPEG</value>
+  </data>
+  <data name="CVNotes" xml:space="preserve">
+    <value>Xin vui lòng tải lên CV của loại:. PDF. DOCX. DOC</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Gửi</value>
+  </data>
+  <data name="Program" xml:space="preserve">
+    <value>Chương trình</value>
+  </data>
+  <data name="Programs" xml:space="preserve">
+    <value>Chương trình</value>
+  </data>
+  <data name="JobAnnouncement" xml:space="preserve">
+    <value>Thông báo việc làm</value>
+  </data>
+  <data name="JobAnnouncements" xml:space="preserve">
+    <value>Thông báo việc làm</value>
+  </data>
+  <data name="Departments" xml:space="preserve">
+    <value>Phòng ban</value>
+  </data>
+  <data name="EmployeeTypes" xml:space="preserve">
+    <value>Nhân loại</value>
+  </data>
+  <data name="EmpInDepts" xml:space="preserve">
+    <value>Nhân viên phòng ban</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Nhân viên</value>
+  </data>
+  <data name="Occupation" xml:space="preserve">
+    <value>Nghề nghiệp</value>
+  </data>
+  <data name="Occupations" xml:space="preserve">
+    <value>Ngành nghề</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>Tên đầy đủ</value>
+  </data>
+  <data name="ImagePath" xml:space="preserve">
+    <value>Hình ảnh con đường</value>
+  </data>
+  <data name="LandLine" xml:space="preserve">
+    <value>Đất đường số</value>
+  </data>
+  <data name="OfficeNumber" xml:space="preserve">
+    <value>Văn phòng số</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Nhân viên</value>
+  </data>
+  <data name="ImageNotes" xml:space="preserve">
+    <value>Xin vui lòng tải lên một hình ảnh của loại:. PNG. JPG. JPEG. BMP</value>
+  </data>
+  <data name="PersonalPhoto" xml:space="preserve">
+    <value>Hình ảnh cá nhân</value>
+  </data>
+  <data name="ViewCV" xml:space="preserve">
+    <value>Xem hồ sơ</value>
+  </data>
+  <data name="PersonalPhotoName" xml:space="preserve">
+    <value>Tên hình ảnh cá nhân</value>
+  </data>
+  <data name="PersonalPhotoPath" xml:space="preserve">
+    <value>Hình ảnh cá nhân</value>
+  </data>
+  <data name="UploadPersonalPhoto" xml:space="preserve">
+    <value>Tải lên hình ảnh cá nhân</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>Quản lý</value>
+  </data>
+  <data name="AllLanguages" xml:space="preserve">
+    <value>Tất cả ngôn ngữ</value>
+  </data>
+  <data name="Director" xml:space="preserve">
+    <value>Giám đốc</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>Trình duyệt</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Lưu ý</value>
+  </data>
+  <data name="AcademicInfo" xml:space="preserve">
+    <value>Thông tin học tập</value>
+  </data>
+  <data name="Biography" xml:space="preserve">
+    <value>Tiểu sử</value>
+  </data>
+  <data name="ContactInfo" xml:space="preserve">
+    <value>Thông tin liên hệ</value>
+  </data>
+  <data name="PersonalInfo" xml:space="preserve">
+    <value>Thông tin cá nhân</value>
+  </data>
+  <data name="Manage" xml:space="preserve">
+    <value>Quản lý</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Loại bỏ</value>
+  </data>
+  <data name="FillOutPersonalInfo" xml:space="preserve">
+    <value>Xin vui lòng điền vào biểu mẫu thông tin cá nhân.</value>
+  </data>
+  <data name="AccountSettings" xml:space="preserve">
+    <value>Cài đặt tài khoản</value>
+  </data>
+  <data name="ManageContacts" xml:space="preserve">
+    <value>Quản lý danh bạ</value>
+  </data>
+  <data name="ManagePublications" xml:space="preserve">
+    <value>Quản lý các ấn phẩm</value>
+  </data>
+  <data name="NoCVUploaded" xml:space="preserve">
+    <value>CV không tải lên!</value>
+  </data>
+  <data name="NoPersonalPhotoUploaded" xml:space="preserve">
+    <value>Không có ảnh cá nhân được tải lên!</value>
+  </data>
+  <data name="Publication" xml:space="preserve">
+    <value>Ấn phẩm</value>
+  </data>
+  <data name="Publications" xml:space="preserve">
+    <value>Ấn phẩm</value>
+  </data>
+  <data name="Abstract" xml:space="preserve">
+    <value>Tóm tắt</value>
+  </data>
+  <data name="CompletedProfile" xml:space="preserve">
+    <value>hoàn thành hồ sơ</value>
+  </data>
+  <data name="EmployeeType" xml:space="preserve">
+    <value>Nhân loại</value>
+  </data>
+  <data name="ViewProfile" xml:space="preserve">
+    <value>Xem hồ sơ</value>
+  </data>
+  <data name="Hello" xml:space="preserve">
+    <value>Xin chào</value>
+  </data>
+  <data name="OurStaffDirectory" xml:space="preserve">
+    <value>Thư mục nhân viên của chúng tôi</value>
+  </data>
+  <data name="SearchBy" xml:space="preserve">
+    <value>Tìm kiếm theo</value>
+  </data>
+  <data name="SearchByDepartmet" xml:space="preserve">
+    <value>Tìm kiếm theo departmet</value>
+  </data>
+  <data name="DuplicateEmail" xml:space="preserve">
+    <value>Địa chỉ email đã được đăng ký.</value>
+  </data>
+  <data name="InvalidOrganizationEmail" xml:space="preserve">
+    <value>Nhập địa chỉ email công việc của bạn.</value>
+  </data>
+  <data name="DepartmentStaffList" xml:space="preserve">
+    <value>Danh sách nhân viên vùng</value>
+  </data>
+  <data name="SearchResult" xml:space="preserve">
+    <value>Kết quả tìm kiếm</value>
+  </data>
+  <data name="DuplicateError" xml:space="preserve">
+    <value>Không thể chèn bản ghi trùng lặp.</value>
+  </data>
+  <data name="EmployeeName" xml:space="preserve">
+    <value>Tên nhân viên</value>
+  </data>
+  <data name="ClickHereToLogin" xml:space="preserve">
+    <value>Click vào đây để đăng nhập</value>
+  </data>
+  <data name="ConfirmEmail" xml:space="preserve">
+    <value>Xác nhận Email</value>
+  </data>
+  <data name="ConfirmEmailThanks" xml:space="preserve">
+    <value>Cảm ơn bạn đã xác nhận email của bạn.</value>
+  </data>
+  <data name="ForgotPasswordCheck" xml:space="preserve">
+    <value>Vui lòng kiểm tra email của bạn để đặt lại mật khẩu của bạn.</value>
+  </data>
+  <data name="ForgotPasswordConfirmation" xml:space="preserve">
+    <value>Quên mật khẩu xác nhận</value>
+  </data>
+  <data name="Please" xml:space="preserve">
+    <value>Vui lòng</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Thiết lập lại</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>Đặt lại mật khẩu</value>
+  </data>
+  <data name="ResetYourPassword" xml:space="preserve">
+    <value>Đặt lại mật khẩu của bạn.</value>
+  </data>
+  <data name="SecurityCode" xml:space="preserve">
+    <value>Mã bảo vệ</value>
+  </data>
+  <data name="ApplyFor" xml:space="preserve">
+    <value>Áp dụng cho</value>
+  </data>
+  <data name="ChooseDepartment" xml:space="preserve">
+    <value>--Chọn tỉnh--</value>
+  </data>
+  <data name="SubmissionId" xml:space="preserve">
+    <value>Số ứng dụng</value>
+  </data>
+  <data name="DownloadApplications" xml:space="preserve">
+    <value>Tải về ứng dụng</value>
+  </data>
+  <data name="NotAvailable" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="GoCuteCMS" xml:space="preserve">
+    <value>Đi đến CuteCMS</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Lỗi</value>
+  </data>
+  <data name="ErrorNotification" xml:space="preserve">
+    <value>Đội ngũ nhân viên kỹ thuật đã được tự động thông báo và sẽ nhìn vào điều này với mức độ khẩn cấp tối đa.</value>
+  </data>
+  <data name="GenericError" xml:space="preserve">
+    <value>Một cái gì đó đã đi sai.</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>Trang bạn yêu cầu không thể được tìm thấy!</value>
+  </data>
+  <data name="NotPublished" xml:space="preserve">
+    <value>Trang bạn yêu cầu không được công bố.</value>
+  </data>
+  <data name="NotTranslated" xml:space="preserve">
+    <value>Trang bạn yêu cầu không được dịch.</value>
+  </data>
+  <data name="DataTableLanguage" xml:space="preserve">
+    <value>http://CDN.DataTables.net/plug-ins/1.10.12/i18n/English.JSON</value>
+  </data>
+  <data name="LanguageSelector" xml:space="preserve">
+    <value>Ngôn ngữ</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Xuất khẩu</value>
+  </data>
+  <data name="PleaseUploadAttachments" xml:space="preserve">
+    <value>Xin vui lòng tải lên các tập tin đính kèm của yêu cầu.</value>
+  </data>
+  <data name="Oops" xml:space="preserve">
+    <value>Rất tiếc!</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Hành động</value>
+  </data>
+  <data name="ColVis" xml:space="preserve">
+    <value>Khả năng hiển thị cột</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Bản sao</value>
+  </data>
+  <data name="ExportExcel" xml:space="preserve">
+    <value>Xuất Excel</value>
+  </data>
+  <data name="ExportPDF" xml:space="preserve">
+    <value>Export PDF</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>In Ấn</value>
+  </data>
+  <data name="Reload" xml:space="preserve">
+    <value>Tải lại</value>
+  </data>
+  <data name="NoUpcomingEvents" xml:space="preserve">
+    <value>Không có không có sự kiện sắp tới.</value>
+  </data>
+  <data name="UpcomingEvents" xml:space="preserve">
+    <value>Sự kiện sắp tới</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Về</value>
+  </data>
+  <data name="RnC" xml:space="preserve">
+    <value>Hội nghị nghiên cứu &amp;</value>
+  </data>
+  <data name="MyProfile" xml:space="preserve">
+    <value>Hồ sơ của tôi</value>
+  </data>
+  <data name="NoRecordFound" xml:space="preserve">
+    <value>Không có hồ sơ tìm thấy!</value>
+  </data>
+  <data name="ViewMySocialNetwork" xml:space="preserve">
+    <value>Xem mạng xã hội của tôi.</value>
+  </data>
+  <data name="CssClass" xml:space="preserve">
+    <value>Lớp CSS</value>
+  </data>
+  <data name="Backend" xml:space="preserve">
+    <value>Phụ trợ</value>
+  </data>
+  <data name="Frontend" xml:space="preserve">
+    <value>Lối vào</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Hình ảnh</value>
+  </data>
+  <data name="Visible" xml:space="preserve">
+    <value>Có thể nhìn thấy?</value>
+  </data>
+  <data name="IsDefault" xml:space="preserve">
+    <value>Là mặc định?</value>
+  </data>
+  <data name="PrimaryLogoName" xml:space="preserve">
+    <value>Logo chính tên</value>
+  </data>
+  <data name="PrimaryLogoPath" xml:space="preserve">
+    <value>Con đường chính Logo</value>
+  </data>
+  <data name="SecondaryLogoName" xml:space="preserve">
+    <value>Biểu tượng thứ hai tên</value>
+  </data>
+  <data name="SecondaryLogoPath" xml:space="preserve">
+    <value>Con đường phụ biểu tượng</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Chiều cao</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>Chiều rộng</value>
+  </data>
+  <data name="ChooseRole" xml:space="preserve">
+    <value>--Chọn vai trò...</value>
+  </data>
+  <data name="ChooseStatus" xml:space="preserve">
+    <value>--Chọn tình trạng--</value>
+  </data>
+  <data name="ChooseAuthor" xml:space="preserve">
+    <value>--Chọn tác giả--</value>
+  </data>
+  <data name="ChooseTag" xml:space="preserve">
+    <value>--Chọn từ khóa--</value>
+  </data>
+  <data name="CountryCode" xml:space="preserve">
+    <value>Mã quốc gia</value>
+  </data>
+  <data name="CountryName" xml:space="preserve">
+    <value>Tên quốc gia</value>
+  </data>
+  <data name="IP" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="MetroCode" xml:space="preserve">
+    <value>Tàu điện ngầm mã</value>
+  </data>
+  <data name="RegionCode" xml:space="preserve">
+    <value>Mã vùng</value>
+  </data>
+  <data name="RegionName" xml:space="preserve">
+    <value>Tên vùng</value>
+  </data>
+  <data name="RequestDate" xml:space="preserve">
+    <value>Ngày yêu cầu</value>
+  </data>
+  <data name="TimeZone" xml:space="preserve">
+    <value>Múi giờ</value>
+  </data>
+  <data name="Count" xml:space="preserve">
+    <value>Số đếm</value>
+  </data>
+  <data name="Translations" xml:space="preserve">
+    <value>Bản dịch</value>
+  </data>
+  <data name="VacancyUnableToDelete" xml:space="preserve">
+    <value>Không thể xóa bỏ công việc này bởi vì nó có liên quan đến submission(s).</value>
+  </data>
+  <data name="ChoosePersonalTitle" xml:space="preserve">
+    <value>--Chọn danh hiệu cá nhân--</value>
+  </data>
+  <data name="Acknowledgement" xml:space="preserve">
+    <value>Lời cảm ơn</value>
+  </data>
+  <data name="ApplicationNumber" xml:space="preserve">
+    <value>Số ứng dụng của bạn là:</value>
+  </data>
+  <data name="Dear" xml:space="preserve">
+    <value>Thân mến</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Giá trị</value>
+  </data>
+  <data name="FlagCode" xml:space="preserve">
+    <value>Cờ mã</value>
+  </data>
+  <data name="Flag" xml:space="preserve">
+    <value>Lá cờ</value>
+  </data>
+  <data name="CultureName" xml:space="preserve">
+    <value>Văn hóa tên</value>
+  </data>
+  <data name="IsEnabled" xml:space="preserve">
+    <value>Được kích hoạt?</value>
+  </data>
+  <data name="SMTP" xml:space="preserve">
+    <value>SMTP</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Chủ đề</value>
+  </data>
+  <data name="Body" xml:space="preserve">
+    <value>Cơ thể</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>Thông báo</value>
+  </data>
+  <data name="Term" xml:space="preserve">
+    <value>Dịch thuật</value>
+  </data>
+  <data name="Attachment" xml:space="preserve">
+    <value>Tập tin đính kèm</value>
+  </data>
+  <data name="Statistic" xml:space="preserve">
+    <value>Số liệu thống kê</value>
+  </data>
+  <data name="SMTPSetting" xml:space="preserve">
+    <value>Cài đặt SMTP</value>
+  </data>
+  <data name="ImageTag" xml:space="preserve">
+    <value>Thẻ hình ảnh</value>
+  </data>
+  <data name="JobTypes" xml:space="preserve">
+    <value>Các loại công việc</value>
+  </data>
+  <data name="Genders" xml:space="preserve">
+    <value>Giới tính</value>
+  </data>
+  <data name="PhoneNumbers" xml:space="preserve">
+    <value>Số điện thoại</value>
+  </data>
+  <data name="Notifications" xml:space="preserve">
+    <value>Thông báo</value>
+  </data>
+  <data name="Contacts" xml:space="preserve">
+    <value>Địa chỉ liên hệ</value>
+  </data>
+  <data name="ImageFiles" xml:space="preserve">
+    <value>Tập tin hình ảnh</value>
+  </data>
+  <data name="ContentLists" xml:space="preserve">
+    <value>Danh sách nội dung</value>
+  </data>
+  <data name="HomeVisible" xml:space="preserve">
+    <value>Xem tại trang chủ?</value>
+  </data>
+  <data name="TOC" xml:space="preserve">
+    <value>Hạn sử dụng</value>
+  </data>
+  <data name="ShowHeaderDate" xml:space="preserve">
+    <value>Hiển thị ngày tháng</value>
+  </data>
+  <data name="ExpiredOn" xml:space="preserve">
+    <value>Hết hạn ngày</value>
+  </data>
+  <data name="PublishedOn" xml:space="preserve">
+    <value>Được đăng trên</value>
+  </data>
+  <data name="LastUpdatedOn" xml:space="preserve">
+    <value>Lần cập nhật cuối</value>
+  </data>
+  <data name="InvalidPublishDate" xml:space="preserve">
+    <value>Xuất bản ngày phải nhỏ hơn hoặc bằng hoạt động ngày bắt đầu.</value>
+  </data>
+  <data name="InvalidExpiryDate" xml:space="preserve">
+    <value>Ngày hết hạn phải lớn hơn hoặc bằng hoạt động cuối ngày.</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>Từ</value>
+  </data>
+  <data name="Till" xml:space="preserve">
+    <value>Cho đến khi</value>
+  </data>
+  <data name="NoResult" xml:space="preserve">
+    <value>Không có kết quả.</value>
+  </data>
+  <data name="BreakingNews" xml:space="preserve">
+    <value>Tin tức vi phạm</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>Có sẵn</value>
+  </data>
+  <data name="Skills" xml:space="preserve">
+    <value>Kỹ năng</value>
+  </data>
+  <data name="Validity" xml:space="preserve">
+    <value>Hiệu lực</value>
+  </data>
+  <data name="ChooseJobType" xml:space="preserve">
+    <value>--Chọn công việc loại--</value>
+  </data>
+  <data name="AbsolutePath" xml:space="preserve">
+    <value>Đường dẫn tuyệt đối</value>
+  </data>
+  <data name="Keywords" xml:space="preserve">
+    <value>Từ khóa</value>
+  </data>
+  <data name="PoweredBy" xml:space="preserve">
+    <value>Được tài trợ bởi</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>Đường dẫn</value>
+  </data>
+  <data name="UrgentExpiredOn" xml:space="preserve">
+    <value>Khẩn cấp đã hết hạn</value>
+  </data>
+  <data name="BackToHome" xml:space="preserve">
+    <value>Quay lại trang chủ bây giờ!</value>
+  </data>
+  <data name="PageNotFound" xml:space="preserve">
+    <value>Trang không tìm thấy</value>
+  </data>
+  <data name="PageNotTranslated" xml:space="preserve">
+    <value>Trang không dịch</value>
+  </data>
+  <data name="PageNotPublished" xml:space="preserve">
+    <value>Trang không Pubished</value>
+  </data>
+  <data name="CreatePassword" xml:space="preserve">
+    <value>Tạo mật khẩu</value>
+  </data>
+  <data name="ResetPasswordConfirmation" xml:space="preserve">
+    <value>Đặt lại mật khẩu xác nhận</value>
+  </data>
+  <data name="PasswordReset" xml:space="preserve">
+    <value>Đặt lại mật khẩu của bạn.</value>
+  </data>
+  <data name="ClickLogin" xml:space="preserve">
+    <value>Click vào đây để đăng nhập</value>
+  </data>
+  <data name="YourAppNumber" xml:space="preserve">
+    <value>Số ứng dụng của bạn là</value>
+  </data>
+  <data name="ImageTags" xml:space="preserve">
+    <value>Thẻ hình ảnh</value>
+  </data>
+  <data name="SMTPSettings" xml:space="preserve">
+    <value>Cài đặt SMTP</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Số liệu thống kê</value>
+  </data>
+  <data name="Statuses" xml:space="preserve">
+    <value>Trạng thái</value>
+  </data>
+  <data name="Vacancies" xml:space="preserve">
+    <value>Vị trí tuyển dụng</value>
+  </data>
+  <data name="LockedOutMessage" xml:space="preserve">
+    <value>Tài khoản này đã bị khóa, xin vui lòng thử lại sau.</value>
+  </data>
+  <data name="LockedOut" xml:space="preserve">
+    <value>Khóa ra</value>
+  </data>
+  <data name="TakeTour" xml:space="preserve">
+    <value>Tham quan</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>Chia sẻ trang này</value>
+  </data>
+  <data name="ForgotPasswordInstructions" xml:space="preserve">
+    <value>Điền vào mẫu dưới đây để nhận được một email với mã uỷ quyền cần thiết để đặt lại mật khẩu của bạn.</value>
+  </data>
+  <data name="InvalidToken" xml:space="preserve">
+    <value>Mã thông báo không hợp lệ</value>
+  </data>
+  <data name="ReadMore" xml:space="preserve">
+    <value>Đọc thêm</value>
+  </data>
+  <data name="LogIn" xml:space="preserve">
+    <value>Đăng nhập</value>
+  </data>
+  <data name="Dimensions" xml:space="preserve">
+    <value>Kích thước</value>
+  </data>
+  <data name="GetInTouch" xml:space="preserve">
+    <value>Giữ liên lạc</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>Thể loại</value>
+  </data>
+  <data name="YourName" xml:space="preserve">
+    <value>Tên bạn</value>
+  </data>
+  <data name="YourEmail" xml:space="preserve">
+    <value>Email của bạn</value>
+  </data>
+  <data name="SendMessage" xml:space="preserve">
+    <value>Gửi tin nhắn</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Tin nhắn</value>
+  </data>
+  <data name="SenderName" xml:space="preserve">
+    <value>Tên bạn</value>
+  </data>
+  <data name="Careers" xml:space="preserve">
+    <value>Tuyển dụng</value>
+  </data>
+  <data name="SocialNetwork" xml:space="preserve">
+    <value>Mạng xã hội</value>
+  </data>
+  <data name="SocialNetworks" xml:space="preserve">
+    <value>Mạng xã hội</value>
+  </data>
+  <data name="ShowAll" xml:space="preserve">
+    <value>Hiển thị tất cả</value>
+  </data>
+  <data name="ChooseCategory" xml:space="preserve">
+    <value>--Chọn chuyên mục--</value>
+  </data>
+  <data name="AddressLine1" xml:space="preserve">
+    <value>Địa chỉ Line 1</value>
+  </data>
+  <data name="AddressLine2" xml:space="preserve">
+    <value>Dòng địa chỉ 2</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Nhà nước</value>
+  </data>
+  <data name="ZIP" xml:space="preserve">
+    <value>Mã bưu điện</value>
+  </data>
+  <data name="Newsletter" xml:space="preserve">
+    <value>Bản tin</value>
+  </data>
+  <data name="LatestTweets" xml:space="preserve">
+    <value>Mới nhất Tweets</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Hãy chờ...</value>
+  </data>
+  <data name="FollowUs" xml:space="preserve">
+    <value>Theo chúng tôi</value>
+  </data>
+  <data name="ChooseEmployeeType" xml:space="preserve">
+    <value>--Chọn nhân viên kiểu...</value>
+  </data>
+  <data name="HasAccount" xml:space="preserve">
+    <value>Đã có tài khoản?</value>
+  </data>
+  <data name="EmailConfirmed" xml:space="preserve">
+    <value>Email xác nhận?</value>
+  </data>
+  <data name="UsefulLinks" xml:space="preserve">
+    <value>Dưới đây là một số liên kết hữu ích</value>
+  </data>
+  <data name="AwaitingTranslation" xml:space="preserve">
+    <value>Đang chờ cho dịch...</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Trở lại</value>
+  </data>
+  <data name="StaffDirectory" xml:space="preserve">
+    <value>Nhân viên phục vụ thư mục</value>
+  </data>
+  <data name="SubscribedToMailingList" xml:space="preserve">
+    <value> Bạn đã thêm vào danh sách gửi thư của chúng tôi.</value>
+  </data>
+  <data name="ThankYouForInterest" xml:space="preserve">
+    <value>Cảm ơn bạn đã quan tâm đến chúng tôi cập nhật mới nhất. Một thời gian ngắn, bạn sẽ nhận được một email xác nhận đăng ký của bạn.</value>
+  </data>
+  <data name="DeleteProfileConfirmation" xml:space="preserve">
+    <value>Bạn có chắc bạn muốn xóa bỏ hồ sơ của bạn không?</value>
+  </data>
+  <data name="DeleteProfile" xml:space="preserve">
+    <value>Xóa tiểu sử của tôi</value>
+  </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>Thư viện ảnh</value>
+  </data>
+  <data name="ChooseGallery" xml:space="preserve">
+    <value>--Chọn ảnh thư viện ảnh--</value>
+  </data>
+  <data name="Galleries" xml:space="preserve">
+    <value>Hình ảnh hoạt động</value>
+  </data>
+  <data name="GalleryCategory" xml:space="preserve">
+    <value>Thể loại</value>
+  </data>
+  <data name="GalleryCategories" xml:space="preserve">
+    <value>Thể loại</value>
+  </data>
+  <data name="UrlSlug" xml:space="preserve">
+    <value>Liên kết thân thiện</value>
+  </data>
+  <data name="Url" xml:space="preserve">
+    <value>Liên kết</value>
+  </data>
+  <data name="DeveloperURL" xml:space="preserve">
+    <value>Phát triển Website</value>
+  </data>
+  <data name="Reference" xml:space="preserve">
+    <value>Tài liệu tham khảo</value>
+  </data>
+  <data name="ContentItems" xml:space="preserve">
+    <value>Nội dung bài</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Cài đặt</value>
+  </data>
+  <data name="Recruitment" xml:space="preserve">
+    <value>Tuyển dụng</value>
+  </data>
+  <data name="Identity" xml:space="preserve">
+    <value>Danh tính</value>
+  </data>
+  <data name="Lorem1" xml:space="preserve">
+    <value>Cách nhanh nhất để phát triển doanh nghiệp của bạn.</value>
+  </data>
+  <data name="Lorem2" xml:space="preserve">
+    <value>Kiểm tra của chúng tôi lựa chọn và các tính năng bao gồm.</value>
+  </data>
+  <data name="GetStarted" xml:space="preserve">
+    <value>Bắt đầu bây giờ!</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>hoặc</value>
+  </data>
+  <data name="LearnMore" xml:space="preserve">
+    <value>Tìm hiểu thêm.</value>
+  </data>
+  <data name="Lorem3" xml:space="preserve">
+    <value>Văn bản này là một ví dụ về văn bản có thể được thay thế trong cùng một không gian, văn bản này đã được tạo ra từ máy phát điện Latin văn bản.</value>
+  </data>
+  <data name="January" xml:space="preserve">
+    <value>Tháng một</value>
+  </data>
+  <data name="JohnSmith" xml:space="preserve">
+    <value>John Smith</value>
+  </data>
+  <data name="JobTitleName" xml:space="preserve">
+    <value>Giám đốc điều hành &amp; người sáng lập - công ty ABC</value>
+  </data>
+  <data name="WhatClientsSay" xml:space="preserve">
+    <value>Khách hàng nói gì</value>
+  </data>
+  <data name="LoremTitle" xml:space="preserve">
+    <value>Văn bản này là một ví dụ về văn bản có thể được thay thế trong cùng một không gian.</value>
+  </data>
+  <data name="UploadIcon" xml:space="preserve">
+    <value>Tải lên bộ biểu tượng</value>
+  </data>
+  <data name="UploadImage" xml:space="preserve">
+    <value>Tải lên ảnh</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>Tổng kết</value>
+  </data>
+  <data name="Icon" xml:space="preserve">
+    <value>Biểu tượng</value>
+  </data>
+  <data name="PleaseUploadIconOfType" xml:space="preserve">
+    <value>Vui lòng tải lên biểu tượng loại :!</value>
+  </data>
+  <data name="IconNotes" xml:space="preserve">
+    <value>Vui lòng tải lên biểu tượng loại: .PNG!</value>
+  </data>
+  <data name="IconName" xml:space="preserve">
+    <value>Biểu tượng</value>
+  </data>
+  <data name="IconPath" xml:space="preserve">
+    <value>Đường  dẫn</value>
+  </data>
+  <data name="MeetOurTeam" xml:space="preserve">
+    <value>Gặp đội của chúng tôi</value>
+  </data>
+  <data name="MainDepts" xml:space="preserve">
+    <value>Phòng ban</value>
+  </data>
+  <data name="PrimaryCaption" xml:space="preserve">
+    <value>Chú thích Chính</value>
+  </data>
+  <data name="SecondaryCaption" xml:space="preserve">
+    <value>Phụ chú phụ</value>
+  </data>
+  <data name="TertiaryCaption" xml:space="preserve">
+    <value>Tertiary Caption</value>
+  </data>
+  <data name="MedicalTreatment" xml:space="preserve">
+    <value>Điều trị y tế</value>
+  </data>
+  <data name="DoctorsTimetable" xml:space="preserve">
+    <value>Thời khóa biểu của các bác sĩ</value>
+  </data>
+  <data name="OpeningHours" xml:space="preserve">
+    <value>Giờ mở cửa</value>
+  </data>
+  <data name="EmergencyCase" xml:space="preserve">
+    <value>Trường hợp khẩn cấp</value>
+  </data>
+  <data name="Sunday" xml:space="preserve">
+    <value>Chủ nhật</value>
+  </data>
+  <data name="Monday" xml:space="preserve">
+    <value>Thứ hai</value>
+  </data>
+  <data name="Tuesday" xml:space="preserve">
+    <value>Thứ ba</value>
+  </data>
+  <data name="Wednesday" xml:space="preserve">
+    <value>Thứ tư</value>
+  </data>
+  <data name="Thursday" xml:space="preserve">
+    <value>Thứ năm</value>
+  </data>
+  <data name="Friday" xml:space="preserve">
+    <value>Thứ sáu</value>
+  </data>
+  <data name="Saturday" xml:space="preserve">
+    <value>Thứ Bảy</value>
+  </data>
+  <data name="Subtitle" xml:space="preserve">
+    <value>Phụ đề</value>
+  </data>
+  <data name="ViewMore" xml:space="preserve">
+    <value>Xem thêm</value>
+  </data>
+  <data name="Doctors" xml:space="preserve">
+    <value>Các bác sĩ</value>
+  </data>
+  <data name="OurSpecialists" xml:space="preserve">
+    <value>Bác Sĩ Chuyên Khoa</value>
+  </data>
+  <data name="Staff" xml:space="preserve">
+    <value>Nhân Viên</value>
+  </data>
+  <data name="MedicalStaff" xml:space="preserve">
+    <value>Nhân viên y tế</value>
+  </data>
+  <data name="LatestEvents" xml:space="preserve">
+    <value>Sự kiện mới</value>
+  </data>
+  <data name="DoctorName" xml:space="preserve">
+    <value>Tên bác sĩ</value>
+  </data>
+  <data name="DoctorType" xml:space="preserve">
+    <value>Bác sĩ loại</value>
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>Mã cổng</value>
+  </data>
+  <data name="EnableSsl" xml:space="preserve">
+    <value>Cho phép</value>
+  </data>
+  <data name="SenderEmail" xml:space="preserve">
+    <value>Tên mail gửi</value>
+  </data>
+  <data name="SenderPassword" xml:space="preserve">
+    <value>Gửi mật khẩu!</value>
+  </data>
+  <data name="RecipientEmail" xml:space="preserve">
+    <value>Email người nhận</value>
+  </data>
+  <data name="VisitorCounter" xml:space="preserve">
+    <value>Lượt truy cập!</value>
+  </data>
+  <data name="RoleInUse" xml:space="preserve">
+    <value>Tên vai trò đó đã được sử dụng.</value>
+  </data>
+  <data name="Administration" xml:space="preserve">
+    <value>Quản trị viên</value>
+  </data>
+  <data name="SystemSettings" xml:space="preserve">
+    <value>Cài đặt hệ thống</value>
+  </data>
+  <data name="InvalidCode" xml:space="preserve">
+    <value>Không hợp lệ</value>
+  </data>
+  <data name="UserExist" xml:space="preserve">
+    <value>Tên người dùng này đã được dùng</value>
+  </data>
+  <data name="FailedToVerifyPhone" xml:space="preserve">
+    <value>Verifikasi nomor telepon Anda.</value>
+  </data>
+  <data name="Maintenance" xml:space="preserve">
+    <value>Bảo trì</value>
+  </data>
+  <data name="Forms" xml:space="preserve">
+    <value>Các hình thức</value>
+  </data>
+  <data name="DontHaveAccount" xml:space="preserve">
+    <value>Chưa có tài khoản?</value>
+  </data>
+  <data name="Page" xml:space="preserve">
+    <value>Trang</value>
+  </data>
+  <data name="Of" xml:space="preserve">
+    <value>% trong số</value>
+  </data>
+  <data name="TotalRows" xml:space="preserve">
+    <value>TỔNG CỘNG</value>
+  </data>
+  <data name="ChooseMaintenanceType" xml:space="preserve">
+    <value>--Chọn bảo trì loại--!</value>
+  </data>
+  <data name="ChooseInventory" xml:space="preserve">
+    <value>--Chọn khoảng không quảng cáo--!</value>
+  </data>
+  <data name="ChooseModel" xml:space="preserve">
+    <value>--Chọn mô hình--!</value>
+  </data>
+  <data name="ChooseSite" xml:space="preserve">
+    <value>chọn</value>
+  </data>
+  <data name="ChooseManufacturer" xml:space="preserve">
+    <value>--Chọn hãng sản xuất--!</value>
+  </data>
+  <data name="DeviceCard" xml:space="preserve">
+    <value>Thiết bị</value>
+  </data>
+  <data name="Installation" xml:space="preserve">
+    <value>Lắp đặt</value>
+  </data>
+  <data name="BasicInformation" xml:space="preserve">
+    <value>Thông tin cơ bản</value>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>Tháng</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>Năm</value>
+  </data>
+  <data name="ChooseFormStatus" xml:space="preserve">
+    <value>--Chọn trạng thái biểu mẫu--</value>
+  </data>
+  <data name="ChooseDataType" xml:space="preserve">
+    <value>--Chọn loại dữ liệu--!</value>
+  </data>
+  <data name="Form" xml:space="preserve">
+    <value>Biểu mẫu</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Báo cáo</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>Báo cáo</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>Đang xử lý...</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Tiếp tục</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Trước đó</value>
+  </data>
+  <data name="SummaryMessage" xml:space="preserve">
+    <value>Đang hiển thị {0} để {1} {2} mục!</value>
+  </data>
+  <data name="Fields" xml:space="preserve">
+    <value>Trường</value>
+  </data>
+  <data name="Reorder" xml:space="preserve">
+    <value>Sắp xếp lại</value>
+  </data>
+  <data name="Sections" xml:space="preserve">
+    <value>Các đoạn</value>
+  </data>
+  <data name="Section" xml:space="preserve">
+    <value>Vùng</value>
+  </data>
+  <data name="Choices" xml:space="preserve">
+    <value>Sự lựa chọn</value>
+  </data>
+  <data name="Choice" xml:space="preserve">
+    <value>Lựa chọn</value>
+  </data>
+  <data name="DataType" xml:space="preserve">
+    <value>Kiểu Dữ liệu</value>
+  </data>
+  <data name="DataTypes" xml:space="preserve">
+    <value>Loại</value>
+  </data>
+  <data name="Field" xml:space="preserve">
+    <value>Trường</value>
+  </data>
+  <data name="Property" xml:space="preserve">
+    <value>Bất Động Sản</value>
+  </data>
+  <data name="Properties" xml:space="preserve">
+    <value>Bất Động Sản</value>
+  </data>
+  <data name="ChoiceList" xml:space="preserve">
+    <value>Lựa chọn</value>
+  </data>
+  <data name="Values" xml:space="preserve">
+    <value>Giá trị</value>
+  </data>
+  <data name="ChoiceLists" xml:space="preserve">
+    <value>Danh sách lựa chọn!</value>
+  </data>
+  <data name="WorkflowPath" xml:space="preserve">
+    <value>Quy trình</value>
+  </data>
+  <data name="Workflow" xml:space="preserve">
+    <value>Quy trình</value>
+  </data>
+  <data name="WorkflowSettings" xml:space="preserve">
+    <value>Cài đặt</value>
+  </data>
+  <data name="EmpNumber" xml:space="preserve">
+    <value>ID Nhân viên</value>
+  </data>
+  <data name="EmpNumberInvalid" xml:space="preserve">
+    <value>Mã help tab không hợp lệ</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="Approval" xml:space="preserve">
+    <value>Phê duyệt</value>
+  </data>
+  <data name="ActionStatus" xml:space="preserve">
+    <value>Tình trạng</value>
+  </data>
+  <data name="ChangeStatusConfirmation" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn thay đổi trạng thái của máy chủ %s ?</value>
+  </data>
+  <data name="PendingPrev" xml:space="preserve">
+    <value>Nguyên tử trước</value>
+  </data>
+  <data name="PendingNext" xml:space="preserve">
+    <value>Level kế: {0}</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Đã hoàn thành</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>Danh sách</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Cập nhật</value>
+  </data>
+  <data name="ChooseFields" xml:space="preserve">
+    <value>Chọn Trường!</value>
+  </data>
+  <data name="ApprovalTracking" xml:space="preserve">
+    <value>Theo dõi Chấp thuận!</value>
+  </data>
+  <data name="ActionDate" xml:space="preserve">
+    <value>Hành động</value>
+  </data>
+  <data name="ChooseGroup" xml:space="preserve">
+    <value>--Chọn Nhóm--!</value>
+  </data>
+  <data name="Items" xml:space="preserve">
+    <value>Mục</value>
+  </data>
+  <data name="SubmissionDate" xml:space="preserve">
+    <value>Ngày nộp</value>
+  </data>
+  <data name="ChangeUserName" xml:space="preserve">
+    <value>Đổi mật khẩu của %username%</value>
+  </data>
+  <data name="ChangeUserEmail" xml:space="preserve">
+    <value>Thay đổi tuỳ chọn email</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>&amp;Có</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>&amp;Không</value>
+  </data>
+  <data name="DeleteAccount" xml:space="preserve">
+    <value>Xóa tài khoản</value>
+  </data>
+  <data name="AccountSummary" xml:space="preserve">
+    <value>Tóm tắt Tài khoản</value>
+  </data>
+  <data name="RecordCreated" xml:space="preserve">
+    <value>Ngày tạo bản ghi</value>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>Quyền</value>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>Thay đổi</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="EmailStatus" xml:space="preserve">
+    <value>Chọn trạng thái của email.</value>
+  </data>
+  <data name="Confirmed" xml:space="preserve">
+    <value>Đã xác nhận</value>
+  </data>
+  <data name="Unconfirmed" xml:space="preserve">
+    <value>Lưu hành Không được xác nhận của Tôi</value>
+  </data>
+  <data name="ChangeConfirmEmail" xml:space="preserve">
+    <value>Thay đổi / xác nhận email!</value>
+  </data>
+  <data name="SendVerificationCode" xml:space="preserve">
+    <value>Mã xác nhận</value>
+  </data>
+  <data name="RecordCreatedSuccessfully" xml:space="preserve">
+    <value>Kỷ lục tạo thành công!</value>
+  </data>
+  <data name="RecordUpdated" xml:space="preserve">
+    <value>Bản ghi Cập Nhật!!</value>
+  </data>
+  <data name="RecordUpdatedSuccessfully" xml:space="preserve">
+    <value>Cập nhật bản ghi thành công</value>
+  </data>
+  <data name="RecordDeleted" xml:space="preserve">
+    <value>Xóa bản ghi thành công</value>
+  </data>
+  <data name="RecordDeletedSuccessfully" xml:space="preserve">
+    <value>Xóa bản ghi thành công</value>
+  </data>
+  <data name="NoUsersInRole" xml:space="preserve">
+    <value>Không có người được tìm thấy trong vai trò này.!</value>
+  </data>
+  <data name="NoPermissionsInGroup" xml:space="preserve">
+    <value>Không có quyền được tìm thấy trong nhóm này.!</value>
+  </data>
+  <data name="ListGroupPermissions" xml:space="preserve">
+    <value>Danh sách các quyền được cấp cho nhóm này:!</value>
+  </data>
+  <data name="TFAEnabled" xml:space="preserve">
+    <value>Xác thực 2 yếu tố hiện tại là &lt;strong class="label label-success"&gt;được kích hoạt&lt;/strong&gt;</value>
+  </data>
+  <data name="TFADisabled" xml:space="preserve">
+    <value>Hai yếu tố xác thực hiện vô hiệu hóa:!</value>
+  </data>
+  <data name="TFABrowserRemembered" xml:space="preserve">
+    <value>Trình duyệt hiện nay được ghi nhớ cho hai yếu tố xác thực:!</value>
+  </data>
+  <data name="ListUserPermissions" xml:space="preserve">
+    <value>danh sách người dùng</value>
+  </data>
+  <data name="NoGroupsForUser" xml:space="preserve">
+    <value>Nhóm không tìm thấy cho người dùng này.!</value>
+  </data>
+  <data name="ListGroupsForUser" xml:space="preserve">
+    <value>Danh sách nhóm người dùng này thuộc về:!</value>
+  </data>
+  <data name="NoPermissionsForUser" xml:space="preserve">
+    <value>Không tìm thấy không có vai trò cho người dùng này.!</value>
+  </data>
+  <data name="TFABrowserNotRemembered" xml:space="preserve">
+    <value>Trình duyệt hiện tại không nhớ hai yếu tố xác thực:!</value>
+  </data>
+  <data name="ListUsersInPermission" xml:space="preserve">
+    <value>Danh sách cho phép người dùng này thuộc về :</value>
+  </data>
+  <data name="ConfirmAccount" xml:space="preserve">
+    <value>Xác nhận tài khoản của bạn</value>
+  </data>
+  <data name="ConfirmAccountMessage" xml:space="preserve">
+    <value>Vui lòng xác nhận tài khoản của bạn bằng cách nhấp vào liên kết này</value>
+  </data>
+  <data name="ResetPasswordMessage" xml:space="preserve">
+    <value>Vui lòng đặt lại mật khẩu của bạn bằng cách nhấp vào đây</value>
+  </data>
+  <data name="ConfirmNewPassword" xml:space="preserve">
+    <value>Xác nhận mật khẩu mới</value>
+  </data>
+  <data name="GroupExist" xml:space="preserve">
+    <value>Nhóm đã tồn tại.</value>
+  </data>
+  <data name="ForgetBrowser" xml:space="preserve">
+    <value>Quên trình duyệt này</value>
+  </data>
+  <data name="ChangePasswordSuccess" xml:space="preserve">
+    <value>Mật khẩu của bạn đã được thay đổi.</value>
+  </data>
+  <data name="SetPasswordSuccess" xml:space="preserve">
+    <value>Mật khẩu của bạn đã được thiết lập.</value>
+  </data>
+  <data name="SetTwoFactorSuccess" xml:space="preserve">
+    <value>Nhaø cung caáp hai yếu tố đã được thiết lập.</value>
+  </data>
+  <data name="AddPhoneSuccess" xml:space="preserve">
+    <value>Số điện thoại đã được bổ sung.</value>
+  </data>
+  <data name="RemovePhoneSuccess" xml:space="preserve">
+    <value>Số điện thoại của bạn đã bị xóa.</value>
+  </data>
+  <data name="Showing" xml:space="preserve">
+    <value>Hiểnthị</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>Đến</value>
+  </data>
+  <data name="Entries" xml:space="preserve">
+    <value>Mục</value>
+  </data>
+  <data name="Documentation" xml:space="preserve">
+    <value>Hướng dẫn sử dụng</value>
+  </data>
+  <data name="BuyNow" xml:space="preserve">
+    <value>Mua Ngay</value>
+  </data>
+  <data name="Searching" xml:space="preserve">
+    <value>Đang tìm kiếm...</value>
+  </data>
+  <data name="Roles1" xml:space="preserve">
+    <value>Vai trò</value>
+  </data>
+  <data name="Role1" xml:space="preserve">
+    <value>Vai trò</value>
+  </data>
+  <data name="CRMModules" xml:space="preserve">
+    <value>Các mô đun</value>
+  </data>
+  <data name="Sales" xml:space="preserve">
+    <value>Bán hàng</value>
+  </data>
+  <data name="Marketing" xml:space="preserve">
+    <value>Tiếp thị</value>
+  </data>
+  <data name="Operations" xml:space="preserve">
+    <value>Điều hành</value>
+  </data>
+  <data name="Accounting" xml:space="preserve">
+    <value>Kế toán</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>Hỗ trợ</value>
+  </data>
+  <data name="DefaultPasswordFor" xml:space="preserve">
+    <value>Thiết lập lại mật khẩu mặc định:</value>
+  </data>
+  <data name="DefaultUserPassword" xml:space="preserve">
+    <value>Người dùng khác:</value>
+  </data>
+  <data name="AdminUsername" xml:space="preserve">
+    <value>Tên người dung:</value>
+  </data>
+  <data name="AdminPassword" xml:space="preserve">
+    <value>Yêu cầu mật khẩu quản trị viên:</value>
+  </data>
+</root>

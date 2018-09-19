@@ -1,0 +1,2103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BackToList" xml:space="preserve">
+    <value>กลับไปที่รายการ</value>
+  </data>
+  <data name="Calendar" xml:space="preserve">
+    <value>ปฏิทิน</value>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>การกำหนดค่า</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>ยืนยันรหัสผ่าน</value>
+  </data>
+  <data name="ConfirmPasswordCompare" xml:space="preserve">
+    <value>รหัสผ่านและยืนยันรหัสผ่านไม่ตรงกัน</value>
+  </data>
+  <data name="Contents" xml:space="preserve">
+    <value>เนื้อหา</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>สร้าง</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>ลบ</value>
+  </data>
+  <data name="DeleteConfirmation" xml:space="preserve">
+    <value>คุณต้องการลบนี้แน่ใจหรือไม่</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>คำอธิบาย</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>รายละเอียด</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>แก้ไข</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>อีเมล</value>
+  </data>
+  <data name="EmailRegularExpression" xml:space="preserve">
+    <value>อีเมลที่ไม่ถูกต้อง</value>
+  </data>
+  <data name="Events" xml:space="preserve">
+    <value>กิจกรรม</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>ชื่อแรก</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>กลุ่ม</value>
+  </data>
+  <data name="GroupRolesAssignment" xml:space="preserve">
+    <value>บทบาทที่กำหนดสำหรับกลุ่ม:</value>
+  </data>
+  <data name="Groups" xml:space="preserve">
+    <value>กลุ่ม</value>
+  </data>
+  <data name="GroupsAssignment" xml:space="preserve">
+    <value>กลุ่มที่กำหนดสำหรับผู้ใช้:</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>บ้าน</value>
+  </data>
+  <data name="Images" xml:space="preserve">
+    <value>รูปภาพ</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>ภาษา</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>นามสกุล</value>
+  </data>
+  <data name="LogOff" xml:space="preserve">
+    <value>ออกจากระบบ</value>
+  </data>
+  <data name="LogOn" xml:space="preserve">
+    <value>เข้าสู่ระบบ</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>ชื่อ</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>รหัสผ่าน</value>
+  </data>
+  <data name="PasswordStringLength" xml:space="preserve">
+    <value>รหัสผ่านต้องยาวอย่างน้อย 6 ตัวอักษร</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>บทบาท</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>บทบาท</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>ลงทะเบียน</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>บันทึก</value>
+  </data>
+  <data name="SelectGroups" xml:space="preserve">
+    <value>เลือก กลุ่ม</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>ผู้ใช้</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>ชื่อผู้ใช้</value>
+  </data>
+  <data name="UserRolesAssignment" xml:space="preserve">
+    <value>บทบาทที่กำหนดให้สำหรับผู้ใช้:</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>ผู้ใช้</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>ผู้เขียน</value>
+  </data>
+  <data name="CreatedOn" xml:space="preserve">
+    <value>วันสร้าง</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>วันสิ้นสุดกิจกรรม</value>
+  </data>
+  <data name="Index" xml:space="preserve">
+    <value>ดัชนี</value>
+  </data>
+  <data name="IsPublished" xml:space="preserve">
+    <value>การเผยแพร่</value>
+  </data>
+  <data name="IsTranslated" xml:space="preserve">
+    <value>แปล</value>
+  </data>
+  <data name="LanguageId" xml:space="preserve">
+    <value>รหัสภาษา</value>
+  </data>
+  <data name="ModifiedBy" xml:space="preserve">
+    <value>แก้ไขครั้งล่าสุด โดย</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>ตำแหน่งที่ตั้ง</value>
+  </data>
+  <data name="ModifiedOn" xml:space="preserve">
+    <value>ปรับเปลี่ยนวัน</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>วันเริ่มกิจกรรม</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>ชื่อเรื่อง</value>
+  </data>
+  <data name="TranslationId" xml:space="preserve">
+    <value>แปล</value>
+  </data>
+  <data name="Event" xml:space="preserve">
+    <value>เหตุการณ์</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>แฟ้ม</value>
+  </data>
+  <data name="FilePath" xml:space="preserve">
+    <value>เส้นทางของแฟ้ม</value>
+  </data>
+  <data name="MIME" xml:space="preserve">
+    <value>MIME</value>
+  </data>
+  <data name="Tag" xml:space="preserve">
+    <value>แท็ก</value>
+  </data>
+  <data name="Tags" xml:space="preserve">
+    <value>แท็ก</value>
+  </data>
+  <data name="ThumbPath" xml:space="preserve">
+    <value>เส้นทางนิ้วหัวแม่มือ</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>ดู</value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>เนื้อหา</value>
+  </data>
+  <data name="MainContent" xml:space="preserve">
+    <value>เนื้อหาหลัก</value>
+  </data>
+  <data name="MetaDescription" xml:space="preserve">
+    <value>คำอธิบาย Meta</value>
+  </data>
+  <data name="MetaKeywords" xml:space="preserve">
+    <value>คำสำคัญ Meta</value>
+  </data>
+  <data name="Languages" xml:space="preserve">
+    <value>ภาษา</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>เปลี่ยนรหัสผ่าน</value>
+  </data>
+  <data name="CurrentPassword" xml:space="preserve">
+    <value>รหัสผ่านปัจจุบัน</value>
+  </data>
+  <data name="ManageAccount" xml:space="preserve">
+    <value>จัดการบัญชี</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>รหัสผ่านใหม่</value>
+  </data>
+  <data name="OldPassword" xml:space="preserve">
+    <value>รหัสผ่านเดิม</value>
+  </data>
+  <data name="RememberMe" xml:space="preserve">
+    <value>จดจำ</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>ค้นหา</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>ประเภท</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>เมนู</value>
+  </data>
+  <data name="MenuItem" xml:space="preserve">
+    <value>รายการเมนู</value>
+  </data>
+  <data name="MenuItems" xml:space="preserve">
+    <value>รายการเมนู</value>
+  </data>
+  <data name="Menus" xml:space="preserve">
+    <value>เมนู</value>
+  </data>
+  <data name="IsCms" xml:space="preserve">
+    <value>Cms คืออะไร</value>
+  </data>
+  <data name="IsLeaf" xml:space="preserve">
+    <value>คือใบอะไร</value>
+  </data>
+  <data name="IsParent" xml:space="preserve">
+    <value>หลักคือ</value>
+  </data>
+  <data name="Ordinal" xml:space="preserve">
+    <value>ลำดับ</value>
+  </data>
+  <data name="Parent" xml:space="preserve">
+    <value>หลัก</value>
+  </data>
+  <data name="CreateNewAccount" xml:space="preserve">
+    <value>สร้างบัญชีใหม่</value>
+  </data>
+  <data name="Deleted" xml:space="preserve">
+    <value>ลบ</value>
+  </data>
+  <data name="Published" xml:space="preserve">
+    <value>การเผยแพร่</value>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>บันทึก</value>
+  </data>
+  <data name="MaximumAllowedSize" xml:space="preserve">
+    <value>ขนาดสูงสุดคือ:</value>
+  </data>
+  <data name="PleaseUploadImageOfType" xml:space="preserve">
+    <value>กรุณาอัพโหลดรูปชนิด:</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>หมายเหตุ</value>
+  </data>
+  <data name="AddTranslation" xml:space="preserve">
+    <value>เพิ่มการแปล</value>
+  </data>
+  <data name="ViewTranslation" xml:space="preserve">
+    <value>ดูคำแปล</value>
+  </data>
+  <data name="HasShortcut" xml:space="preserve">
+    <value>Dispaly บนหน้าแรก</value>
+  </data>
+  <data name="IsScheduled" xml:space="preserve">
+    <value>เป็นอย่างไร</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>สถานะ</value>
+  </data>
+  <data name="Announcements" xml:space="preserve">
+    <value>ประกาศ</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>ข่าว</value>
+  </data>
+  <data name="NoAnnouncements" xml:space="preserve">
+    <value>มีประกาศ</value>
+  </data>
+  <data name="NoEvents" xml:space="preserve">
+    <value>ไม่มีเหตุการณ์นี้</value>
+  </data>
+  <data name="NoNews" xml:space="preserve">
+    <value>มีข่าว</value>
+  </data>
+  <data name="ContentTypes" xml:space="preserve">
+    <value>ชนิดเนื้อหา</value>
+  </data>
+  <data name="Building" xml:space="preserve">
+    <value>อาคาร</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>รหัส</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>ประเทศ</value>
+  </data>
+  <data name="Locality" xml:space="preserve">
+    <value>เมือง</value>
+  </data>
+  <data name="PostalCode" xml:space="preserve">
+    <value>รหัสไปรษณีย์</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>โพรไฟล์</value>
+  </data>
+  <data name="Street" xml:space="preserve">
+    <value>สตรีท</value>
+  </data>
+  <data name="Telephone" xml:space="preserve">
+    <value>โทรศัพท์</value>
+  </data>
+  <data name="EnterCredentials" xml:space="preserve">
+    <value>ป้อนชื่อผู้ใช้และรหัสผ่านเพื่อเข้าสู่ระบบของคุณ</value>
+  </data>
+  <data name="ForgetPassword" xml:space="preserve">
+    <value>ลืมรหัสผ่าน</value>
+  </data>
+  <data name="JoinUs" xml:space="preserve">
+    <value>ร่วมงานกับเรา@</value>
+  </data>
+  <data name="LoginToSite" xml:space="preserve">
+    <value>เข้าสู่เว็บไซต์ของเรา</value>
+  </data>
+  <data name="LoginWithSocialMedia" xml:space="preserve">
+    <value>... หรือเข้าสู่ระบบด้วย:</value>
+  </data>
+  <data name="PasswordMatch" xml:space="preserve">
+    <value>รหัสผ่านใหม่และยืนยันรหัสผ่านไม่ตรงกัน</value>
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>หมายเลขโทรศัพท์</value>
+  </data>
+  <data name="RegisterNewUser" xml:space="preserve">
+    <value>ลงทะเบียนเป็นผู้ใช้ใหม่</value>
+  </data>
+  <data name="StringLength" xml:space="preserve">
+    <value>{0} ต้องอย่างน้อยยาว {2} อักขระ</value>
+  </data>
+  <data name="FillForm" xml:space="preserve">
+    <value>กรอกแบบฟอร์มด้านล่างได้ทันที</value>
+  </data>
+  <data name="EmailInvalid" xml:space="preserve">
+    <value>อยู่อีเมลที่ไม่ถูกต้อง</value>
+  </data>
+  <data name="SignUp" xml:space="preserve">
+    <value>ไซน์อัพ</value>
+  </data>
+  <data name="SignUpInSeconds" xml:space="preserve">
+    <value>ลงทะเบียนในวินาที</value>
+  </data>
+  <data name="AlreadyMember" xml:space="preserve">
+    <value>เป็นสมาชิกแล้ว</value>
+  </data>
+  <data name="EmailLink" xml:space="preserve">
+    <value>ลิงก์อีเมล</value>
+  </data>
+  <data name="EmailConfirmationCheck" xml:space="preserve">
+    <value>กรุณาตรวจสอบอีเมลของคุณเพื่อเปิดใช้งานบัญชีของคุณ</value>
+  </data>
+  <data name="EnterEmail" xml:space="preserve">
+    <value>ป้อนอีเมลของคุณเพื่อรับอีเมล์ลิงก์</value>
+  </data>
+  <data name="Instruction" xml:space="preserve">
+    <value>เราได้ส่งอีเมล์รวมถึงลิงก์ยืนยัน กรุณาตรวจสอบอีเมลของคุณ และยืนยันการสมัครใช้งาน</value>
+  </data>
+  <data name="InvalidLoginAttempt" xml:space="preserve">
+    <value>ความพยายามในการเข้าสู่ระบบไม่ถูกต้อง</value>
+  </data>
+  <data name="Regards" xml:space="preserve">
+    <value>ด้วยความนับถือ</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>ขอบคุณสำหรับการร่วมงานกับเรา</value>
+  </data>
+  <data name="ThankYouFor" xml:space="preserve">
+    <value>ขอบคุณสำหรับการเข้าร่วม</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>ยินดีต้อนรับ</value>
+  </data>
+  <data name="EnterVerificationCode" xml:space="preserve">
+    <value>ป้อนรหัสยืนยัน</value>
+  </data>
+  <data name="RememberBrowser" xml:space="preserve">
+    <value>จำเบราว์เซอร์นี้</value>
+  </data>
+  <data name="SelectTwoFactor" xml:space="preserve">
+    <value>เลือกวิธีการรับรองความถูกต้องสองปัจจัย</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>ส่ง</value>
+  </data>
+  <data name="TwoFactor" xml:space="preserve">
+    <value>รับรองความถูกต้องสองปัจจัย</value>
+  </data>
+  <data name="TwoFactorType" xml:space="preserve">
+    <value>วิธีการตรวจสอบสองปัจจัย</value>
+  </data>
+  <data name="VerificationCode" xml:space="preserve">
+    <value>รหัสยืนยัน</value>
+  </data>
+  <data name="Verify" xml:space="preserve">
+    <value>ตรวจสอบขณะนี้</value>
+  </data>
+  <data name="ChangeAccountSettings" xml:space="preserve">
+    <value>เปลี่ยนการตั้งค่าบัญชีของคุณ</value>
+  </data>
+  <data name="ExternalLogins" xml:space="preserve">
+    <value>ล็อกภายนอก</value>
+  </data>
+  <data name="AddPhoneNumber" xml:space="preserve">
+    <value>เพิ่มหมายเลขโทรศัพท์</value>
+  </data>
+  <data name="ChangeCurrentPassword" xml:space="preserve">
+    <value>เปลี่ยนรหัสผ่านปัจจุบัน</value>
+  </data>
+  <data name="Disable" xml:space="preserve">
+    <value>ปิดใช้งาน</value>
+  </data>
+  <data name="Enable" xml:space="preserve">
+    <value>เปิดใช้งาน</value>
+  </data>
+  <data name="ExploreOurSite" xml:space="preserve">
+    <value>สำรวจเว็บไซต์ของเรา</value>
+  </data>
+  <data name="ManageLogins" xml:space="preserve">
+    <value>จัดการล็อกภายนอก</value>
+  </data>
+  <data name="PhoneNumberOption" xml:space="preserve">
+    <value>เพิ่มหมายเลขโทรศัพท์เพื่อที่จะสามารถรับรหัสยืนยัน</value>
+  </data>
+  <data name="SetPassword" xml:space="preserve">
+    <value>ตั้งรหัสผ่าน</value>
+  </data>
+  <data name="VerifyPhoneNumber" xml:space="preserve">
+    <value>ตรวจสอบหมายเลขโทรศัพท์</value>
+  </data>
+  <data name="VerifyPhoneNumberOption" xml:space="preserve">
+    <value>ป้อนรหัสยืนยันเพื่อยืนยันตัวตนของคุณ </value>
+  </data>
+  <data name="ChooseContentType" xml:space="preserve">
+    <value>-เลือกชนิดเนื้อหา-</value>
+  </data>
+  <data name="ChooseLanguage" xml:space="preserve">
+    <value>-เลือกภาษา-</value>
+  </data>
+  <data name="ChooseParentMenuItem" xml:space="preserve">
+    <value>-เลือกหลักเมนูสินค้า-</value>
+  </data>
+  <data name="ContentType" xml:space="preserve">
+    <value>ชนิดเนื้อหา</value>
+  </data>
+  <data name="HasMenuItem" xml:space="preserve">
+    <value>มีการเชื่อมโยงเมนู</value>
+  </data>
+  <data name="ChooseMenu" xml:space="preserve">
+    <value>-เลือกเมนู-</value>
+  </data>
+  <data name="FacebookUrl" xml:space="preserve">
+    <value>Facebook</value>
+  </data>
+  <data name="IsUrgent" xml:space="preserve">
+    <value>แสดงในบาร์อย่างเร่งด่วนหรือไม่</value>
+  </data>
+  <data name="Logo" xml:space="preserve">
+    <value>โลโก้</value>
+  </data>
+  <data name="ParentMenuItem" xml:space="preserve">
+    <value>รายการเมนูหลัก</value>
+  </data>
+  <data name="StatusId" xml:space="preserve">
+    <value>สถานะ</value>
+  </data>
+  <data name="TwitterUrl" xml:space="preserve">
+    <value>ทวิตเตอร์</value>
+  </data>
+  <data name="YouTubeUrl" xml:space="preserve">
+    <value>YouTube</value>
+  </data>
+  <data name="AcademicJournal" xml:space="preserve">
+    <value>นิตยสารเสียงนักเรียน</value>
+  </data>
+  <data name="ShortcutTitle" xml:space="preserve">
+    <value>ชื่อทางลัด</value>
+  </data>
+  <data name="NoArticles" xml:space="preserve">
+    <value>ไม่มีบทความนี้</value>
+  </data>
+  <data name="Vacancy" xml:space="preserve">
+    <value>ประกาศงาน</value>
+  </data>
+  <data name="Degree" xml:space="preserve">
+    <value>องศา </value>
+  </data>
+  <data name="Degrees" xml:space="preserve">
+    <value>องศา</value>
+  </data>
+  <data name="AddAttachments" xml:space="preserve">
+    <value>เพิ่มสิ่งที่แนบมาอีก...</value>
+  </data>
+  <data name="Applicant" xml:space="preserve">
+    <value>ผู้สมัคร</value>
+  </data>
+  <data name="Requirements" xml:space="preserve">
+    <value>ความต้องการ</value>
+  </data>
+  <data name="CoverLetter" xml:space="preserve">
+    <value>จดหมายนำ</value>
+  </data>
+  <data name="FileName" xml:space="preserve">
+    <value>ชื่อแฟ้ม</value>
+  </data>
+  <data name="Id" xml:space="preserve">
+    <value>หมายเลขประจำสินค้า</value>
+  </data>
+  <data name="IsActive" xml:space="preserve">
+    <value>ใช้ได้</value>
+  </data>
+  <data name="VacancyType" xml:space="preserve">
+    <value>ชนิดตำแหน่ง</value>
+  </data>
+  <data name="Documents" xml:space="preserve">
+    <value>เอกสาร</value>
+  </data>
+  <data name="Submissions" xml:space="preserve">
+    <value>ส่ง</value>
+  </data>
+  <data name="SubmittedOn" xml:space="preserve">
+    <value>Submittion วัน</value>
+  </data>
+  <data name="Rank" xml:space="preserve">
+    <value>ตำแหน่งทางวิชาการ</value>
+  </data>
+  <data name="Ranks" xml:space="preserve">
+    <value>ตำแหน่งทางวิชาการ</value>
+  </data>
+  <data name="ChooseVacancy" xml:space="preserve">
+    <value>-เลือกชื่องาน-</value>
+  </data>
+  <data name="Applicants" xml:space="preserve">
+    <value>ผู้สมัคร</value>
+  </data>
+  <data name="ApplicantFullName" xml:space="preserve">
+    <value>ชื่อผู้สมัคร</value>
+  </data>
+  <data name="Attachments" xml:space="preserve">
+    <value>สิ่งที่แนบมา</value>
+  </data>
+  <data name="CurriculumVitae" xml:space="preserve">
+    <value>ประวัติส่วนตัว</value>
+  </data>
+  <data name="DOB" xml:space="preserve">
+    <value>วันเกิด</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>ดาวน์โหลด</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>เพศ</value>
+  </data>
+  <data name="JobTitle" xml:space="preserve">
+    <value>ตำแหน่งงาน</value>
+  </data>
+  <data name="MiddleName" xml:space="preserve">
+    <value>ชื่อกลาง</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>โทรศัพท์มือถือ</value>
+  </data>
+  <data name="ResumeFileName" xml:space="preserve">
+    <value>ประวัติส่วนตัว</value>
+  </data>
+  <data name="ResumeFilePath" xml:space="preserve">
+    <value>ประวัติส่วนตัว</value>
+  </data>
+  <data name="Submission" xml:space="preserve">
+    <value>ส่ง</value>
+  </data>
+  <data name="NoParentItem" xml:space="preserve">
+    <value>-สินค้าหลักไม่มี-</value>
+  </data>
+  <data name="ContentList" xml:space="preserve">
+    <value>รายการเนื้อหา</value>
+  </data>
+  <data name="ItemContent" xml:space="preserve">
+    <value>เนื้อหารายการ</value>
+  </data>
+  <data name="PleaseUploadFileOfType" xml:space="preserve">
+    <value>โปรดอัปโหลดแฟ้มของชนิด:</value>
+  </data>
+  <data name="JobType" xml:space="preserve">
+    <value>ชนิดงาน</value>
+  </data>
+  <data name="ListItem" xml:space="preserve">
+    <value>รายการสินค้า</value>
+  </data>
+  <data name="ListItems" xml:space="preserve">
+    <value>รายการ</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>เว็บไซต์</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>แฟกซ์</value>
+  </data>
+  <data name="Latitude" xml:space="preserve">
+    <value>ละติจูด</value>
+  </data>
+  <data name="Longitude" xml:space="preserve">
+    <value>ลองจิจูด</value>
+  </data>
+  <data name="Organization" xml:space="preserve">
+    <value>องค์กร</value>
+  </data>
+  <data name="Organizations" xml:space="preserve">
+    <value>องค์กร</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>เมือง</value>
+  </data>
+  <data name="District" xml:space="preserve">
+    <value>อำเภอ</value>
+  </data>
+  <data name="Province" xml:space="preserve">
+    <value>จังหวัด</value>
+  </data>
+  <data name="POBox" xml:space="preserve">
+    <value>ตู้ปณ</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>ข้อมูลการติดต่อ</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>กรม</value>
+  </data>
+  <data name="Office" xml:space="preserve">
+    <value>สำนักงาน</value>
+  </data>
+  <data name="PersonalTitle" xml:space="preserve">
+    <value>นำหน้าชื่อ</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>ตำแหน่ง</value>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>ติดต่อเรา</value>
+  </data>
+  <data name="OurLocationOnMap" xml:space="preserve">
+    <value>ตำแหน่งของเราบนแผนที่</value>
+  </data>
+  <data name="PersonalTitles" xml:space="preserve">
+    <value>PersonalTitles</value>
+  </data>
+  <data name="Extension" xml:space="preserve">
+    <value>นามสกุล</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>หมายเลขโทรศัพท์</value>
+  </data>
+  <data name="ManageLists" xml:space="preserve">
+    <value>จัดการรายการ</value>
+  </data>
+  <data name="Articles" xml:space="preserve">
+    <value>บทความ</value>
+  </data>
+  <data name="ApplyNow" xml:space="preserve">
+    <value>สมัครตอนนี้</value>
+  </data>
+  <data name="Class" xml:space="preserve">
+    <value>เรียน CSS</value>
+  </data>
+  <data name="CopyRights" xml:space="preserve">
+    <value>สงวนลิขสิทธิ์</value>
+  </data>
+  <data name="GooglePlusUrl" xml:space="preserve">
+    <value>Google Plus</value>
+  </data>
+  <data name="LinkedInUrl" xml:space="preserve">
+    <value>LinkedIn</value>
+  </data>
+  <data name="Privacy" xml:space="preserve">
+    <value>ความเป็นส่วนตัว</value>
+  </data>
+  <data name="RSS" xml:space="preserve">
+    <value>ตัวดึงข้อมูล RSS</value>
+  </data>
+  <data name="Terms" xml:space="preserve">
+    <value>คำแปล</value>
+  </data>
+  <data name="WebDevelopedBy" xml:space="preserve">
+    <value>ชื่อผู้พัฒนาเว็บไซต์</value>
+  </data>
+  <data name="EnterYourEmail" xml:space="preserve">
+    <value>อีเมล์...</value>
+  </data>
+  <data name="Explore" xml:space="preserve">
+    <value>สำรวจ</value>
+  </data>
+  <data name="KeepInTouch" xml:space="preserve">
+    <value>หมั่นติดต่อกันนะ</value>
+  </data>
+  <data name="LatestNews" xml:space="preserve">
+    <value>ข่าวล่าสุด</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>โทรศัพท์</value>
+  </data>
+  <data name="Subscribe" xml:space="preserve">
+    <value>สมัครสมาชิก</value>
+  </data>
+  <data name="SubscriptionMessage" xml:space="preserve">
+    <value>สมัครรับจดหมายข่าวของเราเพื่อรับข่าวสารสำคัญ</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>ที่อยู่</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>นำไปใช้</value>
+  </data>
+  <data name="Arrow" xml:space="preserve">
+    <value>ไอคอนยาวลูกศรขวา</value>
+  </data>
+  <data name="For" xml:space="preserve">
+    <value>สำหรับ</value>
+  </data>
+  <data name="MarginDirClass" xml:space="preserve">
+    <value>ขอบ-ซ้าย-10</value>
+  </data>
+  <data name="AllowedAttachmentExtensions" xml:space="preserve">
+    <value>Attachmetns อย่าง น้อยหนึ่งรายการไม่ถูกต้อง: เท่านั้น PDF DOCX เอกสาร PNG JPG ไฟล์ JPEG ได้</value>
+  </data>
+  <data name="AttachmentsNotes" xml:space="preserve">
+    <value>โปรดอัปโหลดสิ่งที่แนบมาเป็นชนิด: PDF DOCX เอกสาร PNG JPG JPEG</value>
+  </data>
+  <data name="CVNotes" xml:space="preserve">
+    <value>กรุณาอัพโหลด CV ชนิด: PDF DOCX DOC</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>ส่ง</value>
+  </data>
+  <data name="Program" xml:space="preserve">
+    <value>โปรแกรม</value>
+  </data>
+  <data name="Programs" xml:space="preserve">
+    <value>โปรแกรม</value>
+  </data>
+  <data name="JobAnnouncement" xml:space="preserve">
+    <value>ประกาศงาน</value>
+  </data>
+  <data name="JobAnnouncements" xml:space="preserve">
+    <value>ประกาศงาน</value>
+  </data>
+  <data name="Departments" xml:space="preserve">
+    <value>แผนก</value>
+  </data>
+  <data name="EmployeeTypes" xml:space="preserve">
+    <value>ชนิดพนักงาน</value>
+  </data>
+  <data name="EmpInDepts" xml:space="preserve">
+    <value>พนักงานแผนก</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>พนักงาน</value>
+  </data>
+  <data name="Occupation" xml:space="preserve">
+    <value>อาชีพ</value>
+  </data>
+  <data name="Occupations" xml:space="preserve">
+    <value>อาชีพ</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>ชื่อเต็ม</value>
+  </data>
+  <data name="ImagePath" xml:space="preserve">
+    <value>เส้นทางรูป</value>
+  </data>
+  <data name="LandLine" xml:space="preserve">
+    <value>หมายเลขบรรทัดของที่ดิน</value>
+  </data>
+  <data name="OfficeNumber" xml:space="preserve">
+    <value>สำนักงาน</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>พนักงาน</value>
+  </data>
+  <data name="ImageNotes" xml:space="preserve">
+    <value>กรุณาอัพโหลดรูปชนิด: PNG JPG JPEG BMP</value>
+  </data>
+  <data name="PersonalPhoto" xml:space="preserve">
+    <value>ภาพส่วนตัว</value>
+  </data>
+  <data name="ViewCV" xml:space="preserve">
+    <value>ดู CV</value>
+  </data>
+  <data name="PersonalPhotoName" xml:space="preserve">
+    <value>ชื่อภาพส่วนตัว</value>
+  </data>
+  <data name="PersonalPhotoPath" xml:space="preserve">
+    <value>ภาพส่วนตัว</value>
+  </data>
+  <data name="UploadPersonalPhoto" xml:space="preserve">
+    <value>อัพโหลดภาพส่วนตัว</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>ผู้จัดการ</value>
+  </data>
+  <data name="AllLanguages" xml:space="preserve">
+    <value>ภาษาทั้งหมด</value>
+  </data>
+  <data name="Director" xml:space="preserve">
+    <value>ผู้อำนวยการ</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>เรียกดู</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>หมายเหตุ</value>
+  </data>
+  <data name="AcademicInfo" xml:space="preserve">
+    <value>ข้อมูลทางวิชาการ</value>
+  </data>
+  <data name="Biography" xml:space="preserve">
+    <value>บรรณานุกรม</value>
+  </data>
+  <data name="ContactInfo" xml:space="preserve">
+    <value>ข้อมูลการติดต่อ</value>
+  </data>
+  <data name="PersonalInfo" xml:space="preserve">
+    <value>ข้อมูลส่วนบุคคล</value>
+  </data>
+  <data name="Manage" xml:space="preserve">
+    <value>จัดการ</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>เอา</value>
+  </data>
+  <data name="FillOutPersonalInfo" xml:space="preserve">
+    <value>กรุณากรอกแบบฟอร์มข้อมูลส่วนบุคคล</value>
+  </data>
+  <data name="AccountSettings" xml:space="preserve">
+    <value>การตั้งค่าบัญชี</value>
+  </data>
+  <data name="ManageContacts" xml:space="preserve">
+    <value>จัดการรายชื่อ</value>
+  </data>
+  <data name="ManagePublications" xml:space="preserve">
+    <value>จัดการสิ่งพิมพ์</value>
+  </data>
+  <data name="NoCVUploaded" xml:space="preserve">
+    <value>อัพโหลด CV ไม่</value>
+  </data>
+  <data name="NoPersonalPhotoUploaded" xml:space="preserve">
+    <value>อัพโหลดภาพส่วนตัวไม่มี</value>
+  </data>
+  <data name="Publication" xml:space="preserve">
+    <value>สิ่งพิมพ์</value>
+  </data>
+  <data name="Publications" xml:space="preserve">
+    <value>สื่อสิ่งพิมพ์</value>
+  </data>
+  <data name="Abstract" xml:space="preserve">
+    <value>บทคัดย่อ</value>
+  </data>
+  <data name="CompletedProfile" xml:space="preserve">
+    <value>กรอกข้อมูลในโปรไฟล์</value>
+  </data>
+  <data name="EmployeeType" xml:space="preserve">
+    <value>ชนิดของพนักงาน</value>
+  </data>
+  <data name="ViewProfile" xml:space="preserve">
+    <value>ดูโพรไฟล์</value>
+  </data>
+  <data name="Hello" xml:space="preserve">
+    <value>สวัสดี</value>
+  </data>
+  <data name="OurStaffDirectory" xml:space="preserve">
+    <value>ชื่อพนักงานของเรา</value>
+  </data>
+  <data name="SearchBy" xml:space="preserve">
+    <value>ค้นหาโดย</value>
+  </data>
+  <data name="SearchByDepartmet" xml:space="preserve">
+    <value>ค้นหา โดย departmet</value>
+  </data>
+  <data name="DuplicateEmail" xml:space="preserve">
+    <value>อยู่อีเมลที่ได้ลงทะเบียน</value>
+  </data>
+  <data name="InvalidOrganizationEmail" xml:space="preserve">
+    <value>ป้อนอีเมลของคุณทำงาน</value>
+  </data>
+  <data name="DepartmentStaffList" xml:space="preserve">
+    <value>รายชื่อพนักงานฝ่าย</value>
+  </data>
+  <data name="SearchResult" xml:space="preserve">
+    <value>ผลการค้นหา</value>
+  </data>
+  <data name="DuplicateError" xml:space="preserve">
+    <value>ไม่สามารถแทรกระเบียนที่ซ้ำกัน</value>
+  </data>
+  <data name="EmployeeName" xml:space="preserve">
+    <value>ชื่อพนักงาน</value>
+  </data>
+  <data name="ClickHereToLogin" xml:space="preserve">
+    <value>คลิกที่นี่เพื่อเข้าสู่ระบบ</value>
+  </data>
+  <data name="ConfirmEmail" xml:space="preserve">
+    <value>ยืนยันอีเมล์</value>
+  </data>
+  <data name="ConfirmEmailThanks" xml:space="preserve">
+    <value>ขอบคุณสำหรับการยืนยันอีเมลของคุณ</value>
+  </data>
+  <data name="ForgotPasswordCheck" xml:space="preserve">
+    <value>กรุณาตรวจสอบอีเมล์เพื่อรีเซ็ตรหัสผ่านของคุณ</value>
+  </data>
+  <data name="ForgotPasswordConfirmation" xml:space="preserve">
+    <value>ลืมรหัสผ่าน</value>
+  </data>
+  <data name="Please" xml:space="preserve">
+    <value>โปรด</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>รีเซ็ต</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>รีเซ็ตรหัสผ่าน</value>
+  </data>
+  <data name="ResetYourPassword" xml:space="preserve">
+    <value>รีเซ็ตรหัสผ่านของคุณ</value>
+  </data>
+  <data name="SecurityCode" xml:space="preserve">
+    <value>รหัสความปลอดภัย</value>
+  </data>
+  <data name="ApplyFor" xml:space="preserve">
+    <value>ใช้สำหรับ</value>
+  </data>
+  <data name="ChooseDepartment" xml:space="preserve">
+    <value>-เลือกกรม-</value>
+  </data>
+  <data name="SubmissionId" xml:space="preserve">
+    <value>หมายเลขใบสมัคร</value>
+  </data>
+  <data name="DownloadApplications" xml:space="preserve">
+    <value>ดาวน์โหลดโปรแกรม</value>
+  </data>
+  <data name="NotAvailable" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="GoCuteCMS" xml:space="preserve">
+    <value>ไปที่ CuteCMS</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>ข้อผิดพลาด</value>
+  </data>
+  <data name="ErrorNotification" xml:space="preserve">
+    <value>พนักงานด้านเทคนิคของเราได้รับแจ้งโดยอัตโนมัติ และจะหาทางนี้ ด้วยความเร่งด่วนสูงสุด</value>
+  </data>
+  <data name="GenericError" xml:space="preserve">
+    <value>สิ่งที่ผิด</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>ไม่พบหน้าที่คุณร้องขอ</value>
+  </data>
+  <data name="NotPublished" xml:space="preserve">
+    <value>หน้าที่คุณร้องขอไม่มีการเผยแพร่</value>
+  </data>
+  <data name="NotTranslated" xml:space="preserve">
+    <value>ไม่มีแปลหน้าที่คุณร้องขอ</value>
+  </data>
+  <data name="DataTableLanguage" xml:space="preserve">
+    <value>http://cdn.datatables.net/plug-ins/1.10.12/i18n/English.json</value>
+  </data>
+  <data name="LanguageSelector" xml:space="preserve">
+    <value>ภาษา</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>การส่งออก</value>
+  </data>
+  <data name="PleaseUploadAttachments" xml:space="preserve">
+    <value>โปรดอัปโหลดสิ่งที่แนบที่จำเป็น</value>
+  </data>
+  <data name="Oops" xml:space="preserve">
+    <value>โอ๊ะ</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>การดำเนินการ</value>
+  </data>
+  <data name="ColVis" xml:space="preserve">
+    <value>คอลัมน์มองเห็น</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>คัดลอก</value>
+  </data>
+  <data name="ExportExcel" xml:space="preserve">
+    <value>ส่งออก Excel</value>
+  </data>
+  <data name="ExportPDF" xml:space="preserve">
+    <value>ส่งออก PDF</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>พิมพ์</value>
+  </data>
+  <data name="Reload" xml:space="preserve">
+    <value>โหลด</value>
+  </data>
+  <data name="NoUpcomingEvents" xml:space="preserve">
+    <value>มีไม่มีกิจกรรม</value>
+  </data>
+  <data name="UpcomingEvents" xml:space="preserve">
+    <value>กิจกรรม</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>เกี่ยวกับ</value>
+  </data>
+  <data name="RnC" xml:space="preserve">
+    <value>งานวิจัยและสัมมนา</value>
+  </data>
+  <data name="MyProfile" xml:space="preserve">
+    <value>โปรไฟล์ของฉัน</value>
+  </data>
+  <data name="NoRecordFound" xml:space="preserve">
+    <value>ระเบียนไม่พบ</value>
+  </data>
+  <data name="ViewMySocialNetwork" xml:space="preserve">
+    <value>ดูเครือข่ายสังคมของฉัน</value>
+  </data>
+  <data name="CssClass" xml:space="preserve">
+    <value>เรียน Css</value>
+  </data>
+  <data name="Backend" xml:space="preserve">
+    <value>Backend</value>
+  </data>
+  <data name="Frontend" xml:space="preserve">
+    <value>ส่วนหน้า</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>รูปภาพ</value>
+  </data>
+  <data name="Visible" xml:space="preserve">
+    <value>มองเห็นได้หรือไม่</value>
+  </data>
+  <data name="IsDefault" xml:space="preserve">
+    <value>เป็นค่าเริ่มต้น</value>
+  </data>
+  <data name="PrimaryLogoName" xml:space="preserve">
+    <value>โลโก้หลักชื่อ</value>
+  </data>
+  <data name="PrimaryLogoPath" xml:space="preserve">
+    <value>เส้นทางหลักของโลโก้</value>
+  </data>
+  <data name="SecondaryLogoName" xml:space="preserve">
+    <value>ชื่อรองโลโก้</value>
+  </data>
+  <data name="SecondaryLogoPath" xml:space="preserve">
+    <value>เส้นทางรองโลโก้</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>ความสูง</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>ความกว้าง</value>
+  </data>
+  <data name="ChooseRole" xml:space="preserve">
+    <value>-เลือกบทบาท-</value>
+  </data>
+  <data name="ChooseStatus" xml:space="preserve">
+    <value>-เลือกสถานะ-</value>
+  </data>
+  <data name="ChooseAuthor" xml:space="preserve">
+    <value>-เลือก - ผู้เขียน</value>
+  </data>
+  <data name="ChooseTag" xml:space="preserve">
+    <value>-เลือกแท็ก-</value>
+  </data>
+  <data name="CountryCode" xml:space="preserve">
+    <value>รหัสประเทศ</value>
+  </data>
+  <data name="CountryName" xml:space="preserve">
+    <value>ชื่อประเทศ</value>
+  </data>
+  <data name="IP" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="MetroCode" xml:space="preserve">
+    <value>รหัสรถไฟใต้ดิน</value>
+  </data>
+  <data name="RegionCode" xml:space="preserve">
+    <value>ภูมิภาค</value>
+  </data>
+  <data name="RegionName" xml:space="preserve">
+    <value>ชื่อภูมิภาค</value>
+  </data>
+  <data name="RequestDate" xml:space="preserve">
+    <value>วันร้องขอ</value>
+  </data>
+  <data name="TimeZone" xml:space="preserve">
+    <value>โซนเวลา</value>
+  </data>
+  <data name="Count" xml:space="preserve">
+    <value>จำนวน</value>
+  </data>
+  <data name="Translations" xml:space="preserve">
+    <value>คำแปล</value>
+  </data>
+  <data name="VacancyUnableToDelete" xml:space="preserve">
+    <value>ไม่สามารถลบตำแหน่งนี้ เพราะมันมีที่เกี่ยวข้อง submission(s)</value>
+  </data>
+  <data name="ChoosePersonalTitle" xml:space="preserve">
+    <value>-เลือกส่วนบุคคลชื่อ-</value>
+  </data>
+  <data name="Acknowledgement" xml:space="preserve">
+    <value>รับทราบ</value>
+  </data>
+  <data name="ApplicationNumber" xml:space="preserve">
+    <value>เป็นหมายเลขของโปรแกรมประยุกต์:</value>
+  </data>
+  <data name="Dear" xml:space="preserve">
+    <value>รัก</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>ค่า</value>
+  </data>
+  <data name="FlagCode" xml:space="preserve">
+    <value>รหัสสถานะ</value>
+  </data>
+  <data name="Flag" xml:space="preserve">
+    <value>ค่าสถานะ</value>
+  </data>
+  <data name="CultureName" xml:space="preserve">
+    <value>ชื่อวัฒนธรรม</value>
+  </data>
+  <data name="IsEnabled" xml:space="preserve">
+    <value>เปิดใช้งานหรือไม่</value>
+  </data>
+  <data name="SMTP" xml:space="preserve">
+    <value>SMTP</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>ชื่อเรื่อง</value>
+  </data>
+  <data name="Body" xml:space="preserve">
+    <value>ร่างกาย</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>การแจ้งเตือน</value>
+  </data>
+  <data name="Term" xml:space="preserve">
+    <value>แปล</value>
+  </data>
+  <data name="Attachment" xml:space="preserve">
+    <value>สิ่งที่แนบมา</value>
+  </data>
+  <data name="Statistic" xml:space="preserve">
+    <value>สถิติ</value>
+  </data>
+  <data name="SMTPSetting" xml:space="preserve">
+    <value>การตั้งค่า SMTP</value>
+  </data>
+  <data name="ImageTag" xml:space="preserve">
+    <value>แท็กรูปภาพ</value>
+  </data>
+  <data name="JobTypes" xml:space="preserve">
+    <value>ชนิดของงาน</value>
+  </data>
+  <data name="Genders" xml:space="preserve">
+    <value>เพศ</value>
+  </data>
+  <data name="PhoneNumbers" xml:space="preserve">
+    <value>หมายเลขโทรศัพท์</value>
+  </data>
+  <data name="Notifications" xml:space="preserve">
+    <value>การแจ้งเตือน</value>
+  </data>
+  <data name="Contacts" xml:space="preserve">
+    <value>ติดต่อ</value>
+  </data>
+  <data name="ImageFiles" xml:space="preserve">
+    <value>ไฟล์รูปภาพ</value>
+  </data>
+  <data name="ContentLists" xml:space="preserve">
+    <value>เนื้อหารายการ</value>
+  </data>
+  <data name="HomeVisible" xml:space="preserve">
+    <value>แสดงในหน้าแรกหรือไม่</value>
+  </data>
+  <data name="TOC" xml:space="preserve">
+    <value>ระยะการใช้งาน</value>
+  </data>
+  <data name="ShowHeaderDate" xml:space="preserve">
+    <value>แสดงวันที่</value>
+  </data>
+  <data name="ExpiredOn" xml:space="preserve">
+    <value>หมดอายุเมื่อ</value>
+  </data>
+  <data name="PublishedOn" xml:space="preserve">
+    <value>เผยแพร่เมื่อ</value>
+  </data>
+  <data name="LastUpdatedOn" xml:space="preserve">
+    <value>ปรับปรุงล่าสุด</value>
+  </data>
+  <data name="InvalidPublishDate" xml:space="preserve">
+    <value>ประกาศวันต้องน้อยกว่า หรือเท่ากับวันเริ่มกิจกรรม</value>
+  </data>
+  <data name="InvalidExpiryDate" xml:space="preserve">
+    <value>วันหมดอายุต้องเป็นวันสิ้นสุดของกิจกรรมมากกว่า หรือเท่ากับ</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>จาก</value>
+  </data>
+  <data name="Till" xml:space="preserve">
+    <value>ลิ้นชักเก็บเงิน</value>
+  </data>
+  <data name="NoResult" xml:space="preserve">
+    <value>ไม่มีผลลัพธ์</value>
+  </data>
+  <data name="BreakingNews" xml:space="preserve">
+    <value>ข่าวด่วน</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>พร้อมใช้งาน</value>
+  </data>
+  <data name="Skills" xml:space="preserve">
+    <value>ทักษะ</value>
+  </data>
+  <data name="Validity" xml:space="preserve">
+    <value>มีผลบังคับใช้</value>
+  </data>
+  <data name="ChooseJobType" xml:space="preserve">
+    <value>-เลือกชนิดงาน-</value>
+  </data>
+  <data name="AbsolutePath" xml:space="preserve">
+    <value>เส้นทางสัมบูรณ์</value>
+  </data>
+  <data name="Keywords" xml:space="preserve">
+    <value>คำสำคัญ</value>
+  </data>
+  <data name="PoweredBy" xml:space="preserve">
+    <value>รับพลังมาจาก</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>เส้นทาง</value>
+  </data>
+  <data name="UrgentExpiredOn" xml:space="preserve">
+    <value>ด่วนหมดเขต</value>
+  </data>
+  <data name="BackToHome" xml:space="preserve">
+    <value>กลับไปหน้าแรกตอนนี้</value>
+  </data>
+  <data name="PageNotFound" xml:space="preserve">
+    <value>ไม่พบหน้า</value>
+  </data>
+  <data name="PageNotTranslated" xml:space="preserve">
+    <value>ไม่ได้แปล</value>
+  </data>
+  <data name="PageNotPublished" xml:space="preserve">
+    <value>หน้าไม่ Pubished</value>
+  </data>
+  <data name="CreatePassword" xml:space="preserve">
+    <value>สร้างรหัสผ่าน</value>
+  </data>
+  <data name="ResetPasswordConfirmation" xml:space="preserve">
+    <value>รีเซ็ตรหัสผ่าน</value>
+  </data>
+  <data name="PasswordReset" xml:space="preserve">
+    <value>รหัสผ่านของคุณถูกตั้งค่าใหม่</value>
+  </data>
+  <data name="ClickLogin" xml:space="preserve">
+    <value>คลิกที่นี่เพื่อเข้าสู่ระบบ</value>
+  </data>
+  <data name="YourAppNumber" xml:space="preserve">
+    <value>เป็นหมายเลขของแอพลิเคชัน</value>
+  </data>
+  <data name="ImageTags" xml:space="preserve">
+    <value>แท็กรูปภาพ</value>
+  </data>
+  <data name="SMTPSettings" xml:space="preserve">
+    <value>การตั้งค่า SMTP</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>สถิติ</value>
+  </data>
+  <data name="Statuses" xml:space="preserve">
+    <value>สถานะ</value>
+  </data>
+  <data name="Vacancies" xml:space="preserve">
+    <value>ตำแหน่งงานว่าง</value>
+  </data>
+  <data name="LockedOutMessage" xml:space="preserve">
+    <value>บัญชีนี้ถูกล็อค กรุณาลองใหม่อีกครั้ง</value>
+  </data>
+  <data name="LockedOut" xml:space="preserve">
+    <value>ล็อคออก</value>
+  </data>
+  <data name="TakeTour" xml:space="preserve">
+    <value>ทัวร์</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>แบ่งปันหน้านี้</value>
+  </data>
+  <data name="ForgotPasswordInstructions" xml:space="preserve">
+    <value>กรอกแบบฟอร์มด้านล่างเพื่อรับอีเมลที่ มีรหัสการอนุญาตที่จำเป็นในการรีเซ็ตรหัสผ่าน</value>
+  </data>
+  <data name="InvalidToken" xml:space="preserve">
+    <value>โทเค็นไม่ถูกต้อง</value>
+  </data>
+  <data name="ReadMore" xml:space="preserve">
+    <value>อ่านเพิ่มเติม</value>
+  </data>
+  <data name="LogIn" xml:space="preserve">
+    <value>เข้าสู่ระบบ</value>
+  </data>
+  <data name="Dimensions" xml:space="preserve">
+    <value>มิติ</value>
+  </data>
+  <data name="GetInTouch" xml:space="preserve">
+    <value>ติดต่อ</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>หมวดหมู่</value>
+  </data>
+  <data name="YourName" xml:space="preserve">
+    <value>ชื่อของเธอ</value>
+  </data>
+  <data name="YourEmail" xml:space="preserve">
+    <value>อีเมลของคุณ</value>
+  </data>
+  <data name="SendMessage" xml:space="preserve">
+    <value>ส่งข้อความ</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>ข้อความ</value>
+  </data>
+  <data name="SenderName" xml:space="preserve">
+    <value>ชื่อของเธอ</value>
+  </data>
+  <data name="Careers" xml:space="preserve">
+    <value>ร่วมงานกับเรา</value>
+  </data>
+  <data name="SocialNetwork" xml:space="preserve">
+    <value>เครือข่ายสังคม</value>
+  </data>
+  <data name="SocialNetworks" xml:space="preserve">
+    <value>เครือข่ายสังคม</value>
+  </data>
+  <data name="ShowAll" xml:space="preserve">
+    <value>แสดงทั้งหมด</value>
+  </data>
+  <data name="ChooseCategory" xml:space="preserve">
+    <value>-เลือกประเภท-</value>
+  </data>
+  <data name="AddressLine1" xml:space="preserve">
+    <value>บรรทัดที่อยู่ 1</value>
+  </data>
+  <data name="AddressLine2" xml:space="preserve">
+    <value>ที่อยู่ 2</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>รัฐ</value>
+  </data>
+  <data name="ZIP" xml:space="preserve">
+    <value>รหัสไปรษณีย์</value>
+  </data>
+  <data name="Newsletter" xml:space="preserve">
+    <value>จดหมายข่าว</value>
+  </data>
+  <data name="LatestTweets" xml:space="preserve">
+    <value>ทวีตล่าสุด</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>กรุณารอสักครู่</value>
+  </data>
+  <data name="FollowUs" xml:space="preserve">
+    <value>ติดตามเรา</value>
+  </data>
+  <data name="ChooseEmployeeType" xml:space="preserve">
+    <value>-เลือกชนิดของพนักงาน-</value>
+  </data>
+  <data name="HasAccount" xml:space="preserve">
+    <value>มีบัญชี</value>
+  </data>
+  <data name="EmailConfirmed" xml:space="preserve">
+    <value>ยืนยันอีเมล์</value>
+  </data>
+  <data name="UsefulLinks" xml:space="preserve">
+    <value>ที่นี่มีบางลิงค์ที่มีประโยชน์</value>
+  </data>
+  <data name="AwaitingTranslation" xml:space="preserve">
+    <value>รอสำหรับการแปล...</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>ย้อนกลับ</value>
+  </data>
+  <data name="StaffDirectory" xml:space="preserve">
+    <value>พนักงานไดเรกทอรี</value>
+  </data>
+  <data name="SubscribedToMailingList" xml:space="preserve">
+    <value> คุณได้เพิ่มรายการจดหมายของเรา</value>
+  </data>
+  <data name="ThankYouForInterest" xml:space="preserve">
+    <value>ขอบคุณสำหรับความสนใจในการปรับปรุงล่าสุดของเรา คุณจะได้รับอีเมล์ยืนยันการสมัครใช้งานไม่นาน</value>
+  </data>
+  <data name="DeleteProfileConfirmation" xml:space="preserve">
+    <value>คุณต้องการลบโปรไฟล์ของคุณแน่ใจหรือไม่</value>
+  </data>
+  <data name="DeleteProfile" xml:space="preserve">
+    <value>ลบโปรไฟล์ของฉัน</value>
+  </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>รูปภาพ</value>
+  </data>
+  <data name="ChooseGallery" xml:space="preserve">
+    <value>-เลือกภาพแกลอรี่-</value>
+  </data>
+  <data name="Galleries" xml:space="preserve">
+    <value>แกลเลอรี่ภาพ</value>
+  </data>
+  <data name="GalleryCategory" xml:space="preserve">
+    <value>ประเภท</value>
+  </data>
+  <data name="GalleryCategories" xml:space="preserve">
+    <value>หมวดหมู่</value>
+  </data>
+  <data name="UrlSlug" xml:space="preserve">
+    <value>ลิงค์</value>
+  </data>
+  <data name="Url" xml:space="preserve">
+    <value>การเชื่อมโยง</value>
+  </data>
+  <data name="DeveloperURL" xml:space="preserve">
+    <value>เว็บไซต์ผู้พัฒนา</value>
+  </data>
+  <data name="Reference" xml:space="preserve">
+    <value>อ้างอิง</value>
+  </data>
+  <data name="ContentItems" xml:space="preserve">
+    <value>เนื้อหารายการ</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>การตั้งค่า</value>
+  </data>
+  <data name="Recruitment" xml:space="preserve">
+    <value>สรรหาบุคลากร</value>
+  </data>
+  <data name="Identity" xml:space="preserve">
+    <value>รหัสประจำตัว</value>
+  </data>
+  <data name="Lorem1" xml:space="preserve">
+    <value>วิธีการขยายธุรกิจของคุณ</value>
+  </data>
+  <data name="Lorem2" xml:space="preserve">
+    <value>ตรวจสอบตัวเลือกและคุณลักษณะของเรา</value>
+  </data>
+  <data name="GetStarted" xml:space="preserve">
+    <value>เริ่มต้นเดี๋ยวนี้</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>หรือ</value>
+  </data>
+  <data name="LearnMore" xml:space="preserve">
+    <value>ศึกษาเพิ่มเติม</value>
+  </data>
+  <data name="Lorem3" xml:space="preserve">
+    <value>ข้อความนี้เป็นตัวอย่างของข้อความที่สามารถถูกแทนที่ในพื้นที่เดียวกัน ข้อความนี้ถูกสร้างขึ้นจากเครื่องกำเนิดไฟฟ้าภาษาละติน</value>
+  </data>
+  <data name="January" xml:space="preserve">
+    <value>มกราคม</value>
+  </data>
+  <data name="JohnSmith" xml:space="preserve">
+    <value>จอห์นสมิธ</value>
+  </data>
+  <data name="JobTitleName" xml:space="preserve">
+    <value>CEO และผู้ก่อตั้ง - บริษัท ABC</value>
+  </data>
+  <data name="WhatClientsSay" xml:space="preserve">
+    <value>สิ่งที่ลูกค้าพูด</value>
+  </data>
+  <data name="LoremTitle" xml:space="preserve">
+    <value>ข้อความนี้เป็นตัวอย่างของข้อความที่สามารถถูกแทนที่ในพื้นที่เดียวกัน</value>
+  </data>
+  <data name="UploadIcon" xml:space="preserve">
+    <value>อัปโหลด</value>
+  </data>
+  <data name="UploadImage" xml:space="preserve">
+    <value>อัปโหลดภาพ!</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>สรุป</value>
+  </data>
+  <data name="Icon" xml:space="preserve">
+    <value>ไอคอน</value>
+  </data>
+  <data name="PleaseUploadIconOfType" xml:space="preserve">
+    <value>โปรดอัปโหลดไอคอนประเภท :!</value>
+  </data>
+  <data name="IconNotes" xml:space="preserve">
+    <value>โปรดอัปโหลดไอคอนประเภท: .PNG!</value>
+  </data>
+  <data name="IconName" xml:space="preserve">
+    <value>ไอคอน</value>
+  </data>
+  <data name="IconPath" xml:space="preserve">
+    <value>ไอคอน</value>
+  </data>
+  <data name="MeetOurTeam" xml:space="preserve">
+    <value>ทีมงานของเรา</value>
+  </data>
+  <data name="MainDepts" xml:space="preserve">
+    <value>แผนก</value>
+  </data>
+  <data name="PrimaryCaption" xml:space="preserve">
+    <value>คำบรรยายหลัก</value>
+  </data>
+  <data name="SecondaryCaption" xml:space="preserve">
+    <value>คำบรรยาย</value>
+  </data>
+  <data name="TertiaryCaption" xml:space="preserve">
+    <value>คำอธิบายในระดับอุดมศึกษา</value>
+  </data>
+  <data name="MedicalTreatment" xml:space="preserve">
+    <value>รักษาพยาบาล</value>
+  </data>
+  <data name="DoctorsTimetable" xml:space="preserve">
+    <value>ทำงานเป็นแพทย์</value>
+  </data>
+  <data name="OpeningHours" xml:space="preserve">
+    <value>เวลาทำการ</value>
+  </data>
+  <data name="EmergencyCase" xml:space="preserve">
+    <value>กรณีฉุกเฉิน Krṇī c̄hukc̄hein</value>
+  </data>
+  <data name="Sunday" xml:space="preserve">
+    <value>วันอาทิตย์</value>
+  </data>
+  <data name="Monday" xml:space="preserve">
+    <value>วันจันทร์</value>
+  </data>
+  <data name="Tuesday" xml:space="preserve">
+    <value>วันอังคาร</value>
+  </data>
+  <data name="Wednesday" xml:space="preserve">
+    <value>วันพุธ</value>
+  </data>
+  <data name="Thursday" xml:space="preserve">
+    <value>วันพฤหัสบดี</value>
+  </data>
+  <data name="Friday" xml:space="preserve">
+    <value>วันศุกร์</value>
+  </data>
+  <data name="Saturday" xml:space="preserve">
+    <value>วันเสาร์</value>
+  </data>
+  <data name="Subtitle" xml:space="preserve">
+    <value>คำบรรยาย/ซับ</value>
+  </data>
+  <data name="ViewMore" xml:space="preserve">
+    <value>ดูทั้งหมด</value>
+  </data>
+  <data name="Doctors" xml:space="preserve">
+    <value>แพทย์</value>
+  </data>
+  <data name="OurSpecialists" xml:space="preserve">
+    <value>ผู้เชี่ยวชาญของเรา</value>
+  </data>
+  <data name="Staff" xml:space="preserve">
+    <value>พนักงาน</value>
+  </data>
+  <data name="MedicalStaff" xml:space="preserve">
+    <value>บุคลากรทางการเเพทย์</value>
+  </data>
+  <data name="LatestEvents" xml:space="preserve">
+    <value>กิจกรรมล่าสุด</value>
+  </data>
+  <data name="DoctorName" xml:space="preserve">
+    <value>ชื่อหมอ</value>
+  </data>
+  <data name="DoctorType" xml:space="preserve">
+    <value>ประเภทของแพทย์</value>
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>หมายเลขพอร์ต</value>
+  </data>
+  <data name="EnableSsl" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="SenderEmail" xml:space="preserve">
+    <value>ผู้ส่งอีเมล</value>
+  </data>
+  <data name="SenderPassword" xml:space="preserve">
+    <value>ส่งรหัสผ่าน</value>
+  </data>
+  <data name="RecipientEmail" xml:space="preserve">
+    <value>อีเมลของผู้รับ MMM</value>
+  </data>
+  <data name="VisitorCounter" xml:space="preserve">
+    <value>ชม</value>
+  </data>
+  <data name="RoleInUse" xml:space="preserve">
+    <value>ใช้ชื่อบทบาทแล้วกัน</value>
+  </data>
+  <data name="Administration" xml:space="preserve">
+    <value>การบริหาร</value>
+  </data>
+  <data name="SystemSettings" xml:space="preserve">
+    <value>การตั้งค่าระบบ</value>
+  </data>
+  <data name="InvalidCode" xml:space="preserve">
+    <value>รหัสไม่ถูกต้อง</value>
+  </data>
+  <data name="UserExist" xml:space="preserve">
+    <value>ชื่อกลยุทธ์นี้มีผู้ใช้อยู่แล้ว</value>
+  </data>
+  <data name="FailedToVerifyPhone" xml:space="preserve">
+    <value>ตรวจสอบหมายเลขโทรศัพท์ของคุณ</value>
+  </data>
+  <data name="Maintenance" xml:space="preserve">
+    <value>การบำรุงรักษา</value>
+  </data>
+  <data name="Forms" xml:space="preserve">
+    <value>รูปแบบอื่น ๆ</value>
+  </data>
+  <data name="DontHaveAccount" xml:space="preserve">
+    <value>ยังไม่มีบัญชีใช่ไหม?</value>
+  </data>
+  <data name="Page" xml:space="preserve">
+    <value>หน้า</value>
+  </data>
+  <data name="Of" xml:space="preserve">
+    <value>จาก</value>
+  </data>
+  <data name="TotalRows" xml:space="preserve">
+    <value>ทั้งหมด</value>
+  </data>
+  <data name="ChooseMaintenanceType" xml:space="preserve">
+    <value>-เลือกการบำรุงรักษาชนิด-</value>
+  </data>
+  <data name="ChooseInventory" xml:space="preserve">
+    <value>เลือก</value>
+  </data>
+  <data name="ChooseModel" xml:space="preserve">
+    <value>โมเดล</value>
+  </data>
+  <data name="ChooseSite" xml:space="preserve">
+    <value>เลือก</value>
+  </data>
+  <data name="ChooseManufacturer" xml:space="preserve">
+    <value>-เลือกผลิต-</value>
+  </data>
+  <data name="DeviceCard" xml:space="preserve">
+    <value>อุปกรณ์</value>
+  </data>
+  <data name="Installation" xml:space="preserve">
+    <value>การติดตั้ง</value>
+  </data>
+  <data name="BasicInformation" xml:space="preserve">
+    <value>ข้อมูลพื้นฐาน</value>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>เดือน</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>ปี</value>
+  </data>
+  <data name="ChooseFormStatus" xml:space="preserve">
+    <value>- เลือกรูปแบบสถานะ -</value>
+  </data>
+  <data name="ChooseDataType" xml:space="preserve">
+    <value>- เลือกชนิดข้อมูล--!</value>
+  </data>
+  <data name="Form" xml:space="preserve">
+    <value>แบบฟอร์ม</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>ร้องเรียน</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>รายงาน</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>กำลังประมวลผล ...</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>ต่อไป</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>ก่อน</value>
+  </data>
+  <data name="SummaryMessage" xml:space="preserve">
+    <value>แสดง {0} ถึง {1} {2} รายการ</value>
+  </data>
+  <data name="Fields" xml:space="preserve">
+    <value>ฟิลด์</value>
+  </data>
+  <data name="Reorder" xml:space="preserve">
+    <value>เรียงลำดับใหม่</value>
+  </data>
+  <data name="Sections" xml:space="preserve">
+    <value>ส่วน</value>
+  </data>
+  <data name="Section" xml:space="preserve">
+    <value>ส่วน</value>
+  </data>
+  <data name="Choices" xml:space="preserve">
+    <value>choices</value>
+  </data>
+  <data name="Choice" xml:space="preserve">
+    <value>. ตัวเลือกเกม</value>
+  </data>
+  <data name="DataType" xml:space="preserve">
+    <value>ชนิดข้อมูล</value>
+  </data>
+  <data name="DataTypes" xml:space="preserve">
+    <value>ประเภท</value>
+  </data>
+  <data name="Field" xml:space="preserve">
+    <value>Field</value>
+  </data>
+  <data name="Property" xml:space="preserve">
+    <value>Thing</value>
+  </data>
+  <data name="Properties" xml:space="preserve">
+    <value>คุณสมบัติ</value>
+  </data>
+  <data name="ChoiceList" xml:space="preserve">
+    <value>รายการทางเลือก</value>
+  </data>
+  <data name="Values" xml:space="preserve">
+    <value>มูลค่า</value>
+  </data>
+  <data name="ChoiceLists" xml:space="preserve">
+    <value>. ตัวเลือกเกม</value>
+  </data>
+  <data name="WorkflowPath" xml:space="preserve">
+    <value>พาธ</value>
+  </data>
+  <data name="Workflow" xml:space="preserve">
+    <value>Workflow &amp;amp; procedure:</value>
+  </data>
+  <data name="WorkflowSettings" xml:space="preserve">
+    <value>ตั้งค่า</value>
+  </data>
+  <data name="EmpNumber" xml:space="preserve">
+    <value>พนักงาน</value>
+  </data>
+  <data name="EmpNumberInvalid" xml:space="preserve">
+    <value>รหัสพนักงานไม่ถูกต้อง</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>ปิด</value>
+  </data>
+  <data name="Approval" xml:space="preserve">
+    <value>การอนุมัติ</value>
+  </data>
+  <data name="ActionStatus" xml:space="preserve">
+    <value>สถานะ</value>
+  </data>
+  <data name="ChangeStatusConfirmation" xml:space="preserve">
+    <value>คุณแน่ใจหรือว่าต้องการเปลี่ยนผู้แนะนำ?</value>
+  </data>
+  <data name="PendingNext" xml:space="preserve">
+    <value>ระดับถัดไป</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>เสร็จสมบูรณ์!</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>ปรับปรุง</value>
+  </data>
+  <data name="ChooseFields" xml:space="preserve">
+    <value>ตกลง</value>
+  </data>
+  <data name="ApprovalTracking" xml:space="preserve">
+    <value>ประวัติ</value>
+  </data>
+  <data name="ActionDate" xml:space="preserve">
+    <value>ดำเนินการ</value>
+  </data>
+  <data name="PendingPrev" xml:space="preserve">
+    <value>รอก่อนหน้าระดับการอนุมัติ</value>
+  </data>
+  <data name="ChooseGroup" xml:space="preserve">
+    <value>-เลือกกลุ่ม-</value>
+  </data>
+  <data name="Items" xml:space="preserve">
+    <value>รายการ</value>
+  </data>
+  <data name="SubmissionDate" xml:space="preserve">
+    <value>วันที่และเวลาในการส่ง</value>
+  </data>
+  <data name="ChangeUserName" xml:space="preserve">
+    <value>เปลี่ยนรหัสผ่านของ %username%</value>
+  </data>
+  <data name="ChangeUserEmail" xml:space="preserve">
+    <value>เปลี่ยนการกำหนดลักษณะของอีเมล</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>&amp;ใช่</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>ไม่ใช่</value>
+  </data>
+  <data name="DeleteAccount" xml:space="preserve">
+    <value>ลบบัญชีผู้ใช้</value>
+  </data>
+  <data name="AccountSummary" xml:space="preserve">
+    <value>สรุปข้อมูลลูกค้าองค์กร</value>
+  </data>
+  <data name="SendVerificationCode" xml:space="preserve">
+    <value>ส่งรหัสตรวจสอบความถูกต้อง</value>
+  </data>
+  <data name="RecordCreated" xml:space="preserve">
+    <value>สร้างเรกคอร์ดเมื่อ</value>
+  </data>
+  <data name="RecordUpdated" xml:space="preserve">
+    <value>ระเบียนถูกอัปเดต</value>
+  </data>
+  <data name="RecordDeleted" xml:space="preserve">
+    <value>มีการลบเรกคอร์ดปัจจุบันหรือไม่?</value>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>สิทธิ์</value>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>เปลี่ยน</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>เพิ่ม</value>
+  </data>
+  <data name="EmailStatus" xml:space="preserve">
+    <value>สถานะอีเมล์</value>
+  </data>
+  <data name="Confirmed" xml:space="preserve">
+    <value>ยืนยัน</value>
+  </data>
+  <data name="Unconfirmed" xml:space="preserve">
+    <value>ยังไม่ได้ยืนยัน</value>
+  </data>
+  <data name="ChangeConfirmEmail" xml:space="preserve">
+    <value>เปลี่ยน / ยืนยันอีเมล์</value>
+  </data>
+  <data name="RecordCreatedSuccessfully" xml:space="preserve">
+    <value>&lt;ex id="1"/&gt; ถูกสร้างขึ้นเรียบร้อยแล้ว</value>
+  </data>
+  <data name="RecordUpdatedSuccessfully" xml:space="preserve">
+    <value>ระเบียนที่ปรับปรุงเรียบร้อย</value>
+  </data>
+  <data name="RecordDeletedSuccessfully" xml:space="preserve">
+    <value>ระเบียนที่ถูกลบเรียบร้อยแล้ว</value>
+  </data>
+  <data name="NoUsersInRole" xml:space="preserve">
+    <value>ผู้ใช้ไม่พบในบทบาทนี้</value>
+  </data>
+  <data name="NoPermissionsInGroup" xml:space="preserve">
+    <value>ไม่มีสิทธิ์ที่พบในกลุ่มนี้</value>
+  </data>
+  <data name="ListGroupPermissions" xml:space="preserve">
+    <value>รายชื่อของชั้นวางที่เชื่อมต่อกับตัวควบคุมนี้</value>
+  </data>
+  <data name="TFAEnabled" xml:space="preserve">
+    <value>ตรวจสอบปัจจัยที่สองคือการเปิดใช้งานอยู่:</value>
+  </data>
+  <data name="TFADisabled" xml:space="preserve">
+    <value>ตรวจสอบปัจจัยที่สองคือปิดการใช้งานอยู่:</value>
+  </data>
+  <data name="TFABrowserRemembered" xml:space="preserve">
+    <value>ขณะนี้มีจำเบราว์เซอร์สำหรับการตรวจสอบปัจจัยที่สอง:</value>
+  </data>
+  <data name="ListUserPermissions" xml:space="preserve">
+    <value>จำนวนของผู้ใช้</value>
+  </data>
+  <data name="NoGroupsForUser" xml:space="preserve">
+    <value>กลุ่มไม่พบผู้ใช้นี้</value>
+  </data>
+  <data name="ListGroupsForUser" xml:space="preserve">
+    <value>รายการของกลุ่มผู้ใช้นี้เป็นสมาชิก:</value>
+  </data>
+  <data name="NoPermissionsForUser" xml:space="preserve">
+    <value>ไม่พบงานประจำสำหรับโปรเจกต์นี้</value>
+  </data>
+  <data name="TFABrowserNotRemembered" xml:space="preserve">
+    <value>เบราว์เซอร์ปัจจุบันจำได้ไม่สำหรับตรวจสอบปัจจัยที่สอง:</value>
+  </data>
+  <data name="ListUsersInPermission" xml:space="preserve">
+    <value>รายชื่อผู้ใช้สิทธิ์นี้เป็นสมาชิก:</value>
+  </data>
+  <data name="ConfirmAccount" xml:space="preserve">
+    <value>ยืนยันบัญชีของคุณ</value>
+  </data>
+  <data name="ConfirmAccountMessage" xml:space="preserve">
+    <value>โปรดยืนยันบัญชีของคุณโดยคลิกที่ลิงค์นี้</value>
+  </data>
+  <data name="ResetPasswordMessage" xml:space="preserve">
+    <value>โปรดรีเซ็ตรหัสผ่านโดยคลิกที่นี่</value>
+  </data>
+  <data name="ConfirmNewPassword" xml:space="preserve">
+    <value>ยืนยันรหัสผ่านใหม่</value>
+  </data>
+  <data name="GroupExist" xml:space="preserve">
+    <value>กลุ่มมีอยู่</value>
+  </data>
+  <data name="ForgetBrowser" xml:space="preserve">
+    <value>ลืมเบราว์เซอร์นี้</value>
+  </data>
+  <data name="ChangePasswordSuccess" xml:space="preserve">
+    <value>รหัสผ่านถูกเปลี่ยนไปแล้ว</value>
+  </data>
+  <data name="SetPasswordSuccess" xml:space="preserve">
+    <value>ตั้งรหัสผ่านของคุณแล้ว!</value>
+  </data>
+  <data name="SetTwoFactorSuccess" xml:space="preserve">
+    <value>ผู้ให้บริการสองปัจจัยของคุณได้รับการตั้งค่าแล้ว</value>
+  </data>
+  <data name="AddPhoneSuccess" xml:space="preserve">
+    <value>เพิ่มหมายเลขโทรศัพท์แล้ว!</value>
+  </data>
+  <data name="RemovePhoneSuccess" xml:space="preserve">
+    <value>หมายเลขโทรศัพท์ของคุณถูกนำออกแล้ว!</value>
+  </data>
+  <data name="Showing" xml:space="preserve">
+    <value>แสดง</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>ถึง</value>
+  </data>
+  <data name="Entries" xml:space="preserve">
+    <value>รายการ</value>
+  </data>
+  <data name="Documentation" xml:space="preserve">
+    <value>เอกสาร</value>
+  </data>
+  <data name="BuyNow" xml:space="preserve">
+    <value>ซื้อทันที</value>
+  </data>
+  <data name="Searching" xml:space="preserve">
+    <value>กำลังค้นหา...</value>
+  </data>
+  <data name="Roles1" xml:space="preserve">
+    <value>บทบาท</value>
+  </data>
+  <data name="Role1" xml:space="preserve">
+    <value>บทบาท</value>
+  </data>
+  <data name="CRMModules" xml:space="preserve">
+    <value>โมดูล CRM</value>
+  </data>
+  <data name="Sales" xml:space="preserve">
+    <value>การขาย</value>
+  </data>
+  <data name="Marketing" xml:space="preserve">
+    <value>การตลาด</value>
+  </data>
+  <data name="Operations" xml:space="preserve">
+    <value>การดำเนินงาน</value>
+  </data>
+  <data name="Accounting" xml:space="preserve">
+    <value>การบัญชี</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>การสนับสนุน</value>
+  </data>
+  <data name="DefaultPasswordFor" xml:space="preserve">
+    <value>รหัสผ่านเริ่มต้นสำหรับ::</value>
+  </data>
+  <data name="DefaultUserPassword" xml:space="preserve">
+    <value>ผู้ใช้รายอื่น:</value>
+  </data>
+  <data name="AdminUsername" xml:space="preserve">
+    <value>ชื่อผู้ใช้:</value>
+  </data>
+  <data name="AdminPassword" xml:space="preserve">
+    <value>รหัสผ่านผู้ดูแลระบบ:</value>
+  </data>
+</root>

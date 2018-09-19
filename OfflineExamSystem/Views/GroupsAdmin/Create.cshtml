@@ -1,0 +1,59 @@
+﻿@model OfflineExamSystem.Models.CreateGroupViewModel
+@using (Ajax.BeginForm("Create", "GroupsAdmin", null, new AjaxOptions()
+{
+    HttpMethod = "POST",
+    UpdateTargetId = "createContainer",
+    OnSuccess = "OnSuccessCreate",
+}, new { @id = "createGroup" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h3 class="modal-title">@Resources.Resources.Create</h3>
+        </div>
+        <div class="modal-body">
+            <div class="form-horizontal">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">
+                        @Resources.Resources.Roles
+                    </label>
+                    <div class="col-md-10">
+                        @foreach (var item in (Model.RolesList).OrderBy(r => r.Text))
+                        {
+                            <div>
+                                <input type="checkbox" name="SelectedRoles" value="@item.Value" checked="@item.Selected" class="checkbox-inline" />
+                                @Html.Label(item.Text, new { @class = "control-label" })
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+            @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+        </div>  
+        <div class="modal-footer">
+            <button type="submit" class="btn btn-success"><i class="fa fa-save"></i> @Resources.Resources.Create</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times" aria-hidden="true"></i> @Resources.Resources.Close</button>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,21 @@
+﻿@using System.Globalization
+@{
+    ViewBag.Title = "Index";
+    CultureInfo arCultureInfo = CultureInfo.CreateSpecificCulture("ar-JO");
+    CultureInfo enCultureInfo = CultureInfo.CreateSpecificCulture("en-US");
+}
+<div class="jumbotron">
+    <h2> Offline Exam System</h2>
+</div>
+@using (Html.BeginForm("Init", "Home", FormMethod.Post, new { @id = "formLanguage" }))
+{
+    <div class="form-group">
+        <div class="col-md-3">@Html.Label("Select language")</div>
+        <div class="col-md-5">
+            <a href="@Url.RouteUrl(new RouteValueDictionary(ViewContext.RouteData.Values.ToDictionary(r => r.Key, r => r.Key == "culture" ? "en-US" : r.Value)))@Request.Url.Query"><img src="~/Content/Images/blank.gif" class="flag flag-us" alt="@enCultureInfo.NativeName"> @enCultureInfo.Name</a> |
+            <a href="@Url.RouteUrl(new RouteValueDictionary(ViewContext.RouteData.Values.ToDictionary(r => r.Key, r => r.Key == "culture" ? "ar-SA" : r.Value)))@Request.Url.Query"><img src="~/Content/Images/blank.gif" class="flag flag-sa" alt="@arCultureInfo.NativeName"> @arCultureInfo.Name</a>
+        </div>
+    </div>
+    <a href="javascript:void(0);" onclick="getElementById('formLanguage').submit();" class="btn btn-primary">Next>></a>
+}
+

@@ -1,0 +1,2103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BackToList" xml:space="preserve">
+    <value>Späť na zoznam</value>
+  </data>
+  <data name="Calendar" xml:space="preserve">
+    <value>Kalendár</value>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>Konfigurácia</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Potvrďte heslo</value>
+  </data>
+  <data name="ConfirmPasswordCompare" xml:space="preserve">
+    <value>Heslo a potvrdenie hesla sa nezhodujú</value>
+  </data>
+  <data name="Contents" xml:space="preserve">
+    <value>Obsah</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Vytvoriť</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Vymazať lokalitu</value>
+  </data>
+  <data name="DeleteConfirmation" xml:space="preserve">
+    <value>Naozaj chcete odstrániť toto?</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Popis</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Podrobnosti</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Upraviť</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-mailom</value>
+  </data>
+  <data name="EmailRegularExpression" xml:space="preserve">
+    <value>E-mail nie je platný.</value>
+  </data>
+  <data name="Events" xml:space="preserve">
+    <value>Udalosti</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Krstné meno</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Skupina</value>
+  </data>
+  <data name="GroupRolesAssignment" xml:space="preserve">
+    <value>Roly priradené pre skupinu:</value>
+  </data>
+  <data name="Groups" xml:space="preserve">
+    <value>Skupiny</value>
+  </data>
+  <data name="GroupsAssignment" xml:space="preserve">
+    <value>Skupiny priradené používateľovi:</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Domov</value>
+  </data>
+  <data name="Images" xml:space="preserve">
+    <value>Obrázky</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Jazyk</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Priezvisko</value>
+  </data>
+  <data name="LogOff" xml:space="preserve">
+    <value>Odhlásiť</value>
+  </data>
+  <data name="LogOn" xml:space="preserve">
+    <value>prihlásiť sa</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>meno</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Heslo</value>
+  </data>
+  <data name="PasswordStringLength" xml:space="preserve">
+    <value>Heslo musí mať aspoň 6 znakov.</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>Úloha</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Úlohy</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Zaregistrovať sa</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Uložiť</value>
+  </data>
+  <data name="SelectGroups" xml:space="preserve">
+    <value>Vyberte skupinu</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Používateľ</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Užívateľské meno</value>
+  </data>
+  <data name="UserRolesAssignment" xml:space="preserve">
+    <value>Roly priradené používateľovi:</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Používatelia</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="CreatedOn" xml:space="preserve">
+    <value>Dátum vytvorenia</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>Dátum ukončenia aktivity</value>
+  </data>
+  <data name="Index" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="IsPublished" xml:space="preserve">
+    <value>Zverejnené?</value>
+  </data>
+  <data name="IsTranslated" xml:space="preserve">
+    <value>Je preložená?</value>
+  </data>
+  <data name="LanguageId" xml:space="preserve">
+    <value>Identifikácia jazyka</value>
+  </data>
+  <data name="ModifiedBy" xml:space="preserve">
+    <value>Naposledy upravil</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Umiestnenie</value>
+  </data>
+  <data name="ModifiedOn" xml:space="preserve">
+    <value>Dátum zmeny</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Počiatočný dátum aktivity</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Názov</value>
+  </data>
+  <data name="TranslationId" xml:space="preserve">
+    <value>Preklad</value>
+  </data>
+  <data name="Event" xml:space="preserve">
+    <value>Udalosť</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>Súbor</value>
+  </data>
+  <data name="FilePath" xml:space="preserve">
+    <value>Cesta k súboru</value>
+  </data>
+  <data name="MIME" xml:space="preserve">
+    <value>MIME</value>
+  </data>
+  <data name="Tag" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="Tags" xml:space="preserve">
+    <value>Tagy</value>
+  </data>
+  <data name="ThumbPath" xml:space="preserve">
+    <value>Palcom cesta</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Zobrazenie</value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>Obsah</value>
+  </data>
+  <data name="MainContent" xml:space="preserve">
+    <value>Hlavný obsah</value>
+  </data>
+  <data name="MetaDescription" xml:space="preserve">
+    <value>Meta opis</value>
+  </data>
+  <data name="MetaKeywords" xml:space="preserve">
+    <value>Meta kľúčové slová</value>
+  </data>
+  <data name="Languages" xml:space="preserve">
+    <value>Jazyky</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Zmena hesla</value>
+  </data>
+  <data name="CurrentPassword" xml:space="preserve">
+    <value>Aktuálne heslo</value>
+  </data>
+  <data name="ManageAccount" xml:space="preserve">
+    <value>Spravovanie účtu</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>Nové heslo</value>
+  </data>
+  <data name="OldPassword" xml:space="preserve">
+    <value>Staré heslo</value>
+  </data>
+  <data name="RememberMe" xml:space="preserve">
+    <value>Pamätaj si ma</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Hľadať</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Kategória</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="MenuItem" xml:space="preserve">
+    <value>Položka ponuky</value>
+  </data>
+  <data name="MenuItems" xml:space="preserve">
+    <value>Položky menu</value>
+  </data>
+  <data name="Menus" xml:space="preserve">
+    <value>Ponuky</value>
+  </data>
+  <data name="IsCms" xml:space="preserve">
+    <value>Je Cms?</value>
+  </data>
+  <data name="IsLeaf" xml:space="preserve">
+    <value>Je list?</value>
+  </data>
+  <data name="IsParent" xml:space="preserve">
+    <value>Je materská?</value>
+  </data>
+  <data name="Ordinal" xml:space="preserve">
+    <value>Radové</value>
+  </data>
+  <data name="Parent" xml:space="preserve">
+    <value>Rodič</value>
+  </data>
+  <data name="CreateNewAccount" xml:space="preserve">
+    <value>Vytvoriť nový účet.</value>
+  </data>
+  <data name="Deleted" xml:space="preserve">
+    <value>Odstránené</value>
+  </data>
+  <data name="Published" xml:space="preserve">
+    <value>Uverejnené</value>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>Uložené</value>
+  </data>
+  <data name="MaximumAllowedSize" xml:space="preserve">
+    <value>Maximálna povolená veľkosť je:</value>
+  </data>
+  <data name="PleaseUploadImageOfType" xml:space="preserve">
+    <value>Prosím nahrať obrázok typu:</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Poznámky</value>
+  </data>
+  <data name="AddTranslation" xml:space="preserve">
+    <value>Pridať preklad</value>
+  </data>
+  <data name="ViewTranslation" xml:space="preserve">
+    <value>Zobraziť preklad</value>
+  </data>
+  <data name="HasShortcut" xml:space="preserve">
+    <value>Dispaly na domovskej stránke</value>
+  </data>
+  <data name="IsScheduled" xml:space="preserve">
+    <value>Je naplánované?</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Stav</value>
+  </data>
+  <data name="Announcements" xml:space="preserve">
+    <value>Oznamy</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>Novinky</value>
+  </data>
+  <data name="NoAnnouncements" xml:space="preserve">
+    <value>Nie sú žiadne oznamy.</value>
+  </data>
+  <data name="NoEvents" xml:space="preserve">
+    <value>Neexistujú žiadne udalosti.</value>
+  </data>
+  <data name="NoNews" xml:space="preserve">
+    <value>Nie sú žiadne správy.</value>
+  </data>
+  <data name="ContentTypes" xml:space="preserve">
+    <value>Typy obsahu</value>
+  </data>
+  <data name="Building" xml:space="preserve">
+    <value>Budova</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Kód</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Krajiny</value>
+  </data>
+  <data name="Locality" xml:space="preserve">
+    <value>Mesto</value>
+  </data>
+  <data name="PostalCode" xml:space="preserve">
+    <value>PSČ</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="Street" xml:space="preserve">
+    <value>Ulica</value>
+  </data>
+  <data name="Telephone" xml:space="preserve">
+    <value>Telefónne číslo</value>
+  </data>
+  <data name="EnterCredentials" xml:space="preserve">
+    <value>Zadajte svoje užívateľské meno a heslo na prihlásenie.</value>
+  </data>
+  <data name="ForgetPassword" xml:space="preserve">
+    <value>Zabudli ste heslo?</value>
+  </data>
+  <data name="JoinUs" xml:space="preserve">
+    <value>Pripojte sa k nám @</value>
+  </data>
+  <data name="LoginToSite" xml:space="preserve">
+    <value>Prihláste sa na našich stránkach</value>
+  </data>
+  <data name="LoginWithSocialMedia" xml:space="preserve">
+    <value>.. .alebo prihlásiť sa:</value>
+  </data>
+  <data name="PasswordMatch" xml:space="preserve">
+    <value>Nové heslo a potvrdenie hesla sa nezhodujú.</value>
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>Telefónne číslo</value>
+  </data>
+  <data name="RegisterNewUser" xml:space="preserve">
+    <value>Zaregistrujte sa ako nový užívateľ</value>
+  </data>
+  <data name="StringLength" xml:space="preserve">
+    <value>{0} musí byť aspoň: {2} znakov.</value>
+  </data>
+  <data name="FillForm" xml:space="preserve">
+    <value>Vyplňte formulár nižšie a získať okamžitý prístup.</value>
+  </data>
+  <data name="EmailInvalid" xml:space="preserve">
+    <value>E-mailová adresa nie je platná.</value>
+  </data>
+  <data name="SignUp" xml:space="preserve">
+    <value>zaregistrovať sa</value>
+  </data>
+  <data name="SignUpInSeconds" xml:space="preserve">
+    <value>Zaregistrujte sa v sekundách</value>
+  </data>
+  <data name="AlreadyMember" xml:space="preserve">
+    <value>Už ste členom?</value>
+  </data>
+  <data name="EmailLink" xml:space="preserve">
+    <value>Poslať odkaz</value>
+  </data>
+  <data name="EmailConfirmationCheck" xml:space="preserve">
+    <value>Prosím skontrolujte váš e-mail pre aktiváciu vášho účtu.</value>
+  </data>
+  <data name="EnterEmail" xml:space="preserve">
+    <value>Zadajte svoj e-mail na zasielanie e-mailom odkaz na obnovenie hesla.</value>
+  </data>
+  <data name="Instruction" xml:space="preserve">
+    <value>Poslali sme vám e-mail vrátane odkazu potvrdenie. Prosím skontrolujte váš e-mail a potvrďte svoj podpis.</value>
+  </data>
+  <data name="InvalidLoginAttempt" xml:space="preserve">
+    <value>Neplatné prihlásenie pokus.</value>
+  </data>
+  <data name="Regards" xml:space="preserve">
+    <value>so srdečným pozdravom</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>Ďakujem za nami!</value>
+  </data>
+  <data name="ThankYouFor" xml:space="preserve">
+    <value>Vďaka za vstup</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>vitaj</value>
+  </data>
+  <data name="EnterVerificationCode" xml:space="preserve">
+    <value>Zadajte overovací kód.</value>
+  </data>
+  <data name="RememberBrowser" xml:space="preserve">
+    <value>Pamätajte si tento prehliadač</value>
+  </data>
+  <data name="SelectTwoFactor" xml:space="preserve">
+    <value>Vyberte dvojfaktorové overenie metódy.</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Odoslať</value>
+  </data>
+  <data name="TwoFactor" xml:space="preserve">
+    <value>Dvojfaktorové overovanie</value>
+  </data>
+  <data name="TwoFactorType" xml:space="preserve">
+    <value>Dvojfaktorové overenie metódy</value>
+  </data>
+  <data name="VerificationCode" xml:space="preserve">
+    <value>Overovací kód</value>
+  </data>
+  <data name="Verify" xml:space="preserve">
+    <value>Skontrolujte teraz</value>
+  </data>
+  <data name="ChangeAccountSettings" xml:space="preserve">
+    <value>Zmeniť nastavenia konta.</value>
+  </data>
+  <data name="ExternalLogins" xml:space="preserve">
+    <value>Externé prihlásenie</value>
+  </data>
+  <data name="AddPhoneNumber" xml:space="preserve">
+    <value>Pridať telefónne číslo</value>
+  </data>
+  <data name="ChangeCurrentPassword" xml:space="preserve">
+    <value>Zmena aktuálneho hesla.</value>
+  </data>
+  <data name="Disable" xml:space="preserve">
+    <value>Vypnúť</value>
+  </data>
+  <data name="Enable" xml:space="preserve">
+    <value>Zapnúť</value>
+  </data>
+  <data name="ExploreOurSite" xml:space="preserve">
+    <value>Pozrite si našu stránku</value>
+  </data>
+  <data name="ManageLogins" xml:space="preserve">
+    <value>Spravovať externé prihlásenie</value>
+  </data>
+  <data name="PhoneNumberOption" xml:space="preserve">
+    <value>Pridať telefónne číslo, aby bolo možné získať overovací kód.</value>
+  </data>
+  <data name="SetPassword" xml:space="preserve">
+    <value>Nastaviť heslo</value>
+  </data>
+  <data name="VerifyPhoneNumber" xml:space="preserve">
+    <value>Overenie telefónneho čísla</value>
+  </data>
+  <data name="VerifyPhoneNumberOption" xml:space="preserve">
+    <value>Zadajte overovací kód na overenie vašej identity. </value>
+  </data>
+  <data name="ChooseContentType" xml:space="preserve">
+    <value>--Vybrať typ obsahu--</value>
+  </data>
+  <data name="ChooseLanguage" xml:space="preserve">
+    <value>--Vyberte jazyk--</value>
+  </data>
+  <data name="ChooseParentMenuItem" xml:space="preserve">
+    <value>--Vyberte nadradenej položky menu--</value>
+  </data>
+  <data name="ContentType" xml:space="preserve">
+    <value>Typ obsahu</value>
+  </data>
+  <data name="HasMenuItem" xml:space="preserve">
+    <value>Poskytnúť odkaz menu?</value>
+  </data>
+  <data name="ChooseMenu" xml:space="preserve">
+    <value>--Vyberte menu--</value>
+  </data>
+  <data name="FacebookUrl" xml:space="preserve">
+    <value>Facebook</value>
+  </data>
+  <data name="IsUrgent" xml:space="preserve">
+    <value>Zobraziť v naliehavých bar?</value>
+  </data>
+  <data name="Logo" xml:space="preserve">
+    <value>Logo</value>
+  </data>
+  <data name="ParentMenuItem" xml:space="preserve">
+    <value>Materskej menu</value>
+  </data>
+  <data name="StatusId" xml:space="preserve">
+    <value>Stav</value>
+  </data>
+  <data name="TwitterUrl" xml:space="preserve">
+    <value>Twitter</value>
+  </data>
+  <data name="YouTubeUrl" xml:space="preserve">
+    <value>YouTube</value>
+  </data>
+  <data name="AcademicJournal" xml:space="preserve">
+    <value>Časopis hlas študentov</value>
+  </data>
+  <data name="ShortcutTitle" xml:space="preserve">
+    <value>Názov odkazu</value>
+  </data>
+  <data name="NoArticles" xml:space="preserve">
+    <value>Nie sú žiadne články.</value>
+  </data>
+  <data name="Vacancy" xml:space="preserve">
+    <value>Prácu hláska</value>
+  </data>
+  <data name="Degree" xml:space="preserve">
+    <value>Stupeň </value>
+  </data>
+  <data name="Degrees" xml:space="preserve">
+    <value>Stupňov</value>
+  </data>
+  <data name="AddAttachments" xml:space="preserve">
+    <value>Pridať inú prílohu...</value>
+  </data>
+  <data name="Applicant" xml:space="preserve">
+    <value>Žiadateľ</value>
+  </data>
+  <data name="Requirements" xml:space="preserve">
+    <value>Požiadavky</value>
+  </data>
+  <data name="CoverLetter" xml:space="preserve">
+    <value>Sprievodný list</value>
+  </data>
+  <data name="FileName" xml:space="preserve">
+    <value>Názov súboru</value>
+  </data>
+  <data name="Id" xml:space="preserve">
+    <value>Poradové číslo</value>
+  </data>
+  <data name="IsActive" xml:space="preserve">
+    <value>Je aktívny?</value>
+  </data>
+  <data name="VacancyType" xml:space="preserve">
+    <value>Typ voľné miesto</value>
+  </data>
+  <data name="Documents" xml:space="preserve">
+    <value>Dokumenty</value>
+  </data>
+  <data name="Submissions" xml:space="preserve">
+    <value>Podania</value>
+  </data>
+  <data name="SubmittedOn" xml:space="preserve">
+    <value>Submittion dátum</value>
+  </data>
+  <data name="Rank" xml:space="preserve">
+    <value>Akademické hodnosti</value>
+  </data>
+  <data name="Ranks" xml:space="preserve">
+    <value>Akademické hodnosti</value>
+  </data>
+  <data name="ChooseVacancy" xml:space="preserve">
+    <value>--Vybrať prácu názov--</value>
+  </data>
+  <data name="Applicants" xml:space="preserve">
+    <value>Žiadatelia</value>
+  </data>
+  <data name="ApplicantFullName" xml:space="preserve">
+    <value>Názov žiadateľa</value>
+  </data>
+  <data name="Attachments" xml:space="preserve">
+    <value>Prílohy</value>
+  </data>
+  <data name="CurriculumVitae" xml:space="preserve">
+    <value>Curriculum Vitae</value>
+  </data>
+  <data name="DOB" xml:space="preserve">
+    <value>dátum narodenia</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Na stiahnutie</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Pohlavie</value>
+  </data>
+  <data name="JobTitle" xml:space="preserve">
+    <value>Názov pracovnej pozície</value>
+  </data>
+  <data name="MiddleName" xml:space="preserve">
+    <value>Stredné meno</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>Mobilné číslo</value>
+  </data>
+  <data name="ResumeFileName" xml:space="preserve">
+    <value>Curriculum Vitae</value>
+  </data>
+  <data name="ResumeFilePath" xml:space="preserve">
+    <value>Curriculum Vitae</value>
+  </data>
+  <data name="Submission" xml:space="preserve">
+    <value>Predloženie</value>
+  </data>
+  <data name="NoParentItem" xml:space="preserve">
+    <value>--Žiadny nadradený tovar--</value>
+  </data>
+  <data name="ContentList" xml:space="preserve">
+    <value>Zoznam obsahu</value>
+  </data>
+  <data name="ItemContent" xml:space="preserve">
+    <value>Položka obsahu</value>
+  </data>
+  <data name="PleaseUploadFileOfType" xml:space="preserve">
+    <value>Prosím Nahrajte súbor typu:</value>
+  </data>
+  <data name="JobType" xml:space="preserve">
+    <value>Typ zamestnania</value>
+  </data>
+  <data name="ListItem" xml:space="preserve">
+    <value>Položka zoznamu</value>
+  </data>
+  <data name="ListItems" xml:space="preserve">
+    <value>Zoznam položiek</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Webové stránky</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="Latitude" xml:space="preserve">
+    <value>Zemepisná šírka</value>
+  </data>
+  <data name="Longitude" xml:space="preserve">
+    <value>Zemepisná dĺžka</value>
+  </data>
+  <data name="Organization" xml:space="preserve">
+    <value>Organizácia</value>
+  </data>
+  <data name="Organizations" xml:space="preserve">
+    <value>Organizácie</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Mesto</value>
+  </data>
+  <data name="District" xml:space="preserve">
+    <value>Okres</value>
+  </data>
+  <data name="Province" xml:space="preserve">
+    <value>Provincia</value>
+  </data>
+  <data name="POBox" xml:space="preserve">
+    <value>P.O. Box</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Kontaktné informácie</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>Oddelenie</value>
+  </data>
+  <data name="Office" xml:space="preserve">
+    <value>Office</value>
+  </data>
+  <data name="PersonalTitle" xml:space="preserve">
+    <value>Osobný titul</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Pozícia</value>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>Kontaktujte nás</value>
+  </data>
+  <data name="OurLocationOnMap" xml:space="preserve">
+    <value>Naša poloha na mape</value>
+  </data>
+  <data name="PersonalTitles" xml:space="preserve">
+    <value>PersonalTitles</value>
+  </data>
+  <data name="Extension" xml:space="preserve">
+    <value>Rozšírenie</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Telefónne číslo</value>
+  </data>
+  <data name="ManageLists" xml:space="preserve">
+    <value>Spravovať zoznamy</value>
+  </data>
+  <data name="Articles" xml:space="preserve">
+    <value>Články</value>
+  </data>
+  <data name="ApplyNow" xml:space="preserve">
+    <value>Použiť teraz</value>
+  </data>
+  <data name="Class" xml:space="preserve">
+    <value>CSS triedu</value>
+  </data>
+  <data name="CopyRights" xml:space="preserve">
+    <value>Všetky práva vyhradené</value>
+  </data>
+  <data name="GooglePlusUrl" xml:space="preserve">
+    <value>Google Plus</value>
+  </data>
+  <data name="LinkedInUrl" xml:space="preserve">
+    <value>LinkedIn</value>
+  </data>
+  <data name="Privacy" xml:space="preserve">
+    <value>Ochrana osobných údajov</value>
+  </data>
+  <data name="RSS" xml:space="preserve">
+    <value>RSS Feed</value>
+  </data>
+  <data name="Terms" xml:space="preserve">
+    <value>Preklady</value>
+  </data>
+  <data name="WebDevelopedBy" xml:space="preserve">
+    <value>Názov vývojára webových stránok</value>
+  </data>
+  <data name="EnterYourEmail" xml:space="preserve">
+    <value>Zadajte váš email...</value>
+  </data>
+  <data name="Explore" xml:space="preserve">
+    <value>Preskúmať</value>
+  </data>
+  <data name="KeepInTouch" xml:space="preserve">
+    <value>odpíš</value>
+  </data>
+  <data name="LatestNews" xml:space="preserve">
+    <value>Najnovšie správy</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Telefón</value>
+  </data>
+  <data name="Subscribe" xml:space="preserve">
+    <value>Prihlásiť sa</value>
+  </data>
+  <data name="SubscriptionMessage" xml:space="preserve">
+    <value>Vyberajte náš Newsletter získať dôležité správy</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Adresa</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Uplatňovať</value>
+  </data>
+  <data name="Arrow" xml:space="preserve">
+    <value>ikona long-šípka vpravo</value>
+  </data>
+  <data name="For" xml:space="preserve">
+    <value>pre</value>
+  </data>
+  <data name="MarginDirClass" xml:space="preserve">
+    <value>okrajov-vľavo-10</value>
+  </data>
+  <data name="AllowedAttachmentExtensions" xml:space="preserve">
+    <value>Jeden alebo viac attachmetns sú neplatné: iba. PDF. DOCX. DOC. PNG. JPG. Súbory formátu JPEG sú povolené.</value>
+  </data>
+  <data name="AttachmentsNotes" xml:space="preserve">
+    <value>Prosím upload príloh typu:. PDF. DOCX. DOC. PNG. JPG. JPEG</value>
+  </data>
+  <data name="CVNotes" xml:space="preserve">
+    <value>Nahrajte prosím životopis typu:. PDF. DOCX. DOC</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Predložiť</value>
+  </data>
+  <data name="Program" xml:space="preserve">
+    <value>Program</value>
+  </data>
+  <data name="Programs" xml:space="preserve">
+    <value>Programy</value>
+  </data>
+  <data name="JobAnnouncement" xml:space="preserve">
+    <value>Prácu oznámenia</value>
+  </data>
+  <data name="JobAnnouncements" xml:space="preserve">
+    <value>Práca na oznámenia</value>
+  </data>
+  <data name="Departments" xml:space="preserve">
+    <value>Oddelenia</value>
+  </data>
+  <data name="EmployeeTypes" xml:space="preserve">
+    <value>Zamestnanec typy</value>
+  </data>
+  <data name="EmpInDepts" xml:space="preserve">
+    <value>Zamestnanci oddelenia</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Zamestnancov</value>
+  </data>
+  <data name="Occupation" xml:space="preserve">
+    <value>Povolanie</value>
+  </data>
+  <data name="Occupations" xml:space="preserve">
+    <value>Povolania</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>Celé meno</value>
+  </data>
+  <data name="ImagePath" xml:space="preserve">
+    <value>Cesta k obrázku</value>
+  </data>
+  <data name="LandLine" xml:space="preserve">
+    <value>Číslo riadka pôdy</value>
+  </data>
+  <data name="OfficeNumber" xml:space="preserve">
+    <value>Úradu č.</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Zamestnanec</value>
+  </data>
+  <data name="ImageNotes" xml:space="preserve">
+    <value>Prosím nahrať obrázok typu:. PNG. JPG. JPEG. BMP</value>
+  </data>
+  <data name="PersonalPhoto" xml:space="preserve">
+    <value>Osobné fotografie</value>
+  </data>
+  <data name="ViewCV" xml:space="preserve">
+    <value>Zobraziť životopis</value>
+  </data>
+  <data name="PersonalPhotoName" xml:space="preserve">
+    <value>Osobné fotografie meno</value>
+  </data>
+  <data name="PersonalPhotoPath" xml:space="preserve">
+    <value>Osobné fotografie</value>
+  </data>
+  <data name="UploadPersonalPhoto" xml:space="preserve">
+    <value>Nahrať osobné foto</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>Manažér</value>
+  </data>
+  <data name="AllLanguages" xml:space="preserve">
+    <value>Všetky jazyky</value>
+  </data>
+  <data name="Director" xml:space="preserve">
+    <value>Riaditeľ</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>Prehľadávať</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Poznámka:</value>
+  </data>
+  <data name="AcademicInfo" xml:space="preserve">
+    <value>Akademickej Info</value>
+  </data>
+  <data name="Biography" xml:space="preserve">
+    <value>Životopis</value>
+  </data>
+  <data name="ContactInfo" xml:space="preserve">
+    <value>Kontaktné informácie</value>
+  </data>
+  <data name="PersonalInfo" xml:space="preserve">
+    <value>Osobné informácie</value>
+  </data>
+  <data name="Manage" xml:space="preserve">
+    <value>Spravovať</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Odstrániť</value>
+  </data>
+  <data name="FillOutPersonalInfo" xml:space="preserve">
+    <value>Vyplňte osobné údaje formulára.</value>
+  </data>
+  <data name="AccountSettings" xml:space="preserve">
+    <value>Nastavenia účtu</value>
+  </data>
+  <data name="ManageContacts" xml:space="preserve">
+    <value>Spravovanie kontaktov</value>
+  </data>
+  <data name="ManagePublications" xml:space="preserve">
+    <value>Spravovať publikácie</value>
+  </data>
+  <data name="NoCVUploaded" xml:space="preserve">
+    <value>Žiadny životopis nahral!</value>
+  </data>
+  <data name="NoPersonalPhotoUploaded" xml:space="preserve">
+    <value>Žiadne osobné fotografie nahrané!</value>
+  </data>
+  <data name="Publication" xml:space="preserve">
+    <value>Publikácie</value>
+  </data>
+  <data name="Publications" xml:space="preserve">
+    <value>Publikácie</value>
+  </data>
+  <data name="Abstract" xml:space="preserve">
+    <value>Abstraktné</value>
+  </data>
+  <data name="CompletedProfile" xml:space="preserve">
+    <value>vyplnený profil</value>
+  </data>
+  <data name="EmployeeType" xml:space="preserve">
+    <value>Typ zamestnanca</value>
+  </data>
+  <data name="ViewProfile" xml:space="preserve">
+    <value>Zobraziť profil</value>
+  </data>
+  <data name="Hello" xml:space="preserve">
+    <value>dobrý deň</value>
+  </data>
+  <data name="OurStaffDirectory" xml:space="preserve">
+    <value>Naši zamestnanci Directory</value>
+  </data>
+  <data name="SearchBy" xml:space="preserve">
+    <value>Vyhľadávanie podľa</value>
+  </data>
+  <data name="SearchByDepartmet" xml:space="preserve">
+    <value>Vyhľadávanie podľa departmet</value>
+  </data>
+  <data name="DuplicateEmail" xml:space="preserve">
+    <value>E-mailová adresa je už registrovaná.</value>
+  </data>
+  <data name="InvalidOrganizationEmail" xml:space="preserve">
+    <value>Zadajte pracovnú e-mailovú adresu.</value>
+  </data>
+  <data name="DepartmentStaffList" xml:space="preserve">
+    <value>Zoznam zamestnancov odboru</value>
+  </data>
+  <data name="SearchResult" xml:space="preserve">
+    <value>Výsledok vyhľadávania</value>
+  </data>
+  <data name="DuplicateError" xml:space="preserve">
+    <value>Nedá sa vložiť duplicitné záznamy.</value>
+  </data>
+  <data name="EmployeeName" xml:space="preserve">
+    <value>Meno zamestnanca</value>
+  </data>
+  <data name="ClickHereToLogin" xml:space="preserve">
+    <value>Kliknite tu pre prihlásenie</value>
+  </data>
+  <data name="ConfirmEmail" xml:space="preserve">
+    <value>Potvrdiť E-mail</value>
+  </data>
+  <data name="ConfirmEmailThanks" xml:space="preserve">
+    <value>Ďakujem za potvrdenie e-mailu.</value>
+  </data>
+  <data name="ForgotPasswordCheck" xml:space="preserve">
+    <value>Prosím skontrolujte svoj e-mail na obnovenie hesla.</value>
+  </data>
+  <data name="ForgotPasswordConfirmation" xml:space="preserve">
+    <value>Zabudli ste heslo potvrdenie</value>
+  </data>
+  <data name="Please" xml:space="preserve">
+    <value>prosím</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>Obnoviť heslo</value>
+  </data>
+  <data name="ResetYourPassword" xml:space="preserve">
+    <value>Vytvorenie nového hesla.</value>
+  </data>
+  <data name="SecurityCode" xml:space="preserve">
+    <value>Bezpečnostný kód</value>
+  </data>
+  <data name="ApplyFor" xml:space="preserve">
+    <value>Požiadať o</value>
+  </data>
+  <data name="ChooseDepartment" xml:space="preserve">
+    <value>--Vyberte si oddelenie--</value>
+  </data>
+  <data name="SubmissionId" xml:space="preserve">
+    <value>Číslo žiadosti</value>
+  </data>
+  <data name="DownloadApplications" xml:space="preserve">
+    <value>Stiahnutie aplikácie</value>
+  </data>
+  <data name="NotAvailable" xml:space="preserve">
+    <value>N /</value>
+  </data>
+  <data name="GoCuteCMS" xml:space="preserve">
+    <value>Prejsť na CuteCMS</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Chyba</value>
+  </data>
+  <data name="ErrorNotification" xml:space="preserve">
+    <value>Náš technický personál boli automaticky informované a bude mať záujem do tohto s najväčšou naliehavosťou.</value>
+  </data>
+  <data name="GenericError" xml:space="preserve">
+    <value>Niečo sa pokazilo.</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>Požadovaná stránka sa nenašiel!</value>
+  </data>
+  <data name="NotPublished" xml:space="preserve">
+    <value>Požadovaná stránka nie je publikovaný.</value>
+  </data>
+  <data name="NotTranslated" xml:space="preserve">
+    <value>Požadovaná stránka nie je preložený.</value>
+  </data>
+  <data name="DataTableLanguage" xml:space="preserve">
+    <value>http://CDN.DataTables.net/plug-ins/1.10.12/i18n/English.JSON</value>
+  </data>
+  <data name="LanguageSelector" xml:space="preserve">
+    <value>Jazyk</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="PleaseUploadAttachments" xml:space="preserve">
+    <value>Prosím upload požadovaných príloh.</value>
+  </data>
+  <data name="Oops" xml:space="preserve">
+    <value>Oops!</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Akcie</value>
+  </data>
+  <data name="ColVis" xml:space="preserve">
+    <value>Stĺpci viditeľnosť</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Kópia</value>
+  </data>
+  <data name="ExportExcel" xml:space="preserve">
+    <value>Export Excel</value>
+  </data>
+  <data name="ExportPDF" xml:space="preserve">
+    <value>Export PDF</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Tlač</value>
+  </data>
+  <data name="Reload" xml:space="preserve">
+    <value>Reload</value>
+  </data>
+  <data name="NoUpcomingEvents" xml:space="preserve">
+    <value>Neexistujú žiadne nadchádzajúce udalosti.</value>
+  </data>
+  <data name="UpcomingEvents" xml:space="preserve">
+    <value>Nadchádzajúce udalosti</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="RnC" xml:space="preserve">
+    <value>Výskumy &amp; konferencie</value>
+  </data>
+  <data name="MyProfile" xml:space="preserve">
+    <value>Môj profil</value>
+  </data>
+  <data name="NoRecordFound" xml:space="preserve">
+    <value>Žiadny záznam našiel!</value>
+  </data>
+  <data name="ViewMySocialNetwork" xml:space="preserve">
+    <value>Zobraziť moje sociálne siete.</value>
+  </data>
+  <data name="CssClass" xml:space="preserve">
+    <value>CSS triedu</value>
+  </data>
+  <data name="Backend" xml:space="preserve">
+    <value>Backend</value>
+  </data>
+  <data name="Frontend" xml:space="preserve">
+    <value>Frontend</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Obrázok</value>
+  </data>
+  <data name="Visible" xml:space="preserve">
+    <value>Viditeľné?</value>
+  </data>
+  <data name="IsDefault" xml:space="preserve">
+    <value>Je predvolené?</value>
+  </data>
+  <data name="PrimaryLogoName" xml:space="preserve">
+    <value>Názov primárnej loga</value>
+  </data>
+  <data name="PrimaryLogoPath" xml:space="preserve">
+    <value>Cesta k primárnej loga</value>
+  </data>
+  <data name="SecondaryLogoName" xml:space="preserve">
+    <value>Názov sekundárneho loga</value>
+  </data>
+  <data name="SecondaryLogoPath" xml:space="preserve">
+    <value>Sekundárne Logo cesta</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Výška</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>Šírka</value>
+  </data>
+  <data name="ChooseRole" xml:space="preserve">
+    <value>--Vyberte úlohu--</value>
+  </data>
+  <data name="ChooseStatus" xml:space="preserve">
+    <value>--Vyberte stav--</value>
+  </data>
+  <data name="ChooseAuthor" xml:space="preserve">
+    <value>--Vyberte autora--</value>
+  </data>
+  <data name="ChooseTag" xml:space="preserve">
+    <value>--Zvoľte značku--</value>
+  </data>
+  <data name="CountryCode" xml:space="preserve">
+    <value>Kód krajiny</value>
+  </data>
+  <data name="CountryName" xml:space="preserve">
+    <value>Názov krajiny</value>
+  </data>
+  <data name="IP" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="MetroCode" xml:space="preserve">
+    <value>Metro kód</value>
+  </data>
+  <data name="RegionCode" xml:space="preserve">
+    <value>Kód regiónu</value>
+  </data>
+  <data name="RegionName" xml:space="preserve">
+    <value>Názov regiónu</value>
+  </data>
+  <data name="RequestDate" xml:space="preserve">
+    <value>Dátum žiadosti</value>
+  </data>
+  <data name="TimeZone" xml:space="preserve">
+    <value>Časové pásmo</value>
+  </data>
+  <data name="Count" xml:space="preserve">
+    <value>Počet</value>
+  </data>
+  <data name="Translations" xml:space="preserve">
+    <value>Preklady</value>
+  </data>
+  <data name="VacancyUnableToDelete" xml:space="preserve">
+    <value>Nie je možné odstrániť toto miesto, pretože to má súvisiace príspevky.</value>
+  </data>
+  <data name="ChoosePersonalTitle" xml:space="preserve">
+    <value>--Vyberte osobné názov--</value>
+  </data>
+  <data name="Acknowledgement" xml:space="preserve">
+    <value>Potvrdenie</value>
+  </data>
+  <data name="ApplicationNumber" xml:space="preserve">
+    <value>Vaše číslo žiadosti je:</value>
+  </data>
+  <data name="Dear" xml:space="preserve">
+    <value>Vážení</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Hodnota</value>
+  </data>
+  <data name="FlagCode" xml:space="preserve">
+    <value>Vlajkový kód</value>
+  </data>
+  <data name="Flag" xml:space="preserve">
+    <value>Vlajka</value>
+  </data>
+  <data name="CultureName" xml:space="preserve">
+    <value>Názov kultúry</value>
+  </data>
+  <data name="IsEnabled" xml:space="preserve">
+    <value>Je povolený?</value>
+  </data>
+  <data name="SMTP" xml:space="preserve">
+    <value>SMTP</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Predmet</value>
+  </data>
+  <data name="Body" xml:space="preserve">
+    <value>Telo</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>Oznámenie</value>
+  </data>
+  <data name="Term" xml:space="preserve">
+    <value>Preklad</value>
+  </data>
+  <data name="Attachment" xml:space="preserve">
+    <value>Príloha</value>
+  </data>
+  <data name="Statistic" xml:space="preserve">
+    <value>Štatistiky</value>
+  </data>
+  <data name="SMTPSetting" xml:space="preserve">
+    <value>Nastavenie SMTP</value>
+  </data>
+  <data name="ImageTag" xml:space="preserve">
+    <value>Image značky</value>
+  </data>
+  <data name="JobTypes" xml:space="preserve">
+    <value>Typy pracovných miest</value>
+  </data>
+  <data name="Genders" xml:space="preserve">
+    <value>Rody</value>
+  </data>
+  <data name="PhoneNumbers" xml:space="preserve">
+    <value>Telefónne čísla</value>
+  </data>
+  <data name="Notifications" xml:space="preserve">
+    <value>Upozornenia</value>
+  </data>
+  <data name="Contacts" xml:space="preserve">
+    <value>Kontakty</value>
+  </data>
+  <data name="ImageFiles" xml:space="preserve">
+    <value>Obrazové súbory</value>
+  </data>
+  <data name="ContentLists" xml:space="preserve">
+    <value>Obsah zoznamov</value>
+  </data>
+  <data name="HomeVisible" xml:space="preserve">
+    <value>Zobraziť domovskú stránku?</value>
+  </data>
+  <data name="TOC" xml:space="preserve">
+    <value>Podmienky používania</value>
+  </data>
+  <data name="ShowHeaderDate" xml:space="preserve">
+    <value>Zobraziť dátumy</value>
+  </data>
+  <data name="ExpiredOn" xml:space="preserve">
+    <value>Uplynula</value>
+  </data>
+  <data name="PublishedOn" xml:space="preserve">
+    <value>Zverejnené na</value>
+  </data>
+  <data name="LastUpdatedOn" xml:space="preserve">
+    <value>Posledná aktualizácia</value>
+  </data>
+  <data name="InvalidPublishDate" xml:space="preserve">
+    <value>Publikovať dátum musí byť menšia alebo rovná dátum začatia činnosti.</value>
+  </data>
+  <data name="InvalidExpiryDate" xml:space="preserve">
+    <value>Dátum platnosti musí byť väčšie alebo rovné činnosť koncový dátum.</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>Od</value>
+  </data>
+  <data name="Till" xml:space="preserve">
+    <value>Kým</value>
+  </data>
+  <data name="NoResult" xml:space="preserve">
+    <value>Žiadne výsledky.</value>
+  </data>
+  <data name="BreakingNews" xml:space="preserve">
+    <value>Rozbiť Novinky</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>K dispozícii</value>
+  </data>
+  <data name="Skills" xml:space="preserve">
+    <value>Zručnosti</value>
+  </data>
+  <data name="Validity" xml:space="preserve">
+    <value>Platnosť</value>
+  </data>
+  <data name="ChooseJobType" xml:space="preserve">
+    <value>--Vyberte typ práce--</value>
+  </data>
+  <data name="AbsolutePath" xml:space="preserve">
+    <value>Absolútna cesta</value>
+  </data>
+  <data name="Keywords" xml:space="preserve">
+    <value>Kľúčové slová</value>
+  </data>
+  <data name="PoweredBy" xml:space="preserve">
+    <value>správca</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>Cesta</value>
+  </data>
+  <data name="UrgentExpiredOn" xml:space="preserve">
+    <value>Naliehavé uplynula</value>
+  </data>
+  <data name="BackToHome" xml:space="preserve">
+    <value>späť na úvodnú stránku teraz!</value>
+  </data>
+  <data name="PageNotFound" xml:space="preserve">
+    <value>Stránka nebola nájdená</value>
+  </data>
+  <data name="PageNotTranslated" xml:space="preserve">
+    <value>Stránka nie je preložené</value>
+  </data>
+  <data name="PageNotPublished" xml:space="preserve">
+    <value>Strana nie Pubished</value>
+  </data>
+  <data name="CreatePassword" xml:space="preserve">
+    <value>Vytvoriť heslo</value>
+  </data>
+  <data name="ResetPasswordConfirmation" xml:space="preserve">
+    <value>Potvrdenie hesla reset</value>
+  </data>
+  <data name="PasswordReset" xml:space="preserve">
+    <value>Vášho hesla.</value>
+  </data>
+  <data name="ClickLogin" xml:space="preserve">
+    <value>Kliknite tu pre prihlásenie</value>
+  </data>
+  <data name="YourAppNumber" xml:space="preserve">
+    <value>Vaše číslo žiadosti je</value>
+  </data>
+  <data name="ImageTags" xml:space="preserve">
+    <value>Image značky</value>
+  </data>
+  <data name="SMTPSettings" xml:space="preserve">
+    <value>SMTP nastavenia</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Štatistiky</value>
+  </data>
+  <data name="Statuses" xml:space="preserve">
+    <value>Stavy</value>
+  </data>
+  <data name="Vacancies" xml:space="preserve">
+    <value>Voľné pracovné miesta</value>
+  </data>
+  <data name="LockedOutMessage" xml:space="preserve">
+    <value>Tento účet bol uzamknutý, prosím skúste to znova neskôr.</value>
+  </data>
+  <data name="LockedOut" xml:space="preserve">
+    <value>Uzamknuté</value>
+  </data>
+  <data name="TakeTour" xml:space="preserve">
+    <value>Prehliadka</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>Zdieľať túto stránku</value>
+  </data>
+  <data name="ForgotPasswordInstructions" xml:space="preserve">
+    <value>Vyplňte formulár nižšie a dostanete e-mail s kódom povolenia potrebné na vytvorenie nového hesla.</value>
+  </data>
+  <data name="InvalidToken" xml:space="preserve">
+    <value>Neplatný Token</value>
+  </data>
+  <data name="ReadMore" xml:space="preserve">
+    <value>Prečítajte si viac</value>
+  </data>
+  <data name="LogIn" xml:space="preserve">
+    <value>prihlásiť sa</value>
+  </data>
+  <data name="Dimensions" xml:space="preserve">
+    <value>Rozmery</value>
+  </data>
+  <data name="GetInTouch" xml:space="preserve">
+    <value>Zostaňte v kontakte</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>Kategórie</value>
+  </data>
+  <data name="YourName" xml:space="preserve">
+    <value>vaše meno</value>
+  </data>
+  <data name="YourEmail" xml:space="preserve">
+    <value>Váš e-mail</value>
+  </data>
+  <data name="SendMessage" xml:space="preserve">
+    <value>Odoslať správu</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Hlásenie</value>
+  </data>
+  <data name="SenderName" xml:space="preserve">
+    <value>vaše meno</value>
+  </data>
+  <data name="Careers" xml:space="preserve">
+    <value>Kariéra</value>
+  </data>
+  <data name="SocialNetwork" xml:space="preserve">
+    <value>Sociálne siete</value>
+  </data>
+  <data name="SocialNetworks" xml:space="preserve">
+    <value>Sociálne siete</value>
+  </data>
+  <data name="ShowAll" xml:space="preserve">
+    <value>Zobraziť všetky</value>
+  </data>
+  <data name="ChooseCategory" xml:space="preserve">
+    <value>--Vyberte kategóriu--</value>
+  </data>
+  <data name="AddressLine1" xml:space="preserve">
+    <value>1. riadok adresy</value>
+  </data>
+  <data name="AddressLine2" xml:space="preserve">
+    <value>2. riadok adresy</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Štát</value>
+  </data>
+  <data name="ZIP" xml:space="preserve">
+    <value>smerovacie číslo</value>
+  </data>
+  <data name="Newsletter" xml:space="preserve">
+    <value>Newsletter</value>
+  </data>
+  <data name="LatestTweets" xml:space="preserve">
+    <value>Najnovšie tweety</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>prosím počkajte...</value>
+  </data>
+  <data name="FollowUs" xml:space="preserve">
+    <value>Sledujte nás</value>
+  </data>
+  <data name="ChooseEmployeeType" xml:space="preserve">
+    <value>--Vyberte typ zamestnanca--</value>
+  </data>
+  <data name="HasAccount" xml:space="preserve">
+    <value>Má účet?</value>
+  </data>
+  <data name="EmailConfirmed" xml:space="preserve">
+    <value>E-mailom potvrdené?</value>
+  </data>
+  <data name="UsefulLinks" xml:space="preserve">
+    <value>Tu sú niektoré užitočné odkazy</value>
+  </data>
+  <data name="AwaitingTranslation" xml:space="preserve">
+    <value>Čaká na preklad...</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Späť</value>
+  </data>
+  <data name="StaffDirectory" xml:space="preserve">
+    <value>Adresár zamestnancov</value>
+  </data>
+  <data name="SubscribedToMailingList" xml:space="preserve">
+    <value> Vy ste bol pridaný do nášho mailing listu.</value>
+  </data>
+  <data name="ThankYouForInterest" xml:space="preserve">
+    <value>Ďakujeme vám za váš záujem o naše najnovšie aktualizácie. Čoskoro dostanete e-mail s potvrdením vášho predplatného.</value>
+  </data>
+  <data name="DeleteProfileConfirmation" xml:space="preserve">
+    <value>Naozaj chcete odstrániť svoj profil?</value>
+  </data>
+  <data name="DeleteProfile" xml:space="preserve">
+    <value>Zmazať môj profil</value>
+  </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>Fotogaléria</value>
+  </data>
+  <data name="ChooseGallery" xml:space="preserve">
+    <value>--Vyberte Foto Galéria--</value>
+  </data>
+  <data name="Galleries" xml:space="preserve">
+    <value>Fotogaléria</value>
+  </data>
+  <data name="GalleryCategory" xml:space="preserve">
+    <value>Kategória</value>
+  </data>
+  <data name="GalleryCategories" xml:space="preserve">
+    <value>Kategórie</value>
+  </data>
+  <data name="UrlSlug" xml:space="preserve">
+    <value>Priateľské odkaz</value>
+  </data>
+  <data name="Url" xml:space="preserve">
+    <value>Odkaz</value>
+  </data>
+  <data name="DeveloperURL" xml:space="preserve">
+    <value>Vývojár webových stránkach</value>
+  </data>
+  <data name="Reference" xml:space="preserve">
+    <value>Odkaz</value>
+  </data>
+  <data name="ContentItems" xml:space="preserve">
+    <value>Položiek obsahu</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Nastavenia</value>
+  </data>
+  <data name="Recruitment" xml:space="preserve">
+    <value>Nábor</value>
+  </data>
+  <data name="Identity" xml:space="preserve">
+    <value>Identity</value>
+  </data>
+  <data name="Lorem1" xml:space="preserve">
+    <value>Najrýchlejší spôsob, ako rast vášho podnikania.</value>
+  </data>
+  <data name="Lorem2" xml:space="preserve">
+    <value>Pozrite si naše možnosti a funkcie.</value>
+  </data>
+  <data name="GetStarted" xml:space="preserve">
+    <value>Začnite už teraz!</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>alebo</value>
+  </data>
+  <data name="LearnMore" xml:space="preserve">
+    <value>zistiť viac.</value>
+  </data>
+  <data name="Lorem3" xml:space="preserve">
+    <value>Tento text je príklad textu, ktorý je možné vymeniť v rovnakom priestore, tento text, ktorý vznikol z latinského textu generátora.</value>
+  </data>
+  <data name="January" xml:space="preserve">
+    <value>Januára</value>
+  </data>
+  <data name="JohnSmith" xml:space="preserve">
+    <value>Ján Kováč</value>
+  </data>
+  <data name="JobTitleName" xml:space="preserve">
+    <value>CEO &amp; zakladateľ - ABC spoločnosť</value>
+  </data>
+  <data name="WhatClientsSay" xml:space="preserve">
+    <value>Čo hovoria klienti</value>
+  </data>
+  <data name="LoremTitle" xml:space="preserve">
+    <value>Tento text je príklad textu, ktorý je možné vymeniť v rovnakom priestore.</value>
+  </data>
+  <data name="UploadIcon" xml:space="preserve">
+    <value>Nahrať Fav Ikona</value>
+  </data>
+  <data name="UploadImage" xml:space="preserve">
+    <value>Nahrať obrázok</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>Zhrnutie</value>
+  </data>
+  <data name="Icon" xml:space="preserve">
+    <value>Ikona</value>
+  </data>
+  <data name="PleaseUploadIconOfType" xml:space="preserve">
+    <value>Odovzdajte ikonu typu:!</value>
+  </data>
+  <data name="IconNotes" xml:space="preserve">
+    <value>Odovzdajte ikonu typu: .PNG!</value>
+  </data>
+  <data name="IconName" xml:space="preserve">
+    <value>Ikona</value>
+  </data>
+  <data name="IconPath" xml:space="preserve">
+    <value>cesta</value>
+  </data>
+  <data name="MeetOurTeam" xml:space="preserve">
+    <value>Spoznaj náš tím</value>
+  </data>
+  <data name="MainDepts" xml:space="preserve">
+    <value>Oddelenia</value>
+  </data>
+  <data name="PrimaryCaption" xml:space="preserve">
+    <value>Primárny titulok</value>
+  </data>
+  <data name="SecondaryCaption" xml:space="preserve">
+    <value>Sekundárny titulok</value>
+  </data>
+  <data name="TertiaryCaption" xml:space="preserve">
+    <value>Terciárny titulok</value>
+  </data>
+  <data name="MedicalTreatment" xml:space="preserve">
+    <value>Nepotreboval som lekársku starostlivosť</value>
+  </data>
+  <data name="DoctorsTimetable" xml:space="preserve">
+    <value>Lekári rozvrhu!</value>
+  </data>
+  <data name="OpeningHours" xml:space="preserve">
+    <value>Otváracia doba</value>
+  </data>
+  <data name="EmergencyCase" xml:space="preserve">
+    <value>Núdzový prípad</value>
+  </data>
+  <data name="Sunday" xml:space="preserve">
+    <value>Nedeľa</value>
+  </data>
+  <data name="Monday" xml:space="preserve">
+    <value>Pondelok</value>
+  </data>
+  <data name="Tuesday" xml:space="preserve">
+    <value>Utorok</value>
+  </data>
+  <data name="Wednesday" xml:space="preserve">
+    <value>Streda</value>
+  </data>
+  <data name="Thursday" xml:space="preserve">
+    <value>Štvrtok</value>
+  </data>
+  <data name="Friday" xml:space="preserve">
+    <value>Piatok</value>
+  </data>
+  <data name="Saturday" xml:space="preserve">
+    <value>Sobota</value>
+  </data>
+  <data name="Subtitle" xml:space="preserve">
+    <value>Podnadpis</value>
+  </data>
+  <data name="ViewMore" xml:space="preserve">
+    <value>Zobraziť viac</value>
+  </data>
+  <data name="Doctors" xml:space="preserve">
+    <value>Doktori</value>
+  </data>
+  <data name="OurSpecialists" xml:space="preserve">
+    <value>Naši špecialisti!</value>
+  </data>
+  <data name="Staff" xml:space="preserve">
+    <value>Personál</value>
+  </data>
+  <data name="MedicalStaff" xml:space="preserve">
+    <value>Lekársky personál</value>
+  </data>
+  <data name="LatestEvents" xml:space="preserve">
+    <value>Najnovšie udalosti</value>
+  </data>
+  <data name="DoctorName" xml:space="preserve">
+    <value>Meno lekára</value>
+  </data>
+  <data name="DoctorType" xml:space="preserve">
+    <value>Doktorandský typ</value>
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>Číslo portu</value>
+  </data>
+  <data name="EnableSsl" xml:space="preserve">
+    <value>Zapnúť SSL!</value>
+  </data>
+  <data name="SenderEmail" xml:space="preserve">
+    <value>Odosielateľa e-mailu</value>
+  </data>
+  <data name="SenderPassword" xml:space="preserve">
+    <value>Odosielateľ heslo!</value>
+  </data>
+  <data name="RecipientEmail" xml:space="preserve">
+    <value>E-mail príjemcu</value>
+  </data>
+  <data name="VisitorCounter" xml:space="preserve">
+    <value>Počítadlo návštevníkov!</value>
+  </data>
+  <data name="RoleInUse" xml:space="preserve">
+    <value>Táto úloha názov už používal.</value>
+  </data>
+  <data name="Administration" xml:space="preserve">
+    <value>Administrácia</value>
+  </data>
+  <data name="SystemSettings" xml:space="preserve">
+    <value>Systémové nastavenia!</value>
+  </data>
+  <data name="InvalidCode" xml:space="preserve">
+    <value>Neplatný kód</value>
+  </data>
+  <data name="UserExist" xml:space="preserve">
+    <value>Tento e-mail už bol použitý</value>
+  </data>
+  <data name="FailedToVerifyPhone" xml:space="preserve">
+    <value>Telefónne číslo</value>
+  </data>
+  <data name="Maintenance" xml:space="preserve">
+    <value>Údržba</value>
+  </data>
+  <data name="Forms" xml:space="preserve">
+    <value>Kontaktné formuláre</value>
+  </data>
+  <data name="DontHaveAccount" xml:space="preserve">
+    <value>Nemáte ešte svoj účet?</value>
+  </data>
+  <data name="Page" xml:space="preserve">
+    <value>Stranka</value>
+  </data>
+  <data name="Of" xml:space="preserve">
+    <value>z</value>
+  </data>
+  <data name="TotalRows" xml:space="preserve">
+    <value>Celková cena</value>
+  </data>
+  <data name="ChooseMaintenanceType" xml:space="preserve">
+    <value>--Vyberte údržbu typ--!</value>
+  </data>
+  <data name="ChooseInventory" xml:space="preserve">
+    <value>--Vyberte zásob--!</value>
+  </data>
+  <data name="ChooseModel" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="ChooseSite" xml:space="preserve">
+    <value>Vybrať</value>
+  </data>
+  <data name="ChooseManufacturer" xml:space="preserve">
+    <value>--Vyberte výrobca--!</value>
+  </data>
+  <data name="DeviceCard" xml:space="preserve">
+    <value>Zariadenie</value>
+  </data>
+  <data name="Installation" xml:space="preserve">
+    <value>Inštalácia</value>
+  </data>
+  <data name="BasicInformation" xml:space="preserve">
+    <value>Základné informácie</value>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>Mesiac</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>Rok</value>
+  </data>
+  <data name="ChooseFormStatus" xml:space="preserve">
+    <value>- Vyberte stav formulára -</value>
+  </data>
+  <data name="ChooseDataType" xml:space="preserve">
+    <value>- Vyberte typ údajov--!</value>
+  </data>
+  <data name="Form" xml:space="preserve">
+    <value>Formulár</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>Reporty</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>Spracováva sa...</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Nasledujúca</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Predchádzajúca</value>
+  </data>
+  <data name="SummaryMessage" xml:space="preserve">
+    <value>Zobrazuje sa {0} až {1} (2) položiek!</value>
+  </data>
+  <data name="Fields" xml:space="preserve">
+    <value>Polia</value>
+  </data>
+  <data name="Reorder" xml:space="preserve">
+    <value>Znovuzoradiť</value>
+  </data>
+  <data name="Sections" xml:space="preserve">
+    <value>Ak sú tri sekcie</value>
+  </data>
+  <data name="Section" xml:space="preserve">
+    <value>Sekcia</value>
+  </data>
+  <data name="Choices" xml:space="preserve">
+    <value>Voľby</value>
+  </data>
+  <data name="Choice" xml:space="preserve">
+    <value>Volba</value>
+  </data>
+  <data name="DataType" xml:space="preserve">
+    <value>Typ údajov</value>
+  </data>
+  <data name="DataTypes" xml:space="preserve">
+    <value>Dátový typ</value>
+  </data>
+  <data name="Field" xml:space="preserve">
+    <value>Pole</value>
+  </data>
+  <data name="Property" xml:space="preserve">
+    <value>Nehnuteľnosť</value>
+  </data>
+  <data name="Properties" xml:space="preserve">
+    <value>Nastav</value>
+  </data>
+  <data name="ChoiceList" xml:space="preserve">
+    <value>Volba</value>
+  </data>
+  <data name="Values" xml:space="preserve">
+    <value>Výživové hodnoty v 100 ml:</value>
+  </data>
+  <data name="ChoiceLists" xml:space="preserve">
+    <value>Zoznamy</value>
+  </data>
+  <data name="WorkflowPath" xml:space="preserve">
+    <value>workflow</value>
+  </data>
+  <data name="Workflow" xml:space="preserve">
+    <value>workflow</value>
+  </data>
+  <data name="WorkflowSettings" xml:space="preserve">
+    <value>Nastavenia</value>
+  </data>
+  <data name="EmpNumber" xml:space="preserve">
+    <value>Zamestnanec</value>
+  </data>
+  <data name="EmpNumberInvalid" xml:space="preserve">
+    <value>ID produktu je nesprávne</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Zatvor</value>
+  </data>
+  <data name="Approval" xml:space="preserve">
+    <value>Schválenie</value>
+  </data>
+  <data name="ActionStatus" xml:space="preserve">
+    <value>Stav</value>
+  </data>
+  <data name="ChangeStatusConfirmation" xml:space="preserve">
+    <value>Naozaj chcete odísť?</value>
+  </data>
+  <data name="PendingPrev" xml:space="preserve">
+    <value>Predchádzajúci atóm</value>
+  </data>
+  <data name="PendingNext" xml:space="preserve">
+    <value>sa teraz dodstanu na vyssiu roveň.</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Dokončené</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>Zoznam</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Aktualizuj</value>
+  </data>
+  <data name="ChooseFields" xml:space="preserve">
+    <value>Polia</value>
+  </data>
+  <data name="ApprovalTracking" xml:space="preserve">
+    <value>Schválenie</value>
+  </data>
+  <data name="ActionDate" xml:space="preserve">
+    <value>Akcia</value>
+  </data>
+  <data name="ChooseGroup" xml:space="preserve">
+    <value>Vyberte skupinu</value>
+  </data>
+  <data name="Items" xml:space="preserve">
+    <value>Položky</value>
+  </data>
+  <data name="SubmissionDate" xml:space="preserve">
+    <value>Dátum predloženia</value>
+  </data>
+  <data name="ChangeUserName" xml:space="preserve">
+    <value>Zmeniť heslo používateľa %username%</value>
+  </data>
+  <data name="ChangeUserEmail" xml:space="preserve">
+    <value>Zmeniť e-mailové preferencie</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Áno</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Nie</value>
+  </data>
+  <data name="DeleteAccount" xml:space="preserve">
+    <value>Odstrániť konto</value>
+  </data>
+  <data name="AccountSummary" xml:space="preserve">
+    <value>Súhrn obchodného vzťahu</value>
+  </data>
+  <data name="SendVerificationCode" xml:space="preserve">
+    <value>Odoslať overovací kód</value>
+  </data>
+  <data name="RecordCreated" xml:space="preserve">
+    <value>Dátum vytvorenia záznamu</value>
+  </data>
+  <data name="RecordUpdated" xml:space="preserve">
+    <value>Záznam bol aktualizovaný.</value>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>Povolenia</value>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>Zmeniť</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Pridať</value>
+  </data>
+  <data name="EmailStatus" xml:space="preserve">
+    <value>Vyberte stav e-mailu.</value>
+  </data>
+  <data name="Confirmed" xml:space="preserve">
+    <value>Potvrdené</value>
+  </data>
+  <data name="Unconfirmed" xml:space="preserve">
+    <value>Môj nepotvrdený obežník</value>
+  </data>
+  <data name="ChangeConfirmEmail" xml:space="preserve">
+    <value>Potvrdiť emailovú adresu</value>
+  </data>
+  <data name="RecordCreatedSuccessfully" xml:space="preserve">
+    <value>Záznam úspešne vytvorený!</value>
+  </data>
+  <data name="RecordUpdatedSuccessfully" xml:space="preserve">
+    <value>Úspešne aktualizované</value>
+  </data>
+  <data name="RecordDeleted" xml:space="preserve">
+    <value>Nahrávanie:</value>
+  </data>
+  <data name="RecordDeletedSuccessfully" xml:space="preserve">
+    <value>Záznam úspešne!</value>
+  </data>
+  <data name="NoUsersInRole" xml:space="preserve">
+    <value>V tejto úlohe neboli nájdení žiadni užívatelia.</value>
+  </data>
+  <data name="NoPermissionsInGroup" xml:space="preserve">
+    <value>V tejto skupine neboli nájdené žiadne povolenia.</value>
+  </data>
+  <data name="ListGroupPermissions" xml:space="preserve">
+    <value>Zoznam oprávnení udelených tejto skupine :!</value>
+  </data>
+  <data name="TFAEnabled" xml:space="preserve">
+    <value>Dvojfaktorové overovanie je momentálne zapnutá:!</value>
+  </data>
+  <data name="TFADisabled" xml:space="preserve">
+    <value>Dvojfaktorové overovanie je aktuálne zakázané:!</value>
+  </data>
+  <data name="TFABrowserRemembered" xml:space="preserve">
+    <value>dvojfaktorové overenie</value>
+  </data>
+  <data name="ListUserPermissions" xml:space="preserve">
+    <value>Zoznam používateľov v tejto úlohe:!</value>
+  </data>
+  <data name="NoGroupsForUser" xml:space="preserve">
+    <value>Nebola nájdená žiadna skupina!</value>
+  </data>
+  <data name="ListGroupsForUser" xml:space="preserve">
+    <value>Zoznam skupín</value>
+  </data>
+  <data name="NoPermissionsForUser" xml:space="preserve">
+    <value>Žiadne roly pre tohto používateľa nenájde.!</value>
+  </data>
+  <data name="TFABrowserNotRemembered" xml:space="preserve">
+    <value>Prehliadač momentálne nie je si pamätal pre dva Factor autentizácia:!</value>
+  </data>
+  <data name="ListUsersInPermission" xml:space="preserve">
+    <value>Zoznam používateľov, toto povolenie patrí:!</value>
+  </data>
+  <data name="ConfirmAccount" xml:space="preserve">
+    <value>Potvrdenie konta</value>
+  </data>
+  <data name="ConfirmAccountMessage" xml:space="preserve">
+    <value>Prosím potvrďte svoj účet kliknutím na tento odkaz!</value>
+  </data>
+  <data name="ResetPasswordMessage" xml:space="preserve">
+    <value>Obnovte svoje heslo kliknutím tu!</value>
+  </data>
+  <data name="ConfirmNewPassword" xml:space="preserve">
+    <value>Potvrdiť nové heslo</value>
+  </data>
+  <data name="GroupExist" xml:space="preserve">
+    <value>Skupina už existuje.</value>
+  </data>
+  <data name="ForgetBrowser" xml:space="preserve">
+    <value>Zabudnite na tento prehliadač</value>
+  </data>
+  <data name="ChangePasswordSuccess" xml:space="preserve">
+    <value>Heslo sa zmenilo.</value>
+  </data>
+  <data name="SetPasswordSuccess" xml:space="preserve">
+    <value>Vaše heslo bolo nastavené.</value>
+  </data>
+  <data name="SetTwoFactorSuccess" xml:space="preserve">
+    <value>Váš poskytovateľ dvoch faktorov bol nastavený.</value>
+  </data>
+  <data name="AddPhoneSuccess" xml:space="preserve">
+    <value>Toto telefónne číslo bolo pridané.</value>
+  </data>
+  <data name="RemovePhoneSuccess" xml:space="preserve">
+    <value>Vaše telefónne číslo bolo odstránené.</value>
+  </data>
+  <data name="Showing" xml:space="preserve">
+    <value>ZobrazujeSa</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>k:</value>
+  </data>
+  <data name="Entries" xml:space="preserve">
+    <value>Položky</value>
+  </data>
+  <data name="Documentation" xml:space="preserve">
+    <value>Dokumentácia</value>
+  </data>
+  <data name="BuyNow" xml:space="preserve">
+    <value>Kúpiť</value>
+  </data>
+  <data name="Searching" xml:space="preserve">
+    <value>Hľadá sa...</value>
+  </data>
+  <data name="Roles1" xml:space="preserve">
+    <value>Roly</value>
+  </data>
+  <data name="Role1" xml:space="preserve">
+    <value>Úloha</value>
+  </data>
+  <data name="CRMModules" xml:space="preserve">
+    <value>Moduly</value>
+  </data>
+  <data name="Sales" xml:space="preserve">
+    <value>Predaj</value>
+  </data>
+  <data name="Marketing" xml:space="preserve">
+    <value>Marketing</value>
+  </data>
+  <data name="Operations" xml:space="preserve">
+    <value>&amp;Operácie</value>
+  </data>
+  <data name="Accounting" xml:space="preserve">
+    <value>Accounting</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>Technická podpora</value>
+  </data>
+  <data name="DefaultPasswordFor" xml:space="preserve">
+    <value>Predvolené heslo:</value>
+  </data>
+  <data name="DefaultUserPassword" xml:space="preserve">
+    <value>Predvolené heslo:</value>
+  </data>
+  <data name="AdminUsername" xml:space="preserve">
+    <value>Správca užívateľské meno:!</value>
+  </data>
+  <data name="AdminPassword" xml:space="preserve">
+    <value>Heslo správcu:</value>
+  </data>
+</root>

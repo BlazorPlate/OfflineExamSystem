@@ -1,0 +1,43 @@
+﻿@model OfflineExamSystem.Models.GroupRoleViewModel
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">
+        <span aria-hidden="true">&times;</span>
+    </button>
+    <h3 class="modal-title">@Resources.Resources.Delete</h3>
+</div>
+<div class="modal-body">
+    <div>
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.GroupName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.GroupName)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.RoleName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.RoleName)
+            </dd>
+        </dl>
+    </div>
+</div>
+
+@using (Ajax.BeginForm("Delete", "GroupRoles", null, new AjaxOptions()
+{
+    HttpMethod = "POST",
+    UpdateTargetId = "deleteContainer",
+    OnSuccess = "OnSuccessDelete",
+}))
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(model => model.GroupId, new { id = "groupId" })
+    @Html.HiddenFor(model => model.RoleId, new { id = "roleId" })
+    <div class="modal-footer">
+        <button type="submit" id="btnDelete" class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i> @Resources.Resources.Delete</button>  
+        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-window-close" aria-hidden="true"></i> @Resources.Resources.Close</button>
+    </div>
+}

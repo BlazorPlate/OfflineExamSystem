@@ -1,0 +1,2103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BackToList" xml:space="preserve">
+    <value>Zurück zur Liste</value>
+  </data>
+  <data name="Calendar" xml:space="preserve">
+    <value>Kalender</value>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>Konfiguration</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Bestätigen Sie Kennwort:</value>
+  </data>
+  <data name="ConfirmPasswordCompare" xml:space="preserve">
+    <value>Kennwort und Passwort Bestätigung stimmen nicht überein</value>
+  </data>
+  <data name="Contents" xml:space="preserve">
+    <value>Inhalt</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Erstellen</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="DeleteConfirmation" xml:space="preserve">
+    <value>Sind Sie sicher, dass Sie diese löschen möchten?</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Beschreibung</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-Mail</value>
+  </data>
+  <data name="EmailRegularExpression" xml:space="preserve">
+    <value>E-Mail Adresse ist nicht gültig.</value>
+  </data>
+  <data name="Events" xml:space="preserve">
+    <value>Veranstaltungen</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Vorname</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Gruppe</value>
+  </data>
+  <data name="GroupRolesAssignment" xml:space="preserve">
+    <value>Für Gruppe zugewiesenen Rollen:</value>
+  </data>
+  <data name="Groups" xml:space="preserve">
+    <value>Gruppen</value>
+  </data>
+  <data name="GroupsAssignment" xml:space="preserve">
+    <value>Gruppen für Benutzer zugewiesen:</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Haus</value>
+  </data>
+  <data name="Images" xml:space="preserve">
+    <value>Bilder</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Nachname</value>
+  </data>
+  <data name="LogOff" xml:space="preserve">
+    <value>Melden Sie sich ab</value>
+  </data>
+  <data name="LogOn" xml:space="preserve">
+    <value>Anmelden</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Passwort</value>
+  </data>
+  <data name="PasswordStringLength" xml:space="preserve">
+    <value>Passwort muss mindestens 6 Zeichen lang sein.</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>Rolle</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Rollen</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Registrieren Sie sich</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="SelectGroups" xml:space="preserve">
+    <value>Gruppe auswählen</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Benutzer</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Benutzername</value>
+  </data>
+  <data name="UserRolesAssignment" xml:space="preserve">
+    <value>Rollen für Benutzer zugewiesen:</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Benutzer</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="CreatedOn" xml:space="preserve">
+    <value>Erstellungsdatum</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>Aktivität-Enddatum</value>
+  </data>
+  <data name="Index" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="IsPublished" xml:space="preserve">
+    <value>Veröffentlicht?</value>
+  </data>
+  <data name="IsTranslated" xml:space="preserve">
+    <value>Wird übersetzt?</value>
+  </data>
+  <data name="LanguageId" xml:space="preserve">
+    <value>Sprach-ID</value>
+  </data>
+  <data name="ModifiedBy" xml:space="preserve">
+    <value>Zuletzt geändert von</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Lage</value>
+  </data>
+  <data name="ModifiedOn" xml:space="preserve">
+    <value>Änderungsdatum</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Startdatum der Aktivität</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="TranslationId" xml:space="preserve">
+    <value>Übersetzung</value>
+  </data>
+  <data name="Event" xml:space="preserve">
+    <value>Event</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>Datei</value>
+  </data>
+  <data name="FilePath" xml:space="preserve">
+    <value>Dateipfad</value>
+  </data>
+  <data name="MIME" xml:space="preserve">
+    <value>MIME</value>
+  </data>
+  <data name="Tag" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="Tags" xml:space="preserve">
+    <value>Tags</value>
+  </data>
+  <data name="ThumbPath" xml:space="preserve">
+    <value>Daumen-Pfad</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Blick</value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>Inhalt</value>
+  </data>
+  <data name="MainContent" xml:space="preserve">
+    <value>Hauptinhalt</value>
+  </data>
+  <data name="MetaDescription" xml:space="preserve">
+    <value>Meta-Beschreibung</value>
+  </data>
+  <data name="MetaKeywords" xml:space="preserve">
+    <value>Meta-Keywords</value>
+  </data>
+  <data name="Languages" xml:space="preserve">
+    <value>Sprachen</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Passwort ändern</value>
+  </data>
+  <data name="CurrentPassword" xml:space="preserve">
+    <value>Aktuelles Kennwort</value>
+  </data>
+  <data name="ManageAccount" xml:space="preserve">
+    <value>Konto verwalten</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>Neues Passwort</value>
+  </data>
+  <data name="OldPassword" xml:space="preserve">
+    <value>Altes Passwort</value>
+  </data>
+  <data name="RememberMe" xml:space="preserve">
+    <value>Erinnere dich an mich</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Suche</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Kategorie</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>Menü</value>
+  </data>
+  <data name="MenuItem" xml:space="preserve">
+    <value>Menüpunkt</value>
+  </data>
+  <data name="MenuItems" xml:space="preserve">
+    <value>Menüpunkte</value>
+  </data>
+  <data name="Menus" xml:space="preserve">
+    <value>Menüs</value>
+  </data>
+  <data name="IsCms" xml:space="preserve">
+    <value>Ist Cms?</value>
+  </data>
+  <data name="IsLeaf" xml:space="preserve">
+    <value>Ist Blatt?</value>
+  </data>
+  <data name="IsParent" xml:space="preserve">
+    <value>Ist Elternteil?</value>
+  </data>
+  <data name="Ordinal" xml:space="preserve">
+    <value>Ordnungszahl</value>
+  </data>
+  <data name="Parent" xml:space="preserve">
+    <value>Übergeordneten</value>
+  </data>
+  <data name="CreateNewAccount" xml:space="preserve">
+    <value>Erstellen Sie neues Konto.</value>
+  </data>
+  <data name="Deleted" xml:space="preserve">
+    <value>Gelöscht</value>
+  </data>
+  <data name="Published" xml:space="preserve">
+    <value>Veröffentlicht</value>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>Gespeichert</value>
+  </data>
+  <data name="MaximumAllowedSize" xml:space="preserve">
+    <value>Maximal zulässige Größe ist:</value>
+  </data>
+  <data name="PleaseUploadImageOfType" xml:space="preserve">
+    <value>Bitte laden Sie ein Bild vom Typ:</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Notizen</value>
+  </data>
+  <data name="AddTranslation" xml:space="preserve">
+    <value>Übersetzung hinzufügen</value>
+  </data>
+  <data name="ViewTranslation" xml:space="preserve">
+    <value>Ansicht-Übersetzung</value>
+  </data>
+  <data name="HasShortcut" xml:space="preserve">
+    <value>Dispaly auf Startseite</value>
+  </data>
+  <data name="IsScheduled" xml:space="preserve">
+    <value>Geplant ist?</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Announcements" xml:space="preserve">
+    <value>Ankündigungen</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>News</value>
+  </data>
+  <data name="NoAnnouncements" xml:space="preserve">
+    <value>Es gibt keine Ankündigungen.</value>
+  </data>
+  <data name="NoEvents" xml:space="preserve">
+    <value>Es gibt keine Veranstaltungen.</value>
+  </data>
+  <data name="NoNews" xml:space="preserve">
+    <value>Es gibt keine Neuigkeiten.</value>
+  </data>
+  <data name="ContentTypes" xml:space="preserve">
+    <value>Content-Typen</value>
+  </data>
+  <data name="Building" xml:space="preserve">
+    <value>Gebäude</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Land</value>
+  </data>
+  <data name="Locality" xml:space="preserve">
+    <value>Stadt</value>
+  </data>
+  <data name="PostalCode" xml:space="preserve">
+    <value>Postleitzahl</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="Street" xml:space="preserve">
+    <value>Straße</value>
+  </data>
+  <data name="Telephone" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="EnterCredentials" xml:space="preserve">
+    <value>Geben Sie Ihren Benutzernamen und Passwort anmelden.</value>
+  </data>
+  <data name="ForgetPassword" xml:space="preserve">
+    <value>Passwort vergessen?</value>
+  </data>
+  <data name="JoinUs" xml:space="preserve">
+    <value>Begleiten Sie uns @</value>
+  </data>
+  <data name="LoginToSite" xml:space="preserve">
+    <value>Auf unserer Website einloggen</value>
+  </data>
+  <data name="LoginWithSocialMedia" xml:space="preserve">
+    <value>... oder loggen Sie sich mit:</value>
+  </data>
+  <data name="PasswordMatch" xml:space="preserve">
+    <value>Das neue Kennwort und Passwort Bestätigung stimmen nicht überein.</value>
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>Telefonnummer</value>
+  </data>
+  <data name="RegisterNewUser" xml:space="preserve">
+    <value>Als neuer Benutzer registrieren</value>
+  </data>
+  <data name="StringLength" xml:space="preserve">
+    <value>Die {0} muss mindestens {2} Zeichen lang.</value>
+  </data>
+  <data name="FillForm" xml:space="preserve">
+    <value>Füllen Sie das Formular unten, um sofortigen Zugang zu erhalten.</value>
+  </data>
+  <data name="EmailInvalid" xml:space="preserve">
+    <value>Die e-Mail-Adresse ist nicht gültig.</value>
+  </data>
+  <data name="SignUp" xml:space="preserve">
+    <value>Anmelden</value>
+  </data>
+  <data name="SignUpInSeconds" xml:space="preserve">
+    <value>Melden Sie sich in Sekunden</value>
+  </data>
+  <data name="AlreadyMember" xml:space="preserve">
+    <value>Bereits Mitglied?</value>
+  </data>
+  <data name="EmailLink" xml:space="preserve">
+    <value>E-Mail-link</value>
+  </data>
+  <data name="EmailConfirmationCheck" xml:space="preserve">
+    <value>Bitte überprüfen Sie Ihre e-Mail zur Aktivierung Ihres Kontos.</value>
+  </data>
+  <data name="EnterEmail" xml:space="preserve">
+    <value>Geben Sie Ihre e-Mail um e-Mail-Link zum Zurücksetzen des Kennworts zu erhalten.</value>
+  </data>
+  <data name="Instruction" xml:space="preserve">
+    <value>Wir haben Ihnen eine Email mit einem Bestätigungslink gesendet. Bitte überprüfen Sie Ihre e-Mail und bestätigen Sie Ihr Abonnement zu.</value>
+  </data>
+  <data name="InvalidLoginAttempt" xml:space="preserve">
+    <value>Ungültiger Login-Versuch.</value>
+  </data>
+  <data name="Regards" xml:space="preserve">
+    <value>Herzliche Grüße</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>Danke für Ihre Teilnahme!</value>
+  </data>
+  <data name="ThankYouFor" xml:space="preserve">
+    <value>Vielen Dank für den Beitritt</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Herzlich Willkommen</value>
+  </data>
+  <data name="EnterVerificationCode" xml:space="preserve">
+    <value>Geben Sie den Verifizierungscode ein.</value>
+  </data>
+  <data name="RememberBrowser" xml:space="preserve">
+    <value>Denken Sie daran, dieser browser</value>
+  </data>
+  <data name="SelectTwoFactor" xml:space="preserve">
+    <value>Wählen Sie zwei-Faktor-Authentifizierung-Methode.</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Senden</value>
+  </data>
+  <data name="TwoFactor" xml:space="preserve">
+    <value>Zwei-Faktor-Authentifizierung</value>
+  </data>
+  <data name="TwoFactorType" xml:space="preserve">
+    <value>Zwei-Faktor-Authentifizierung-Methode</value>
+  </data>
+  <data name="VerificationCode" xml:space="preserve">
+    <value>Bestätigungs-Code</value>
+  </data>
+  <data name="Verify" xml:space="preserve">
+    <value>Jetzt überprüfen</value>
+  </data>
+  <data name="ChangeAccountSettings" xml:space="preserve">
+    <value>Ändern Sie Ihre Kontoeinstellungen.</value>
+  </data>
+  <data name="ExternalLogins" xml:space="preserve">
+    <value>Externe logins</value>
+  </data>
+  <data name="AddPhoneNumber" xml:space="preserve">
+    <value>Telefonnummer hinzufügen</value>
+  </data>
+  <data name="ChangeCurrentPassword" xml:space="preserve">
+    <value>Aktuelle Kennwort ändern.</value>
+  </data>
+  <data name="Disable" xml:space="preserve">
+    <value>Deaktivieren</value>
+  </data>
+  <data name="Enable" xml:space="preserve">
+    <value>Aktivieren</value>
+  </data>
+  <data name="ExploreOurSite" xml:space="preserve">
+    <value>Erkunden Sie unsere Website</value>
+  </data>
+  <data name="ManageLogins" xml:space="preserve">
+    <value>Verwalten Sie externe logins</value>
+  </data>
+  <data name="PhoneNumberOption" xml:space="preserve">
+    <value>Fügen Sie Telefonnummer hinzu, um Bestätigungs-Code erhalten können.</value>
+  </data>
+  <data name="SetPassword" xml:space="preserve">
+    <value>Kennwort festlegen</value>
+  </data>
+  <data name="VerifyPhoneNumber" xml:space="preserve">
+    <value>Überprüfen Sie die Telefonnummer</value>
+  </data>
+  <data name="VerifyPhoneNumberOption" xml:space="preserve">
+    <value>Geben Sie den Verifizierungscode ein um Ihre Identität zu überprüfen. </value>
+  </data>
+  <data name="ChooseContentType" xml:space="preserve">
+    <value>--Wählen Sie Content-Typ--</value>
+  </data>
+  <data name="ChooseLanguage" xml:space="preserve">
+    <value>--Wählen Sie Sprache--</value>
+  </data>
+  <data name="ChooseParentMenuItem" xml:space="preserve">
+    <value>--Wählen Sie übergeordnete Menü Element--</value>
+  </data>
+  <data name="ContentType" xml:space="preserve">
+    <value>Content-Type</value>
+  </data>
+  <data name="HasMenuItem" xml:space="preserve">
+    <value>Geben Sie einen Menülink?</value>
+  </data>
+  <data name="ChooseMenu" xml:space="preserve">
+    <value>--Wählen Sie Menü--</value>
+  </data>
+  <data name="FacebookUrl" xml:space="preserve">
+    <value>Facebook</value>
+  </data>
+  <data name="IsUrgent" xml:space="preserve">
+    <value>In dringenden Bar anzeigen?</value>
+  </data>
+  <data name="Logo" xml:space="preserve">
+    <value>Logo</value>
+  </data>
+  <data name="ParentMenuItem" xml:space="preserve">
+    <value>Übergeordneten Menüpunkt</value>
+  </data>
+  <data name="StatusId" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="TwitterUrl" xml:space="preserve">
+    <value>Twitter</value>
+  </data>
+  <data name="YouTubeUrl" xml:space="preserve">
+    <value>YouTube</value>
+  </data>
+  <data name="AcademicJournal" xml:space="preserve">
+    <value>Studentenmagazin Stimme</value>
+  </data>
+  <data name="ShortcutTitle" xml:space="preserve">
+    <value>Abkürzung Titel</value>
+  </data>
+  <data name="NoArticles" xml:space="preserve">
+    <value>Es gibt keine Artikel.</value>
+  </data>
+  <data name="Vacancy" xml:space="preserve">
+    <value>Job Annoucement</value>
+  </data>
+  <data name="Degree" xml:space="preserve">
+    <value>Grad </value>
+  </data>
+  <data name="Degrees" xml:space="preserve">
+    <value>Grad</value>
+  </data>
+  <data name="AddAttachments" xml:space="preserve">
+    <value>Eine weitere Anlage hinzufügen...</value>
+  </data>
+  <data name="Applicant" xml:space="preserve">
+    <value>Antragsteller</value>
+  </data>
+  <data name="Requirements" xml:space="preserve">
+    <value>Anforderungen</value>
+  </data>
+  <data name="CoverLetter" xml:space="preserve">
+    <value>Anschreiben</value>
+  </data>
+  <data name="FileName" xml:space="preserve">
+    <value>Dateiname</value>
+  </data>
+  <data name="Id" xml:space="preserve">
+    <value>Seriennummer</value>
+  </data>
+  <data name="IsActive" xml:space="preserve">
+    <value>Ist aktiv?</value>
+  </data>
+  <data name="VacancyType" xml:space="preserve">
+    <value>Stellenausschreibung-Typ</value>
+  </data>
+  <data name="Documents" xml:space="preserve">
+    <value>Dokumente</value>
+  </data>
+  <data name="Submissions" xml:space="preserve">
+    <value>Beiträge</value>
+  </data>
+  <data name="SubmittedOn" xml:space="preserve">
+    <value>Submittion Datum</value>
+  </data>
+  <data name="Rank" xml:space="preserve">
+    <value>Akademische Rank</value>
+  </data>
+  <data name="Ranks" xml:space="preserve">
+    <value>Wissenschaftliche Reihen</value>
+  </data>
+  <data name="ChooseVacancy" xml:space="preserve">
+    <value>--Wählen Sie Job Titel--</value>
+  </data>
+  <data name="Applicants" xml:space="preserve">
+    <value>Bewerber</value>
+  </data>
+  <data name="ApplicantFullName" xml:space="preserve">
+    <value>Name des Anmelders</value>
+  </data>
+  <data name="Attachments" xml:space="preserve">
+    <value>Anhänge</value>
+  </data>
+  <data name="CurriculumVitae" xml:space="preserve">
+    <value>Curriculum Vitae</value>
+  </data>
+  <data name="DOB" xml:space="preserve">
+    <value>Geburtsdatum</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Geschlecht</value>
+  </data>
+  <data name="JobTitle" xml:space="preserve">
+    <value>Job-Titel</value>
+  </data>
+  <data name="MiddleName" xml:space="preserve">
+    <value>Zweiter Vorname</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>Mobile Nr.</value>
+  </data>
+  <data name="ResumeFileName" xml:space="preserve">
+    <value>Curriculum Vitae</value>
+  </data>
+  <data name="ResumeFilePath" xml:space="preserve">
+    <value>Curriculum Vitae</value>
+  </data>
+  <data name="Submission" xml:space="preserve">
+    <value>Einreichung</value>
+  </data>
+  <data name="NoParentItem" xml:space="preserve">
+    <value>--Kein übergeordnetes Element--</value>
+  </data>
+  <data name="ContentList" xml:space="preserve">
+    <value>Inhaltsliste</value>
+  </data>
+  <data name="ItemContent" xml:space="preserve">
+    <value>Elementinhalte</value>
+  </data>
+  <data name="PleaseUploadFileOfType" xml:space="preserve">
+    <value>Bitte laden Sie eine Datei vom Typ:</value>
+  </data>
+  <data name="JobType" xml:space="preserve">
+    <value>Job-Typ</value>
+  </data>
+  <data name="ListItem" xml:space="preserve">
+    <value>Listenelement</value>
+  </data>
+  <data name="ListItems" xml:space="preserve">
+    <value>Listenelemente</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Webseite</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="Latitude" xml:space="preserve">
+    <value>Breitengrad</value>
+  </data>
+  <data name="Longitude" xml:space="preserve">
+    <value>Länge</value>
+  </data>
+  <data name="Organization" xml:space="preserve">
+    <value>Organisation</value>
+  </data>
+  <data name="Organizations" xml:space="preserve">
+    <value>Organisationen</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Stadt</value>
+  </data>
+  <data name="District" xml:space="preserve">
+    <value>Bezirk</value>
+  </data>
+  <data name="Province" xml:space="preserve">
+    <value>Provinz</value>
+  </data>
+  <data name="POBox" xml:space="preserve">
+    <value>P.o. Box</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Kontakt-Informationen</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>Abteilung</value>
+  </data>
+  <data name="Office" xml:space="preserve">
+    <value>Büro</value>
+  </data>
+  <data name="PersonalTitle" xml:space="preserve">
+    <value>Persönliche Titel</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>Kontaktieren Sie uns</value>
+  </data>
+  <data name="OurLocationOnMap" xml:space="preserve">
+    <value>Unser Standort auf Karte</value>
+  </data>
+  <data name="PersonalTitles" xml:space="preserve">
+    <value>PersonalTitles</value>
+  </data>
+  <data name="Extension" xml:space="preserve">
+    <value>Erweiterung</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Telefonnummer</value>
+  </data>
+  <data name="ManageLists" xml:space="preserve">
+    <value>Listen verwalten</value>
+  </data>
+  <data name="Articles" xml:space="preserve">
+    <value>Artikel</value>
+  </data>
+  <data name="ApplyNow" xml:space="preserve">
+    <value>Bewerben Sie sich jetzt</value>
+  </data>
+  <data name="Class" xml:space="preserve">
+    <value>CSS-Klasse</value>
+  </data>
+  <data name="CopyRights" xml:space="preserve">
+    <value>Alle Rechte vorbehalten</value>
+  </data>
+  <data name="GooglePlusUrl" xml:space="preserve">
+    <value>Google Plus</value>
+  </data>
+  <data name="LinkedInUrl" xml:space="preserve">
+    <value>LinkedIn</value>
+  </data>
+  <data name="Privacy" xml:space="preserve">
+    <value>Datenschutz</value>
+  </data>
+  <data name="RSS" xml:space="preserve">
+    <value>RSS-Feed</value>
+  </data>
+  <data name="Terms" xml:space="preserve">
+    <value>Übersetzungen</value>
+  </data>
+  <data name="WebDevelopedBy" xml:space="preserve">
+    <value>Website-Entwickler-Name</value>
+  </data>
+  <data name="EnterYourEmail" xml:space="preserve">
+    <value>Geben Sie Ihre e-Mail...</value>
+  </data>
+  <data name="Explore" xml:space="preserve">
+    <value>Erkunden Sie</value>
+  </data>
+  <data name="KeepInTouch" xml:space="preserve">
+    <value>Wir bleiben in Verbindung</value>
+  </data>
+  <data name="LatestNews" xml:space="preserve">
+    <value>Aktuelle Nachrichten</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="Subscribe" xml:space="preserve">
+    <value>Abonnieren</value>
+  </data>
+  <data name="SubscriptionMessage" xml:space="preserve">
+    <value>Abonnieren Sie unseren Newsletter, wichtige Nachrichten zu bekommen</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Gelten</value>
+  </data>
+  <data name="Arrow" xml:space="preserve">
+    <value>Symbol-lang-Pfeil-rechts</value>
+  </data>
+  <data name="For" xml:space="preserve">
+    <value>für</value>
+  </data>
+  <data name="MarginDirClass" xml:space="preserve">
+    <value>Rand-links-10</value>
+  </data>
+  <data name="AllowedAttachmentExtensions" xml:space="preserve">
+    <value>Eine oder mehrere Attachmetns sind ungültig: nur. PDF. DOCX. DOC. PNG. JPG. JPEG-Dateien sind erlaubt.</value>
+  </data>
+  <data name="AttachmentsNotes" xml:space="preserve">
+    <value>Bitte laden Sie eine Anlagen vom Typ:. PDF. DOCX. DOC. PNG. JPG. JPEG</value>
+  </data>
+  <data name="CVNotes" xml:space="preserve">
+    <value>Bitte Lebenslauf des Typs hochzuladen:. PDF. DOCX. DOC</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Senden</value>
+  </data>
+  <data name="Program" xml:space="preserve">
+    <value>Programm</value>
+  </data>
+  <data name="Programs" xml:space="preserve">
+    <value>Programme</value>
+  </data>
+  <data name="JobAnnouncement" xml:space="preserve">
+    <value>Job Ankündigung</value>
+  </data>
+  <data name="JobAnnouncements" xml:space="preserve">
+    <value>Stellenangebote</value>
+  </data>
+  <data name="Departments" xml:space="preserve">
+    <value>Abteilungen</value>
+  </data>
+  <data name="EmployeeTypes" xml:space="preserve">
+    <value>Mitarbeiter-Typen</value>
+  </data>
+  <data name="EmpInDepts" xml:space="preserve">
+    <value>Mitarbeiter Abteilungen</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Mitarbeiter</value>
+  </data>
+  <data name="Occupation" xml:space="preserve">
+    <value>Besetzung</value>
+  </data>
+  <data name="Occupations" xml:space="preserve">
+    <value>Berufe</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>Vollständiger Name</value>
+  </data>
+  <data name="ImagePath" xml:space="preserve">
+    <value>Bildpfad</value>
+  </data>
+  <data name="LandLine" xml:space="preserve">
+    <value>Land-Zeilennr.</value>
+  </data>
+  <data name="OfficeNumber" xml:space="preserve">
+    <value>Büro Nr.</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Mitarbeiter</value>
+  </data>
+  <data name="ImageNotes" xml:space="preserve">
+    <value>Bitte laden Sie ein Bild vom Typ:. PNG. JPG. JPEG. BMP</value>
+  </data>
+  <data name="PersonalPhoto" xml:space="preserve">
+    <value>Persönliches Foto</value>
+  </data>
+  <data name="ViewCV" xml:space="preserve">
+    <value>View CV</value>
+  </data>
+  <data name="PersonalPhotoName" xml:space="preserve">
+    <value>Name des persönlichen Fotos</value>
+  </data>
+  <data name="PersonalPhotoPath" xml:space="preserve">
+    <value>Persönliches Foto</value>
+  </data>
+  <data name="UploadPersonalPhoto" xml:space="preserve">
+    <value>Persönliches Foto hochladen</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>Manager</value>
+  </data>
+  <data name="AllLanguages" xml:space="preserve">
+    <value>Alle Sprachen</value>
+  </data>
+  <data name="Director" xml:space="preserve">
+    <value>Regisseur</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>Durchsuchen</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Hinweis</value>
+  </data>
+  <data name="AcademicInfo" xml:space="preserve">
+    <value>Akademische Info</value>
+  </data>
+  <data name="Biography" xml:space="preserve">
+    <value>Biografie</value>
+  </data>
+  <data name="ContactInfo" xml:space="preserve">
+    <value>Kontakt Info</value>
+  </data>
+  <data name="PersonalInfo" xml:space="preserve">
+    <value>Persönliche Info</value>
+  </data>
+  <data name="Manage" xml:space="preserve">
+    <value>Verwalten</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Entfernen</value>
+  </data>
+  <data name="FillOutPersonalInfo" xml:space="preserve">
+    <value>Bitte füllen Sie persönliche Info-Formular.</value>
+  </data>
+  <data name="AccountSettings" xml:space="preserve">
+    <value>Kontoeinstellungen</value>
+  </data>
+  <data name="ManageContacts" xml:space="preserve">
+    <value>Verwalten von Kontakten</value>
+  </data>
+  <data name="ManagePublications" xml:space="preserve">
+    <value>Publikationen verwalten</value>
+  </data>
+  <data name="NoCVUploaded" xml:space="preserve">
+    <value>Kein Lebenslauf hochgeladen!</value>
+  </data>
+  <data name="NoPersonalPhotoUploaded" xml:space="preserve">
+    <value>Keine persönliche Foto hochgeladen!</value>
+  </data>
+  <data name="Publication" xml:space="preserve">
+    <value>Veröffentlichung</value>
+  </data>
+  <data name="Publications" xml:space="preserve">
+    <value>Publikationen</value>
+  </data>
+  <data name="Abstract" xml:space="preserve">
+    <value>Abstrakt</value>
+  </data>
+  <data name="CompletedProfile" xml:space="preserve">
+    <value>ausgefüllte Profil</value>
+  </data>
+  <data name="EmployeeType" xml:space="preserve">
+    <value>Mitarbeitertyp</value>
+  </data>
+  <data name="ViewProfile" xml:space="preserve">
+    <value>Profil anzeigen</value>
+  </data>
+  <data name="Hello" xml:space="preserve">
+    <value>Hallo</value>
+  </data>
+  <data name="OurStaffDirectory" xml:space="preserve">
+    <value>Unsere Mitarbeiter-Verzeichnis</value>
+  </data>
+  <data name="SearchBy" xml:space="preserve">
+    <value>Suche nach</value>
+  </data>
+  <data name="SearchByDepartmet" xml:space="preserve">
+    <value>Suche nach departmet</value>
+  </data>
+  <data name="DuplicateEmail" xml:space="preserve">
+    <value>Die e-Mail-Adresse ist bereits registriert.</value>
+  </data>
+  <data name="InvalidOrganizationEmail" xml:space="preserve">
+    <value>Geben Sie Ihre geschäftliche e-Mail-Adresse.</value>
+  </data>
+  <data name="DepartmentStaffList" xml:space="preserve">
+    <value>Liste der Mitarbeiter der Abteilung</value>
+  </data>
+  <data name="SearchResult" xml:space="preserve">
+    <value>Suchergebnis</value>
+  </data>
+  <data name="DuplicateError" xml:space="preserve">
+    <value>Keine einfügen doppelten Datensätze.</value>
+  </data>
+  <data name="EmployeeName" xml:space="preserve">
+    <value>Name des Mitarbeiters</value>
+  </data>
+  <data name="ClickHereToLogin" xml:space="preserve">
+    <value>Klicken Sie hier um sich einzuloggen</value>
+  </data>
+  <data name="ConfirmEmail" xml:space="preserve">
+    <value>E-Mail bestätigen</value>
+  </data>
+  <data name="ConfirmEmailThanks" xml:space="preserve">
+    <value>Vielen Dank für Ihre e-Mail-Adresse zu bestätigen.</value>
+  </data>
+  <data name="ForgotPasswordCheck" xml:space="preserve">
+    <value>Bitte überprüfen Sie Ihre e-Mail-Adresse, um Ihr Passwort zurückzusetzen.</value>
+  </data>
+  <data name="ForgotPasswordConfirmation" xml:space="preserve">
+    <value>Vergessen Passwort Bestätigung</value>
+  </data>
+  <data name="Please" xml:space="preserve">
+    <value>Bitte</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Zurücksetzen</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>Passwort zurücksetzen</value>
+  </data>
+  <data name="ResetYourPassword" xml:space="preserve">
+    <value>Ihr Passwort zurücksetzen.</value>
+  </data>
+  <data name="SecurityCode" xml:space="preserve">
+    <value>Sicherheits-Code</value>
+  </data>
+  <data name="ApplyFor" xml:space="preserve">
+    <value>Bewerben Sie sich für</value>
+  </data>
+  <data name="ChooseDepartment" xml:space="preserve">
+    <value>--Wählen Sie Abteilung--</value>
+  </data>
+  <data name="SubmissionId" xml:space="preserve">
+    <value>Anmeldenummer</value>
+  </data>
+  <data name="DownloadApplications" xml:space="preserve">
+    <value>Laden Sie Anwendungen herunter</value>
+  </data>
+  <data name="NotAvailable" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="GoCuteCMS" xml:space="preserve">
+    <value>Gehen Sie zu CuteCMS</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="ErrorNotification" xml:space="preserve">
+    <value>Unser technisches Personal wurden automatisch benachrichtigt und werden versuchen, in diese mit höchster Dringlichkeit.</value>
+  </data>
+  <data name="GenericError" xml:space="preserve">
+    <value>Etwas schief gelaufen.</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>Die von die Ihnen angeforderte Seite kann nicht gefunden werden!</value>
+  </data>
+  <data name="NotPublished" xml:space="preserve">
+    <value>Die von die Ihnen angeforderte Seite ist nicht veröffentlicht.</value>
+  </data>
+  <data name="NotTranslated" xml:space="preserve">
+    <value>Die von die Ihnen angeforderte Seite ist nicht übersetzt.</value>
+  </data>
+  <data name="DataTableLanguage" xml:space="preserve">
+    <value>http://CDN.DataTables.NET/Plug-ins/1.10.12/i18n/English.JSON</value>
+  </data>
+  <data name="LanguageSelector" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="PleaseUploadAttachments" xml:space="preserve">
+    <value>Bitte laden Sie die erforderlichen Anlagen.</value>
+  </data>
+  <data name="Oops" xml:space="preserve">
+    <value>Hoppla!</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Aktionen</value>
+  </data>
+  <data name="ColVis" xml:space="preserve">
+    <value>Spalte Sichtbarkeit</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Kopie</value>
+  </data>
+  <data name="ExportExcel" xml:space="preserve">
+    <value>Excel exportieren</value>
+  </data>
+  <data name="ExportPDF" xml:space="preserve">
+    <value>PDF-DATEI exportieren</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Drucken</value>
+  </data>
+  <data name="Reload" xml:space="preserve">
+    <value>Neu laden</value>
+  </data>
+  <data name="NoUpcomingEvents" xml:space="preserve">
+    <value>Es gibt keine bevorstehenden Veranstaltungen.</value>
+  </data>
+  <data name="UpcomingEvents" xml:space="preserve">
+    <value>Bevorstehende Veranstaltungen</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Über</value>
+  </data>
+  <data name="RnC" xml:space="preserve">
+    <value>Forschungen &amp; Konferenzen</value>
+  </data>
+  <data name="MyProfile" xml:space="preserve">
+    <value>Mein Profil</value>
+  </data>
+  <data name="NoRecordFound" xml:space="preserve">
+    <value>Kein Datensatz gefunden!</value>
+  </data>
+  <data name="ViewMySocialNetwork" xml:space="preserve">
+    <value>Mein soziale Netzwerk anzeigen</value>
+  </data>
+  <data name="CssClass" xml:space="preserve">
+    <value>CSS-Klasse</value>
+  </data>
+  <data name="Backend" xml:space="preserve">
+    <value>Back-End-</value>
+  </data>
+  <data name="Frontend" xml:space="preserve">
+    <value>Frontend</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Bild</value>
+  </data>
+  <data name="Visible" xml:space="preserve">
+    <value>Sichtbar?</value>
+  </data>
+  <data name="IsDefault" xml:space="preserve">
+    <value>Ist Standardwert?</value>
+  </data>
+  <data name="PrimaryLogoName" xml:space="preserve">
+    <value>Hauptlogo Name</value>
+  </data>
+  <data name="PrimaryLogoPath" xml:space="preserve">
+    <value>Primärlogo Weg</value>
+  </data>
+  <data name="SecondaryLogoName" xml:space="preserve">
+    <value>Sekundäre Logo Name</value>
+  </data>
+  <data name="SecondaryLogoPath" xml:space="preserve">
+    <value>Sekundäre Logo Weg</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Höhe</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>Breite</value>
+  </data>
+  <data name="ChooseRole" xml:space="preserve">
+    <value>--Wählen Sie Rolle--</value>
+  </data>
+  <data name="ChooseStatus" xml:space="preserve">
+    <value>--Wählen Sie Status--</value>
+  </data>
+  <data name="ChooseAuthor" xml:space="preserve">
+    <value>--Wählen Sie Autor--</value>
+  </data>
+  <data name="ChooseTag" xml:space="preserve">
+    <value>--Wählen Sie Tag--</value>
+  </data>
+  <data name="CountryCode" xml:space="preserve">
+    <value>Vorwahl des Landes</value>
+  </data>
+  <data name="CountryName" xml:space="preserve">
+    <value>Ländername</value>
+  </data>
+  <data name="IP" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="MetroCode" xml:space="preserve">
+    <value>Metro-Code</value>
+  </data>
+  <data name="RegionCode" xml:space="preserve">
+    <value>Region-Code</value>
+  </data>
+  <data name="RegionName" xml:space="preserve">
+    <value>Name der Region</value>
+  </data>
+  <data name="RequestDate" xml:space="preserve">
+    <value>Anfragedatum</value>
+  </data>
+  <data name="TimeZone" xml:space="preserve">
+    <value>Zeitzone</value>
+  </data>
+  <data name="Count" xml:space="preserve">
+    <value>Graf</value>
+  </data>
+  <data name="Translations" xml:space="preserve">
+    <value>Übersetzungen</value>
+  </data>
+  <data name="VacancyUnableToDelete" xml:space="preserve">
+    <value>Nicht in der Lage, diese Stelle zu löschen, weil es Einreichung(en) verwandt hat.</value>
+  </data>
+  <data name="ChoosePersonalTitle" xml:space="preserve">
+    <value>--Wählen Sie persönliche Titel--</value>
+  </data>
+  <data name="Acknowledgement" xml:space="preserve">
+    <value>Anerkennung</value>
+  </data>
+  <data name="ApplicationNumber" xml:space="preserve">
+    <value>Ihre Bewerbernummer anzugeben ist:</value>
+  </data>
+  <data name="Dear" xml:space="preserve">
+    <value>Sehr geehrte</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Wert</value>
+  </data>
+  <data name="FlagCode" xml:space="preserve">
+    <value>Flag Code</value>
+  </data>
+  <data name="Flag" xml:space="preserve">
+    <value>Flagge</value>
+  </data>
+  <data name="CultureName" xml:space="preserve">
+    <value>Name der Kultur</value>
+  </data>
+  <data name="IsEnabled" xml:space="preserve">
+    <value>Ist aktiviert?</value>
+  </data>
+  <data name="SMTP" xml:space="preserve">
+    <value>SMTP</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Betreff</value>
+  </data>
+  <data name="Body" xml:space="preserve">
+    <value>Körper</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>Benachrichtigung</value>
+  </data>
+  <data name="Term" xml:space="preserve">
+    <value>Übersetzung</value>
+  </data>
+  <data name="Attachment" xml:space="preserve">
+    <value>Anlage</value>
+  </data>
+  <data name="Statistic" xml:space="preserve">
+    <value>Statistiken</value>
+  </data>
+  <data name="SMTPSetting" xml:space="preserve">
+    <value>SMTP-Einstellung</value>
+  </data>
+  <data name="ImageTag" xml:space="preserve">
+    <value>Image-Tags</value>
+  </data>
+  <data name="JobTypes" xml:space="preserve">
+    <value>Job-Typen</value>
+  </data>
+  <data name="Genders" xml:space="preserve">
+    <value>Geschlechter</value>
+  </data>
+  <data name="PhoneNumbers" xml:space="preserve">
+    <value>Telefonnummern</value>
+  </data>
+  <data name="Notifications" xml:space="preserve">
+    <value>Benachrichtigungen</value>
+  </data>
+  <data name="Contacts" xml:space="preserve">
+    <value>Kontakte</value>
+  </data>
+  <data name="ImageFiles" xml:space="preserve">
+    <value>Image-Dateien</value>
+  </data>
+  <data name="ContentLists" xml:space="preserve">
+    <value>Inhalt-Listen</value>
+  </data>
+  <data name="HomeVisible" xml:space="preserve">
+    <value>In Startseite anzeigen?</value>
+  </data>
+  <data name="TOC" xml:space="preserve">
+    <value>Nutzungsbedingungen</value>
+  </data>
+  <data name="ShowHeaderDate" xml:space="preserve">
+    <value>Show-Termine</value>
+  </data>
+  <data name="ExpiredOn" xml:space="preserve">
+    <value>Abgelaufen am</value>
+  </data>
+  <data name="PublishedOn" xml:space="preserve">
+    <value>Veröffentlicht am</value>
+  </data>
+  <data name="LastUpdatedOn" xml:space="preserve">
+    <value>Seite zuletzt geändert am</value>
+  </data>
+  <data name="InvalidPublishDate" xml:space="preserve">
+    <value>Veröffentlichen Datum muss kleiner sein als oder gleich Tätigkeit Startdatum.</value>
+  </data>
+  <data name="InvalidExpiryDate" xml:space="preserve">
+    <value>Ablaufdatum muss größer als oder gleich Aktivität Enddatum liegen.</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>Von</value>
+  </data>
+  <data name="Till" xml:space="preserve">
+    <value>Bis</value>
+  </data>
+  <data name="NoResult" xml:space="preserve">
+    <value>Keine Ergebnisse.</value>
+  </data>
+  <data name="BreakingNews" xml:space="preserve">
+    <value>Breaking News</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>Zur Verfügung</value>
+  </data>
+  <data name="Skills" xml:space="preserve">
+    <value>Fähigkeiten</value>
+  </data>
+  <data name="Validity" xml:space="preserve">
+    <value>Gültigkeit</value>
+  </data>
+  <data name="ChooseJobType" xml:space="preserve">
+    <value>--Wählen Sie Job Typ--</value>
+  </data>
+  <data name="AbsolutePath" xml:space="preserve">
+    <value>Absoluten Pfad</value>
+  </data>
+  <data name="Keywords" xml:space="preserve">
+    <value>Schlüsselwörter</value>
+  </data>
+  <data name="PoweredBy" xml:space="preserve">
+    <value>Powered by</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>Pfad</value>
+  </data>
+  <data name="UrgentExpiredOn" xml:space="preserve">
+    <value>Dringende lief am</value>
+  </data>
+  <data name="BackToHome" xml:space="preserve">
+    <value>zurück zur Homepage jetzt!</value>
+  </data>
+  <data name="PageNotFound" xml:space="preserve">
+    <value>Seite nicht gefunden</value>
+  </data>
+  <data name="PageNotTranslated" xml:space="preserve">
+    <value>Seite nicht übersetzt</value>
+  </data>
+  <data name="PageNotPublished" xml:space="preserve">
+    <value>Seite nicht veröffentlicht</value>
+  </data>
+  <data name="CreatePassword" xml:space="preserve">
+    <value>Passwort erstellen</value>
+  </data>
+  <data name="ResetPasswordConfirmation" xml:space="preserve">
+    <value>Kennwortbestätigung zurücksetzen</value>
+  </data>
+  <data name="PasswordReset" xml:space="preserve">
+    <value>Ihr Passwort wurde zurückgesetzt.</value>
+  </data>
+  <data name="ClickLogin" xml:space="preserve">
+    <value>Klicken Sie hier um sich einzuloggen</value>
+  </data>
+  <data name="YourAppNumber" xml:space="preserve">
+    <value>Ist Ihre Antragsnummer</value>
+  </data>
+  <data name="ImageTags" xml:space="preserve">
+    <value>Image-Tags</value>
+  </data>
+  <data name="SMTPSettings" xml:space="preserve">
+    <value>SMTP-Einstellungen</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Statistiken</value>
+  </data>
+  <data name="Statuses" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Vacancies" xml:space="preserve">
+    <value>Offene Stellen</value>
+  </data>
+  <data name="LockedOutMessage" xml:space="preserve">
+    <value>Dieses Konto wurde gesperrt, bitte versuchen Sie es später erneut.</value>
+  </data>
+  <data name="LockedOut" xml:space="preserve">
+    <value>Gesperrt</value>
+  </data>
+  <data name="TakeTour" xml:space="preserve">
+    <value>Machen Sie einen Rundgang</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>Teilen Sie diese Seite</value>
+  </data>
+  <data name="ForgotPasswordInstructions" xml:space="preserve">
+    <value>Füllen Sie das Formular unten, um eine Email mit den Authorisierungs-Code zum Zurücksetzen Ihres Kennworts erforderlich.</value>
+  </data>
+  <data name="InvalidToken" xml:space="preserve">
+    <value>Ungültiges Token</value>
+  </data>
+  <data name="ReadMore" xml:space="preserve">
+    <value>Lesen Sie mehr</value>
+  </data>
+  <data name="LogIn" xml:space="preserve">
+    <value>Anmelden</value>
+  </data>
+  <data name="Dimensions" xml:space="preserve">
+    <value>Abmessungen</value>
+  </data>
+  <data name="GetInTouch" xml:space="preserve">
+    <value>Bleiben Sie in Kontakt</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>Kategorien</value>
+  </data>
+  <data name="YourName" xml:space="preserve">
+    <value>Ihr Name</value>
+  </data>
+  <data name="YourEmail" xml:space="preserve">
+    <value>Ihre e-Mail-Adresse</value>
+  </data>
+  <data name="SendMessage" xml:space="preserve">
+    <value>Nachricht senden</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Nachricht</value>
+  </data>
+  <data name="SenderName" xml:space="preserve">
+    <value>Ihr Name</value>
+  </data>
+  <data name="Careers" xml:space="preserve">
+    <value>Berufsfelder</value>
+  </data>
+  <data name="SocialNetwork" xml:space="preserve">
+    <value>Soziales Netzwerk</value>
+  </data>
+  <data name="SocialNetworks" xml:space="preserve">
+    <value>Soziale Netzwerke</value>
+  </data>
+  <data name="ShowAll" xml:space="preserve">
+    <value>Alle anzeigen</value>
+  </data>
+  <data name="ChooseCategory" xml:space="preserve">
+    <value>--Wählen Sie Kategorie--</value>
+  </data>
+  <data name="AddressLine1" xml:space="preserve">
+    <value>Adresszeile 1</value>
+  </data>
+  <data name="AddressLine2" xml:space="preserve">
+    <value>Adresszeile 2</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Zustand</value>
+  </data>
+  <data name="ZIP" xml:space="preserve">
+    <value>PLZ</value>
+  </data>
+  <data name="Newsletter" xml:space="preserve">
+    <value>Newsletter</value>
+  </data>
+  <data name="LatestTweets" xml:space="preserve">
+    <value>Neuesten Tweets</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Bitte warten...</value>
+  </data>
+  <data name="FollowUs" xml:space="preserve">
+    <value>Folgen Sie uns</value>
+  </data>
+  <data name="ChooseEmployeeType" xml:space="preserve">
+    <value>--Wählen Sie Mitarbeiter Typ--</value>
+  </data>
+  <data name="HasAccount" xml:space="preserve">
+    <value>Hat Konto?</value>
+  </data>
+  <data name="EmailConfirmed" xml:space="preserve">
+    <value>E-Mail bestätigt?</value>
+  </data>
+  <data name="UsefulLinks" xml:space="preserve">
+    <value>Hier sind einige nützliche links</value>
+  </data>
+  <data name="AwaitingTranslation" xml:space="preserve">
+    <value>Erwartung für die Übersetzung...</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Zurück</value>
+  </data>
+  <data name="StaffDirectory" xml:space="preserve">
+    <value>Personalverzeichnis</value>
+  </data>
+  <data name="SubscribedToMailingList" xml:space="preserve">
+    <value> Sie haben in unseren Verteiler aufgenommen.</value>
+  </data>
+  <data name="ThankYouForInterest" xml:space="preserve">
+    <value>Vielen Dank für Ihr Interesse an unseren neuesten Updates. Sie erhalten in Kürze eine e-Mail zur Bestätigung Ihres Abonnements.</value>
+  </data>
+  <data name="DeleteProfileConfirmation" xml:space="preserve">
+    <value>Sind Sie sicher, dass Sie Ihr Profil löschen möchten?</value>
+  </data>
+  <data name="DeleteProfile" xml:space="preserve">
+    <value>Mein Profil löschen</value>
+  </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>Foto-Galerie</value>
+  </data>
+  <data name="ChooseGallery" xml:space="preserve">
+    <value>--Wählen Sie Foto Galerie--</value>
+  </data>
+  <data name="Galleries" xml:space="preserve">
+    <value>Foto-Galerien</value>
+  </data>
+  <data name="GalleryCategory" xml:space="preserve">
+    <value>Kategorie</value>
+  </data>
+  <data name="GalleryCategories" xml:space="preserve">
+    <value>Kategorien</value>
+  </data>
+  <data name="UrlSlug" xml:space="preserve">
+    <value>Freundlichen Link</value>
+  </data>
+  <data name="Url" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="DeveloperURL" xml:space="preserve">
+    <value>Entwickler-Website</value>
+  </data>
+  <data name="Reference" xml:space="preserve">
+    <value>Referenz</value>
+  </data>
+  <data name="ContentItems" xml:space="preserve">
+    <value>Inhaltselemente</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Einstellungen</value>
+  </data>
+  <data name="Recruitment" xml:space="preserve">
+    <value>Rekrutierung</value>
+  </data>
+  <data name="Identity" xml:space="preserve">
+    <value>Identität</value>
+  </data>
+  <data name="Lorem1" xml:space="preserve">
+    <value>Der schnellste Weg zu Ihrem Unternehmen wachsen.</value>
+  </data>
+  <data name="Lorem2" xml:space="preserve">
+    <value>Schauen Sie sich unsere Möglichkeiten und Funktionen enthalten.</value>
+  </data>
+  <data name="GetStarted" xml:space="preserve">
+    <value>Legen Sie jetzt los!</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>oder</value>
+  </data>
+  <data name="LearnMore" xml:space="preserve">
+    <value>Weitere Informationen.</value>
+  </data>
+  <data name="Lorem3" xml:space="preserve">
+    <value>Dieser Text ist ein Beispiel für Text, der im gleichen Raum ersetzt werden kann, diesen Text aus dem lateinischen Text-Generator generiert wurde.</value>
+  </data>
+  <data name="January" xml:space="preserve">
+    <value>Januar</value>
+  </data>
+  <data name="JohnSmith" xml:space="preserve">
+    <value>John Smith</value>
+  </data>
+  <data name="JobTitleName" xml:space="preserve">
+    <value>CEO &amp; Gründer - Firma ABC</value>
+  </data>
+  <data name="WhatClientsSay" xml:space="preserve">
+    <value>Was Kunden sagen</value>
+  </data>
+  <data name="LoremTitle" xml:space="preserve">
+    <value>Dieser Text ist ein Beispiel für Text, der im gleichen Raum ersetzt werden kann.</value>
+  </data>
+  <data name="UploadIcon" xml:space="preserve">
+    <value>Icon Hochladen</value>
+  </data>
+  <data name="UploadImage" xml:space="preserve">
+    <value>Bild hochladen</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>Zusammenfassung</value>
+  </data>
+  <data name="Icon" xml:space="preserve">
+    <value>Symbol</value>
+  </data>
+  <data name="PleaseUploadIconOfType" xml:space="preserve">
+    <value>Bitte laden Sie ein Symbol des Typs:!</value>
+  </data>
+  <data name="IconNotes" xml:space="preserve">
+    <value>Bitte laden Sie ein Icon vom Typ: .PNG!</value>
+  </data>
+  <data name="IconName" xml:space="preserve">
+    <value>Symbol</value>
+  </data>
+  <data name="IconPath" xml:space="preserve">
+    <value>Icon Pfad</value>
+  </data>
+  <data name="MeetOurTeam" xml:space="preserve">
+    <value>Lernen Sie unser Team kennen</value>
+  </data>
+  <data name="MainDepts" xml:space="preserve">
+    <value>Abteilungen</value>
+  </data>
+  <data name="PrimaryCaption" xml:space="preserve">
+    <value>Primäre Beschriftung</value>
+  </data>
+  <data name="SecondaryCaption" xml:space="preserve">
+    <value>Sekundäres Caption</value>
+  </data>
+  <data name="TertiaryCaption" xml:space="preserve">
+    <value>Tertiäre Beschriftung</value>
+  </data>
+  <data name="MedicalTreatment" xml:space="preserve">
+    <value>Ärztliche Behandlung</value>
+  </data>
+  <data name="DoctorsTimetable" xml:space="preserve">
+    <value>Ärzte-Fahrplan</value>
+  </data>
+  <data name="OpeningHours" xml:space="preserve">
+    <value>Öffnungszeiten</value>
+  </data>
+  <data name="EmergencyCase" xml:space="preserve">
+    <value>Notfallkoffer</value>
+  </data>
+  <data name="Sunday" xml:space="preserve">
+    <value>Sonntag</value>
+  </data>
+  <data name="Monday" xml:space="preserve">
+    <value>Montag</value>
+  </data>
+  <data name="Tuesday" xml:space="preserve">
+    <value>Dienstag</value>
+  </data>
+  <data name="Wednesday" xml:space="preserve">
+    <value>Mittwoch</value>
+  </data>
+  <data name="Thursday" xml:space="preserve">
+    <value>Donnerstag</value>
+  </data>
+  <data name="Friday" xml:space="preserve">
+    <value>Freitag</value>
+  </data>
+  <data name="Saturday" xml:space="preserve">
+    <value>Samstag</value>
+  </data>
+  <data name="Subtitle" xml:space="preserve">
+    <value>Subtitel</value>
+  </data>
+  <data name="ViewMore" xml:space="preserve">
+    <value>Mehr anzeigen</value>
+  </data>
+  <data name="Doctors" xml:space="preserve">
+    <value>Ärzte</value>
+  </data>
+  <data name="OurSpecialists" xml:space="preserve">
+    <value>Unsere Spezialisten</value>
+  </data>
+  <data name="Staff" xml:space="preserve">
+    <value>Mitarbeiter</value>
+  </data>
+  <data name="MedicalStaff" xml:space="preserve">
+    <value>Medizinisches Personal</value>
+  </data>
+  <data name="LatestEvents" xml:space="preserve">
+    <value>Aktuelle Veranstaltungen</value>
+  </data>
+  <data name="DoctorName" xml:space="preserve">
+    <value>Name des Arztes</value>
+  </data>
+  <data name="DoctorType" xml:space="preserve">
+    <value>Arzt-Typ</value>
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>Portnummer</value>
+  </data>
+  <data name="EnableSsl" xml:space="preserve">
+    <value>Aktiviere SSL:</value>
+  </data>
+  <data name="SenderEmail" xml:space="preserve">
+    <value>Absender Email</value>
+  </data>
+  <data name="SenderPassword" xml:space="preserve">
+    <value>Absender-Passwort</value>
+  </data>
+  <data name="RecipientEmail" xml:space="preserve">
+    <value>Empfänger-E-Mail</value>
+  </data>
+  <data name="VisitorCounter" xml:space="preserve">
+    <value>Besucherzähler</value>
+  </data>
+  <data name="RoleInUse" xml:space="preserve">
+    <value>Die Rollennamen wurde bereits verwendet.</value>
+  </data>
+  <data name="Administration" xml:space="preserve">
+    <value>Verwaltung</value>
+  </data>
+  <data name="SystemSettings" xml:space="preserve">
+    <value>Systemeinstellungen</value>
+  </data>
+  <data name="InvalidCode" xml:space="preserve">
+    <value>Ungültiger Code!</value>
+  </data>
+  <data name="UserExist" xml:space="preserve">
+    <value>Dieses Feld ist bereits belegt</value>
+  </data>
+  <data name="FailedToVerifyPhone" xml:space="preserve">
+    <value>Telefonnummer</value>
+  </data>
+  <data name="Maintenance" xml:space="preserve">
+    <value>Wartung</value>
+  </data>
+  <data name="Forms" xml:space="preserve">
+    <value>Formulare</value>
+  </data>
+  <data name="DontHaveAccount" xml:space="preserve">
+    <value>قبلا ثبت نام نکرده اید؟!</value>
+  </data>
+  <data name="Page" xml:space="preserve">
+    <value>Seite</value>
+  </data>
+  <data name="Of" xml:space="preserve">
+    <value>des</value>
+  </data>
+  <data name="TotalRows" xml:space="preserve">
+    <value>Insgesamt Reihen</value>
+  </data>
+  <data name="ChooseMaintenanceType" xml:space="preserve">
+    <value>--Wählen Sie Wartung Typ--!</value>
+  </data>
+  <data name="ChooseInventory" xml:space="preserve">
+    <value>--Wählen Sie Inventar--!</value>
+  </data>
+  <data name="ChooseModel" xml:space="preserve">
+    <value>Modell auswählen</value>
+  </data>
+  <data name="ChooseSite" xml:space="preserve">
+    <value>Seite wählen</value>
+  </data>
+  <data name="ChooseManufacturer" xml:space="preserve">
+    <value>--Wählen Sie Hersteller--!</value>
+  </data>
+  <data name="DeviceCard" xml:space="preserve">
+    <value>Karte des Geräts!</value>
+  </data>
+  <data name="Installation" xml:space="preserve">
+    <value>Montage</value>
+  </data>
+  <data name="BasicInformation" xml:space="preserve">
+    <value>Allgemeine Infos</value>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>Monat</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>Jahr</value>
+  </data>
+  <data name="ChooseFormStatus" xml:space="preserve">
+    <value>--Wählen Sie den Formularstatus--</value>
+  </data>
+  <data name="ChooseDataType" xml:space="preserve">
+    <value>--Wählen Sie den Datentyp--!</value>
+  </data>
+  <data name="Form" xml:space="preserve">
+    <value>Kontaktformular übermittelt von %s1</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Bericht</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>Berichte</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>Wird verarbeitet...</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Nächste!</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Zurück</value>
+  </data>
+  <data name="SummaryMessage" xml:space="preserve">
+    <value>{0}, {1} {2} Einträge zeigen!</value>
+  </data>
+  <data name="Fields" xml:space="preserve">
+    <value>Felder</value>
+  </data>
+  <data name="Reorder" xml:space="preserve">
+    <value>Neu sortieren</value>
+  </data>
+  <data name="Sections" xml:space="preserve">
+    <value>Abschnitte</value>
+  </data>
+  <data name="Section" xml:space="preserve">
+    <value>Abteilung</value>
+  </data>
+  <data name="Choices" xml:space="preserve">
+    <value>Auswahlmöglichkeiten</value>
+  </data>
+  <data name="Choice" xml:space="preserve">
+    <value>Auswahl</value>
+  </data>
+  <data name="DataType" xml:space="preserve">
+    <value>Datentyp</value>
+  </data>
+  <data name="DataTypes" xml:space="preserve">
+    <value>Datentypen</value>
+  </data>
+  <data name="Field" xml:space="preserve">
+    <value>Feld</value>
+  </data>
+  <data name="Property" xml:space="preserve">
+    <value>Immobilien</value>
+  </data>
+  <data name="Properties" xml:space="preserve">
+    <value>Eigenschaften</value>
+  </data>
+  <data name="ChoiceList" xml:space="preserve">
+    <value>Auswahl</value>
+  </data>
+  <data name="Values" xml:space="preserve">
+    <value>Werte</value>
+  </data>
+  <data name="ChoiceLists" xml:space="preserve">
+    <value>Auswahl</value>
+  </data>
+  <data name="WorkflowPath" xml:space="preserve">
+    <value>Workflow</value>
+  </data>
+  <data name="Workflow" xml:space="preserve">
+    <value>Arbeitsabläufe</value>
+  </data>
+  <data name="WorkflowSettings" xml:space="preserve">
+    <value>Workflow-Einstellungen</value>
+  </data>
+  <data name="EmpNumber" xml:space="preserve">
+    <value>Mitarbeiter-ID</value>
+  </data>
+  <data name="EmpNumberInvalid" xml:space="preserve">
+    <value>ID ist ungültig.</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
+  <data name="Approval" xml:space="preserve">
+    <value>Zulassung!</value>
+  </data>
+  <data name="ActionStatus" xml:space="preserve">
+    <value>Aktionsstatus</value>
+  </data>
+  <data name="ChangeStatusConfirmation" xml:space="preserve">
+    <value>Bist du sicher, dass du den Status ändern willst?</value>
+  </data>
+  <data name="PendingPrev" xml:space="preserve">
+    <value>Altbestand</value>
+  </data>
+  <data name="PendingNext" xml:space="preserve">
+    <value>Nächstes Level!</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Abgeschlossen!</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>Liste</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Aktualisiert!</value>
+  </data>
+  <data name="ChooseFields" xml:space="preserve">
+    <value>Felder auswählen&amp;hellip;</value>
+  </data>
+  <data name="ApprovalTracking" xml:space="preserve">
+    <value>Nachverfolgung</value>
+  </data>
+  <data name="ActionDate" xml:space="preserve">
+    <value>Bearbeitungsdatum</value>
+  </data>
+  <data name="ChooseGroup" xml:space="preserve">
+    <value>Gruppe wählen</value>
+  </data>
+  <data name="Items" xml:space="preserve">
+    <value>Elemente</value>
+  </data>
+  <data name="SubmissionDate" xml:space="preserve">
+    <value>Sendedatum:</value>
+  </data>
+  <data name="ChangeUserName" xml:space="preserve">
+    <value>Benutzer ändern</value>
+  </data>
+  <data name="ChangeUserEmail" xml:space="preserve">
+    <value>E-Mail ändern</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Nein</value>
+  </data>
+  <data name="DeleteAccount" xml:space="preserve">
+    <value>Konto löschen</value>
+  </data>
+  <data name="ChangeConfirmEmail" xml:space="preserve">
+    <value>E-Mail-Adresse bestätigen</value>
+  </data>
+  <data name="AccountSummary" xml:space="preserve">
+    <value>Firmenzusammenfassung</value>
+  </data>
+  <data name="SendVerificationCode" xml:space="preserve">
+    <value>Verifizierungscode senden</value>
+  </data>
+  <data name="RecordCreated" xml:space="preserve">
+    <value>Aufnahme erstellt</value>
+  </data>
+  <data name="RecordCreatedSuccessfully" xml:space="preserve">
+    <value>Datensatz wurde erfolgreich erstellt!</value>
+  </data>
+  <data name="RecordUpdated" xml:space="preserve">
+    <value>Der Datensatz wurde aktualisiert.</value>
+  </data>
+  <data name="RecordUpdatedSuccessfully" xml:space="preserve">
+    <value>Datensatz erfolgreich aktualisiert.</value>
+  </data>
+  <data name="RecordDeleted" xml:space="preserve">
+    <value>Der gewählte Datensatz wurde gelöscht.</value>
+  </data>
+  <data name="RecordDeletedSuccessfully" xml:space="preserve">
+    <value>Der Eintrag wurde erfolgreich gelöscht.</value>
+  </data>
+  <data name="NoUsersInRole" xml:space="preserve">
+    <value>Keine Benutzer gefunden!</value>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>Berechtigungen</value>
+  </data>
+  <data name="NoPermissionsInGroup" xml:space="preserve">
+    <value>Keine Berechtigungen in dieser Gruppe gefunden.</value>
+  </data>
+  <data name="ListGroupPermissions" xml:space="preserve">
+    <value>to this group.</value>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>Ändern</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Hinzufügen...</value>
+  </data>
+  <data name="TFAEnabled" xml:space="preserve">
+    <value>Zwei-Faktor Authentifizierung ist derzeit deaktiviert</value>
+  </data>
+  <data name="TFADisabled" xml:space="preserve">
+    <value>Zweifaktorielle Authentifizierung derzeit deaktiviert</value>
+  </data>
+  <data name="TFABrowserRemembered" xml:space="preserve">
+    <value>Zwei-Faktor-Authentifizierung</value>
+  </data>
+  <data name="ListUserPermissions" xml:space="preserve">
+    <value>Liste der Benutzer</value>
+  </data>
+  <data name="NoGroupsForUser" xml:space="preserve">
+    <value>Keine Gruppen für diese Benutzer gefunden.</value>
+  </data>
+  <data name="ListGroupsForUser" xml:space="preserve">
+    <value>Liste der Gruppen, die dieser Benutzer gehört zu:</value>
+  </data>
+  <data name="NoPermissionsForUser" xml:space="preserve">
+    <value>Keine Rollen für diesen Benutzer gefunden.</value>
+  </data>
+  <data name="EmailStatus" xml:space="preserve">
+    <value>E-Mail Status</value>
+  </data>
+  <data name="Confirmed" xml:space="preserve">
+    <value>Bestätigt</value>
+  </data>
+  <data name="Unconfirmed" xml:space="preserve">
+    <value>Nicht bestätigt</value>
+  </data>
+  <data name="TFABrowserNotRemembered" xml:space="preserve">
+    <value>Browser ist derzeit nicht für zwei-Faktor-Authentifizierung in Erinnerung:!</value>
+  </data>
+  <data name="ListUsersInPermission" xml:space="preserve">
+    <value>Liste der Benutzer diese Berechtigung gehört:!</value>
+  </data>
+  <data name="ConfirmAccount" xml:space="preserve">
+    <value>Konto bestätigen</value>
+  </data>
+  <data name="ConfirmAccountMessage" xml:space="preserve">
+    <value>Bitte bestätigen Sie Ihr Konto über diesen Link!</value>
+  </data>
+  <data name="ResetPasswordMessage" xml:space="preserve">
+    <value>Bitte zurücksetzen Sie Ihr Passwort, indem Sie hier klicken</value>
+  </data>
+  <data name="ConfirmNewPassword" xml:space="preserve">
+    <value>Neues Kennwort bestätigen:</value>
+  </data>
+  <data name="GroupExist" xml:space="preserve">
+    <value>Gruppe ist bereits vorhanden.</value>
+  </data>
+  <data name="ForgetBrowser" xml:space="preserve">
+    <value>Vergiss diesen Browser</value>
+  </data>
+  <data name="ChangePasswordSuccess" xml:space="preserve">
+    <value>Ihr Kennwort wurde geändert.</value>
+  </data>
+  <data name="SetPasswordSuccess" xml:space="preserve">
+    <value>Ihr Kennwort wurde festgelegt.</value>
+  </data>
+  <data name="SetTwoFactorSuccess" xml:space="preserve">
+    <value>Ihre zwei-Faktor-Provider festgelegt wurde.</value>
+  </data>
+  <data name="AddPhoneSuccess" xml:space="preserve">
+    <value>Die Telefonnummer wurde hinzugefügt.</value>
+  </data>
+  <data name="RemovePhoneSuccess" xml:space="preserve">
+    <value>Ihre Telefonnummer wurde entfernt.</value>
+  </data>
+  <data name="Showing" xml:space="preserve">
+    <value>Anzeige</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>An</value>
+  </data>
+  <data name="Entries" xml:space="preserve">
+    <value>Posten</value>
+  </data>
+  <data name="Documentation" xml:space="preserve">
+    <value>Dokumentation</value>
+  </data>
+  <data name="BuyNow" xml:space="preserve">
+    <value>Jetzt kaufen</value>
+  </data>
+  <data name="Searching" xml:space="preserve">
+    <value>Suchen...</value>
+  </data>
+  <data name="Roles1" xml:space="preserve">
+    <value>Rollen</value>
+  </data>
+  <data name="Role1" xml:space="preserve">
+    <value>Rolle</value>
+  </data>
+  <data name="CRMModules" xml:space="preserve">
+    <value>CRM Module</value>
+  </data>
+  <data name="Sales" xml:space="preserve">
+    <value>Vertrieb</value>
+  </data>
+  <data name="Marketing" xml:space="preserve">
+    <value>Marketing</value>
+  </data>
+  <data name="Operations" xml:space="preserve">
+    <value>Vorgänge</value>
+  </data>
+  <data name="Accounting" xml:space="preserve">
+    <value>Buchhaltung</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="DefaultPasswordFor" xml:space="preserve">
+    <value>Standardpasswort für:</value>
+  </data>
+  <data name="DefaultUserPassword" xml:space="preserve">
+    <value>Standard-Passwort für die anderen Benutzer:</value>
+  </data>
+  <data name="AdminUsername" xml:space="preserve">
+    <value>Benutzername des Administrators:</value>
+  </data>
+  <data name="AdminPassword" xml:space="preserve">
+    <value>Administratorkennwort:</value>
+  </data>
+</root>

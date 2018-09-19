@@ -1,0 +1,2103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BackToList" xml:space="preserve">
+    <value>Tilbake til listen</value>
+  </data>
+  <data name="Calendar" xml:space="preserve">
+    <value>Kalender</value>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>Konfigurasjon</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Bekreft passord</value>
+  </data>
+  <data name="ConfirmPasswordCompare" xml:space="preserve">
+    <value>Passordet og bekreftelsespassordet samsvarer ikke</value>
+  </data>
+  <data name="Contents" xml:space="preserve">
+    <value>Innholdet</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Opprette</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Slette</value>
+  </data>
+  <data name="DeleteConfirmation" xml:space="preserve">
+    <value>Er du sikker på at du vil slette denne?</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Beskrivelse</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Detaljer</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Rediger</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-post</value>
+  </data>
+  <data name="EmailRegularExpression" xml:space="preserve">
+    <value>E-post er ikke gyldig.</value>
+  </data>
+  <data name="Events" xml:space="preserve">
+    <value>Arrangementer</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Fornavn</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Gruppe</value>
+  </data>
+  <data name="GroupRolesAssignment" xml:space="preserve">
+    <value>Rollene som er tilordnet for gruppen:</value>
+  </data>
+  <data name="Groups" xml:space="preserve">
+    <value>Grupper</value>
+  </data>
+  <data name="GroupsAssignment" xml:space="preserve">
+    <value>Grupper som er tilordnet for bruker:</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Hjem</value>
+  </data>
+  <data name="Images" xml:space="preserve">
+    <value>Bilder</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Språk</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Etternavn</value>
+  </data>
+  <data name="LogOff" xml:space="preserve">
+    <value>Logge av</value>
+  </data>
+  <data name="LogOn" xml:space="preserve">
+    <value>logg på</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>navn</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Passord</value>
+  </data>
+  <data name="PasswordStringLength" xml:space="preserve">
+    <value>Passordet må være minst 6 tegn.</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>Rolle</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Roller</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Registrering</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Lagre</value>
+  </data>
+  <data name="SelectGroups" xml:space="preserve">
+    <value>Velg Group</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Bruker</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Brukernavn</value>
+  </data>
+  <data name="UserRolesAssignment" xml:space="preserve">
+    <value>Rollene som er tilordnet for bruker:</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Brukere</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>Forfatter</value>
+  </data>
+  <data name="CreatedOn" xml:space="preserve">
+    <value>Opprettelsesdato</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>Sluttdatoen for aktivitet</value>
+  </data>
+  <data name="Index" xml:space="preserve">
+    <value>Indeks</value>
+  </data>
+  <data name="IsPublished" xml:space="preserve">
+    <value>Publisert?</value>
+  </data>
+  <data name="IsTranslated" xml:space="preserve">
+    <value>Oversettes?</value>
+  </data>
+  <data name="LanguageId" xml:space="preserve">
+    <value>Språk-ID</value>
+  </data>
+  <data name="ModifiedBy" xml:space="preserve">
+    <value>Sist endret av</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Beliggenhet</value>
+  </data>
+  <data name="ModifiedOn" xml:space="preserve">
+    <value>Endringsdato</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Startdatoen for aktivitet</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Tittel</value>
+  </data>
+  <data name="TranslationId" xml:space="preserve">
+    <value>Oversettelse</value>
+  </data>
+  <data name="Event" xml:space="preserve">
+    <value>Hendelse</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>Filen</value>
+  </data>
+  <data name="FilePath" xml:space="preserve">
+    <value>Filbane</value>
+  </data>
+  <data name="MIME" xml:space="preserve">
+    <value>MIME</value>
+  </data>
+  <data name="Tag" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="Tags" xml:space="preserve">
+    <value>Tags</value>
+  </data>
+  <data name="ThumbPath" xml:space="preserve">
+    <value>Tommel banen</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Vis</value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>Innhold</value>
+  </data>
+  <data name="MainContent" xml:space="preserve">
+    <value>Hovedinnhold</value>
+  </data>
+  <data name="MetaDescription" xml:space="preserve">
+    <value>Metabeskrivelse</value>
+  </data>
+  <data name="MetaKeywords" xml:space="preserve">
+    <value>META-nøkkelord</value>
+  </data>
+  <data name="Languages" xml:space="preserve">
+    <value>Språk</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Endre passord</value>
+  </data>
+  <data name="CurrentPassword" xml:space="preserve">
+    <value>Gjeldende passord</value>
+  </data>
+  <data name="ManageAccount" xml:space="preserve">
+    <value>Administrere kontoen</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>Nytt passord</value>
+  </data>
+  <data name="OldPassword" xml:space="preserve">
+    <value>Gammelt passord</value>
+  </data>
+  <data name="RememberMe" xml:space="preserve">
+    <value>Husk meg</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Søk</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Kategori</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>Menyen</value>
+  </data>
+  <data name="MenuItem" xml:space="preserve">
+    <value>Menyelement</value>
+  </data>
+  <data name="MenuItems" xml:space="preserve">
+    <value>Menyelementer</value>
+  </data>
+  <data name="Menus" xml:space="preserve">
+    <value>Menyer</value>
+  </data>
+  <data name="IsCms" xml:space="preserve">
+    <value>Er Cms?</value>
+  </data>
+  <data name="IsLeaf" xml:space="preserve">
+    <value>Er blad?</value>
+  </data>
+  <data name="IsParent" xml:space="preserve">
+    <value>Er foreldre?</value>
+  </data>
+  <data name="Ordinal" xml:space="preserve">
+    <value>Ordenstall</value>
+  </data>
+  <data name="Parent" xml:space="preserve">
+    <value>Overordnede</value>
+  </data>
+  <data name="CreateNewAccount" xml:space="preserve">
+    <value>Opprett ny konto.</value>
+  </data>
+  <data name="Deleted" xml:space="preserve">
+    <value>Slettet</value>
+  </data>
+  <data name="Published" xml:space="preserve">
+    <value>Publisert</value>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>Lagret</value>
+  </data>
+  <data name="MaximumAllowedSize" xml:space="preserve">
+    <value>Maks tillatte størrelse er:</value>
+  </data>
+  <data name="PleaseUploadImageOfType" xml:space="preserve">
+    <value>Last opp et bilde av typen:</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Notater</value>
+  </data>
+  <data name="AddTranslation" xml:space="preserve">
+    <value>Legge til oversettelse</value>
+  </data>
+  <data name="ViewTranslation" xml:space="preserve">
+    <value>Vis oversettelse</value>
+  </data>
+  <data name="HasShortcut" xml:space="preserve">
+    <value>Dispaly på hjemmesiden</value>
+  </data>
+  <data name="IsScheduled" xml:space="preserve">
+    <value>Er planlagt?</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Announcements" xml:space="preserve">
+    <value>Kunngjøringer</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>Nyheter</value>
+  </data>
+  <data name="NoAnnouncements" xml:space="preserve">
+    <value>Det er ingen kunngjøringer.</value>
+  </data>
+  <data name="NoEvents" xml:space="preserve">
+    <value>Det er ingen hendelser.</value>
+  </data>
+  <data name="NoNews" xml:space="preserve">
+    <value>Det finnes ingen nyheter.</value>
+  </data>
+  <data name="ContentTypes" xml:space="preserve">
+    <value>Innholdstyper</value>
+  </data>
+  <data name="Building" xml:space="preserve">
+    <value>Bygning</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Kode</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Land</value>
+  </data>
+  <data name="Locality" xml:space="preserve">
+    <value>Byen</value>
+  </data>
+  <data name="PostalCode" xml:space="preserve">
+    <value>Postnummer</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="Street" xml:space="preserve">
+    <value>Street</value>
+  </data>
+  <data name="Telephone" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="EnterCredentials" xml:space="preserve">
+    <value>Angi brukernavn og passord for å logge.</value>
+  </data>
+  <data name="ForgetPassword" xml:space="preserve">
+    <value>Har du glemt passordet?</value>
+  </data>
+  <data name="JoinUs" xml:space="preserve">
+    <value>Bli med oss @</value>
+  </data>
+  <data name="LoginToSite" xml:space="preserve">
+    <value>Logg inn på vårt nettsted</value>
+  </data>
+  <data name="LoginWithSocialMedia" xml:space="preserve">
+    <value>... eller logikk med:</value>
+  </data>
+  <data name="PasswordMatch" xml:space="preserve">
+    <value>Det nye passordet og bekreftelsespassordet samsvarer ikke.</value>
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>Telefonnummer</value>
+  </data>
+  <data name="RegisterNewUser" xml:space="preserve">
+    <value>Registrer deg som ny bruker</value>
+  </data>
+  <data name="StringLength" xml:space="preserve">
+    <value>{0} må være minst {2} tegn.</value>
+  </data>
+  <data name="FillForm" xml:space="preserve">
+    <value>Fyll ut skjemaet nedenfor for å få tilgang.</value>
+  </data>
+  <data name="EmailInvalid" xml:space="preserve">
+    <value>E-postadressen er ikke gyldig.</value>
+  </data>
+  <data name="SignUp" xml:space="preserve">
+    <value>melde seg på</value>
+  </data>
+  <data name="SignUpInSeconds" xml:space="preserve">
+    <value>Registrer deg i sekunder</value>
+  </data>
+  <data name="AlreadyMember" xml:space="preserve">
+    <value>Allerede medlem?</value>
+  </data>
+  <data name="EmailLink" xml:space="preserve">
+    <value>E-kobling</value>
+  </data>
+  <data name="EmailConfirmationCheck" xml:space="preserve">
+    <value>Sjekk din email for å aktivere kontoen.</value>
+  </data>
+  <data name="EnterEmail" xml:space="preserve">
+    <value>Skriv inn din epost for å motta e-post passord kobling.</value>
+  </data>
+  <data name="Instruction" xml:space="preserve">
+    <value>Vi har sendt deg en e-post inkludert en bekreftelseslink. Sjekk e-posten din og bekrefte abonnementet.</value>
+  </data>
+  <data name="InvalidLoginAttempt" xml:space="preserve">
+    <value>Ugyldig påloggingsforsøk.</value>
+  </data>
+  <data name="Regards" xml:space="preserve">
+    <value>med vennlig hilsen</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>Takk for å bli med oss!</value>
+  </data>
+  <data name="ThankYouFor" xml:space="preserve">
+    <value>Takk for å bli med</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>velkommen</value>
+  </data>
+  <data name="EnterVerificationCode" xml:space="preserve">
+    <value>Angi bekreftelseskode.</value>
+  </data>
+  <data name="RememberBrowser" xml:space="preserve">
+    <value>Husk denne leseren</value>
+  </data>
+  <data name="SelectTwoFactor" xml:space="preserve">
+    <value>Velg to-faktor autentisering.</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Sende</value>
+  </data>
+  <data name="TwoFactor" xml:space="preserve">
+    <value>To-faktor autentifisering</value>
+  </data>
+  <data name="TwoFactorType" xml:space="preserve">
+    <value>To-faktor godkjenningsmetode</value>
+  </data>
+  <data name="VerificationCode" xml:space="preserve">
+    <value>Bekreftelseskode</value>
+  </data>
+  <data name="Verify" xml:space="preserve">
+    <value>Verifisér nå</value>
+  </data>
+  <data name="ChangeAccountSettings" xml:space="preserve">
+    <value>Endre kontoinnstillingene.</value>
+  </data>
+  <data name="ExternalLogins" xml:space="preserve">
+    <value>Ekstern pålogging</value>
+  </data>
+  <data name="AddPhoneNumber" xml:space="preserve">
+    <value>Legge til telefonnummer</value>
+  </data>
+  <data name="ChangeCurrentPassword" xml:space="preserve">
+    <value>Endre gjeldende passord.</value>
+  </data>
+  <data name="Disable" xml:space="preserve">
+    <value>Deaktiver</value>
+  </data>
+  <data name="Enable" xml:space="preserve">
+    <value>Aktiverer</value>
+  </data>
+  <data name="ExploreOurSite" xml:space="preserve">
+    <value>Utforske vårt nettsted</value>
+  </data>
+  <data name="ManageLogins" xml:space="preserve">
+    <value>Administrere eksterne logikk</value>
+  </data>
+  <data name="PhoneNumberOption" xml:space="preserve">
+    <value>Legge til telefonnummeret for å motta bekreftelseskode.</value>
+  </data>
+  <data name="SetPassword" xml:space="preserve">
+    <value>Angi passord</value>
+  </data>
+  <data name="VerifyPhoneNumber" xml:space="preserve">
+    <value>Kontroller telefonnummeret</value>
+  </data>
+  <data name="VerifyPhoneNumberOption" xml:space="preserve">
+    <value>Angi verifiseringskode for å bekrefte din identitet. </value>
+  </data>
+  <data name="ChooseContentType" xml:space="preserve">
+    <value>-Velg innhold type--</value>
+  </data>
+  <data name="ChooseLanguage" xml:space="preserve">
+    <value>-Velg språk--</value>
+  </data>
+  <data name="ChooseParentMenuItem" xml:space="preserve">
+    <value>-Velg overordnet meny element-</value>
+  </data>
+  <data name="ContentType" xml:space="preserve">
+    <value>Innholdstype</value>
+  </data>
+  <data name="HasMenuItem" xml:space="preserve">
+    <value>Gi en kobling-menyen?</value>
+  </data>
+  <data name="ChooseMenu" xml:space="preserve">
+    <value>-Velge meny-</value>
+  </data>
+  <data name="FacebookUrl" xml:space="preserve">
+    <value>Facebook</value>
+  </data>
+  <data name="IsUrgent" xml:space="preserve">
+    <value>Vise haster bar?</value>
+  </data>
+  <data name="Logo" xml:space="preserve">
+    <value>Logo</value>
+  </data>
+  <data name="ParentMenuItem" xml:space="preserve">
+    <value>Overordnede menyelement</value>
+  </data>
+  <data name="StatusId" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="TwitterUrl" xml:space="preserve">
+    <value>Twitter</value>
+  </data>
+  <data name="YouTubeUrl" xml:space="preserve">
+    <value>YouTube</value>
+  </data>
+  <data name="AcademicJournal" xml:space="preserve">
+    <value>Studenter stemme Magazine</value>
+  </data>
+  <data name="ShortcutTitle" xml:space="preserve">
+    <value>Snarvei tittel</value>
+  </data>
+  <data name="NoArticles" xml:space="preserve">
+    <value>Det er ingen artikler.</value>
+  </data>
+  <data name="Vacancy" xml:space="preserve">
+    <value>Jobb Annoucement</value>
+  </data>
+  <data name="Degree" xml:space="preserve">
+    <value>Grad </value>
+  </data>
+  <data name="Degrees" xml:space="preserve">
+    <value>Grader</value>
+  </data>
+  <data name="AddAttachments" xml:space="preserve">
+    <value>Legge til et annet vedlegg...</value>
+  </data>
+  <data name="Applicant" xml:space="preserve">
+    <value>Søkeren</value>
+  </data>
+  <data name="Requirements" xml:space="preserve">
+    <value>Krav</value>
+  </data>
+  <data name="CoverLetter" xml:space="preserve">
+    <value>Følgeskriv</value>
+  </data>
+  <data name="FileName" xml:space="preserve">
+    <value>Filnavn</value>
+  </data>
+  <data name="Id" xml:space="preserve">
+    <value>Løpenummer</value>
+  </data>
+  <data name="IsActive" xml:space="preserve">
+    <value>Er aktiv?</value>
+  </data>
+  <data name="VacancyType" xml:space="preserve">
+    <value>Vacancy-Type</value>
+  </data>
+  <data name="Documents" xml:space="preserve">
+    <value>Dokumenter</value>
+  </data>
+  <data name="Submissions" xml:space="preserve">
+    <value>Innleveringer</value>
+  </data>
+  <data name="SubmittedOn" xml:space="preserve">
+    <value>Submittion dato</value>
+  </data>
+  <data name="Rank" xml:space="preserve">
+    <value>Akademiske graden</value>
+  </data>
+  <data name="Ranks" xml:space="preserve">
+    <value>Akademiske grader</value>
+  </data>
+  <data name="ChooseVacancy" xml:space="preserve">
+    <value>-Velge jobben tittelen--</value>
+  </data>
+  <data name="Applicants" xml:space="preserve">
+    <value>Søkere</value>
+  </data>
+  <data name="ApplicantFullName" xml:space="preserve">
+    <value>Søkeren navn</value>
+  </data>
+  <data name="Attachments" xml:space="preserve">
+    <value>Vedlegg</value>
+  </data>
+  <data name="CurriculumVitae" xml:space="preserve">
+    <value>Curriculum Vitae</value>
+  </data>
+  <data name="DOB" xml:space="preserve">
+    <value>fødselsdato</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Last ned</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Kjønn</value>
+  </data>
+  <data name="JobTitle" xml:space="preserve">
+    <value>Stilling</value>
+  </data>
+  <data name="MiddleName" xml:space="preserve">
+    <value>Mellomnavn</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>Mobile nr.</value>
+  </data>
+  <data name="ResumeFileName" xml:space="preserve">
+    <value>Curriculum Vitae</value>
+  </data>
+  <data name="ResumeFilePath" xml:space="preserve">
+    <value>Curriculum Vitae</value>
+  </data>
+  <data name="Submission" xml:space="preserve">
+    <value>Innlevering</value>
+  </data>
+  <data name="NoParentItem" xml:space="preserve">
+    <value>-Ingen overordnet vare-</value>
+  </data>
+  <data name="ContentList" xml:space="preserve">
+    <value>Listen innhold</value>
+  </data>
+  <data name="ItemContent" xml:space="preserve">
+    <value>Elementinnholdet</value>
+  </data>
+  <data name="PleaseUploadFileOfType" xml:space="preserve">
+    <value>Vennligst Last opp en fil av typen:</value>
+  </data>
+  <data name="JobType" xml:space="preserve">
+    <value>Jobbtype</value>
+  </data>
+  <data name="ListItem" xml:space="preserve">
+    <value>Listeelement</value>
+  </data>
+  <data name="ListItems" xml:space="preserve">
+    <value>Listeelementer</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Nettsted</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>Faks</value>
+  </data>
+  <data name="Latitude" xml:space="preserve">
+    <value>Breddegrad</value>
+  </data>
+  <data name="Longitude" xml:space="preserve">
+    <value>Breddegrad</value>
+  </data>
+  <data name="Organization" xml:space="preserve">
+    <value>Organisasjon</value>
+  </data>
+  <data name="Organizations" xml:space="preserve">
+    <value>Organisasjoner</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Byen</value>
+  </data>
+  <data name="District" xml:space="preserve">
+    <value>Distriktet</value>
+  </data>
+  <data name="Province" xml:space="preserve">
+    <value>Provinsen</value>
+  </data>
+  <data name="POBox" xml:space="preserve">
+    <value>Postboks</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Kontaktinformasjon</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>Avdeling</value>
+  </data>
+  <data name="Office" xml:space="preserve">
+    <value>Office</value>
+  </data>
+  <data name="PersonalTitle" xml:space="preserve">
+    <value>Personlig tittel</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Posisjon</value>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>Kontakt oss</value>
+  </data>
+  <data name="OurLocationOnMap" xml:space="preserve">
+    <value>Beliggenheten på kart</value>
+  </data>
+  <data name="PersonalTitles" xml:space="preserve">
+    <value>PersonalTitles</value>
+  </data>
+  <data name="Extension" xml:space="preserve">
+    <value>Utvidelse</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Telefonnummer</value>
+  </data>
+  <data name="ManageLists" xml:space="preserve">
+    <value>Behandle lister</value>
+  </data>
+  <data name="Articles" xml:space="preserve">
+    <value>Artikler</value>
+  </data>
+  <data name="ApplyNow" xml:space="preserve">
+    <value>Søk nå</value>
+  </data>
+  <data name="Class" xml:space="preserve">
+    <value>CSS-klasse</value>
+  </data>
+  <data name="CopyRights" xml:space="preserve">
+    <value>Alle rettigheter forbeholdt</value>
+  </data>
+  <data name="GooglePlusUrl" xml:space="preserve">
+    <value>Google pluss</value>
+  </data>
+  <data name="LinkedInUrl" xml:space="preserve">
+    <value>LinkedIn</value>
+  </data>
+  <data name="Privacy" xml:space="preserve">
+    <value>Personvern</value>
+  </data>
+  <data name="RSS" xml:space="preserve">
+    <value>RSS-Feed</value>
+  </data>
+  <data name="Terms" xml:space="preserve">
+    <value>Oversettelser</value>
+  </data>
+  <data name="WebDevelopedBy" xml:space="preserve">
+    <value>Nettstedet utviklernavn</value>
+  </data>
+  <data name="EnterYourEmail" xml:space="preserve">
+    <value>Gå inn din email...</value>
+  </data>
+  <data name="Explore" xml:space="preserve">
+    <value>Utforske</value>
+  </data>
+  <data name="KeepInTouch" xml:space="preserve">
+    <value>hold kontakten</value>
+  </data>
+  <data name="LatestNews" xml:space="preserve">
+    <value>Siste nyheter</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="Subscribe" xml:space="preserve">
+    <value>Abonner</value>
+  </data>
+  <data name="SubscriptionMessage" xml:space="preserve">
+    <value>Abonner på vårt nyhetsbrev for å få viktige nyheter</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Bruke</value>
+  </data>
+  <data name="Arrow" xml:space="preserve">
+    <value>ikon-lang-pil-høyre</value>
+  </data>
+  <data name="For" xml:space="preserve">
+    <value>for</value>
+  </data>
+  <data name="MarginDirClass" xml:space="preserve">
+    <value>margin-venstre-10</value>
+  </data>
+  <data name="AllowedAttachmentExtensions" xml:space="preserve">
+    <value>Én eller flere attachmetns er ugyldige: bare. PDF. DOCX. DOC. PNG. JPG. JPEG-filer er tillatt.</value>
+  </data>
+  <data name="AttachmentsNotes" xml:space="preserve">
+    <value>Last opp en typer vedlegg:. PDF. DOCX. DOC. PNG. JPG. JPEG</value>
+  </data>
+  <data name="CVNotes" xml:space="preserve">
+    <value>Behage sende CV type:. PDF. DOCX. DOC</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Sende</value>
+  </data>
+  <data name="Program" xml:space="preserve">
+    <value>Programmet</value>
+  </data>
+  <data name="Programs" xml:space="preserve">
+    <value>Programmer</value>
+  </data>
+  <data name="JobAnnouncement" xml:space="preserve">
+    <value>Jobbannonse</value>
+  </data>
+  <data name="JobAnnouncements" xml:space="preserve">
+    <value>Stillingsannonser</value>
+  </data>
+  <data name="Departments" xml:space="preserve">
+    <value>Avdelinger</value>
+  </data>
+  <data name="EmployeeTypes" xml:space="preserve">
+    <value>Ansattyper</value>
+  </data>
+  <data name="EmpInDepts" xml:space="preserve">
+    <value>Ansatte avdelinger</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Ansatte</value>
+  </data>
+  <data name="Occupation" xml:space="preserve">
+    <value>Okkupasjon</value>
+  </data>
+  <data name="Occupations" xml:space="preserve">
+    <value>Yrker</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>Fullt navn</value>
+  </data>
+  <data name="ImagePath" xml:space="preserve">
+    <value>Bildebanen</value>
+  </data>
+  <data name="LandLine" xml:space="preserve">
+    <value>Linjenr. land</value>
+  </data>
+  <data name="OfficeNumber" xml:space="preserve">
+    <value>Office nr.</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Ansatte</value>
+  </data>
+  <data name="ImageNotes" xml:space="preserve">
+    <value>Last opp et bilde av type:. PNG. JPG. JPEG. BMP</value>
+  </data>
+  <data name="PersonalPhoto" xml:space="preserve">
+    <value>Personlig</value>
+  </data>
+  <data name="ViewCV" xml:space="preserve">
+    <value>Vis CV</value>
+  </data>
+  <data name="PersonalPhotoName" xml:space="preserve">
+    <value>Personlig navn</value>
+  </data>
+  <data name="PersonalPhotoPath" xml:space="preserve">
+    <value>Personlig</value>
+  </data>
+  <data name="UploadPersonalPhoto" xml:space="preserve">
+    <value>Laste opp personlig bilde</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>Manager</value>
+  </data>
+  <data name="AllLanguages" xml:space="preserve">
+    <value>Alle språk</value>
+  </data>
+  <data name="Director" xml:space="preserve">
+    <value>Direktør</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>Bla gjennom</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Merk</value>
+  </data>
+  <data name="AcademicInfo" xml:space="preserve">
+    <value>Akademiske Info</value>
+  </data>
+  <data name="Biography" xml:space="preserve">
+    <value>Biografi</value>
+  </data>
+  <data name="ContactInfo" xml:space="preserve">
+    <value>Kontaktinformasjon</value>
+  </data>
+  <data name="PersonalInfo" xml:space="preserve">
+    <value>Personopplysninger</value>
+  </data>
+  <data name="Manage" xml:space="preserve">
+    <value>Administrere</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Fjerne</value>
+  </data>
+  <data name="FillOutPersonalInfo" xml:space="preserve">
+    <value>Fyll ut skjemaet for personopplysninger.</value>
+  </data>
+  <data name="AccountSettings" xml:space="preserve">
+    <value>Kontoinnstillinger</value>
+  </data>
+  <data name="ManageContacts" xml:space="preserve">
+    <value>Behandle kontakter</value>
+  </data>
+  <data name="ManagePublications" xml:space="preserve">
+    <value>Administrere publikasjoner</value>
+  </data>
+  <data name="NoCVUploaded" xml:space="preserve">
+    <value>Ingen CV lastet opp!</value>
+  </data>
+  <data name="NoPersonalPhotoUploaded" xml:space="preserve">
+    <value>Ingen personlig bilde lastet opp!</value>
+  </data>
+  <data name="Publication" xml:space="preserve">
+    <value>Publikasjon</value>
+  </data>
+  <data name="Publications" xml:space="preserve">
+    <value>Publikasjoner</value>
+  </data>
+  <data name="Abstract" xml:space="preserve">
+    <value>Abstrakt</value>
+  </data>
+  <data name="CompletedProfile" xml:space="preserve">
+    <value>fullført profil</value>
+  </data>
+  <data name="EmployeeType" xml:space="preserve">
+    <value>Ansattype</value>
+  </data>
+  <data name="ViewProfile" xml:space="preserve">
+    <value>Vis profil</value>
+  </data>
+  <data name="Hello" xml:space="preserve">
+    <value>hallo</value>
+  </data>
+  <data name="OurStaffDirectory" xml:space="preserve">
+    <value>Vår stab katalog</value>
+  </data>
+  <data name="SearchBy" xml:space="preserve">
+    <value>Etter</value>
+  </data>
+  <data name="SearchByDepartmet" xml:space="preserve">
+    <value>Søk etter departmet</value>
+  </data>
+  <data name="DuplicateEmail" xml:space="preserve">
+    <value>E-postadressen er allerede registrert.</value>
+  </data>
+  <data name="InvalidOrganizationEmail" xml:space="preserve">
+    <value>Skriv inn epostadressen din arbeid.</value>
+  </data>
+  <data name="DepartmentStaffList" xml:space="preserve">
+    <value>Avdeling personale liste</value>
+  </data>
+  <data name="SearchResult" xml:space="preserve">
+    <value>Søkeresultat</value>
+  </data>
+  <data name="DuplicateError" xml:space="preserve">
+    <value>Kan ikke sette inn duplikatoppføringer.</value>
+  </data>
+  <data name="EmployeeName" xml:space="preserve">
+    <value>Navn på ansatt</value>
+  </data>
+  <data name="ClickHereToLogin" xml:space="preserve">
+    <value>Klikk her for å logge inn</value>
+  </data>
+  <data name="ConfirmEmail" xml:space="preserve">
+    <value>Bekrefte e-post</value>
+  </data>
+  <data name="ConfirmEmailThanks" xml:space="preserve">
+    <value>Takk for å bekrefte din e-post.</value>
+  </data>
+  <data name="ForgotPasswordCheck" xml:space="preserve">
+    <value>Sjekk din email for å tilbakestille passordet.</value>
+  </data>
+  <data name="ForgotPasswordConfirmation" xml:space="preserve">
+    <value>Glemte passord bekreftelse</value>
+  </data>
+  <data name="Please" xml:space="preserve">
+    <value>vær så snill</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Tilbakestille</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>Tilbakestill passord</value>
+  </data>
+  <data name="ResetYourPassword" xml:space="preserve">
+    <value>Tilbakestille passordet.</value>
+  </data>
+  <data name="SecurityCode" xml:space="preserve">
+    <value>Sikkerhetskoden</value>
+  </data>
+  <data name="ApplyFor" xml:space="preserve">
+    <value>Søke</value>
+  </data>
+  <data name="ChooseDepartment" xml:space="preserve">
+    <value>-Velg avdeling-</value>
+  </data>
+  <data name="SubmissionId" xml:space="preserve">
+    <value>Programnummer</value>
+  </data>
+  <data name="DownloadApplications" xml:space="preserve">
+    <value>Laste ned programmer</value>
+  </data>
+  <data name="NotAvailable" xml:space="preserve">
+    <value>I/T</value>
+  </data>
+  <data name="GoCuteCMS" xml:space="preserve">
+    <value>Gå til CuteCMS</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Feil</value>
+  </data>
+  <data name="ErrorNotification" xml:space="preserve">
+    <value>Vårt tekniske personale har blitt automatisk varslet og vil se inn i dette med den ytterste hastet.</value>
+  </data>
+  <data name="GenericError" xml:space="preserve">
+    <value>Noe gikk galt.</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>Finner ikke den forespurte siden!</value>
+  </data>
+  <data name="NotPublished" xml:space="preserve">
+    <value>Den forespurte siden publiseres ikke.</value>
+  </data>
+  <data name="NotTranslated" xml:space="preserve">
+    <value>Den forespurte siden er ikke oversatt.</value>
+  </data>
+  <data name="DataTableLanguage" xml:space="preserve">
+    <value>http://cdn.DataTables.net/plug-ins/1.10.12/i18n/English.JSON</value>
+  </data>
+  <data name="LanguageSelector" xml:space="preserve">
+    <value>Språk</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Eksportere</value>
+  </data>
+  <data name="PleaseUploadAttachments" xml:space="preserve">
+    <value>Vennligst Last opp nødvendig vedleggene.</value>
+  </data>
+  <data name="Oops" xml:space="preserve">
+    <value>Oops!</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Handlinger</value>
+  </data>
+  <data name="ColVis" xml:space="preserve">
+    <value>Kolonnen synlighet</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Kopier</value>
+  </data>
+  <data name="ExportExcel" xml:space="preserve">
+    <value>Eksport Excel</value>
+  </data>
+  <data name="ExportPDF" xml:space="preserve">
+    <value>Eksport PDF</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Skriv ut</value>
+  </data>
+  <data name="Reload" xml:space="preserve">
+    <value>Reload</value>
+  </data>
+  <data name="NoUpcomingEvents" xml:space="preserve">
+    <value>Det er ingen forestående hendelser.</value>
+  </data>
+  <data name="UpcomingEvents" xml:space="preserve">
+    <value>Kommende hendelser</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Om</value>
+  </data>
+  <data name="RnC" xml:space="preserve">
+    <value>Undersøkelsene &amp; konferanser</value>
+  </data>
+  <data name="MyProfile" xml:space="preserve">
+    <value>Min profil</value>
+  </data>
+  <data name="NoRecordFound" xml:space="preserve">
+    <value>Ingen post funnet!</value>
+  </data>
+  <data name="ViewMySocialNetwork" xml:space="preserve">
+    <value>Vis mitt sosiale nettverk.</value>
+  </data>
+  <data name="CssClass" xml:space="preserve">
+    <value>CSS-klasse</value>
+  </data>
+  <data name="Backend" xml:space="preserve">
+    <value>Backend</value>
+  </data>
+  <data name="Frontend" xml:space="preserve">
+    <value>Frontend</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Bilde</value>
+  </data>
+  <data name="Visible" xml:space="preserve">
+    <value>Synlig?</value>
+  </data>
+  <data name="IsDefault" xml:space="preserve">
+    <value>Er standard?</value>
+  </data>
+  <data name="PrimaryLogoName" xml:space="preserve">
+    <value>Navn på primær</value>
+  </data>
+  <data name="PrimaryLogoPath" xml:space="preserve">
+    <value>Primære bane</value>
+  </data>
+  <data name="SecondaryLogoName" xml:space="preserve">
+    <value>Sekundær navn</value>
+  </data>
+  <data name="SecondaryLogoPath" xml:space="preserve">
+    <value>Sekundær bane</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Høyde</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>Bredde</value>
+  </data>
+  <data name="ChooseRole" xml:space="preserve">
+    <value>-Velg rolle-</value>
+  </data>
+  <data name="ChooseStatus" xml:space="preserve">
+    <value>-Velg status-</value>
+  </data>
+  <data name="ChooseAuthor" xml:space="preserve">
+    <value>-Velg forfatter-</value>
+  </data>
+  <data name="ChooseTag" xml:space="preserve">
+    <value>-Velg kode-</value>
+  </data>
+  <data name="CountryCode" xml:space="preserve">
+    <value>Landskoden</value>
+  </data>
+  <data name="CountryName" xml:space="preserve">
+    <value>Stedsnavn</value>
+  </data>
+  <data name="IP" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="MetroCode" xml:space="preserve">
+    <value>T kode</value>
+  </data>
+  <data name="RegionCode" xml:space="preserve">
+    <value>Regionkode</value>
+  </data>
+  <data name="RegionName" xml:space="preserve">
+    <value>Regionnavnet</value>
+  </data>
+  <data name="RequestDate" xml:space="preserve">
+    <value>Forespørselsdato</value>
+  </data>
+  <data name="TimeZone" xml:space="preserve">
+    <value>Tidssone</value>
+  </data>
+  <data name="Count" xml:space="preserve">
+    <value>Antall</value>
+  </data>
+  <data name="Translations" xml:space="preserve">
+    <value>Oversettelser</value>
+  </data>
+  <data name="VacancyUnableToDelete" xml:space="preserve">
+    <value>Kan ikke slette denne stilling fordi det har relaterte innlevering (er).</value>
+  </data>
+  <data name="ChoosePersonalTitle" xml:space="preserve">
+    <value>-Velg personlig tittel-</value>
+  </data>
+  <data name="Acknowledgement" xml:space="preserve">
+    <value>Bekreftelse</value>
+  </data>
+  <data name="ApplicationNumber" xml:space="preserve">
+    <value>Din programmet er:</value>
+  </data>
+  <data name="Dear" xml:space="preserve">
+    <value>Kjære</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Verdi</value>
+  </data>
+  <data name="FlagCode" xml:space="preserve">
+    <value>Flagg kode</value>
+  </data>
+  <data name="Flag" xml:space="preserve">
+    <value>Flagg</value>
+  </data>
+  <data name="CultureName" xml:space="preserve">
+    <value>Kulturnavn</value>
+  </data>
+  <data name="IsEnabled" xml:space="preserve">
+    <value>Er aktivert?</value>
+  </data>
+  <data name="SMTP" xml:space="preserve">
+    <value>SMTP</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Emne</value>
+  </data>
+  <data name="Body" xml:space="preserve">
+    <value>Kroppen</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>Varsling</value>
+  </data>
+  <data name="Term" xml:space="preserve">
+    <value>Oversettelse</value>
+  </data>
+  <data name="Attachment" xml:space="preserve">
+    <value>Vedlegg</value>
+  </data>
+  <data name="Statistic" xml:space="preserve">
+    <value>Statistikk</value>
+  </data>
+  <data name="SMTPSetting" xml:space="preserve">
+    <value>SMTP-innstilling</value>
+  </data>
+  <data name="ImageTag" xml:space="preserve">
+    <value>Bildekoder</value>
+  </data>
+  <data name="JobTypes" xml:space="preserve">
+    <value>Jobbtyper</value>
+  </data>
+  <data name="Genders" xml:space="preserve">
+    <value>Kjønn</value>
+  </data>
+  <data name="PhoneNumbers" xml:space="preserve">
+    <value>Telefonnumre</value>
+  </data>
+  <data name="Notifications" xml:space="preserve">
+    <value>Varsler</value>
+  </data>
+  <data name="Contacts" xml:space="preserve">
+    <value>Kontakter</value>
+  </data>
+  <data name="ImageFiles" xml:space="preserve">
+    <value>Bildefiler</value>
+  </data>
+  <data name="ContentLists" xml:space="preserve">
+    <value>Innhold lister</value>
+  </data>
+  <data name="HomeVisible" xml:space="preserve">
+    <value>Vise startsiden?</value>
+  </data>
+  <data name="TOC" xml:space="preserve">
+    <value>Vilkår for bruk</value>
+  </data>
+  <data name="ShowHeaderDate" xml:space="preserve">
+    <value>Vise datoer</value>
+  </data>
+  <data name="ExpiredOn" xml:space="preserve">
+    <value>Utløp</value>
+  </data>
+  <data name="PublishedOn" xml:space="preserve">
+    <value>Publisert på</value>
+  </data>
+  <data name="LastUpdatedOn" xml:space="preserve">
+    <value>Sist oppdatert på</value>
+  </data>
+  <data name="InvalidPublishDate" xml:space="preserve">
+    <value>Publisere dato må være mindre enn eller lik aktivitet startdato.</value>
+  </data>
+  <data name="InvalidExpiryDate" xml:space="preserve">
+    <value>Utløpsdatoen må være større enn eller lik aktivitet sluttdato.</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>Fra</value>
+  </data>
+  <data name="Till" xml:space="preserve">
+    <value>Til</value>
+  </data>
+  <data name="NoResult" xml:space="preserve">
+    <value>Ingen resultater.</value>
+  </data>
+  <data name="BreakingNews" xml:space="preserve">
+    <value>Breaking News</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>Tilgjengelig</value>
+  </data>
+  <data name="Skills" xml:space="preserve">
+    <value>Ferdigheter</value>
+  </data>
+  <data name="Validity" xml:space="preserve">
+    <value>Gyldighet</value>
+  </data>
+  <data name="ChooseJobType" xml:space="preserve">
+    <value>-Velg jobb type--</value>
+  </data>
+  <data name="AbsolutePath" xml:space="preserve">
+    <value>Absolutt bane</value>
+  </data>
+  <data name="Keywords" xml:space="preserve">
+    <value>Søkeord</value>
+  </data>
+  <data name="PoweredBy" xml:space="preserve">
+    <value>drevet av</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>Bane</value>
+  </data>
+  <data name="UrgentExpiredOn" xml:space="preserve">
+    <value>Haster utløp</value>
+  </data>
+  <data name="BackToHome" xml:space="preserve">
+    <value>tilbake til hjemmeside nå!</value>
+  </data>
+  <data name="PageNotFound" xml:space="preserve">
+    <value>Finner ikke siden</value>
+  </data>
+  <data name="PageNotTranslated" xml:space="preserve">
+    <value>Siden ikke oversatt</value>
+  </data>
+  <data name="PageNotPublished" xml:space="preserve">
+    <value>Siden ikke Pubished</value>
+  </data>
+  <data name="CreatePassword" xml:space="preserve">
+    <value>Opprett passord</value>
+  </data>
+  <data name="ResetPasswordConfirmation" xml:space="preserve">
+    <value>Bekreftelse på tilbakestilling av passord</value>
+  </data>
+  <data name="PasswordReset" xml:space="preserve">
+    <value>Passordet er tilbakestilt.</value>
+  </data>
+  <data name="ClickLogin" xml:space="preserve">
+    <value>Klikk her for å logge inn</value>
+  </data>
+  <data name="YourAppNumber" xml:space="preserve">
+    <value>Din programmet er</value>
+  </data>
+  <data name="ImageTags" xml:space="preserve">
+    <value>Bildekoder</value>
+  </data>
+  <data name="SMTPSettings" xml:space="preserve">
+    <value>SMTP-innstillinger</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Statistikk</value>
+  </data>
+  <data name="Statuses" xml:space="preserve">
+    <value>Statuser</value>
+  </data>
+  <data name="Vacancies" xml:space="preserve">
+    <value>Ledige stillinger</value>
+  </data>
+  <data name="LockedOutMessage" xml:space="preserve">
+    <value>Denne kontoen er låst, prøv igjen senere.</value>
+  </data>
+  <data name="LockedOut" xml:space="preserve">
+    <value>Låst ute</value>
+  </data>
+  <data name="TakeTour" xml:space="preserve">
+    <value>Ta en tur</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>Del denne siden</value>
+  </data>
+  <data name="ForgotPasswordInstructions" xml:space="preserve">
+    <value>Fyll ut skjemaet nedenfor for å motta en epost med autorisasjonskoden for å tilbakestille passordet.</value>
+  </data>
+  <data name="InvalidToken" xml:space="preserve">
+    <value>Ugyldig Token</value>
+  </data>
+  <data name="ReadMore" xml:space="preserve">
+    <value>Les mer</value>
+  </data>
+  <data name="LogIn" xml:space="preserve">
+    <value>logg på</value>
+  </data>
+  <data name="Dimensions" xml:space="preserve">
+    <value>Dimensjoner</value>
+  </data>
+  <data name="GetInTouch" xml:space="preserve">
+    <value>Holde kontakten</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>Kategorier</value>
+  </data>
+  <data name="YourName" xml:space="preserve">
+    <value>navnet ditt</value>
+  </data>
+  <data name="YourEmail" xml:space="preserve">
+    <value>E-post</value>
+  </data>
+  <data name="SendMessage" xml:space="preserve">
+    <value>Send melding</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Melding</value>
+  </data>
+  <data name="SenderName" xml:space="preserve">
+    <value>navnet ditt</value>
+  </data>
+  <data name="Careers" xml:space="preserve">
+    <value>Karriere</value>
+  </data>
+  <data name="SocialNetwork" xml:space="preserve">
+    <value>Sosiale nettverk</value>
+  </data>
+  <data name="SocialNetworks" xml:space="preserve">
+    <value>Sosiale nettverk</value>
+  </data>
+  <data name="ShowAll" xml:space="preserve">
+    <value>Vis alle</value>
+  </data>
+  <data name="ChooseCategory" xml:space="preserve">
+    <value>-Velg kategori-</value>
+  </data>
+  <data name="AddressLine1" xml:space="preserve">
+    <value>Adresselinje 1</value>
+  </data>
+  <data name="AddressLine2" xml:space="preserve">
+    <value>Adresselinje 2</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Tilstand</value>
+  </data>
+  <data name="ZIP" xml:space="preserve">
+    <value>postnummer</value>
+  </data>
+  <data name="Newsletter" xml:space="preserve">
+    <value>Nyhetsbrev</value>
+  </data>
+  <data name="LatestTweets" xml:space="preserve">
+    <value>Siste Tweets</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>vent...</value>
+  </data>
+  <data name="FollowUs" xml:space="preserve">
+    <value>Følg oss</value>
+  </data>
+  <data name="ChooseEmployeeType" xml:space="preserve">
+    <value>-Velg ansatt type--</value>
+  </data>
+  <data name="HasAccount" xml:space="preserve">
+    <value>Har kontoen?</value>
+  </data>
+  <data name="EmailConfirmed" xml:space="preserve">
+    <value>Email bekreftet?</value>
+  </data>
+  <data name="UsefulLinks" xml:space="preserve">
+    <value>Her er noen nyttige linker</value>
+  </data>
+  <data name="AwaitingTranslation" xml:space="preserve">
+    <value>Venter for oversettelse...</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Tilbake</value>
+  </data>
+  <data name="StaffDirectory" xml:space="preserve">
+    <value>Personalet Directory</value>
+  </data>
+  <data name="SubscribedToMailingList" xml:space="preserve">
+    <value> Du har lagt til vår mailingliste.</value>
+  </data>
+  <data name="ThankYouForInterest" xml:space="preserve">
+    <value>Takk for din interesse i våre siste oppdateringene. Du vil snart motta en e-post bekreftelse av ditt abonnement.</value>
+  </data>
+  <data name="DeleteProfileConfirmation" xml:space="preserve">
+    <value>Er du sikker på at du vil slette profilen?</value>
+  </data>
+  <data name="DeleteProfile" xml:space="preserve">
+    <value>Slette min profil</value>
+  </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>Fotogalleri</value>
+  </data>
+  <data name="ChooseGallery" xml:space="preserve">
+    <value>-Velg photo gallery--</value>
+  </data>
+  <data name="Galleries" xml:space="preserve">
+    <value>Fotogallerier</value>
+  </data>
+  <data name="GalleryCategory" xml:space="preserve">
+    <value>Kategori</value>
+  </data>
+  <data name="GalleryCategories" xml:space="preserve">
+    <value>Kategorier</value>
+  </data>
+  <data name="UrlSlug" xml:space="preserve">
+    <value>Vennlig Link</value>
+  </data>
+  <data name="Url" xml:space="preserve">
+    <value>Kobling</value>
+  </data>
+  <data name="DeveloperURL" xml:space="preserve">
+    <value>Developer-websted</value>
+  </data>
+  <data name="Reference" xml:space="preserve">
+    <value>Referanse</value>
+  </data>
+  <data name="ContentItems" xml:space="preserve">
+    <value>Varer</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Innstillinger</value>
+  </data>
+  <data name="Recruitment" xml:space="preserve">
+    <value>Rekruttering</value>
+  </data>
+  <data name="Identity" xml:space="preserve">
+    <value>Identitet</value>
+  </data>
+  <data name="Lorem1" xml:space="preserve">
+    <value>Den raskeste måten å utvide virksomheten din.</value>
+  </data>
+  <data name="Lorem2" xml:space="preserve">
+    <value>Sjekk ut våre alternativer og funksjoner.</value>
+  </data>
+  <data name="GetStarted" xml:space="preserve">
+    <value>Kom i gang nå!</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>eller</value>
+  </data>
+  <data name="LearnMore" xml:space="preserve">
+    <value>få mer informasjon.</value>
+  </data>
+  <data name="Lorem3" xml:space="preserve">
+    <value>Denne teksten er et eksempel som kan bli erstattet i samme rom, denne teksten har blitt generert fra latinske generator.</value>
+  </data>
+  <data name="January" xml:space="preserve">
+    <value>Januar</value>
+  </data>
+  <data name="JohnSmith" xml:space="preserve">
+    <value>John Smith</value>
+  </data>
+  <data name="JobTitleName" xml:space="preserve">
+    <value>CEO &amp; grunnlegger - ABC selskap</value>
+  </data>
+  <data name="WhatClientsSay" xml:space="preserve">
+    <value>Hva klienter Say</value>
+  </data>
+  <data name="LoremTitle" xml:space="preserve">
+    <value>Denne teksten er et eksempel som kan bli erstattet i samme rom.</value>
+  </data>
+  <data name="UploadIcon" xml:space="preserve">
+    <value>Last opp ikon</value>
+  </data>
+  <data name="UploadImage" xml:space="preserve">
+    <value>Last opp bilde</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>Sammendrag</value>
+  </data>
+  <data name="Icon" xml:space="preserve">
+    <value>Ikon</value>
+  </data>
+  <data name="PleaseUploadIconOfType" xml:space="preserve">
+    <value>Vennligst last opp et ikon av type:!</value>
+  </data>
+  <data name="IconNotes" xml:space="preserve">
+    <value>Vennligst last opp et ikon av type: .PNG!</value>
+  </data>
+  <data name="IconName" xml:space="preserve">
+    <value>Ikon</value>
+  </data>
+  <data name="IconPath" xml:space="preserve">
+    <value>Ikon</value>
+  </data>
+  <data name="MeetOurTeam" xml:space="preserve">
+    <value>Vårt team</value>
+  </data>
+  <data name="MainDepts" xml:space="preserve">
+    <value>lekebutikk</value>
+  </data>
+  <data name="PrimaryCaption" xml:space="preserve">
+    <value>Primærbilde</value>
+  </data>
+  <data name="SecondaryCaption" xml:space="preserve">
+    <value>Sekundær bildetekst</value>
+  </data>
+  <data name="TertiaryCaption" xml:space="preserve">
+    <value>Tertiær bildetekst</value>
+  </data>
+  <data name="MedicalTreatment" xml:space="preserve">
+    <value>Medisinsk behandling</value>
+  </data>
+  <data name="DoctorsTimetable" xml:space="preserve">
+    <value>Leger timeplan</value>
+  </data>
+  <data name="OpeningHours" xml:space="preserve">
+    <value>Åpningstider</value>
+  </data>
+  <data name="EmergencyCase" xml:space="preserve">
+    <value>beredskapshjem</value>
+  </data>
+  <data name="Sunday" xml:space="preserve">
+    <value>Søndag</value>
+  </data>
+  <data name="Monday" xml:space="preserve">
+    <value>Mandag</value>
+  </data>
+  <data name="Tuesday" xml:space="preserve">
+    <value>Tirsdag</value>
+  </data>
+  <data name="Wednesday" xml:space="preserve">
+    <value>Onsdag</value>
+  </data>
+  <data name="Thursday" xml:space="preserve">
+    <value>Torsdag</value>
+  </data>
+  <data name="Friday" xml:space="preserve">
+    <value>Fredag</value>
+  </data>
+  <data name="Saturday" xml:space="preserve">
+    <value>Lørdag</value>
+  </data>
+  <data name="Subtitle" xml:space="preserve">
+    <value>Undertittel</value>
+  </data>
+  <data name="ViewMore" xml:space="preserve">
+    <value>Se mer</value>
+  </data>
+  <data name="Doctors" xml:space="preserve">
+    <value>Leger!</value>
+  </data>
+  <data name="OurSpecialists" xml:space="preserve">
+    <value>Våre spesialister</value>
+  </data>
+  <data name="Staff" xml:space="preserve">
+    <value>Ansatte</value>
+  </data>
+  <data name="MedicalStaff" xml:space="preserve">
+    <value>Medisinsk personell</value>
+  </data>
+  <data name="LatestEvents" xml:space="preserve">
+    <value>Siste arrangement</value>
+  </data>
+  <data name="DoctorName" xml:space="preserve">
+    <value>Navn</value>
+  </data>
+  <data name="DoctorType" xml:space="preserve">
+    <value>medarbeider</value>
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>Portnummer</value>
+  </data>
+  <data name="EnableSsl" xml:space="preserve">
+    <value>Aktiver SSL</value>
+  </data>
+  <data name="SenderEmail" xml:space="preserve">
+    <value>Avsender e-post</value>
+  </data>
+  <data name="SenderPassword" xml:space="preserve">
+    <value>Avsenderen passord</value>
+  </data>
+  <data name="RecipientEmail" xml:space="preserve">
+    <value>Mottakers e-post</value>
+  </data>
+  <data name="VisitorCounter" xml:space="preserve">
+    <value>Besøksteller!</value>
+  </data>
+  <data name="RoleInUse" xml:space="preserve">
+    <value>Det rollenavnet er allerede brukt.</value>
+  </data>
+  <data name="Administration" xml:space="preserve">
+    <value>Administrasjon</value>
+  </data>
+  <data name="SystemSettings" xml:space="preserve">
+    <value>Systeminnstillinger</value>
+  </data>
+  <data name="InvalidCode" xml:space="preserve">
+    <value>Koden er ugyldig</value>
+  </data>
+  <data name="UserExist" xml:space="preserve">
+    <value>E-postadresse er allerede I bruk.</value>
+  </data>
+  <data name="FailedToVerifyPhone" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="Maintenance" xml:space="preserve">
+    <value>Vedlikehold</value>
+  </data>
+  <data name="Forms" xml:space="preserve">
+    <value>Skjema</value>
+  </data>
+  <data name="DontHaveAccount" xml:space="preserve">
+    <value>Har ikke opprettet en konto</value>
+  </data>
+  <data name="Page" xml:space="preserve">
+    <value>Side</value>
+  </data>
+  <data name="Of" xml:space="preserve">
+    <value>av</value>
+  </data>
+  <data name="TotalRows" xml:space="preserve">
+    <value>Totalsum</value>
+  </data>
+  <data name="ChooseInventory" xml:space="preserve">
+    <value>-Velg lager!</value>
+  </data>
+  <data name="ChooseModel" xml:space="preserve">
+    <value>--velg--</value>
+  </data>
+  <data name="ChooseSite" xml:space="preserve">
+    <value>--velg--</value>
+  </data>
+  <data name="ChooseManufacturer" xml:space="preserve">
+    <value>-Velg produsenten!</value>
+  </data>
+  <data name="ChooseMaintenanceType" xml:space="preserve">
+    <value>-Velg vedlikehold Type!</value>
+  </data>
+  <data name="DeviceCard" xml:space="preserve">
+    <value>Enheten kort!</value>
+  </data>
+  <data name="Installation" xml:space="preserve">
+    <value>Installasjon</value>
+  </data>
+  <data name="BasicInformation" xml:space="preserve">
+    <value>Basisinformasjon</value>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>Måned</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>År</value>
+  </data>
+  <data name="ChooseFormStatus" xml:space="preserve">
+    <value>- Velg formstatus -</value>
+  </data>
+  <data name="ChooseDataType" xml:space="preserve">
+    <value>--Velg datatype--!</value>
+  </data>
+  <data name="Form" xml:space="preserve">
+    <value>Skjema</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Rapport</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>Rapporter</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>Behandler!</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Neste</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Forrige</value>
+  </data>
+  <data name="SummaryMessage" xml:space="preserve">
+    <value>Viser {0} til {1} {2} oppføringer!</value>
+  </data>
+  <data name="Fields" xml:space="preserve">
+    <value>Felt</value>
+  </data>
+  <data name="Reorder" xml:space="preserve">
+    <value>Endre rekkefølge</value>
+  </data>
+  <data name="Sections" xml:space="preserve">
+    <value>Seksjoner</value>
+  </data>
+  <data name="Section" xml:space="preserve">
+    <value>Seksjon</value>
+  </data>
+  <data name="Choices" xml:space="preserve">
+    <value>Valg</value>
+  </data>
+  <data name="Choice" xml:space="preserve">
+    <value>Valg</value>
+  </data>
+  <data name="DataType" xml:space="preserve">
+    <value>Datatype</value>
+  </data>
+  <data name="DataTypes" xml:space="preserve">
+    <value>typer;</value>
+  </data>
+  <data name="Field" xml:space="preserve">
+    <value>Felt</value>
+  </data>
+  <data name="Property" xml:space="preserve">
+    <value>Eiendom</value>
+  </data>
+  <data name="Properties" xml:space="preserve">
+    <value>Eiendommer</value>
+  </data>
+  <data name="ChoiceList" xml:space="preserve">
+    <value>VALG</value>
+  </data>
+  <data name="Values" xml:space="preserve">
+    <value>Kulturminneverdier</value>
+  </data>
+  <data name="ChoiceLists" xml:space="preserve">
+    <value>Valg lister!</value>
+  </data>
+  <data name="WorkflowPath" xml:space="preserve">
+    <value>Workflow</value>
+  </data>
+  <data name="Workflow" xml:space="preserve">
+    <value>Workflow</value>
+  </data>
+  <data name="WorkflowSettings" xml:space="preserve">
+    <value>Innstillinger</value>
+  </data>
+  <data name="EmpNumber" xml:space="preserve">
+    <value>Ansatt ID</value>
+  </data>
+  <data name="EmpNumberInvalid" xml:space="preserve">
+    <value>Id-dokumentet er ikke gyldig</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Lukk</value>
+  </data>
+  <data name="Approval" xml:space="preserve">
+    <value>Godkjenning</value>
+  </data>
+  <data name="ActionStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="ChangeStatusConfirmation" xml:space="preserve">
+    <value>Er du sikker på at du vil endre status?</value>
+  </data>
+  <data name="PendingPrev" xml:space="preserve">
+    <value>Trykk på &lt;g id="2"&gt;MUTE (DEMP LYDEN) &lt;/g&gt;&lt;g id="3"&gt;igjen for å gjenopprette lyden til forrige nivå.&lt;/g&gt;</value>
+  </data>
+  <data name="PendingNext" xml:space="preserve">
+    <value>NESTE LEVEL</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Fullført!</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>Liste</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Oppdater!</value>
+  </data>
+  <data name="ChooseFields" xml:space="preserve">
+    <value>Velg</value>
+  </data>
+  <data name="ApprovalTracking" xml:space="preserve">
+    <value>Sporing</value>
+  </data>
+  <data name="ActionDate" xml:space="preserve">
+    <value>Dato for neste handling.</value>
+  </data>
+  <data name="ChooseGroup" xml:space="preserve">
+    <value>Velg filplassering for gruppen ...</value>
+  </data>
+  <data name="Items" xml:space="preserve">
+    <value>Elementer</value>
+  </data>
+  <data name="SubmissionDate" xml:space="preserve">
+    <value>Innsendingsdato</value>
+  </data>
+  <data name="ChangeUserName" xml:space="preserve">
+    <value>Endre brukernavn</value>
+  </data>
+  <data name="ChangeUserEmail" xml:space="preserve">
+    <value>Endre epost</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Nei</value>
+  </data>
+  <data name="DeleteAccount" xml:space="preserve">
+    <value>Slett konto</value>
+  </data>
+  <data name="ChangeConfirmEmail" xml:space="preserve">
+    <value>Bekreft epostadresse</value>
+  </data>
+  <data name="AccountSummary" xml:space="preserve">
+    <value>Sammendrag av forretningsforbindelse</value>
+  </data>
+  <data name="SendVerificationCode" xml:space="preserve">
+    <value>Send bekreftelseskode</value>
+  </data>
+  <data name="RecordCreated" xml:space="preserve">
+    <value>Oppføring opprettet den</value>
+  </data>
+  <data name="RecordCreatedSuccessfully" xml:space="preserve">
+    <value>Mappe Opprettet</value>
+  </data>
+  <data name="RecordUpdated" xml:space="preserve">
+    <value>Post oppdatert.</value>
+  </data>
+  <data name="RecordUpdatedSuccessfully" xml:space="preserve">
+    <value>Oppdatering fullført!</value>
+  </data>
+  <data name="RecordDeleted" xml:space="preserve">
+    <value>Post slettet.</value>
+  </data>
+  <data name="RecordDeletedSuccessfully" xml:space="preserve">
+    <value>Slettet innhold med suksess</value>
+  </data>
+  <data name="NoUsersInRole" xml:space="preserve">
+    <value>Ingen bruker funnet</value>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>Tillatelser</value>
+  </data>
+  <data name="NoPermissionsInGroup" xml:space="preserve">
+    <value>Ingen tillatelser funnet i denne gruppen.!</value>
+  </data>
+  <data name="ListGroupPermissions" xml:space="preserve">
+    <value>Du har ikke tillatelser til å sende talepost til denne gruppen.</value>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>&amp;Endre</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Legg til...</value>
+  </data>
+  <data name="TFAEnabled" xml:space="preserve">
+    <value>"To-faktorautentisering aktivert"</value>
+  </data>
+  <data name="TFADisabled" xml:space="preserve">
+    <value>Godkjenning med to-faktorer</value>
+  </data>
+  <data name="TFABrowserRemembered" xml:space="preserve">
+    <value>Godkjenning med to-faktorer</value>
+  </data>
+  <data name="ListUserPermissions" xml:space="preserve">
+    <value>&amp;Lese over brukere:</value>
+  </data>
+  <data name="NoGroupsForUser" xml:space="preserve">
+    <value>Ingen grupper funnet for denne brukeren.!</value>
+  </data>
+  <data name="ListGroupsForUser" xml:space="preserve">
+    <value>Radiohandling hvis gruppe denne handlingen tilhører.</value>
+  </data>
+  <data name="NoPermissionsForUser" xml:space="preserve">
+    <value>Ingen roller ble funnet for denne brukeren</value>
+  </data>
+  <data name="EmailStatus" xml:space="preserve">
+    <value>E-poststatus</value>
+  </data>
+  <data name="Confirmed" xml:space="preserve">
+    <value>Bekreftet</value>
+  </data>
+  <data name="Unconfirmed" xml:space="preserve">
+    <value>Ubekreftet</value>
+  </data>
+  <data name="TFABrowserNotRemembered" xml:space="preserve">
+    <value>Nettleseren er for øyeblikket ikke husket for to faktor autentisering:!</value>
+  </data>
+  <data name="ListUsersInPermission" xml:space="preserve">
+    <value>Listen over brukere med denne tillatelsen tilhører</value>
+  </data>
+  <data name="ConfirmAccount" xml:space="preserve">
+    <value>Bekreft kontoen</value>
+  </data>
+  <data name="ConfirmAccountMessage" xml:space="preserve">
+    <value>Bekreft kontoen ved å klikke på denne linken!</value>
+  </data>
+  <data name="ResetPasswordMessage" xml:space="preserve">
+    <value>Vennligst tilbakestille passordet ved å klikke her</value>
+  </data>
+  <data name="ConfirmNewPassword" xml:space="preserve">
+    <value>Bekreft nytt passord</value>
+  </data>
+  <data name="GroupExist" xml:space="preserve">
+    <value>Byen er allerede registrert.</value>
+  </data>
+  <data name="ForgetBrowser" xml:space="preserve">
+    <value>Glem denne nettleseren</value>
+  </data>
+  <data name="ChangePasswordSuccess" xml:space="preserve">
+    <value>Passordet er blitt endret.</value>
+  </data>
+  <data name="SetPasswordSuccess" xml:space="preserve">
+    <value>Nytt passord er lagret.</value>
+  </data>
+  <data name="SetTwoFactorSuccess" xml:space="preserve">
+    <value>Leverandøren to faktor er angitt.</value>
+  </data>
+  <data name="AddPhoneSuccess" xml:space="preserve">
+    <value>Telefonnummeret ditt er lagt til.</value>
+  </data>
+  <data name="RemovePhoneSuccess" xml:space="preserve">
+    <value>Telefonnummeret ditt er tatt bort.</value>
+  </data>
+  <data name="Showing" xml:space="preserve">
+    <value>Viser</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>Til</value>
+  </data>
+  <data name="Entries" xml:space="preserve">
+    <value>Oppføringer</value>
+  </data>
+  <data name="Documentation" xml:space="preserve">
+    <value>Dokumentasjon</value>
+  </data>
+  <data name="BuyNow" xml:space="preserve">
+    <value>Kjøp nå</value>
+  </data>
+  <data name="Searching" xml:space="preserve">
+    <value>Søker...</value>
+  </data>
+  <data name="Roles1" xml:space="preserve">
+    <value>Roller</value>
+  </data>
+  <data name="Role1" xml:space="preserve">
+    <value>Rolle</value>
+  </data>
+  <data name="CRMModules" xml:space="preserve">
+    <value>Moduler</value>
+  </data>
+  <data name="Sales" xml:space="preserve">
+    <value>Salg</value>
+  </data>
+  <data name="Marketing" xml:space="preserve">
+    <value>Markedsføring</value>
+  </data>
+  <data name="Operations" xml:space="preserve">
+    <value>Operasjoner</value>
+  </data>
+  <data name="Accounting" xml:space="preserve">
+    <value>Regnskap</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>støtte</value>
+  </data>
+  <data name="DefaultPasswordFor" xml:space="preserve">
+    <value>Standard passord for:</value>
+  </data>
+  <data name="DefaultUserPassword" xml:space="preserve">
+    <value>Andre brukere:</value>
+  </data>
+  <data name="AdminUsername" xml:space="preserve">
+    <value>Administrator brukernavn:</value>
+  </data>
+  <data name="AdminPassword" xml:space="preserve">
+    <value>Administrator passord:</value>
+  </data>
+</root>

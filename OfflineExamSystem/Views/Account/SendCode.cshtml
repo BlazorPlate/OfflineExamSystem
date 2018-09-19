@@ -1,0 +1,20 @@
+﻿@model OfflineExamSystem.Models.SendCodeViewModel
+@{
+    ViewBag.Title = Resources.Resources.SendVerificationCode;
+}
+<h2>@ViewBag.Title</h2>
+<hr />
+@using (Html.BeginForm("SendCode", "Account", new { ReturnUrl = Model.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="row">
+        <div class="col-md-8">
+            @Resources.Resources.SelectTwoFactor
+            @Html.DropDownListFor(model => model.SelectedProvider, Model.Providers)
+            <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i> @Resources.Resources.SendVerificationCode</button>
+        </div>
+    </div>
+}
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

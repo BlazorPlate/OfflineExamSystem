@@ -1,0 +1,273 @@
+﻿@using OfflineExamSystem.Helpers
+@using System.Threading
+@{
+    ViewBag.Title = Resources.Resources.Roles;
+}
+<div class="panel panel-default m-t-20">
+    <div class="panel-heading">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/@Thread.CurrentThread.CurrentCulture.Name">@Resources.Resources.Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">@Resources.Resources.Roles</li>
+            </ol>
+        </nav>
+        <div class="form-inline">
+            <div class="form-group">
+                @Html.TextBox("name", null, new { @class = "form-control", @placeholder = Resources.Resources.Name })
+            </div>
+            <div class="form-group">
+                @Html.TextBox("groupId", null, new { placeholder = Resources.Resources.ChooseGroup })
+            </div>
+            <button type="button" id="filter" class="btn btn-primary">
+                <i class="fa fa-search" aria-hidden="true"></i> @Resources.Resources.Search
+            </button>
+            <div class="@(CultureHelper.IsRighToLeft() ? "pull-left" : "pull-right")">
+                <button type="button" class="btn btn-primary create" data-id="1" data-toggle="modal" data-target="#createModal"><i class="fa fa-plus" aria-hidden="true"></i> @Resources.Resources.Create</button>
+                <a href="@Url.Action("Index","UsersAdmin")" class="btn btn-danger"><i class="fa fa-users" aria-hidden="true"></i> @Resources.Resources.Users</a>
+            </div>
+        </div>
+    </div>
+    <div class="panel-body">
+        @Html.AjaxGrid(Url.Action("RoleGrid"))
+    </div>
+</div>
+<!--Create Modal -->
+<div class="modal fade" id="createModal" role="dialog" aria-labelledby="createLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div id='createContainer'></div>
+    </div>
+</div>
+<!--Edit Modal -->
+<div class="modal fade" id="editModal" role="dialog" aria-labelledby="editLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div id='editContainer'></div>
+    </div>
+</div>
+<!--Details Modal -->
+<div class="modal fade" id="detailsModal" role="dialog" aria-labelledby="detailsLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div id='detailsContainer'></div>
+        </div>
+    </div>
+</div>
+<!--Delete Modal -->
+<div class="modal fade" id="deleteModal" role="dialog" aria-labelledby="deleteLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div id='deleteContainer'></div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script>
+        $("#filter").click(function (e) {
+            $('.mvc-grid').mvcgrid({
+                query: 'name=' + $('#name').val() + '&' + 'groupId=' + $('#groupId').val(),
+                reload: true
+            });
+        });
+    </script>
+    <!--Create Modal Script -->
+    <script>
+        $(function () {
+            $(document).on('click', '.create', function () {
+                var url = '@Url.Action("Create", "RolesAdmin")';
+                var $buttonClicked = $(this);
+                var id = $buttonClicked.attr('data-id');
+                $.ajax({
+                    type: "GET",
+                    url: url,
+                    contentType: "application/json; charset=utf-8",
+                    data: { "Id": id },
+                    datatype: "json",
+                    success: function (data) {
+                        $('#createContainer').html(data);
+                        $('#createModal').modal('show');
+                    },
+                    error: function () {
+                        alert("Dynamic content load failed.");
+                    }
+                });
+            });
+            $("#closbtn").click(function () {
+                $('#createModal').modal('hide');
+            });
+        });
+
+        function OnSuccessCreate(data) {
+            if (data.Success) {
+                $('#createModal').modal('hide');
+                $('.mvc-grid').mvcgrid({ reload: true });
+                $.toast({
+                    heading: '@Resources.Resources.RecordCreated',
+                    text: '@Resources.Resources.RecordCreatedSuccessfully',
+                    position: 'top-right',
+                    loaderBg: '#ff6849',
+                    icon: 'success',
+                    hideAfter: 3000,
+                    stack: 6
+                });
+            }
+        }
+    </script>
+    <!--Edit Modal Script -->
+    <script>
+        $(function () {
+            $(document).on('click', '.edit', function () {
+                var url = '@Url.Action("Edit", "RolesAdmin")';
+                var $buttonClicked = $(this);
+                var id = $buttonClicked.attr('data-id');
+                $.ajax({
+                    type: "GET",
+                    url: url,
+                    contentType: "application/json; charset=utf-8",
+                    data: { "Id": id },
+                    datatype: "json",
+                    success: function (data) {
+                        $('#editContainer').html(data);
+                        $('#editModal').modal('show');
+                    },
+                    error: function () {
+                        alert("Dynamic content load failed.");
+                    }
+                });
+            });
+            $("#closbtn").click(function () {
+                $('#editModal').modal('hide');
+            });
+        });
+        function OnSuccessEdit(data) {
+            if (data.Success) {
+                $('#editModal').modal('hide');
+                $('.mvc-grid').mvcgrid({ reload: true });
+
+                $.toast({
+                    heading: '@Resources.Resources.RecordUpdated',
+                    text: '@Resources.Resources.RecordUpdatedSuccessfully',
+                    position: 'top-right',
+                    loaderBg: '#ff6849',
+                    icon: 'success',
+                    hideAfter: 3000,
+                    stack: 6
+                });
+            }
+        }
+    </script>
+    <!--Details Modal Script -->
+    <script>
+        $(function () {
+            $(document).on('click', '.details', function () {
+                var url = '@Url.Action("Details", "RolesAdmin")';
+                var $buttonClicked = $(this);
+                var id = $buttonClicked.attr('data-id');
+                $.ajax({
+                    type: "GET",
+                    url: url,
+                    contentType: "application/json; charset=utf-8",
+                    data: { "Id": id },
+                    datatype: "json",
+                    success: function (data) {
+                        $('#detailsContainer').html(data);
+                        $('#detailsModal').modal('show');
+                    },
+                    error: function () {
+                        alert("Dynamic content load failed.");
+                    }
+                });
+            });
+            $("#closbtn").click(function () {
+                $('#detailsModal').modal('hide');
+            });
+        });
+    </script>
+    <!--Delete Modal Script -->
+    <script>
+        $(function () {
+            $(document).on('click', '.delete', function () {
+                var url = '@Url.Action("Delete", "RolesAdmin")';
+                var $buttonClicked = $(this);
+                var id = $buttonClicked.attr('data-id');
+                $.ajax({
+                    type: "GET",
+                    url: url,
+                    contentType: "application/json; charset=utf-8",
+                    data: { "Id": id },
+                    datatype: "json",
+                    success: function (data) {
+                        $('#deleteContainer').html(data);
+                        $('#deleteModal').modal('show');
+                    },
+                    error: function () {
+                        alert("Dynamic content load failed.");
+                    }
+                });
+            });
+            $("#closbtn").click(function () {
+                $('#deleteModal').modal('hide');
+            });
+        });
+        function OnSuccessDelete(data) {
+            if (data.Success) {
+                $('#deleteModal').modal('hide');
+                $('.mvc-grid').mvcgrid({ reload: true });
+
+                $.toast({
+                    heading: '@Resources.Resources.RecordDeleted',
+                    text: '@Resources.Resources.RecordDeletedSuccessfully',
+                    position: 'top-right',
+                    loaderBg: '#ff6849',
+                    icon: 'error',
+                    hideAfter: 3000,
+                    stack: 6
+                });
+                //MVCGrid.reloadGrid('Roles');
+                //window.location.href = data.RedirectUrl;
+            }
+        }
+    </script>
+    <!--Roles Select2 Script -->
+    <script>
+    $(document).ready(function () {
+        //The url we will send our get request to
+        var roleUrl = '@Url.Action("GetGroups", "RolesAdmin")';
+        var pageSize = 20;
+        $('#groupId').select2(
+            {
+            width: 'resolve',
+            //tags: true,
+            formatNoMatches: function (term) {
+                return '@Resources.Resources.NoResult';
+                },
+            formatSearching:function (term) {
+                return '@Resources.Resources.Searching';
+                },
+            //Does the role have to enter any data before sending the ajax request
+            minimumInputLength: 0,
+            allowClear: true,
+            ajax: {
+                //How long the role has to pause their typing before sending the next request
+                quietMillis: 150,
+                //The url of the json service
+                url: roleUrl,
+                dataType: 'jsonp',
+                //Our search term and what page we are on
+                data: function (term, page) {
+                    return {
+                        pageSize: pageSize,
+                        pageNum: page,
+                        searchTerm: term
+                    };
+                },
+                results: function (data, page) {
+                    //Used to determine whether or not there are more results available,
+                    //and if requests for more data should be sent in the infinite scrolling
+                    var more = (page * pageSize) < data.Total;
+                    return { results: data.Results, more: more };
+                },
+            }
+        });
+
+    });
+    </script>
+}

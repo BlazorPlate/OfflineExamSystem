@@ -1,0 +1,2103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BackToList" xml:space="preserve">
+    <value>Inapoi la lista</value>
+  </data>
+  <data name="Calendar" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>Configurare</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Confirma parola</value>
+  </data>
+  <data name="ConfirmPasswordCompare" xml:space="preserve">
+    <value>Parolă și confirmarea parolei nu corespund</value>
+  </data>
+  <data name="Contents" xml:space="preserve">
+    <value>Conţinutul</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Crea</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Şterge</value>
+  </data>
+  <data name="DeleteConfirmation" xml:space="preserve">
+    <value>Sunteţi sigur că doriţi să ştergeţi acest lucru?</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Descriere</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Detalii</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Editare</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="EmailRegularExpression" xml:space="preserve">
+    <value>E-mail nu este validă.</value>
+  </data>
+  <data name="Events" xml:space="preserve">
+    <value>Evenimente</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Prenume</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Grup</value>
+  </data>
+  <data name="GroupRolesAssignment" xml:space="preserve">
+    <value>Rolurile atribuite grupului:</value>
+  </data>
+  <data name="Groups" xml:space="preserve">
+    <value>Grupuri</value>
+  </data>
+  <data name="GroupsAssignment" xml:space="preserve">
+    <value>Grupuri atribuit de utilizator:</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Casa</value>
+  </data>
+  <data name="Images" xml:space="preserve">
+    <value>Imagini</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Limba</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Numele de familie</value>
+  </data>
+  <data name="LogOff" xml:space="preserve">
+    <value>Faceţi Log off</value>
+  </data>
+  <data name="LogOn" xml:space="preserve">
+    <value>conectează-te</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>nume</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Parola</value>
+  </data>
+  <data name="PasswordStringLength" xml:space="preserve">
+    <value>Parola trebuie să fie cel puţin 6 caractere lungime.</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>Rolul</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Roluri</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Înregistrează-te</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Salva</value>
+  </data>
+  <data name="SelectGroups" xml:space="preserve">
+    <value>Selectati Grupa</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Utilizator</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Nume de utilizator</value>
+  </data>
+  <data name="UserRolesAssignment" xml:space="preserve">
+    <value>Rolurile atribuite de utilizator:</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Utilizatorii</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="CreatedOn" xml:space="preserve">
+    <value>Data creării</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>Data de sfarsit activitate</value>
+  </data>
+  <data name="Index" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="IsPublished" xml:space="preserve">
+    <value>Publicat?</value>
+  </data>
+  <data name="IsTranslated" xml:space="preserve">
+    <value>Este tradus?</value>
+  </data>
+  <data name="LanguageId" xml:space="preserve">
+    <value>Limba ID</value>
+  </data>
+  <data name="ModifiedBy" xml:space="preserve">
+    <value>Ultima modificare de</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Locaţie</value>
+  </data>
+  <data name="ModifiedOn" xml:space="preserve">
+    <value>Modificare data</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Data de începere a activităţii</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Titlu</value>
+  </data>
+  <data name="TranslationId" xml:space="preserve">
+    <value>Traducere</value>
+  </data>
+  <data name="Event" xml:space="preserve">
+    <value>Eveniment</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>Fişier</value>
+  </data>
+  <data name="FilePath" xml:space="preserve">
+    <value>Calea fişierului</value>
+  </data>
+  <data name="MIME" xml:space="preserve">
+    <value>MIME</value>
+  </data>
+  <data name="Tag" xml:space="preserve">
+    <value>Tag-ul</value>
+  </data>
+  <data name="Tags" xml:space="preserve">
+    <value>Tag-uri</value>
+  </data>
+  <data name="ThumbPath" xml:space="preserve">
+    <value>Degetul mare drumul</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Vezi</value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>Conţinut</value>
+  </data>
+  <data name="MainContent" xml:space="preserve">
+    <value>Conţinutul principal</value>
+  </data>
+  <data name="MetaDescription" xml:space="preserve">
+    <value>Descriere Meta</value>
+  </data>
+  <data name="MetaKeywords" xml:space="preserve">
+    <value>Metacuvinte cheie</value>
+  </data>
+  <data name="Languages" xml:space="preserve">
+    <value>Limbi</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Schimba parola</value>
+  </data>
+  <data name="CurrentPassword" xml:space="preserve">
+    <value>Parola curentă</value>
+  </data>
+  <data name="ManageAccount" xml:space="preserve">
+    <value>Gestiona contul</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>Parolă nouă</value>
+  </data>
+  <data name="OldPassword" xml:space="preserve">
+    <value>Parola veche</value>
+  </data>
+  <data name="RememberMe" xml:space="preserve">
+    <value>Tine-ma minte</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Căutare</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Categorie</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>Meniu</value>
+  </data>
+  <data name="MenuItem" xml:space="preserve">
+    <value>Element de meniu</value>
+  </data>
+  <data name="MenuItems" xml:space="preserve">
+    <value>Elementele de meniu</value>
+  </data>
+  <data name="Menus" xml:space="preserve">
+    <value>Meniuri</value>
+  </data>
+  <data name="IsCms" xml:space="preserve">
+    <value>Este Cms?</value>
+  </data>
+  <data name="IsLeaf" xml:space="preserve">
+    <value>Este frunze?</value>
+  </data>
+  <data name="IsParent" xml:space="preserve">
+    <value>Este mamă?</value>
+  </data>
+  <data name="Ordinal" xml:space="preserve">
+    <value>Ordinale</value>
+  </data>
+  <data name="Parent" xml:space="preserve">
+    <value>Părinte</value>
+  </data>
+  <data name="CreateNewAccount" xml:space="preserve">
+    <value>Creare cont nou.</value>
+  </data>
+  <data name="Deleted" xml:space="preserve">
+    <value>Elimină</value>
+  </data>
+  <data name="Published" xml:space="preserve">
+    <value>Publicate</value>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>Salvate</value>
+  </data>
+  <data name="MaximumAllowedSize" xml:space="preserve">
+    <value>Maximul permis dimensiune este:</value>
+  </data>
+  <data name="PleaseUploadImageOfType" xml:space="preserve">
+    <value>Vă rugăm să încărcaţi o imagine de tip:</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="AddTranslation" xml:space="preserve">
+    <value>Adauga traducere</value>
+  </data>
+  <data name="ViewTranslation" xml:space="preserve">
+    <value>Vezi traducerea</value>
+  </data>
+  <data name="HasShortcut" xml:space="preserve">
+    <value>Dispaly pe pagina de start</value>
+  </data>
+  <data name="IsScheduled" xml:space="preserve">
+    <value>Este programat?</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Statutul</value>
+  </data>
+  <data name="Announcements" xml:space="preserve">
+    <value>Anunturi</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>Stiri</value>
+  </data>
+  <data name="NoAnnouncements" xml:space="preserve">
+    <value>Nu există nici anunţuri.</value>
+  </data>
+  <data name="NoEvents" xml:space="preserve">
+    <value>Nu există nici o evenimente.</value>
+  </data>
+  <data name="NoNews" xml:space="preserve">
+    <value>Nu există nici o veste.</value>
+  </data>
+  <data name="ContentTypes" xml:space="preserve">
+    <value>Tipuri de conținut</value>
+  </data>
+  <data name="Building" xml:space="preserve">
+    <value>Clădire</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Cod</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Tara</value>
+  </data>
+  <data name="Locality" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="PostalCode" xml:space="preserve">
+    <value>Cod poștal</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Profilul</value>
+  </data>
+  <data name="Street" xml:space="preserve">
+    <value>Strada</value>
+  </data>
+  <data name="Telephone" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="EnterCredentials" xml:space="preserve">
+    <value>Introduceţi numele de utilizator şi parola pentru a face log on.</value>
+  </data>
+  <data name="ForgetPassword" xml:space="preserve">
+    <value>Ai uitat parola?</value>
+  </data>
+  <data name="JoinUs" xml:space="preserve">
+    <value>Vino alaturi de noi @</value>
+  </data>
+  <data name="LoginToSite" xml:space="preserve">
+    <value>Login la site-ul nostru</value>
+  </data>
+  <data name="LoginWithSocialMedia" xml:space="preserve">
+    <value>.. .sau login cu:</value>
+  </data>
+  <data name="PasswordMatch" xml:space="preserve">
+    <value>Noua parolă și confirmarea parolei nu corespund.</value>
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>Număr de telefon</value>
+  </data>
+  <data name="RegisterNewUser" xml:space="preserve">
+    <value>Inregistreaza-te ca un utilizator nou</value>
+  </data>
+  <data name="StringLength" xml:space="preserve">
+    <value>{0} trebuie să fie cel puțin (2) de caractere.</value>
+  </data>
+  <data name="FillForm" xml:space="preserve">
+    <value>Completaţi formularul de mai jos pentru a obţine acces instantaneu.</value>
+  </data>
+  <data name="EmailInvalid" xml:space="preserve">
+    <value>Adresa de email nu este validă.</value>
+  </data>
+  <data name="SignUp" xml:space="preserve">
+    <value>înscrie-te</value>
+  </data>
+  <data name="SignUpInSeconds" xml:space="preserve">
+    <value>Înscrie-te secunde</value>
+  </data>
+  <data name="AlreadyMember" xml:space="preserve">
+    <value>Deja un membru?</value>
+  </data>
+  <data name="EmailLink" xml:space="preserve">
+    <value>Link-ul de e-mail</value>
+  </data>
+  <data name="EmailConfirmationCheck" xml:space="preserve">
+    <value>Vă rugăm să verificaţi adresa de email pentru activarea contului.</value>
+  </data>
+  <data name="EnterEmail" xml:space="preserve">
+    <value>Introduceţi adresa de email pentru a primi e-mail link-ul de resetare parola.</value>
+  </data>
+  <data name="Instruction" xml:space="preserve">
+    <value>Am trimis un e-mail, inclusiv un link de confirmare. Vă rugăm să verificaţi e-mail şi confirma abonamentul.</value>
+  </data>
+  <data name="InvalidLoginAttempt" xml:space="preserve">
+    <value>Încercare de conectare nevalide.</value>
+  </data>
+  <data name="Regards" xml:space="preserve">
+    <value>cu stimă</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>Mulţumesc pentru alături de noi!</value>
+  </data>
+  <data name="ThankYouFor" xml:space="preserve">
+    <value>Vă mulţumim pentru aderarea la</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>bun venit</value>
+  </data>
+  <data name="EnterVerificationCode" xml:space="preserve">
+    <value>Introduceţi codul de verificare.</value>
+  </data>
+  <data name="RememberBrowser" xml:space="preserve">
+    <value>Amintiţi-vă acest browser</value>
+  </data>
+  <data name="SelectTwoFactor" xml:space="preserve">
+    <value>Selectaţi metoda Two-Factor Authentication.</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Trimite</value>
+  </data>
+  <data name="TwoFactor" xml:space="preserve">
+    <value>Two-Factor Authentication</value>
+  </data>
+  <data name="TwoFactorType" xml:space="preserve">
+    <value>Two-Factor Authentication metoda</value>
+  </data>
+  <data name="VerificationCode" xml:space="preserve">
+    <value>Cod de verificare</value>
+  </data>
+  <data name="Verify" xml:space="preserve">
+    <value>Verifica acum</value>
+  </data>
+  <data name="ChangeAccountSettings" xml:space="preserve">
+    <value>Modificaţi setările contului.</value>
+  </data>
+  <data name="ExternalLogins" xml:space="preserve">
+    <value>Login-uri externe</value>
+  </data>
+  <data name="AddPhoneNumber" xml:space="preserve">
+    <value>Adauga numarul de telefon</value>
+  </data>
+  <data name="ChangeCurrentPassword" xml:space="preserve">
+    <value>Schimbare parola curentă.</value>
+  </data>
+  <data name="Disable" xml:space="preserve">
+    <value>Nu fi de acord</value>
+  </data>
+  <data name="Enable" xml:space="preserve">
+    <value>Permite</value>
+  </data>
+  <data name="ExploreOurSite" xml:space="preserve">
+    <value>Exploraţi site-ul nostru</value>
+  </data>
+  <data name="ManageLogins" xml:space="preserve">
+    <value>Gestionaţi datele de conectare externă</value>
+  </data>
+  <data name="PhoneNumberOption" xml:space="preserve">
+    <value>Adauga numarul de telefon pentru a putea primi codul de verificare.</value>
+  </data>
+  <data name="SetPassword" xml:space="preserve">
+    <value>Setaţi parola</value>
+  </data>
+  <data name="VerifyPhoneNumber" xml:space="preserve">
+    <value>Verificaţi dacă numărul de telefon</value>
+  </data>
+  <data name="VerifyPhoneNumberOption" xml:space="preserve">
+    <value>Introduceţi codul de verificare pentru a vă verifica identitatea. </value>
+  </data>
+  <data name="ChooseContentType" xml:space="preserve">
+    <value>--Alege tip conținut--</value>
+  </data>
+  <data name="ChooseLanguage" xml:space="preserve">
+    <value>-Alege limba-</value>
+  </data>
+  <data name="ChooseParentMenuItem" xml:space="preserve">
+    <value>--Alege părinte meniu element--</value>
+  </data>
+  <data name="ContentType" xml:space="preserve">
+    <value>Tip de conținut</value>
+  </data>
+  <data name="HasMenuItem" xml:space="preserve">
+    <value>Oferi un link de meniu?</value>
+  </data>
+  <data name="ChooseMenu" xml:space="preserve">
+    <value>--Alege meniul--</value>
+  </data>
+  <data name="FacebookUrl" xml:space="preserve">
+    <value>Facebook</value>
+  </data>
+  <data name="IsUrgent" xml:space="preserve">
+    <value>Arată în bara de urgente?</value>
+  </data>
+  <data name="Logo" xml:space="preserve">
+    <value>Logo-ul</value>
+  </data>
+  <data name="ParentMenuItem" xml:space="preserve">
+    <value>Elementul de meniu părinte</value>
+  </data>
+  <data name="StatusId" xml:space="preserve">
+    <value>Statutul</value>
+  </data>
+  <data name="TwitterUrl" xml:space="preserve">
+    <value>Stare de nervozitate</value>
+  </data>
+  <data name="YouTubeUrl" xml:space="preserve">
+    <value>YouTube</value>
+  </data>
+  <data name="AcademicJournal" xml:space="preserve">
+    <value>Revista de vocea elevilor</value>
+  </data>
+  <data name="ShortcutTitle" xml:space="preserve">
+    <value>Titlul de comenzi rapide</value>
+  </data>
+  <data name="NoArticles" xml:space="preserve">
+    <value>Nu există articole.</value>
+  </data>
+  <data name="Vacancy" xml:space="preserve">
+    <value>Job Annoucement</value>
+  </data>
+  <data name="Degree" xml:space="preserve">
+    <value>Grad </value>
+  </data>
+  <data name="Degrees" xml:space="preserve">
+    <value>Grade</value>
+  </data>
+  <data name="AddAttachments" xml:space="preserve">
+    <value>Adauga un alt Atasament...</value>
+  </data>
+  <data name="Applicant" xml:space="preserve">
+    <value>Solicitantul</value>
+  </data>
+  <data name="Requirements" xml:space="preserve">
+    <value>Cerinţele</value>
+  </data>
+  <data name="CoverLetter" xml:space="preserve">
+    <value>Scrisoare de intentie</value>
+  </data>
+  <data name="FileName" xml:space="preserve">
+    <value>Nume fisier</value>
+  </data>
+  <data name="Id" xml:space="preserve">
+    <value>Numărul de serie</value>
+  </data>
+  <data name="IsActive" xml:space="preserve">
+    <value>Este activă?</value>
+  </data>
+  <data name="VacancyType" xml:space="preserve">
+    <value>Tipul de post vacant</value>
+  </data>
+  <data name="Documents" xml:space="preserve">
+    <value>Documente</value>
+  </data>
+  <data name="Submissions" xml:space="preserve">
+    <value>Subscrieri</value>
+  </data>
+  <data name="SubmittedOn" xml:space="preserve">
+    <value>Data de Submittion</value>
+  </data>
+  <data name="Rank" xml:space="preserve">
+    <value>Rang academic</value>
+  </data>
+  <data name="Ranks" xml:space="preserve">
+    <value>Rândurile academice</value>
+  </data>
+  <data name="ChooseVacancy" xml:space="preserve">
+    <value>--Alege Job titlu--</value>
+  </data>
+  <data name="Applicants" xml:space="preserve">
+    <value>Solicitanţii</value>
+  </data>
+  <data name="ApplicantFullName" xml:space="preserve">
+    <value>Numele solicitantului</value>
+  </data>
+  <data name="Attachments" xml:space="preserve">
+    <value>Atasamente</value>
+  </data>
+  <data name="CurriculumVitae" xml:space="preserve">
+    <value>Curriculum Vitae</value>
+  </data>
+  <data name="DOB" xml:space="preserve">
+    <value>data naşterii</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Descarca</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Între femei şi bărbaţi</value>
+  </data>
+  <data name="JobTitle" xml:space="preserve">
+    <value>Titlu Job</value>
+  </data>
+  <data name="MiddleName" xml:space="preserve">
+    <value>Prenume</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>Mobil nr.</value>
+  </data>
+  <data name="ResumeFileName" xml:space="preserve">
+    <value>Curriculum Vitae</value>
+  </data>
+  <data name="ResumeFilePath" xml:space="preserve">
+    <value>Curriculum Vitae</value>
+  </data>
+  <data name="Submission" xml:space="preserve">
+    <value>Prezentarea</value>
+  </data>
+  <data name="NoParentItem" xml:space="preserve">
+    <value>--Nici un element părinte--</value>
+  </data>
+  <data name="ContentList" xml:space="preserve">
+    <value>Continut lista</value>
+  </data>
+  <data name="ItemContent" xml:space="preserve">
+    <value>Conţinut articol</value>
+  </data>
+  <data name="PleaseUploadFileOfType" xml:space="preserve">
+    <value>Vă rugăm să încărcaţi un fişier de tip:</value>
+  </data>
+  <data name="JobType" xml:space="preserve">
+    <value>Tip de muncă</value>
+  </data>
+  <data name="ListItem" xml:space="preserve">
+    <value>Element listă</value>
+  </data>
+  <data name="ListItems" xml:space="preserve">
+    <value>Lista articole</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Site-ul</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="Latitude" xml:space="preserve">
+    <value>Latitudine</value>
+  </data>
+  <data name="Longitude" xml:space="preserve">
+    <value>Longitudine</value>
+  </data>
+  <data name="Organization" xml:space="preserve">
+    <value>Organizarea</value>
+  </data>
+  <data name="Organizations" xml:space="preserve">
+    <value>Organizaţii</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="District" xml:space="preserve">
+    <value>Districtul</value>
+  </data>
+  <data name="Province" xml:space="preserve">
+    <value>Provincia</value>
+  </data>
+  <data name="POBox" xml:space="preserve">
+    <value>P.O. Box</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Informaţii de contact</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>Departamentul</value>
+  </data>
+  <data name="Office" xml:space="preserve">
+    <value>Birou</value>
+  </data>
+  <data name="PersonalTitle" xml:space="preserve">
+    <value>Personal titlul</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Poziţia</value>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>Contactati-ne</value>
+  </data>
+  <data name="OurLocationOnMap" xml:space="preserve">
+    <value>Locatia noastra pe hartă</value>
+  </data>
+  <data name="PersonalTitles" xml:space="preserve">
+    <value>PersonalTitles</value>
+  </data>
+  <data name="Extension" xml:space="preserve">
+    <value>Prelungire</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Număr de telefon</value>
+  </data>
+  <data name="ManageLists" xml:space="preserve">
+    <value>Gestionaţi listele</value>
+  </data>
+  <data name="Articles" xml:space="preserve">
+    <value>Articole</value>
+  </data>
+  <data name="ApplyNow" xml:space="preserve">
+    <value>Aplica acum</value>
+  </data>
+  <data name="Class" xml:space="preserve">
+    <value>Clasa CSS</value>
+  </data>
+  <data name="CopyRights" xml:space="preserve">
+    <value>Toate drepturile rezervate</value>
+  </data>
+  <data name="GooglePlusUrl" xml:space="preserve">
+    <value>Google Plus</value>
+  </data>
+  <data name="LinkedInUrl" xml:space="preserve">
+    <value>LinkedIn</value>
+  </data>
+  <data name="Privacy" xml:space="preserve">
+    <value>Confidentialitate</value>
+  </data>
+  <data name="RSS" xml:space="preserve">
+    <value>RSS Feed</value>
+  </data>
+  <data name="Terms" xml:space="preserve">
+    <value>Versuri</value>
+  </data>
+  <data name="WebDevelopedBy" xml:space="preserve">
+    <value>Numele de dezvoltator site-ul</value>
+  </data>
+  <data name="EnterYourEmail" xml:space="preserve">
+    <value>Introduceţi adresa de email...</value>
+  </data>
+  <data name="Explore" xml:space="preserve">
+    <value>Explora</value>
+  </data>
+  <data name="KeepInTouch" xml:space="preserve">
+    <value>ţinem legătura</value>
+  </data>
+  <data name="LatestNews" xml:space="preserve">
+    <value>Ultimele ştiri</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="Subscribe" xml:space="preserve">
+    <value>Aboneaza-te</value>
+  </data>
+  <data name="SubscriptionMessage" xml:space="preserve">
+    <value>Aboneaza-te la newsletter-ul nostru pentru a primi ştiri importante</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Adresa</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Se aplică</value>
+  </data>
+  <data name="Arrow" xml:space="preserve">
+    <value>icoana-lung-săgeată-dreapta</value>
+  </data>
+  <data name="For" xml:space="preserve">
+    <value>pentru</value>
+  </data>
+  <data name="MarginDirClass" xml:space="preserve">
+    <value>marja-stânga-10</value>
+  </data>
+  <data name="AllowedAttachmentExtensions" xml:space="preserve">
+    <value>Una sau mai multe attachmetns nu sunt valide: numai. PDF. DOCX. DOC. PNG. JPG. Fişiere JPEG sunt permise.</value>
+  </data>
+  <data name="AttachmentsNotes" xml:space="preserve">
+    <value>Vă rugăm să încărcaţi un ataşări de tip:. PDF. DOCX. DOC. PNG. JPG. JPEG</value>
+  </data>
+  <data name="CVNotes" xml:space="preserve">
+    <value>Vă rugăm să încărcaţi CV de tip:. PDF. DOCX. DOC</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Prezinte</value>
+  </data>
+  <data name="Program" xml:space="preserve">
+    <value>Programul</value>
+  </data>
+  <data name="Programs" xml:space="preserve">
+    <value>Programe</value>
+  </data>
+  <data name="JobAnnouncement" xml:space="preserve">
+    <value>Anunt de Job</value>
+  </data>
+  <data name="JobAnnouncements" xml:space="preserve">
+    <value>Anunturi de Job</value>
+  </data>
+  <data name="Departments" xml:space="preserve">
+    <value>Departamente</value>
+  </data>
+  <data name="EmployeeTypes" xml:space="preserve">
+    <value>Tipuri de angajat</value>
+  </data>
+  <data name="EmpInDepts" xml:space="preserve">
+    <value>Angajaţii departamentelor</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Angajaţii</value>
+  </data>
+  <data name="Occupation" xml:space="preserve">
+    <value>Ocupație</value>
+  </data>
+  <data name="Occupations" xml:space="preserve">
+    <value>Ocupaţii</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>Numele complet</value>
+  </data>
+  <data name="ImagePath" xml:space="preserve">
+    <value>Ce cale</value>
+  </data>
+  <data name="LandLine" xml:space="preserve">
+    <value>Nr. linie de teren</value>
+  </data>
+  <data name="OfficeNumber" xml:space="preserve">
+    <value>Biroul nr.</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Angajat</value>
+  </data>
+  <data name="ImageNotes" xml:space="preserve">
+    <value>Vă rugăm să încărcaţi o imagine de tip:. PNG. JPG. JPEG. BMP</value>
+  </data>
+  <data name="PersonalPhoto" xml:space="preserve">
+    <value>Foto personale</value>
+  </data>
+  <data name="ViewCV" xml:space="preserve">
+    <value>Vezi CV</value>
+  </data>
+  <data name="PersonalPhotoName" xml:space="preserve">
+    <value>Foto personale nume</value>
+  </data>
+  <data name="PersonalPhotoPath" xml:space="preserve">
+    <value>Foto personale</value>
+  </data>
+  <data name="UploadPersonalPhoto" xml:space="preserve">
+    <value>Încarcă foto personale</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>Manager</value>
+  </data>
+  <data name="AllLanguages" xml:space="preserve">
+    <value>Toate limbile</value>
+  </data>
+  <data name="Director" xml:space="preserve">
+    <value>Directorul</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>Răsfoire</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Notă</value>
+  </data>
+  <data name="AcademicInfo" xml:space="preserve">
+    <value>Info universitar</value>
+  </data>
+  <data name="Biography" xml:space="preserve">
+    <value>Biografie</value>
+  </data>
+  <data name="ContactInfo" xml:space="preserve">
+    <value>Informatii de contact</value>
+  </data>
+  <data name="PersonalInfo" xml:space="preserve">
+    <value>Informatii personale</value>
+  </data>
+  <data name="Manage" xml:space="preserve">
+    <value>Gestiona</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Elimina</value>
+  </data>
+  <data name="FillOutPersonalInfo" xml:space="preserve">
+    <value>Va rugam sa completati formularul de informatii personale.</value>
+  </data>
+  <data name="AccountSettings" xml:space="preserve">
+    <value>Setări cont</value>
+  </data>
+  <data name="ManageContacts" xml:space="preserve">
+    <value>Gestiona contactele</value>
+  </data>
+  <data name="ManagePublications" xml:space="preserve">
+    <value>Gestiona publicaţiile</value>
+  </data>
+  <data name="NoCVUploaded" xml:space="preserve">
+    <value>Nici un CV încărcat!</value>
+  </data>
+  <data name="NoPersonalPhotoUploaded" xml:space="preserve">
+    <value>Nici o foto personale încărcat!</value>
+  </data>
+  <data name="Publication" xml:space="preserve">
+    <value>Publicarea</value>
+  </data>
+  <data name="Publications" xml:space="preserve">
+    <value>Publicatii</value>
+  </data>
+  <data name="Abstract" xml:space="preserve">
+    <value>Rezumat</value>
+  </data>
+  <data name="CompletedProfile" xml:space="preserve">
+    <value>profil completat</value>
+  </data>
+  <data name="EmployeeType" xml:space="preserve">
+    <value>Tip de angajat</value>
+  </data>
+  <data name="ViewProfile" xml:space="preserve">
+    <value>Vezi profilul</value>
+  </data>
+  <data name="Hello" xml:space="preserve">
+    <value>bună</value>
+  </data>
+  <data name="OurStaffDirectory" xml:space="preserve">
+    <value>Directorul nostru personal</value>
+  </data>
+  <data name="SearchBy" xml:space="preserve">
+    <value>Căutare după</value>
+  </data>
+  <data name="SearchByDepartmet" xml:space="preserve">
+    <value>Căutare după departmet</value>
+  </data>
+  <data name="DuplicateEmail" xml:space="preserve">
+    <value>Adresa de e-mail este deja înregistrată.</value>
+  </data>
+  <data name="InvalidOrganizationEmail" xml:space="preserve">
+    <value>Introduceţi adresa de e-mail de lucru.</value>
+  </data>
+  <data name="DepartmentStaffList" xml:space="preserve">
+    <value>Listă de personalul departamentului</value>
+  </data>
+  <data name="SearchResult" xml:space="preserve">
+    <value>Rezultat de căutare</value>
+  </data>
+  <data name="DuplicateError" xml:space="preserve">
+    <value>Imposibil de inserat înregistrările dublate.</value>
+  </data>
+  <data name="EmployeeName" xml:space="preserve">
+    <value>Numele angajatului</value>
+  </data>
+  <data name="ClickHereToLogin" xml:space="preserve">
+    <value>Click aici pentru a intra în</value>
+  </data>
+  <data name="ConfirmEmail" xml:space="preserve">
+    <value>Confirmă E-mail</value>
+  </data>
+  <data name="ConfirmEmailThanks" xml:space="preserve">
+    <value>Vă mulţumesc pentru a confirma adresa de email.</value>
+  </data>
+  <data name="ForgotPasswordCheck" xml:space="preserve">
+    <value>Vă rugăm să verificaţi e-mailul pentru a reseta parola.</value>
+  </data>
+  <data name="ForgotPasswordConfirmation" xml:space="preserve">
+    <value>Am uitat parola de confirmare</value>
+  </data>
+  <data name="Please" xml:space="preserve">
+    <value>vă rog</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Resetare</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>Reseteaza parola</value>
+  </data>
+  <data name="ResetYourPassword" xml:space="preserve">
+    <value>Reseta parola.</value>
+  </data>
+  <data name="SecurityCode" xml:space="preserve">
+    <value>Cod de securitate</value>
+  </data>
+  <data name="ApplyFor" xml:space="preserve">
+    <value>Se aplică pentru</value>
+  </data>
+  <data name="ChooseDepartment" xml:space="preserve">
+    <value>--Alege Departamentul--</value>
+  </data>
+  <data name="SubmissionId" xml:space="preserve">
+    <value>Numărul cererii</value>
+  </data>
+  <data name="DownloadApplications" xml:space="preserve">
+    <value>Descarca aplicatii</value>
+  </data>
+  <data name="NotAvailable" xml:space="preserve">
+    <value>NEACSU</value>
+  </data>
+  <data name="GoCuteCMS" xml:space="preserve">
+    <value>Du-te la CuteCMS</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Eroare</value>
+  </data>
+  <data name="ErrorNotification" xml:space="preserve">
+    <value>Personalul nostru tehnic au fost notificate în mod automat şi va fi uitat în aceasta cu cea mai mare urgenţă.</value>
+  </data>
+  <data name="GenericError" xml:space="preserve">
+    <value>Ceva a mers prost.</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>Pagina pe care aţi solicitat nu poate fi găsit!</value>
+  </data>
+  <data name="NotPublished" xml:space="preserve">
+    <value>Pagina pe care aţi solicitat nu este publicat.</value>
+  </data>
+  <data name="NotTranslated" xml:space="preserve">
+    <value>Pagina pe care aţi solicitat nu este tradus.</value>
+  </data>
+  <data name="DataTableLanguage" xml:space="preserve">
+    <value>http://CDN.DataTables.net/plug-ins/1.10.12/i18n/English.JSON</value>
+  </data>
+  <data name="LanguageSelector" xml:space="preserve">
+    <value>Limba</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="PleaseUploadAttachments" xml:space="preserve">
+    <value>Vă rugăm să încărcaţi anexe necesare.</value>
+  </data>
+  <data name="Oops" xml:space="preserve">
+    <value>Oops!</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Acţiunile</value>
+  </data>
+  <data name="ColVis" xml:space="preserve">
+    <value>Coloana vizibilitate</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Copie</value>
+  </data>
+  <data name="ExportExcel" xml:space="preserve">
+    <value>Export Excel</value>
+  </data>
+  <data name="ExportPDF" xml:space="preserve">
+    <value>Export PDF</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Imprimare</value>
+  </data>
+  <data name="Reload" xml:space="preserve">
+    <value>Reîncărcare</value>
+  </data>
+  <data name="NoUpcomingEvents" xml:space="preserve">
+    <value>Nu există nici o evenimente viitoare.</value>
+  </data>
+  <data name="UpcomingEvents" xml:space="preserve">
+    <value>Evenimente viitoare</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Despre</value>
+  </data>
+  <data name="RnC" xml:space="preserve">
+    <value>Cercetări &amp; conferinte</value>
+  </data>
+  <data name="MyProfile" xml:space="preserve">
+    <value>Profilul meu</value>
+  </data>
+  <data name="NoRecordFound" xml:space="preserve">
+    <value>Nicio înregistrare găsită!</value>
+  </data>
+  <data name="ViewMySocialNetwork" xml:space="preserve">
+    <value>Vezi meu reţea socială.</value>
+  </data>
+  <data name="CssClass" xml:space="preserve">
+    <value>Clasa CSS</value>
+  </data>
+  <data name="Backend" xml:space="preserve">
+    <value>Back-end</value>
+  </data>
+  <data name="Frontend" xml:space="preserve">
+    <value>Frontend</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Imagine</value>
+  </data>
+  <data name="Visible" xml:space="preserve">
+    <value>Vizibil?</value>
+  </data>
+  <data name="IsDefault" xml:space="preserve">
+    <value>Este în mod implicit?</value>
+  </data>
+  <data name="PrimaryLogoName" xml:space="preserve">
+    <value>Nume logo-ul primar</value>
+  </data>
+  <data name="PrimaryLogoPath" xml:space="preserve">
+    <value>Logo-ul primar calea</value>
+  </data>
+  <data name="SecondaryLogoName" xml:space="preserve">
+    <value>Nume logo-ul secundar</value>
+  </data>
+  <data name="SecondaryLogoPath" xml:space="preserve">
+    <value>Logo-ul secundar calea</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Înălţimea</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>Lăţime</value>
+  </data>
+  <data name="ChooseRole" xml:space="preserve">
+    <value>--Alege rolul--</value>
+  </data>
+  <data name="ChooseStatus" xml:space="preserve">
+    <value>--Alege statutul--</value>
+  </data>
+  <data name="ChooseAuthor" xml:space="preserve">
+    <value>--Alege autor--</value>
+  </data>
+  <data name="ChooseTag" xml:space="preserve">
+    <value>--Alege tag-ul--</value>
+  </data>
+  <data name="CountryCode" xml:space="preserve">
+    <value>Codul de ţară</value>
+  </data>
+  <data name="CountryName" xml:space="preserve">
+    <value>Numele ţării</value>
+  </data>
+  <data name="IP" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="MetroCode" xml:space="preserve">
+    <value>Codul de metrou</value>
+  </data>
+  <data name="RegionCode" xml:space="preserve">
+    <value>Regiune Code</value>
+  </data>
+  <data name="RegionName" xml:space="preserve">
+    <value>Numele regiunii</value>
+  </data>
+  <data name="RequestDate" xml:space="preserve">
+    <value>Cerere data</value>
+  </data>
+  <data name="TimeZone" xml:space="preserve">
+    <value>Fusul orar</value>
+  </data>
+  <data name="Count" xml:space="preserve">
+    <value>Contele</value>
+  </data>
+  <data name="Translations" xml:space="preserve">
+    <value>Versuri</value>
+  </data>
+  <data name="VacancyUnableToDelete" xml:space="preserve">
+    <value>Imposibil de şters acest post vacant, deoarece acesta are legate de submission(s).</value>
+  </data>
+  <data name="ChoosePersonalTitle" xml:space="preserve">
+    <value>--Alege personal titlul--</value>
+  </data>
+  <data name="Acknowledgement" xml:space="preserve">
+    <value>Confirmare de primire</value>
+  </data>
+  <data name="ApplicationNumber" xml:space="preserve">
+    <value>Numărul dumneavoastră de cerere este:</value>
+  </data>
+  <data name="Dear" xml:space="preserve">
+    <value>Draga</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Valoarea</value>
+  </data>
+  <data name="FlagCode" xml:space="preserve">
+    <value>Codul de pavilion</value>
+  </data>
+  <data name="Flag" xml:space="preserve">
+    <value>Pavilion</value>
+  </data>
+  <data name="CultureName" xml:space="preserve">
+    <value>Nume cultură</value>
+  </data>
+  <data name="IsEnabled" xml:space="preserve">
+    <value>Este permis?</value>
+  </data>
+  <data name="SMTP" xml:space="preserve">
+    <value>SMTP</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Subiect</value>
+  </data>
+  <data name="Body" xml:space="preserve">
+    <value>Corpul</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>Notificare</value>
+  </data>
+  <data name="Term" xml:space="preserve">
+    <value>Traducere</value>
+  </data>
+  <data name="Attachment" xml:space="preserve">
+    <value>Ataşament</value>
+  </data>
+  <data name="Statistic" xml:space="preserve">
+    <value>Statistici</value>
+  </data>
+  <data name="SMTPSetting" xml:space="preserve">
+    <value>Setare SMTP</value>
+  </data>
+  <data name="ImageTag" xml:space="preserve">
+    <value>Tag-uri imagine</value>
+  </data>
+  <data name="JobTypes" xml:space="preserve">
+    <value>Tipuri de Job</value>
+  </data>
+  <data name="Genders" xml:space="preserve">
+    <value>Sexe</value>
+  </data>
+  <data name="PhoneNumbers" xml:space="preserve">
+    <value>Numere de telefon</value>
+  </data>
+  <data name="Notifications" xml:space="preserve">
+    <value>Notificări</value>
+  </data>
+  <data name="Contacts" xml:space="preserve">
+    <value>Persoane de contact</value>
+  </data>
+  <data name="ImageFiles" xml:space="preserve">
+    <value>Fişiere de imagini</value>
+  </data>
+  <data name="ContentLists" xml:space="preserve">
+    <value>Liste de conţinut</value>
+  </data>
+  <data name="HomeVisible" xml:space="preserve">
+    <value>Arată în pagina de pornire?</value>
+  </data>
+  <data name="TOC" xml:space="preserve">
+    <value>Termenul de utilizare</value>
+  </data>
+  <data name="ShowHeaderDate" xml:space="preserve">
+    <value>Arată datele</value>
+  </data>
+  <data name="ExpiredOn" xml:space="preserve">
+    <value>A expirat</value>
+  </data>
+  <data name="PublishedOn" xml:space="preserve">
+    <value>Publicat pe</value>
+  </data>
+  <data name="LastUpdatedOn" xml:space="preserve">
+    <value>Ultima actualizare pe</value>
+  </data>
+  <data name="InvalidPublishDate" xml:space="preserve">
+    <value>Publica data trebuie să fie mai mică sau egală cu data inceperii activitatii.</value>
+  </data>
+  <data name="InvalidExpiryDate" xml:space="preserve">
+    <value>Data expirării trebuie să fie mai mare sau egală cu activitate termenul.</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>La</value>
+  </data>
+  <data name="Till" xml:space="preserve">
+    <value>Pana la</value>
+  </data>
+  <data name="NoResult" xml:space="preserve">
+    <value>Nici un rezultat.</value>
+  </data>
+  <data name="BreakingNews" xml:space="preserve">
+    <value>Breaking News</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>Disponibile</value>
+  </data>
+  <data name="Skills" xml:space="preserve">
+    <value>Abilităţi</value>
+  </data>
+  <data name="Validity" xml:space="preserve">
+    <value>Valabilitate</value>
+  </data>
+  <data name="ChooseJobType" xml:space="preserve">
+    <value>--Alege tip job-</value>
+  </data>
+  <data name="AbsolutePath" xml:space="preserve">
+    <value>Calea absolută</value>
+  </data>
+  <data name="Keywords" xml:space="preserve">
+    <value>Cuvinte cheie</value>
+  </data>
+  <data name="PoweredBy" xml:space="preserve">
+    <value>oferit de</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>Calea</value>
+  </data>
+  <data name="UrgentExpiredOn" xml:space="preserve">
+    <value>Urgentă a expirat</value>
+  </data>
+  <data name="BackToHome" xml:space="preserve">
+    <value>înapoi la pagina de pornire acum!</value>
+  </data>
+  <data name="PageNotFound" xml:space="preserve">
+    <value>Nu a fost găsit</value>
+  </data>
+  <data name="PageNotTranslated" xml:space="preserve">
+    <value>Filme traduse nu</value>
+  </data>
+  <data name="PageNotPublished" xml:space="preserve">
+    <value>Pagina nu Pubished</value>
+  </data>
+  <data name="CreatePassword" xml:space="preserve">
+    <value>Creare parolă</value>
+  </data>
+  <data name="ResetPasswordConfirmation" xml:space="preserve">
+    <value>Resetare parolă confirmarea</value>
+  </data>
+  <data name="PasswordReset" xml:space="preserve">
+    <value>Parola a fost resetat.</value>
+  </data>
+  <data name="ClickLogin" xml:space="preserve">
+    <value>click aici pentru a intra în</value>
+  </data>
+  <data name="YourAppNumber" xml:space="preserve">
+    <value>Numarul cererii este</value>
+  </data>
+  <data name="ImageTags" xml:space="preserve">
+    <value>Tag-uri imagine</value>
+  </data>
+  <data name="SMTPSettings" xml:space="preserve">
+    <value>Setări SMTP</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Statistici</value>
+  </data>
+  <data name="Statuses" xml:space="preserve">
+    <value>Statusuri</value>
+  </data>
+  <data name="Vacancies" xml:space="preserve">
+    <value>Posturi vacante</value>
+  </data>
+  <data name="LockedOutMessage" xml:space="preserve">
+    <value>Acest cont a fost blocat, vă rugăm să încercaţi din nou mai târziu.</value>
+  </data>
+  <data name="LockedOut" xml:space="preserve">
+    <value>Încuiat afară</value>
+  </data>
+  <data name="TakeTour" xml:space="preserve">
+    <value>Faceţi un tur</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>Împărtăşiţi această pagină</value>
+  </data>
+  <data name="ForgotPasswordInstructions" xml:space="preserve">
+    <value>Completaţi formularul de mai jos pentru a primi un email cu codul de autorizare necesare pentru a reiniţializa parola.</value>
+  </data>
+  <data name="InvalidToken" xml:space="preserve">
+    <value>Semn nevalid</value>
+  </data>
+  <data name="ReadMore" xml:space="preserve">
+    <value>Citeste mai mult</value>
+  </data>
+  <data name="LogIn" xml:space="preserve">
+    <value>conectează-te</value>
+  </data>
+  <data name="Dimensions" xml:space="preserve">
+    <value>Dimensiuni</value>
+  </data>
+  <data name="GetInTouch" xml:space="preserve">
+    <value>Păstraţi legătura</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>Categorii</value>
+  </data>
+  <data name="YourName" xml:space="preserve">
+    <value>numele tău</value>
+  </data>
+  <data name="YourEmail" xml:space="preserve">
+    <value>Adresa de email</value>
+  </data>
+  <data name="SendMessage" xml:space="preserve">
+    <value>Trimite mesaj</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Mesaj</value>
+  </data>
+  <data name="SenderName" xml:space="preserve">
+    <value>numele tău</value>
+  </data>
+  <data name="Careers" xml:space="preserve">
+    <value>Cariere</value>
+  </data>
+  <data name="SocialNetwork" xml:space="preserve">
+    <value>Reţea socială</value>
+  </data>
+  <data name="SocialNetworks" xml:space="preserve">
+    <value>Reţelele sociale</value>
+  </data>
+  <data name="ShowAll" xml:space="preserve">
+    <value>Arată toate</value>
+  </data>
+  <data name="ChooseCategory" xml:space="preserve">
+    <value>--Alege categoria--</value>
+  </data>
+  <data name="AddressLine1" xml:space="preserve">
+    <value>Adresa linia 1</value>
+  </data>
+  <data name="AddressLine2" xml:space="preserve">
+    <value>Adresa linia 2</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Stat</value>
+  </data>
+  <data name="ZIP" xml:space="preserve">
+    <value>cod poştal</value>
+  </data>
+  <data name="Newsletter" xml:space="preserve">
+    <value>Newsletter-ul</value>
+  </data>
+  <data name="LatestTweets" xml:space="preserve">
+    <value>Ultimele Tweets</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>te rog să aştepţi...</value>
+  </data>
+  <data name="FollowUs" xml:space="preserve">
+    <value>Urmaţi-ne</value>
+  </data>
+  <data name="ChooseEmployeeType" xml:space="preserve">
+    <value>--Alege tip angajat--</value>
+  </data>
+  <data name="HasAccount" xml:space="preserve">
+    <value>A contul?</value>
+  </data>
+  <data name="EmailConfirmed" xml:space="preserve">
+    <value>E-mail confirmată?</value>
+  </data>
+  <data name="UsefulLinks" xml:space="preserve">
+    <value>Aici sunt cateva link-uri utile</value>
+  </data>
+  <data name="AwaitingTranslation" xml:space="preserve">
+    <value>În aşteptarea pentru traducere...</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Spate</value>
+  </data>
+  <data name="StaffDirectory" xml:space="preserve">
+    <value>Director de personal</value>
+  </data>
+  <data name="SubscribedToMailingList" xml:space="preserve">
+    <value> Aţi fost adăugat la lista noastră de difuzare.</value>
+  </data>
+  <data name="ThankYouForInterest" xml:space="preserve">
+    <value>Vă mulţumim pentru interesul dumneavoastră în cele mai recente actualizări noastre. La scurt timp veţi primi un e-mail de confirmare abonamentul.</value>
+  </data>
+  <data name="DeleteProfileConfirmation" xml:space="preserve">
+    <value>Sunteţi sigur că doriţi să ştergeţi-vă profilul?</value>
+  </data>
+  <data name="DeleteProfile" xml:space="preserve">
+    <value>Şterge profilul meu</value>
+  </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>Galerie foto</value>
+  </data>
+  <data name="ChooseGallery" xml:space="preserve">
+    <value>--Alege Galerie foto--</value>
+  </data>
+  <data name="Galleries" xml:space="preserve">
+    <value>Galerii foto</value>
+  </data>
+  <data name="GalleryCategory" xml:space="preserve">
+    <value>Categorie</value>
+  </data>
+  <data name="GalleryCategories" xml:space="preserve">
+    <value>Categorii</value>
+  </data>
+  <data name="UrlSlug" xml:space="preserve">
+    <value>Link-ul prietenos</value>
+  </data>
+  <data name="Url" xml:space="preserve">
+    <value>Link-ul</value>
+  </data>
+  <data name="DeveloperURL" xml:space="preserve">
+    <value>Site-ul dezvoltatorului</value>
+  </data>
+  <data name="Reference" xml:space="preserve">
+    <value>Referinţă</value>
+  </data>
+  <data name="ContentItems" xml:space="preserve">
+    <value>Elemente de conţinut</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Setări</value>
+  </data>
+  <data name="Recruitment" xml:space="preserve">
+    <value>Recrutare</value>
+  </data>
+  <data name="Identity" xml:space="preserve">
+    <value>Identitate</value>
+  </data>
+  <data name="Lorem1" xml:space="preserve">
+    <value>Cel mai rapid mod de a vă dezvolta afacerea.</value>
+  </data>
+  <data name="Lorem2" xml:space="preserve">
+    <value>Check out noastre opţiuni şi caracteristicile incluse.</value>
+  </data>
+  <data name="GetStarted" xml:space="preserve">
+    <value>Începeţi acum!</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>sau</value>
+  </data>
+  <data name="LearnMore" xml:space="preserve">
+    <value>află mai multe.</value>
+  </data>
+  <data name="Lorem3" xml:space="preserve">
+    <value>Acest text este un exemplu de text care poate fi înlocuit în acelaşi spaţiu, acest text a fost generat de Generatorul de text în latină.</value>
+  </data>
+  <data name="January" xml:space="preserve">
+    <value>Ianuarie</value>
+  </data>
+  <data name="JohnSmith" xml:space="preserve">
+    <value>John Smith</value>
+  </data>
+  <data name="JobTitleName" xml:space="preserve">
+    <value>CEO &amp; fondator - firma ABC</value>
+  </data>
+  <data name="WhatClientsSay" xml:space="preserve">
+    <value>Ce spun clientii</value>
+  </data>
+  <data name="LoremTitle" xml:space="preserve">
+    <value>Acest text este un exemplu de text care poate fi înlocuit în acelaşi spaţiu.</value>
+  </data>
+  <data name="UploadIcon" xml:space="preserve">
+    <value>incarcati icoana:</value>
+  </data>
+  <data name="UploadImage" xml:space="preserve">
+    <value>Incarca Imagine</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>Sumar</value>
+  </data>
+  <data name="Icon" xml:space="preserve">
+    <value>Pictogramă</value>
+  </data>
+  <data name="PleaseUploadIconOfType" xml:space="preserve">
+    <value>Încărcați o pictogramă de tip :!</value>
+  </data>
+  <data name="IconNotes" xml:space="preserve">
+    <value>Încărcați o pictogramă de tip: .PNG!</value>
+  </data>
+  <data name="IconName" xml:space="preserve">
+    <value>Pictogramă</value>
+  </data>
+  <data name="IconPath" xml:space="preserve">
+    <value>Iconiță</value>
+  </data>
+  <data name="MeetOurTeam" xml:space="preserve">
+    <value>Echipa noastră</value>
+  </data>
+  <data name="MainDepts" xml:space="preserve">
+    <value>Departamente</value>
+  </data>
+  <data name="PrimaryCaption" xml:space="preserve">
+    <value>Semnătură primară</value>
+  </data>
+  <data name="SecondaryCaption" xml:space="preserve">
+    <value>Subtitrări secundare</value>
+  </data>
+  <data name="TertiaryCaption" xml:space="preserve">
+    <value>Titlu terțiar</value>
+  </data>
+  <data name="MedicalTreatment" xml:space="preserve">
+    <value>Tratament medical</value>
+  </data>
+  <data name="DoctorsTimetable" xml:space="preserve">
+    <value>Orar medici</value>
+  </data>
+  <data name="OpeningHours" xml:space="preserve">
+    <value>Orar de lucru</value>
+  </data>
+  <data name="EmergencyCase" xml:space="preserve">
+    <value>Caz de urgenţă</value>
+  </data>
+  <data name="Sunday" xml:space="preserve">
+    <value>Duminică</value>
+  </data>
+  <data name="Monday" xml:space="preserve">
+    <value>Luni</value>
+  </data>
+  <data name="Tuesday" xml:space="preserve">
+    <value>Marți</value>
+  </data>
+  <data name="Wednesday" xml:space="preserve">
+    <value>Miercuri</value>
+  </data>
+  <data name="Thursday" xml:space="preserve">
+    <value>Joi</value>
+  </data>
+  <data name="Friday" xml:space="preserve">
+    <value>Vineri</value>
+  </data>
+  <data name="Saturday" xml:space="preserve">
+    <value>Sâmbătă</value>
+  </data>
+  <data name="Subtitle" xml:space="preserve">
+    <value>Subtitlu</value>
+  </data>
+  <data name="ViewMore" xml:space="preserve">
+    <value>Afisare mai multe</value>
+  </data>
+  <data name="Doctors" xml:space="preserve">
+    <value>Doctori</value>
+  </data>
+  <data name="OurSpecialists" xml:space="preserve">
+    <value>Specialiștii noștri</value>
+  </data>
+  <data name="Staff" xml:space="preserve">
+    <value>Personal</value>
+  </data>
+  <data name="MedicalStaff" xml:space="preserve">
+    <value>cadre medico-sanitare</value>
+  </data>
+  <data name="LatestEvents" xml:space="preserve">
+    <value>Ultimele evenimente</value>
+  </data>
+  <data name="DoctorName" xml:space="preserve">
+    <value>Nume medic</value>
+  </data>
+  <data name="DoctorType" xml:space="preserve">
+    <value>Dr.</value>
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>Număr port</value>
+  </data>
+  <data name="EnableSsl" xml:space="preserve">
+    <value>Activare</value>
+  </data>
+  <data name="SenderEmail" xml:space="preserve">
+    <value>Email Expeditor</value>
+  </data>
+  <data name="SenderPassword" xml:space="preserve">
+    <value>Parola de expeditor!</value>
+  </data>
+  <data name="RecipientEmail" xml:space="preserve">
+    <value>E-mail destinatar</value>
+  </data>
+  <data name="VisitorCounter" xml:space="preserve">
+    <value>Contor vizitatori</value>
+  </data>
+  <data name="RoleInUse" xml:space="preserve">
+    <value>Acest nume de rol a fost deja folosit.</value>
+  </data>
+  <data name="Administration" xml:space="preserve">
+    <value>Administrare</value>
+  </data>
+  <data name="SystemSettings" xml:space="preserve">
+    <value>Setări sistem</value>
+  </data>
+  <data name="InvalidCode" xml:space="preserve">
+    <value>Invalid</value>
+  </data>
+  <data name="UserExist" xml:space="preserve">
+    <value>:Atributul a fost deja luat.</value>
+  </data>
+  <data name="FailedToVerifyPhone" xml:space="preserve">
+    <value>Telefon!</value>
+  </data>
+  <data name="Maintenance" xml:space="preserve">
+    <value>Mentenanță</value>
+  </data>
+  <data name="Forms" xml:space="preserve">
+    <value>Formulare</value>
+  </data>
+  <data name="DontHaveAccount" xml:space="preserve">
+    <value>Nu aveți înca un cont!</value>
+  </data>
+  <data name="Page" xml:space="preserve">
+    <value>Pagina</value>
+  </data>
+  <data name="Of" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="TotalRows" xml:space="preserve">
+    <value>TOTAL (rd.</value>
+  </data>
+  <data name="ChooseMaintenanceType" xml:space="preserve">
+    <value>--Alege întreţinere tip--!</value>
+  </data>
+  <data name="ChooseInventory" xml:space="preserve">
+    <value>Inventar</value>
+  </data>
+  <data name="ChooseModel" xml:space="preserve">
+    <value>Alege</value>
+  </data>
+  <data name="ChooseSite" xml:space="preserve">
+    <value>Alege</value>
+  </data>
+  <data name="ChooseManufacturer" xml:space="preserve">
+    <value>--Alege Producator--!</value>
+  </data>
+  <data name="DeviceCard" xml:space="preserve">
+    <value>Dispozitiv</value>
+  </data>
+  <data name="Installation" xml:space="preserve">
+    <value>Instalare</value>
+  </data>
+  <data name="BasicInformation" xml:space="preserve">
+    <value>Informații de bază</value>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>Lună</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>An</value>
+  </data>
+  <data name="ChooseFormStatus" xml:space="preserve">
+    <value>--Selectați forma -</value>
+  </data>
+  <data name="ChooseDataType" xml:space="preserve">
+    <value>--Selectați tipul de date--!</value>
+  </data>
+  <data name="Form" xml:space="preserve">
+    <value>Denumire formular</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Raport</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>Rapoarte</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>Prelucrare</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Următorul</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Anterior</value>
+  </data>
+  <data name="SummaryMessage" xml:space="preserve">
+    <value>Arătând {0} la {1} (2) intrările!</value>
+  </data>
+  <data name="Fields" xml:space="preserve">
+    <value>Câmpuri</value>
+  </data>
+  <data name="Reorder" xml:space="preserve">
+    <value>Reordonare</value>
+  </data>
+  <data name="Sections" xml:space="preserve">
+    <value>Restaurante</value>
+  </data>
+  <data name="Section" xml:space="preserve">
+    <value>Secţiune</value>
+  </data>
+  <data name="Choices" xml:space="preserve">
+    <value>Alegeri</value>
+  </data>
+  <data name="Choice" xml:space="preserve">
+    <value>Alegere</value>
+  </data>
+  <data name="DataType" xml:space="preserve">
+    <value>Tip de date</value>
+  </data>
+  <data name="DataTypes" xml:space="preserve">
+    <value>X. Categorii de date cu caracter special</value>
+  </data>
+  <data name="Field" xml:space="preserve">
+    <value>Câmp</value>
+  </data>
+  <data name="Property" xml:space="preserve">
+    <value>Proprietate</value>
+  </data>
+  <data name="Properties" xml:space="preserve">
+    <value>Proprietăți</value>
+  </data>
+  <data name="ChoiceList" xml:space="preserve">
+    <value>Alegere</value>
+  </data>
+  <data name="Values" xml:space="preserve">
+    <value>Valori</value>
+  </data>
+  <data name="ChoiceLists" xml:space="preserve">
+    <value>Alegere</value>
+  </data>
+  <data name="WorkflowPath" xml:space="preserve">
+    <value>Flux de lucru</value>
+  </data>
+  <data name="Workflow" xml:space="preserve">
+    <value>Flux de lucru</value>
+  </data>
+  <data name="WorkflowSettings" xml:space="preserve">
+    <value>Setări flux de lucru</value>
+  </data>
+  <data name="EmpNumber" xml:space="preserve">
+    <value>ID angajat</value>
+  </data>
+  <data name="EmpNumberInvalid" xml:space="preserve">
+    <value>E-mail nu este valida</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Închideți</value>
+  </data>
+  <data name="Approval" xml:space="preserve">
+    <value>Aprobare:</value>
+  </data>
+  <data name="ActionStatus" xml:space="preserve">
+    <value>Planuri de acțiune statutul</value>
+  </data>
+  <data name="ChangeStatusConfirmation" xml:space="preserve">
+    <value>Sunteţi sigur că doriți să schimbați starea la finalizat?</value>
+  </data>
+  <data name="PendingPrev" xml:space="preserve">
+    <value>Nivelul precedent</value>
+  </data>
+  <data name="PendingNext" xml:space="preserve">
+    <value>Incarca Următorul Nivel</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Finalizat</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>Listă</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Actualizeaza</value>
+  </data>
+  <data name="ChooseFields" xml:space="preserve">
+    <value>Selectați câmpurile obligatorii</value>
+  </data>
+  <data name="ApprovalTracking" xml:space="preserve">
+    <value>Aprobare:</value>
+  </data>
+  <data name="ActionDate" xml:space="preserve">
+    <value>Acțiune</value>
+  </data>
+  <data name="ChooseGroup" xml:space="preserve">
+    <value>--Alege Grupa--!</value>
+  </data>
+  <data name="Items" xml:space="preserve">
+    <value>Elemente</value>
+  </data>
+  <data name="SubmissionDate" xml:space="preserve">
+    <value>Submission</value>
+  </data>
+  <data name="ChangeUserName" xml:space="preserve">
+    <value>Schimbare nume de utilizator</value>
+  </data>
+  <data name="ChangeUserEmail" xml:space="preserve">
+    <value>Schimba e-mail</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>&amp;Da</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>&amp;Nu</value>
+  </data>
+  <data name="DeleteAccount" xml:space="preserve">
+    <value>Ștergeți contul</value>
+  </data>
+  <data name="ChangeConfirmEmail" xml:space="preserve">
+    <value>Confirmare adresă E-mail</value>
+  </data>
+  <data name="AccountSummary" xml:space="preserve">
+    <value>Rezumat cont</value>
+  </data>
+  <data name="SendVerificationCode" xml:space="preserve">
+    <value>Trimiteți codul de verificare</value>
+  </data>
+  <data name="RecordCreated" xml:space="preserve">
+    <value>Înregistrare creată la</value>
+  </data>
+  <data name="RecordCreatedSuccessfully" xml:space="preserve">
+    <value>Alerta creata cu succes</value>
+  </data>
+  <data name="RecordUpdated" xml:space="preserve">
+    <value>Înregistrare actualizată.</value>
+  </data>
+  <data name="RecordUpdatedSuccessfully" xml:space="preserve">
+    <value>&lt;strong&gt;Înregistrare actualizată cu succes&lt;/strong&gt;</value>
+  </data>
+  <data name="RecordDeleted" xml:space="preserve">
+    <value>Înregistrare ştearsă!</value>
+  </data>
+  <data name="RecordDeletedSuccessfully" xml:space="preserve">
+    <value>Înregistrarea a fost șters cu succes!</value>
+  </data>
+  <data name="NoUsersInRole" xml:space="preserve">
+    <value>Utilizatorii nu găsesc în acest rol.!</value>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>Permisiuni</value>
+  </data>
+  <data name="NoPermissionsInGroup" xml:space="preserve">
+    <value>Nu a fost gasit nici un participant la acest curs.</value>
+  </data>
+  <data name="ListGroupPermissions" xml:space="preserve">
+    <value>Toți asociatii tăi aparțin deja acestui grup.</value>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>Modificare</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Adăugare</value>
+  </data>
+  <data name="TFAEnabled" xml:space="preserve">
+    <value>Autentificare cu doi factori activată</value>
+  </data>
+  <data name="TFADisabled" xml:space="preserve">
+    <value>Două autentificarea Factor este în prezent dezactivată:!</value>
+  </data>
+  <data name="TFABrowserRemembered" xml:space="preserve">
+    <value>Autentificare cu doi factori</value>
+  </data>
+  <data name="ListUserPermissions" xml:space="preserve">
+    <value>Lista de utilizatori în acest rol:!</value>
+  </data>
+  <data name="NoGroupsForUser" xml:space="preserve">
+    <value>Nu grupuri găsit pentru acest utilizator.!</value>
+  </data>
+  <data name="ListGroupsForUser" xml:space="preserve">
+    <value>Aplicația poate vizualiza toate grupurile la care aparține utilizatorul conectat în prezent.</value>
+  </data>
+  <data name="NoPermissionsForUser" xml:space="preserve">
+    <value>Nici un anunț găsit pentru această comandă!</value>
+  </data>
+  <data name="EmailStatus" xml:space="preserve">
+    <value>Status email</value>
+  </data>
+  <data name="Confirmed" xml:space="preserve">
+    <value>Confirmat</value>
+  </data>
+  <data name="Unconfirmed" xml:space="preserve">
+    <value>Neconfirmat</value>
+  </data>
+  <data name="TFABrowserNotRemembered" xml:space="preserve">
+    <value>Browser-ul nu este amintit în prezent pentru doi autentificare Factor:!</value>
+  </data>
+  <data name="ListUsersInPermission" xml:space="preserve">
+    <value>Lista de utilizatori aparţine această permisiune:!</value>
+  </data>
+  <data name="ConfirmAccount" xml:space="preserve">
+    <value>Confirmați contul</value>
+  </data>
+  <data name="ConfirmAccountMessage" xml:space="preserve">
+    <value>Vă rugăm să confirmaţi contul făcând clic pe acest link!</value>
+  </data>
+  <data name="ResetPasswordMessage" xml:space="preserve">
+    <value>Vă rugăm să resetaţi parola aici!</value>
+  </data>
+  <data name="ConfirmNewPassword" xml:space="preserve">
+    <value>Confirmare parolă nouă</value>
+  </data>
+  <data name="GroupExist" xml:space="preserve">
+    <value>Grupul există deja.</value>
+  </data>
+  <data name="ForgetBrowser" xml:space="preserve">
+    <value>Uita acest browser</value>
+  </data>
+  <data name="ChangePasswordSuccess" xml:space="preserve">
+    <value>Parola s-a modificat.</value>
+  </data>
+  <data name="SetPasswordSuccess" xml:space="preserve">
+    <value>Parola dumneavoastră a fost setată</value>
+  </data>
+  <data name="SetTwoFactorSuccess" xml:space="preserve">
+    <value>Furnizorul dvs. de două factor a fost setat.</value>
+  </data>
+  <data name="AddPhoneSuccess" xml:space="preserve">
+    <value>Numarul de telefon a fost adăugat.</value>
+  </data>
+  <data name="RemovePhoneSuccess" xml:space="preserve">
+    <value>Numărul dvs. de telefon a fost eliminat.</value>
+  </data>
+  <data name="Showing" xml:space="preserve">
+    <value>Prezintă</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>Către</value>
+  </data>
+  <data name="Entries" xml:space="preserve">
+    <value>Intrări</value>
+  </data>
+  <data name="Documentation" xml:space="preserve">
+    <value>Documentație</value>
+  </data>
+  <data name="BuyNow" xml:space="preserve">
+    <value>Cumpărați acum</value>
+  </data>
+  <data name="Searching" xml:space="preserve">
+    <value>Se caută...</value>
+  </data>
+  <data name="Roles1" xml:space="preserve">
+    <value>Roluri</value>
+  </data>
+  <data name="Role1" xml:space="preserve">
+    <value>Rol</value>
+  </data>
+  <data name="CRMModules" xml:space="preserve">
+    <value>Module</value>
+  </data>
+  <data name="Sales" xml:space="preserve">
+    <value>Vânzări</value>
+  </data>
+  <data name="Marketing" xml:space="preserve">
+    <value>Marketing</value>
+  </data>
+  <data name="Operations" xml:space="preserve">
+    <value>Operațiuni</value>
+  </data>
+  <data name="Accounting" xml:space="preserve">
+    <value>Contabilitate</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>Asistență</value>
+  </data>
+  <data name="DefaultPasswordFor" xml:space="preserve">
+    <value>Parola implicită:</value>
+  </data>
+  <data name="DefaultUserPassword" xml:space="preserve">
+    <value>Parola implicită:</value>
+  </data>
+  <data name="AdminUsername" xml:space="preserve">
+    <value>Nume de utilizator:</value>
+  </data>
+  <data name="AdminPassword" xml:space="preserve">
+    <value>Este necesară parola administratorului:</value>
+  </data>
+</root>

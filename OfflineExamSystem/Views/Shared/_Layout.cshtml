@@ -1,0 +1,61 @@
+﻿@using OfflineExamSystem.Helpers
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Offline Exam System</title>
+    <meta name="description" content="Offline Exam System Project is an open source group-based user management and access control solution that can be used as starting point for new web applications with modern UI and solid architecture. Offline Exam System Project written using ASP.NET MVC 5, Entity Framework 6 and ASP.NET Identity 2.2.1 which is the latest identity management library from the ASP.NET team." />
+    @Styles.Render("~/Content/style")
+    @if (CultureHelper.IsRighToLeft())
+    {
+        <link rel="stylesheet" href="//cdn.rawgit.com/morteza/bootstrap-rtl/v3.3.4/dist/css/bootstrap-rtl.min.css">
+    }
+    <link href="~/Content/MvcGrid/mvc-grid.css" rel="stylesheet">
+    <link href="~/Content/jquery.toast.css" rel="stylesheet" />
+    <link href="~/assets/plugins/select2/custom-select/custom-select.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/Custom.css" rel="stylesheet" />
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Offline Exam System", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink(Resources.Resources.Home, "Index", "Home", new { area = "" }, null)</li>
+                    <li>@Html.ActionLink(Resources.Resources.Roles1, "Index", "RolesAdmin", new { area = "" }, null)</li>
+                    <li>@Html.ActionLink(Resources.Resources.Users, "Index", "UsersAdmin", new { area = "" }, null)</li>
+                    <li>@Html.ActionLink(Resources.Resources.Groups, "Index", "GroupsAdmin", new { area = "" }, null)</li>
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Offline Exam System</p>
+        </footer>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/jqueryval")
+    <script src="~/Scripts/MvcGrid/mvc-grid.js"></script>
+    <script src="~/Scripts/jquery.toast.js"></script>
+    <script src="~/assets/plugins/select2/custom-select/custom-select.min.js"></script>
+    <script>
+        $('.mvc-grid').mvcgrid();
+    </script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

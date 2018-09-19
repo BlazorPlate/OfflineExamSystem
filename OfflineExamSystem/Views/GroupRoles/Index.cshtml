@@ -1,0 +1,141 @@
+﻿@using System.Threading
+@{
+    ViewBag.Title = Resources.Resources.ListGroupPermissions;
+}
+<div class="panel panel-default m-t-20">
+    <div class="panel-heading">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/@Thread.CurrentThread.CurrentCulture.Name">@Resources.Resources.Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page"><a href="@Url.Action("Index","GroupsAdmin")">@Resources.Resources.Groups</a></li>
+                <li class="breadcrumb-item active" aria-current="page">@Resources.Resources.ListGroupPermissions [@ViewBag.GroupName]</li>
+            </ol>
+        </nav>
+        <div class="form-inline">
+            <div class="form-group">
+                @Html.TextBox("name", null, new { @class = "form-control", @placeholder = Resources.Resources.Name })
+            </div>
+            <button type="button" id="filter" class="btn btn-primary">
+                <i class="fa fa-search" aria-hidden="true"></i> @Resources.Resources.Search
+            </button>
+            <button type="button" class="btn btn-primary add pull-right" data-id="@ViewBag.GroupId" data-toggle="modal" data-target="#addModal">
+                <i class="fa fa-plus" aria-hidden="true"></i> @Resources.Resources.Create
+            </button>
+        </div>
+    </div>
+    <div class="panel-body">
+        @Html.AjaxGrid(Url.Action("GroupRolesGrid", new { id = ViewBag.GroupId }))
+    </div>
+</div>
+<!--Create Modal -->
+<div class="modal fade" id="addModal" role="dialog" aria-labelledby="addLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div id='addContainer'></div>
+    </div>
+</div>
+<!--Delete Modal -->
+<div class="modal fade" id="deleteModal" role="dialog" aria-labelledby="deleteLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div id='deleteContainer'></div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script>
+        $("#filter").click(function (e) {
+            $('.mvc-grid').mvcgrid({
+                query: 'name=' + $('#name').val(),
+                reload: true
+            });
+        });
+    </script>
+    <!--Create Modal Script -->
+    <script>
+        $(function () {
+            $(document).on('click', '.add', function () {
+                var url = '@Url.Action("Add", "GroupRoles")';
+                var $buttonClicked = $(this);
+                var id = $buttonClicked.attr('data-id');
+                $.ajax({
+                    type: "GET",
+                    url: url,
+                    contentType: "application/json; charset=utf-8",
+                    data: { "Id": id },
+                    datatype: "json",
+                    success: function (data) {
+                        $('#addContainer').html(data);
+                        $('#addModal').modal('show');
+                    },
+                    error: function () {
+                        alert("Dynamic content load failed.");
+                    }
+                });
+            });
+            $("#closbtn").click(function () {
+                $('#addModal').modal('hide');
+            });
+        });
+
+        function OnSuccessAdd(data) {
+            if (data.Success) {
+                $('#addModal').modal('hide');
+                $('.mvc-grid').mvcgrid({ reload: true });
+                $.toast({
+                    heading: '@Resources.Resources.RecordCreated',
+                    text: '@Resources.Resources.RecordCreatedSuccessfully',
+                    position: 'top-right',
+                    loaderBg: '#ff6849',
+                    icon: 'success',
+                    hideAfter: 3000,
+                    stack: 6
+                });
+            }
+        }
+    </script>
+    <!--Delete Modal Script -->
+    <script>
+        $(function () {
+            $(document).on('click', '.delete', function () {
+                var url = '@Url.Action("Delete", "GroupRoles")';
+                var $buttonClicked = $(this);
+                var groupId = $buttonClicked.attr('data-group-id');
+                var roleId = $buttonClicked.attr('data-role-id');
+
+                $.ajax({
+                    type: "GET",
+                    url: url,
+                    contentType: "application/json; charset=utf-8",
+                    data: { "groupId": groupId, "roleId": roleId},
+                    datatype: "json",
+                    success: function (data) {
+                        $('#deleteContainer').html(data);
+                        $('#deleteModal').modal('show');
+                    },
+                    error: function () {
+                        alert("Dynamic content load failed.");
+                    }
+                });
+            });
+            $("#closbtn").click(function () {
+                $('#deleteModal').modal('hide');
+            });
+        });
+        function OnSuccessDelete(data) {
+            if (data.Success) {
+                $('#deleteModal').modal('hide');
+                $('.mvc-grid').mvcgrid({ reload: true });
+                $.toast({
+                    heading: '@Resources.Resources.RecordDeleted',
+                    text: '@Resources.Resources.RecordDeletedSuccessfully',
+                    position: 'top-right',
+                    loaderBg: '#ff6849',
+                    icon: 'error',
+                    hideAfter: 3000,
+                    stack: 6
+                });
+            }
+        }
+    </script>
+
+}

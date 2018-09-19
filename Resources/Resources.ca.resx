@@ -1,0 +1,2103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BackToList" xml:space="preserve">
+    <value>Tornar al llistat</value>
+  </data>
+  <data name="Calendar" xml:space="preserve">
+    <value>Calendari</value>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>Configuració</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Confirmar contrasenya</value>
+  </data>
+  <data name="ConfirmPasswordCompare" xml:space="preserve">
+    <value>Contrasenya i confirmació de la contrasenya no coincideixen</value>
+  </data>
+  <data name="Contents" xml:space="preserve">
+    <value>Continguts</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Crear</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Suprimir</value>
+  </data>
+  <data name="DeleteConfirmation" xml:space="preserve">
+    <value>Esteu segur que voleu suprimir aquest?</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Descripció</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Detalls</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Correu electrònic</value>
+  </data>
+  <data name="EmailRegularExpression" xml:space="preserve">
+    <value>Correu electrònic no és vàlida.</value>
+  </data>
+  <data name="Events" xml:space="preserve">
+    <value>Esdeveniments</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Grup</value>
+  </data>
+  <data name="GroupRolesAssignment" xml:space="preserve">
+    <value>Funcions assignades per grup:</value>
+  </data>
+  <data name="Groups" xml:space="preserve">
+    <value>Grups</value>
+  </data>
+  <data name="GroupsAssignment" xml:space="preserve">
+    <value>Grups assignades per usuari:</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Casa</value>
+  </data>
+  <data name="Images" xml:space="preserve">
+    <value>Imatges</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Llengua</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Cognom</value>
+  </data>
+  <data name="LogOff" xml:space="preserve">
+    <value>Tanca la sessió</value>
+  </data>
+  <data name="LogOn" xml:space="preserve">
+    <value>Connecti's</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Contrasenya</value>
+  </data>
+  <data name="PasswordStringLength" xml:space="preserve">
+    <value>Contrasenya ha de tenir com a mínim 6 caràcters de longitud.</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>Paper</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Rols</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Registre</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Desa</value>
+  </data>
+  <data name="SelectGroups" xml:space="preserve">
+    <value>Seleccioneu grup</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>L'usuari</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Nom d'usuari</value>
+  </data>
+  <data name="UserRolesAssignment" xml:space="preserve">
+    <value>Funcions assignades per l'usuari:</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Usuaris</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="CreatedOn" xml:space="preserve">
+    <value>Data de creació</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>Data de finalització de l'activitat</value>
+  </data>
+  <data name="Index" xml:space="preserve">
+    <value>Índex</value>
+  </data>
+  <data name="IsPublished" xml:space="preserve">
+    <value>Publicat?</value>
+  </data>
+  <data name="IsTranslated" xml:space="preserve">
+    <value>Es tradueix?</value>
+  </data>
+  <data name="LanguageId" xml:space="preserve">
+    <value>ID de llengua</value>
+  </data>
+  <data name="ModifiedBy" xml:space="preserve">
+    <value>Última modificació per</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Localització</value>
+  </data>
+  <data name="ModifiedOn" xml:space="preserve">
+    <value>Data de modificació</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Data d'inici d'activitat</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Títol</value>
+  </data>
+  <data name="TranslationId" xml:space="preserve">
+    <value>Traducció</value>
+  </data>
+  <data name="Event" xml:space="preserve">
+    <value>Esdeveniment</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>Arxiu</value>
+  </data>
+  <data name="FilePath" xml:space="preserve">
+    <value>Camí del fitxer</value>
+  </data>
+  <data name="MIME" xml:space="preserve">
+    <value>MIM</value>
+  </data>
+  <data name="Tag" xml:space="preserve">
+    <value>Etiqueta</value>
+  </data>
+  <data name="Tags" xml:space="preserve">
+    <value>Etiquetes</value>
+  </data>
+  <data name="ThumbPath" xml:space="preserve">
+    <value>Camí de polze</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Veure</value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>Contingut</value>
+  </data>
+  <data name="MainContent" xml:space="preserve">
+    <value>Contingut principal</value>
+  </data>
+  <data name="MetaDescription" xml:space="preserve">
+    <value>Meta descripció</value>
+  </data>
+  <data name="MetaKeywords" xml:space="preserve">
+    <value>Meta paraules clau</value>
+  </data>
+  <data name="Languages" xml:space="preserve">
+    <value>Llengües</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Canvia la contrasenya</value>
+  </data>
+  <data name="CurrentPassword" xml:space="preserve">
+    <value>Contrasenya actual</value>
+  </data>
+  <data name="ManageAccount" xml:space="preserve">
+    <value>Gestionar compte</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>Contrasenya nova</value>
+  </data>
+  <data name="OldPassword" xml:space="preserve">
+    <value>Contrasenya vella</value>
+  </data>
+  <data name="RememberMe" xml:space="preserve">
+    <value>Recordar-me</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Cerca</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Categoria</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>Menú</value>
+  </data>
+  <data name="MenuItem" xml:space="preserve">
+    <value>Element de menú</value>
+  </data>
+  <data name="MenuItems" xml:space="preserve">
+    <value>Elements de menú</value>
+  </data>
+  <data name="Menus" xml:space="preserve">
+    <value>Menús</value>
+  </data>
+  <data name="IsCms" xml:space="preserve">
+    <value>És un Cms?</value>
+  </data>
+  <data name="IsLeaf" xml:space="preserve">
+    <value>És la fulla?</value>
+  </data>
+  <data name="IsParent" xml:space="preserve">
+    <value>És el pare?</value>
+  </data>
+  <data name="Ordinal" xml:space="preserve">
+    <value>Ordinal</value>
+  </data>
+  <data name="Parent" xml:space="preserve">
+    <value>Pare</value>
+  </data>
+  <data name="CreateNewAccount" xml:space="preserve">
+    <value>Crear compte nou.</value>
+  </data>
+  <data name="Deleted" xml:space="preserve">
+    <value>Suprimit</value>
+  </data>
+  <data name="Published" xml:space="preserve">
+    <value>Publicat</value>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>Salvat</value>
+  </data>
+  <data name="MaximumAllowedSize" xml:space="preserve">
+    <value>Mida màxima és:</value>
+  </data>
+  <data name="PleaseUploadImageOfType" xml:space="preserve">
+    <value>Us preguem que carregueu una imatge del tipus:</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="AddTranslation" xml:space="preserve">
+    <value>Afegir traducció</value>
+  </data>
+  <data name="ViewTranslation" xml:space="preserve">
+    <value>Traducció vista</value>
+  </data>
+  <data name="HasShortcut" xml:space="preserve">
+    <value>Dispaly a la pàgina d'inici</value>
+  </data>
+  <data name="IsScheduled" xml:space="preserve">
+    <value>Està previst?</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>L'estat</value>
+  </data>
+  <data name="Announcements" xml:space="preserve">
+    <value>Anuncis</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>Notícies</value>
+  </data>
+  <data name="NoAnnouncements" xml:space="preserve">
+    <value>No hi ha cap anuncis.</value>
+  </data>
+  <data name="NoEvents" xml:space="preserve">
+    <value>Hi ha esdeveniments.</value>
+  </data>
+  <data name="NoNews" xml:space="preserve">
+    <value>No hi ha cap notícia.</value>
+  </data>
+  <data name="ContentTypes" xml:space="preserve">
+    <value>Tipus de contingut</value>
+  </data>
+  <data name="Building" xml:space="preserve">
+    <value>Edifici</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Codi</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>País</value>
+  </data>
+  <data name="Locality" xml:space="preserve">
+    <value>Ciutat</value>
+  </data>
+  <data name="PostalCode" xml:space="preserve">
+    <value>Codi postal</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Perfil</value>
+  </data>
+  <data name="Street" xml:space="preserve">
+    <value>Carrer</value>
+  </data>
+  <data name="Telephone" xml:space="preserve">
+    <value>Telèfon</value>
+  </data>
+  <data name="EnterCredentials" xml:space="preserve">
+    <value>Introduïu el vostre usuari i contrasenya per iniciar la sessió.</value>
+  </data>
+  <data name="ForgetPassword" xml:space="preserve">
+    <value>He oblidat la contrasenya?</value>
+  </data>
+  <data name="JoinUs" xml:space="preserve">
+    <value>Treballa amb nosaltres @</value>
+  </data>
+  <data name="LoginToSite" xml:space="preserve">
+    <value>Entra al nostre lloc</value>
+  </data>
+  <data name="LoginWithSocialMedia" xml:space="preserve">
+    <value>... o connexió amb:</value>
+  </data>
+  <data name="PasswordMatch" xml:space="preserve">
+    <value>La contrasenya nova i la contrasenya de confirmació no coincideixen.</value>
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>Número de telèfon</value>
+  </data>
+  <data name="RegisterNewUser" xml:space="preserve">
+    <value>Registrar-se com a nou usuari</value>
+  </data>
+  <data name="StringLength" xml:space="preserve">
+    <value>{0} ha de ser com a mínim {2} caràcters de longitud.</value>
+  </data>
+  <data name="FillForm" xml:space="preserve">
+    <value>Ompli el següent formulari per tenir accés instantani.</value>
+  </data>
+  <data name="EmailInvalid" xml:space="preserve">
+    <value>L'adreça de correu electrònic no és vàlid.</value>
+  </data>
+  <data name="SignUp" xml:space="preserve">
+    <value>Inscriure's</value>
+  </data>
+  <data name="SignUpInSeconds" xml:space="preserve">
+    <value>Inscriure's en segons</value>
+  </data>
+  <data name="AlreadyMember" xml:space="preserve">
+    <value>Ja un membre?</value>
+  </data>
+  <data name="EmailLink" xml:space="preserve">
+    <value>Enllaç de correu electrònic</value>
+  </data>
+  <data name="EmailConfirmationCheck" xml:space="preserve">
+    <value>Si us plau revisa el teu email per a activar el seu compte.</value>
+  </data>
+  <data name="EnterEmail" xml:space="preserve">
+    <value>Introdueix el teu email per rebre correu electrònic enllaç per restablir la contrasenya.</value>
+  </data>
+  <data name="Instruction" xml:space="preserve">
+    <value>Ens han enviat un correu electrònic amb un enllaç de confirmació. Si us plau comprovar el seu e-mail i confirmar la teva subscripció.</value>
+  </data>
+  <data name="InvalidLoginAttempt" xml:space="preserve">
+    <value>Intent de connexió no és vàlid.</value>
+  </data>
+  <data name="Regards" xml:space="preserve">
+    <value>Una cordial salutació,</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>Gràcies per acompanyar-nos!</value>
+  </data>
+  <data name="ThankYouFor" xml:space="preserve">
+    <value>Gràcies per acompanyar-</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Benvingut</value>
+  </data>
+  <data name="EnterVerificationCode" xml:space="preserve">
+    <value>Introduïu el codi de verificació.</value>
+  </data>
+  <data name="RememberBrowser" xml:space="preserve">
+    <value>Recordeu aquest navegador</value>
+  </data>
+  <data name="SelectTwoFactor" xml:space="preserve">
+    <value>Seleccioneu el mètode d'autenticació de dos Factor.</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="TwoFactor" xml:space="preserve">
+    <value>Autenticació de dos Factor</value>
+  </data>
+  <data name="TwoFactorType" xml:space="preserve">
+    <value>Mètode d'autenticació de dos Factor</value>
+  </data>
+  <data name="VerificationCode" xml:space="preserve">
+    <value>Codi de verificació</value>
+  </data>
+  <data name="Verify" xml:space="preserve">
+    <value>Verificar ara</value>
+  </data>
+  <data name="ChangeAccountSettings" xml:space="preserve">
+    <value>Canviar la configuració del compte.</value>
+  </data>
+  <data name="ExternalLogins" xml:space="preserve">
+    <value>Connexions externes</value>
+  </data>
+  <data name="AddPhoneNumber" xml:space="preserve">
+    <value>Afegir el número de telèfon</value>
+  </data>
+  <data name="ChangeCurrentPassword" xml:space="preserve">
+    <value>Canvia la contrasenya actual.</value>
+  </data>
+  <data name="Disable" xml:space="preserve">
+    <value>Impossibilitar</value>
+  </data>
+  <data name="Enable" xml:space="preserve">
+    <value>Permetre</value>
+  </data>
+  <data name="ExploreOurSite" xml:space="preserve">
+    <value>Explorar el nostre lloc</value>
+  </data>
+  <data name="ManageLogins" xml:space="preserve">
+    <value>Administrar connexions externes</value>
+  </data>
+  <data name="PhoneNumberOption" xml:space="preserve">
+    <value>Afegir el número de telèfon per poder rebre el codi de verificació.</value>
+  </data>
+  <data name="SetPassword" xml:space="preserve">
+    <value>Conjunt de contrasenya</value>
+  </data>
+  <data name="VerifyPhoneNumber" xml:space="preserve">
+    <value>Verifiqueu el número de telèfon</value>
+  </data>
+  <data name="VerifyPhoneNumberOption" xml:space="preserve">
+    <value>Introduïu el codi de verificació per verificar la vostra identitat. </value>
+  </data>
+  <data name="ChooseContentType" xml:space="preserve">
+    <value>-- Selecciona tipus - contingut</value>
+  </data>
+  <data name="ChooseLanguage" xml:space="preserve">
+    <value>-- Selecciona idioma-</value>
+  </data>
+  <data name="ChooseParentMenuItem" xml:space="preserve">
+    <value>-- Selecciona el principal element de menú-</value>
+  </data>
+  <data name="ContentType" xml:space="preserve">
+    <value>Tipus de contingut</value>
+  </data>
+  <data name="HasMenuItem" xml:space="preserve">
+    <value>Proporcionar un enllaç de menú?</value>
+  </data>
+  <data name="ChooseMenu" xml:space="preserve">
+    <value>-- Selecciona menú-</value>
+  </data>
+  <data name="FacebookUrl" xml:space="preserve">
+    <value>Facebook</value>
+  </data>
+  <data name="IsUrgent" xml:space="preserve">
+    <value>Mostrar bar urgents?</value>
+  </data>
+  <data name="Logo" xml:space="preserve">
+    <value>Logotip</value>
+  </data>
+  <data name="ParentMenuItem" xml:space="preserve">
+    <value>Principal element de menú</value>
+  </data>
+  <data name="StatusId" xml:space="preserve">
+    <value>L'estat</value>
+  </data>
+  <data name="TwitterUrl" xml:space="preserve">
+    <value>Refilar</value>
+  </data>
+  <data name="YouTubeUrl" xml:space="preserve">
+    <value>YouTube</value>
+  </data>
+  <data name="AcademicJournal" xml:space="preserve">
+    <value>Revista veu als estudiants</value>
+  </data>
+  <data name="ShortcutTitle" xml:space="preserve">
+    <value>Títol de drecera</value>
+  </data>
+  <data name="NoArticles" xml:space="preserve">
+    <value>No hi ha cap articles.</value>
+  </data>
+  <data name="Vacancy" xml:space="preserve">
+    <value>Convocatòria de feina</value>
+  </data>
+  <data name="Degree" xml:space="preserve">
+    <value>Grau </value>
+  </data>
+  <data name="Degrees" xml:space="preserve">
+    <value>Graus</value>
+  </data>
+  <data name="AddAttachments" xml:space="preserve">
+    <value>Afegeix un altre fitxer adjunt...</value>
+  </data>
+  <data name="Applicant" xml:space="preserve">
+    <value>Sol·licitant</value>
+  </data>
+  <data name="Requirements" xml:space="preserve">
+    <value>Requisits</value>
+  </data>
+  <data name="CoverLetter" xml:space="preserve">
+    <value>Carta</value>
+  </data>
+  <data name="FileName" xml:space="preserve">
+    <value>Nom d'arxiu</value>
+  </data>
+  <data name="Id" xml:space="preserve">
+    <value>Nombre en sèrie</value>
+  </data>
+  <data name="IsActive" xml:space="preserve">
+    <value>És actiu?</value>
+  </data>
+  <data name="VacancyType" xml:space="preserve">
+    <value>Tipus de vacant</value>
+  </data>
+  <data name="Documents" xml:space="preserve">
+    <value>Documents de</value>
+  </data>
+  <data name="Submissions" xml:space="preserve">
+    <value>Presentacions</value>
+  </data>
+  <data name="SubmittedOn" xml:space="preserve">
+    <value>Submittion data</value>
+  </data>
+  <data name="Rank" xml:space="preserve">
+    <value>Rang acadèmic</value>
+  </data>
+  <data name="Ranks" xml:space="preserve">
+    <value>Files acadèmics</value>
+  </data>
+  <data name="ChooseVacancy" xml:space="preserve">
+    <value>-- Selecciona treball títol-</value>
+  </data>
+  <data name="Applicants" xml:space="preserve">
+    <value>Sol·licitants</value>
+  </data>
+  <data name="ApplicantFullName" xml:space="preserve">
+    <value>Nom del sol·licitant</value>
+  </data>
+  <data name="Attachments" xml:space="preserve">
+    <value>Fitxers adjunts</value>
+  </data>
+  <data name="CurriculumVitae" xml:space="preserve">
+    <value>Currículum Vitae</value>
+  </data>
+  <data name="DOB" xml:space="preserve">
+    <value>Data de naixement</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Descarregar</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Gènere</value>
+  </data>
+  <data name="JobTitle" xml:space="preserve">
+    <value>Títol de treball</value>
+  </data>
+  <data name="MiddleName" xml:space="preserve">
+    <value>Segon cognom</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>Mòbil núm.</value>
+  </data>
+  <data name="ResumeFileName" xml:space="preserve">
+    <value>Currículum Vitae</value>
+  </data>
+  <data name="ResumeFilePath" xml:space="preserve">
+    <value>Currículum Vitae</value>
+  </data>
+  <data name="Submission" xml:space="preserve">
+    <value>Presentació</value>
+  </data>
+  <data name="NoParentItem" xml:space="preserve">
+    <value>-- No l'element principal-</value>
+  </data>
+  <data name="ContentList" xml:space="preserve">
+    <value>Llista de contingut</value>
+  </data>
+  <data name="ItemContent" xml:space="preserve">
+    <value>Contingut de l'element</value>
+  </data>
+  <data name="PleaseUploadFileOfType" xml:space="preserve">
+    <value>Si us plau carregui un arxiu del tipus:</value>
+  </data>
+  <data name="JobType" xml:space="preserve">
+    <value>Tipus de feina</value>
+  </data>
+  <data name="ListItem" xml:space="preserve">
+    <value>Element de llista</value>
+  </data>
+  <data name="ListItems" xml:space="preserve">
+    <value>Elements de la llista</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Lloc web</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>Enviar per fax</value>
+  </data>
+  <data name="Latitude" xml:space="preserve">
+    <value>Latitud</value>
+  </data>
+  <data name="Longitude" xml:space="preserve">
+    <value>Longitud</value>
+  </data>
+  <data name="Organization" xml:space="preserve">
+    <value>Organització</value>
+  </data>
+  <data name="Organizations" xml:space="preserve">
+    <value>Organitzacions</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Ciutat</value>
+  </data>
+  <data name="District" xml:space="preserve">
+    <value>Districte</value>
+  </data>
+  <data name="Province" xml:space="preserve">
+    <value>Província</value>
+  </data>
+  <data name="POBox" xml:space="preserve">
+    <value>P.O. Box</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Informació de contacte</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>Departament</value>
+  </data>
+  <data name="Office" xml:space="preserve">
+    <value>Oficina</value>
+  </data>
+  <data name="PersonalTitle" xml:space="preserve">
+    <value>Títol personal</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Posició</value>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>Contacti amb nosaltres</value>
+  </data>
+  <data name="OurLocationOnMap" xml:space="preserve">
+    <value>Mapa d'ubicació</value>
+  </data>
+  <data name="PersonalTitles" xml:space="preserve">
+    <value>PersonalTitles</value>
+  </data>
+  <data name="Extension" xml:space="preserve">
+    <value>Extensió</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Número de telèfon</value>
+  </data>
+  <data name="ManageLists" xml:space="preserve">
+    <value>Gestionar llistes</value>
+  </data>
+  <data name="Articles" xml:space="preserve">
+    <value>Articles</value>
+  </data>
+  <data name="ApplyNow" xml:space="preserve">
+    <value>Inscriu-te</value>
+  </data>
+  <data name="Class" xml:space="preserve">
+    <value>Classe CSS</value>
+  </data>
+  <data name="CopyRights" xml:space="preserve">
+    <value>Tots els drets reservats</value>
+  </data>
+  <data name="GooglePlusUrl" xml:space="preserve">
+    <value>Google Plus</value>
+  </data>
+  <data name="LinkedInUrl" xml:space="preserve">
+    <value>LinkedIn</value>
+  </data>
+  <data name="Privacy" xml:space="preserve">
+    <value>Privacitat</value>
+  </data>
+  <data name="RSS" xml:space="preserve">
+    <value>RSS Feed</value>
+  </data>
+  <data name="Terms" xml:space="preserve">
+    <value>Traduccions</value>
+  </data>
+  <data name="WebDevelopedBy" xml:space="preserve">
+    <value>Nom de desenvolupador web</value>
+  </data>
+  <data name="EnterYourEmail" xml:space="preserve">
+    <value>Introdueix el teu email...</value>
+  </data>
+  <data name="Explore" xml:space="preserve">
+    <value>Explorar</value>
+  </data>
+  <data name="KeepInTouch" xml:space="preserve">
+    <value>Seguirem en contacte</value>
+  </data>
+  <data name="LatestNews" xml:space="preserve">
+    <value>Últimes notícies</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Telèfon</value>
+  </data>
+  <data name="Subscribe" xml:space="preserve">
+    <value>Subscriure's</value>
+  </data>
+  <data name="SubscriptionMessage" xml:space="preserve">
+    <value>Subscriure's al nostre butlletí per a rebre notícies importants</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Adreça</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>S'apliquen</value>
+  </data>
+  <data name="Arrow" xml:space="preserve">
+    <value>icona-llarga-fletxa-dreta</value>
+  </data>
+  <data name="For" xml:space="preserve">
+    <value>per a</value>
+  </data>
+  <data name="MarginDirClass" xml:space="preserve">
+    <value>marge-esquerra-10</value>
+  </data>
+  <data name="AllowedAttachmentExtensions" xml:space="preserve">
+    <value>Un o més attachmetns no són vàlids: només. PDF. DOCX. DOCUMENT. PNG. JPG. S'admeten fitxers JPEG.</value>
+  </data>
+  <data name="AttachmentsNotes" xml:space="preserve">
+    <value>Us preguem que carregueu una adjunts del tipus:. PDF. DOCX. DOCUMENT. PNG. JPG. JPEG</value>
+  </data>
+  <data name="CVNotes" xml:space="preserve">
+    <value>Si us plau carregui CV del tipus:. PDF. DOCX. DOC</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Presentar</value>
+  </data>
+  <data name="Program" xml:space="preserve">
+    <value>Programa</value>
+  </data>
+  <data name="Programs" xml:space="preserve">
+    <value>Programes</value>
+  </data>
+  <data name="JobAnnouncement" xml:space="preserve">
+    <value>Anunci treball</value>
+  </data>
+  <data name="JobAnnouncements" xml:space="preserve">
+    <value>Anuncis de feina</value>
+  </data>
+  <data name="Departments" xml:space="preserve">
+    <value>Departaments</value>
+  </data>
+  <data name="EmployeeTypes" xml:space="preserve">
+    <value>Tipus d'empleat</value>
+  </data>
+  <data name="EmpInDepts" xml:space="preserve">
+    <value>Departaments d'empleats</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Empleats</value>
+  </data>
+  <data name="Occupation" xml:space="preserve">
+    <value>Ocupació</value>
+  </data>
+  <data name="Occupations" xml:space="preserve">
+    <value>Ocupacions</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>Nom i cognoms</value>
+  </data>
+  <data name="ImagePath" xml:space="preserve">
+    <value>Camí d'imatge</value>
+  </data>
+  <data name="LandLine" xml:space="preserve">
+    <value>N º de línia de terra</value>
+  </data>
+  <data name="OfficeNumber" xml:space="preserve">
+    <value>Oficina núm.</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Empleat</value>
+  </data>
+  <data name="ImageNotes" xml:space="preserve">
+    <value>Us preguem que carregueu una imatge del tipus:. PNG. JPG. JPEG. BMP</value>
+  </data>
+  <data name="PersonalPhoto" xml:space="preserve">
+    <value>Fotos personals</value>
+  </data>
+  <data name="ViewCV" xml:space="preserve">
+    <value>Veure CV</value>
+  </data>
+  <data name="PersonalPhotoName" xml:space="preserve">
+    <value>Fotos personals nom</value>
+  </data>
+  <data name="PersonalPhotoPath" xml:space="preserve">
+    <value>Fotos personals</value>
+  </data>
+  <data name="UploadPersonalPhoto" xml:space="preserve">
+    <value>Carregui foto Personal</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>Gerent</value>
+  </data>
+  <data name="AllLanguages" xml:space="preserve">
+    <value>Totes les llengües</value>
+  </data>
+  <data name="Director" xml:space="preserve">
+    <value>Director</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>Navegar</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Nota</value>
+  </data>
+  <data name="AcademicInfo" xml:space="preserve">
+    <value>Info acadèmica</value>
+  </data>
+  <data name="Biography" xml:space="preserve">
+    <value>Biografia</value>
+  </data>
+  <data name="ContactInfo" xml:space="preserve">
+    <value>Informació de contacte</value>
+  </data>
+  <data name="PersonalInfo" xml:space="preserve">
+    <value>Informació personal</value>
+  </data>
+  <data name="Manage" xml:space="preserve">
+    <value>Gestionar</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Treure</value>
+  </data>
+  <data name="FillOutPersonalInfo" xml:space="preserve">
+    <value>Omplir formulari d'informació personal.</value>
+  </data>
+  <data name="AccountSettings" xml:space="preserve">
+    <value>Configuració del compte</value>
+  </data>
+  <data name="ManageContacts" xml:space="preserve">
+    <value>Gestiona els contactes</value>
+  </data>
+  <data name="ManagePublications" xml:space="preserve">
+    <value>Gestió de publicacions</value>
+  </data>
+  <data name="NoCVUploaded" xml:space="preserve">
+    <value>Cap CV carregades!</value>
+  </data>
+  <data name="NoPersonalPhotoUploaded" xml:space="preserve">
+    <value>No hi haurà foto personal carregades!</value>
+  </data>
+  <data name="Publication" xml:space="preserve">
+    <value>Publicació</value>
+  </data>
+  <data name="Publications" xml:space="preserve">
+    <value>Publicacions</value>
+  </data>
+  <data name="Abstract" xml:space="preserve">
+    <value>Resum</value>
+  </data>
+  <data name="CompletedProfile" xml:space="preserve">
+    <value>perfil complert</value>
+  </data>
+  <data name="EmployeeType" xml:space="preserve">
+    <value>Tipus d'empleat</value>
+  </data>
+  <data name="ViewProfile" xml:space="preserve">
+    <value>Veure perfil</value>
+  </data>
+  <data name="Hello" xml:space="preserve">
+    <value>Hola</value>
+  </data>
+  <data name="OurStaffDirectory" xml:space="preserve">
+    <value>Nostre directori de personal</value>
+  </data>
+  <data name="SearchBy" xml:space="preserve">
+    <value>Cerca per</value>
+  </data>
+  <data name="SearchByDepartmet" xml:space="preserve">
+    <value>Cerca per departmet</value>
+  </data>
+  <data name="DuplicateEmail" xml:space="preserve">
+    <value>L'adreça electrònica ja està registrada.</value>
+  </data>
+  <data name="InvalidOrganizationEmail" xml:space="preserve">
+    <value>Introduïu el vostre adreça de correu electrònic de treball.</value>
+  </data>
+  <data name="DepartmentStaffList" xml:space="preserve">
+    <value>Llista de personal Departament</value>
+  </data>
+  <data name="SearchResult" xml:space="preserve">
+    <value>Resultat de la cerca</value>
+  </data>
+  <data name="DuplicateError" xml:space="preserve">
+    <value>No es pot inserir registres duplicats.</value>
+  </data>
+  <data name="EmployeeName" xml:space="preserve">
+    <value>Nom de l'empleat</value>
+  </data>
+  <data name="ClickHereToLogin" xml:space="preserve">
+    <value>Feu clic aquí per iniciar la sessió</value>
+  </data>
+  <data name="ConfirmEmail" xml:space="preserve">
+    <value>Confirmar correu electrònic</value>
+  </data>
+  <data name="ConfirmEmailThanks" xml:space="preserve">
+    <value>Gràcies per confirmar el seu e-mail.</value>
+  </data>
+  <data name="ForgotPasswordCheck" xml:space="preserve">
+    <value>Si us plau revisa el teu email per restablir la contrasenya.</value>
+  </data>
+  <data name="ForgotPasswordConfirmation" xml:space="preserve">
+    <value>Oblidava la confirmació de la contrasenya</value>
+  </data>
+  <data name="Please" xml:space="preserve">
+    <value>Si us plau</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Restablir</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>Restablir contrasenya</value>
+  </data>
+  <data name="ResetYourPassword" xml:space="preserve">
+    <value>Restablir la contrasenya.</value>
+  </data>
+  <data name="SecurityCode" xml:space="preserve">
+    <value>Codi de seguretat</value>
+  </data>
+  <data name="ApplyFor" xml:space="preserve">
+    <value>Sol·licitar</value>
+  </data>
+  <data name="ChooseDepartment" xml:space="preserve">
+    <value>-- Selecciona Departament-</value>
+  </data>
+  <data name="SubmissionId" xml:space="preserve">
+    <value>Número d'aplicació</value>
+  </data>
+  <data name="DownloadApplications" xml:space="preserve">
+    <value>Descarregar aplicacions</value>
+  </data>
+  <data name="NotAvailable" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="GoCuteCMS" xml:space="preserve">
+    <value>Anar a CuteCMS</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="ErrorNotification" xml:space="preserve">
+    <value>El nostre personal tècnic han estat notificats automàticament i estaran buscant en això amb la màxima urgència.</value>
+  </data>
+  <data name="GenericError" xml:space="preserve">
+    <value>Alguna cosa va sortir malament.</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>La pàgina que heu sol·licitat no es troba!</value>
+  </data>
+  <data name="NotPublished" xml:space="preserve">
+    <value>La pàgina que heu sol·licitat no es publica.</value>
+  </data>
+  <data name="NotTranslated" xml:space="preserve">
+    <value>La pàgina que heu sol·licitat no està traduïda.</value>
+  </data>
+  <data name="DataTableLanguage" xml:space="preserve">
+    <value>http://CDN.datatables.net/plug-ins/1.10.12/i18n/English.JSON</value>
+  </data>
+  <data name="LanguageSelector" xml:space="preserve">
+    <value>Llengua</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Exportació</value>
+  </data>
+  <data name="PleaseUploadAttachments" xml:space="preserve">
+    <value>Si us plau carregui els accessoris necessaris.</value>
+  </data>
+  <data name="Oops" xml:space="preserve">
+    <value>UI!</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Accions</value>
+  </data>
+  <data name="ColVis" xml:space="preserve">
+    <value>Visibilitat de la columna</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Còpia</value>
+  </data>
+  <data name="ExportExcel" xml:space="preserve">
+    <value>Exportar a Excel</value>
+  </data>
+  <data name="ExportPDF" xml:space="preserve">
+    <value>Exportació PDF</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Impressió</value>
+  </data>
+  <data name="Reload" xml:space="preserve">
+    <value>Recàrrega</value>
+  </data>
+  <data name="NoUpcomingEvents" xml:space="preserve">
+    <value>Hi ha esdeveniments pròxims.</value>
+  </data>
+  <data name="UpcomingEvents" xml:space="preserve">
+    <value>Pròxims esdeveniments</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Sobre</value>
+  </data>
+  <data name="RnC" xml:space="preserve">
+    <value>Investigacions 59 conferències</value>
+  </data>
+  <data name="MyProfile" xml:space="preserve">
+    <value>Meu perfil</value>
+  </data>
+  <data name="NoRecordFound" xml:space="preserve">
+    <value>Cap disc trobava!</value>
+  </data>
+  <data name="ViewMySocialNetwork" xml:space="preserve">
+    <value>Veure la meva xarxa social.</value>
+  </data>
+  <data name="CssClass" xml:space="preserve">
+    <value>Classe CSS</value>
+  </data>
+  <data name="Backend" xml:space="preserve">
+    <value>Backend</value>
+  </data>
+  <data name="Frontend" xml:space="preserve">
+    <value>Interfície</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Imatge</value>
+  </data>
+  <data name="Visible" xml:space="preserve">
+    <value>Visible?</value>
+  </data>
+  <data name="IsDefault" xml:space="preserve">
+    <value>És per defecte?</value>
+  </data>
+  <data name="PrimaryLogoName" xml:space="preserve">
+    <value>Nom del logotip principal</value>
+  </data>
+  <data name="PrimaryLogoPath" xml:space="preserve">
+    <value>Camí del logotip principal</value>
+  </data>
+  <data name="SecondaryLogoName" xml:space="preserve">
+    <value>Logotip de secundària nom</value>
+  </data>
+  <data name="SecondaryLogoPath" xml:space="preserve">
+    <value>Camí secundari Logo</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Alçada</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>Amplada</value>
+  </data>
+  <data name="ChooseRole" xml:space="preserve">
+    <value>-- Selecciona paper-</value>
+  </data>
+  <data name="ChooseStatus" xml:space="preserve">
+    <value>-- Selecciona estatus-</value>
+  </data>
+  <data name="ChooseAuthor" xml:space="preserve">
+    <value>-- Selecciona autor-</value>
+  </data>
+  <data name="ChooseTag" xml:space="preserve">
+    <value>-- Selecciona etiqueta-</value>
+  </data>
+  <data name="CountryCode" xml:space="preserve">
+    <value>Codi de país</value>
+  </data>
+  <data name="CountryName" xml:space="preserve">
+    <value>Nom del país</value>
+  </data>
+  <data name="IP" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="MetroCode" xml:space="preserve">
+    <value>Codi metro</value>
+  </data>
+  <data name="RegionCode" xml:space="preserve">
+    <value>Codi de regió</value>
+  </data>
+  <data name="RegionName" xml:space="preserve">
+    <value>Nom de la regió</value>
+  </data>
+  <data name="RequestDate" xml:space="preserve">
+    <value>Data petició</value>
+  </data>
+  <data name="TimeZone" xml:space="preserve">
+    <value>Zona horària</value>
+  </data>
+  <data name="Count" xml:space="preserve">
+    <value>Comte</value>
+  </data>
+  <data name="Translations" xml:space="preserve">
+    <value>Traduccions</value>
+  </data>
+  <data name="VacancyUnableToDelete" xml:space="preserve">
+    <value>Incapaç de suprimir aquesta oferta ja que s'ha relacionat amb submission(s).</value>
+  </data>
+  <data name="ChoosePersonalTitle" xml:space="preserve">
+    <value>-- Selecciona títol personal-</value>
+  </data>
+  <data name="Acknowledgement" xml:space="preserve">
+    <value>Reconeixement</value>
+  </data>
+  <data name="ApplicationNumber" xml:space="preserve">
+    <value>El seu número de sol·licitud és:</value>
+  </data>
+  <data name="Dear" xml:space="preserve">
+    <value>Estimat</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="FlagCode" xml:space="preserve">
+    <value>Bandera codi</value>
+  </data>
+  <data name="Flag" xml:space="preserve">
+    <value>Bandera</value>
+  </data>
+  <data name="CultureName" xml:space="preserve">
+    <value>Nom de la cultura</value>
+  </data>
+  <data name="IsEnabled" xml:space="preserve">
+    <value>És permès?</value>
+  </data>
+  <data name="SMTP" xml:space="preserve">
+    <value>SMTP</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="Body" xml:space="preserve">
+    <value>Cos</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>Notificació</value>
+  </data>
+  <data name="Term" xml:space="preserve">
+    <value>Traducció</value>
+  </data>
+  <data name="Attachment" xml:space="preserve">
+    <value>Fitxer adjunt</value>
+  </data>
+  <data name="Statistic" xml:space="preserve">
+    <value>Estadístiques</value>
+  </data>
+  <data name="SMTPSetting" xml:space="preserve">
+    <value>Configuració de SMTP</value>
+  </data>
+  <data name="ImageTag" xml:space="preserve">
+    <value>Imatge d'Etiquetes</value>
+  </data>
+  <data name="JobTypes" xml:space="preserve">
+    <value>Tipus d'ocupació</value>
+  </data>
+  <data name="Genders" xml:space="preserve">
+    <value>Gèneres</value>
+  </data>
+  <data name="PhoneNumbers" xml:space="preserve">
+    <value>Números de telèfon</value>
+  </data>
+  <data name="Notifications" xml:space="preserve">
+    <value>Notificacions</value>
+  </data>
+  <data name="Contacts" xml:space="preserve">
+    <value>Contactes</value>
+  </data>
+  <data name="ImageFiles" xml:space="preserve">
+    <value>Arxius d'imatge</value>
+  </data>
+  <data name="ContentLists" xml:space="preserve">
+    <value>Llistes de continguts</value>
+  </data>
+  <data name="HomeVisible" xml:space="preserve">
+    <value>Mostrar a la pàgina d'inici?</value>
+  </data>
+  <data name="TOC" xml:space="preserve">
+    <value>Terme d'ús</value>
+  </data>
+  <data name="ShowHeaderDate" xml:space="preserve">
+    <value>Mostra les Dates</value>
+  </data>
+  <data name="ExpiredOn" xml:space="preserve">
+    <value>Expirat el</value>
+  </data>
+  <data name="PublishedOn" xml:space="preserve">
+    <value>Publicada</value>
+  </data>
+  <data name="LastUpdatedOn" xml:space="preserve">
+    <value>Darrera actualització</value>
+  </data>
+  <data name="InvalidPublishDate" xml:space="preserve">
+    <value>Publicar data ha de ser menor o igual activitat data d'inici.</value>
+  </data>
+  <data name="InvalidExpiryDate" xml:space="preserve">
+    <value>Data d'expiració ha de ser data de finalització d'activitat igual o superior.</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>Des de</value>
+  </data>
+  <data name="Till" xml:space="preserve">
+    <value>Fins que</value>
+  </data>
+  <data name="NoResult" xml:space="preserve">
+    <value>Cap resultat.</value>
+  </data>
+  <data name="BreakingNews" xml:space="preserve">
+    <value>Últimes notícies</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>Disponible</value>
+  </data>
+  <data name="Skills" xml:space="preserve">
+    <value>Habilitats</value>
+  </data>
+  <data name="Validity" xml:space="preserve">
+    <value>Validesa</value>
+  </data>
+  <data name="ChooseJobType" xml:space="preserve">
+    <value>-- Selecciona tipus de feina-</value>
+  </data>
+  <data name="AbsolutePath" xml:space="preserve">
+    <value>Ruta absoluta</value>
+  </data>
+  <data name="Keywords" xml:space="preserve">
+    <value>Paraules clau</value>
+  </data>
+  <data name="PoweredBy" xml:space="preserve">
+    <value>Alimentat per</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>Camí</value>
+  </data>
+  <data name="UrgentExpiredOn" xml:space="preserve">
+    <value>Expirat urgents en</value>
+  </data>
+  <data name="BackToHome" xml:space="preserve">
+    <value>tornar a pàgina principal ara!</value>
+  </data>
+  <data name="PageNotFound" xml:space="preserve">
+    <value>Pàgina no trobada</value>
+  </data>
+  <data name="PageNotTranslated" xml:space="preserve">
+    <value>Pàgina no traduït</value>
+  </data>
+  <data name="PageNotPublished" xml:space="preserve">
+    <value>Pàgina no Edita</value>
+  </data>
+  <data name="CreatePassword" xml:space="preserve">
+    <value>Crear contrasenya</value>
+  </data>
+  <data name="ResetPasswordConfirmation" xml:space="preserve">
+    <value>Confirmació de la contrasenya de reinicialització</value>
+  </data>
+  <data name="PasswordReset" xml:space="preserve">
+    <value>S'ha reinicialitzat la contrasenya.</value>
+  </data>
+  <data name="ClickLogin" xml:space="preserve">
+    <value>feu clic aquí per iniciar la sessió</value>
+  </data>
+  <data name="YourAppNumber" xml:space="preserve">
+    <value>El seu número d'aplicació és</value>
+  </data>
+  <data name="ImageTags" xml:space="preserve">
+    <value>Imatge d'Etiquetes</value>
+  </data>
+  <data name="SMTPSettings" xml:space="preserve">
+    <value>Escenes de SMTP</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Estadístiques</value>
+  </data>
+  <data name="Statuses" xml:space="preserve">
+    <value>Estats de</value>
+  </data>
+  <data name="Vacancies" xml:space="preserve">
+    <value>Vacants</value>
+  </data>
+  <data name="LockedOutMessage" xml:space="preserve">
+    <value>Aquest compte ha estat tancat fora, intenteu-ho més tard.</value>
+  </data>
+  <data name="LockedOut" xml:space="preserve">
+    <value>Tancat fora</value>
+  </data>
+  <data name="TakeTour" xml:space="preserve">
+    <value>Un recorregut</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>Compartir aquesta pàgina</value>
+  </data>
+  <data name="ForgotPasswordInstructions" xml:space="preserve">
+    <value>Completi el següent formulari per rebre un e-mail amb el codi d'autorització necessari per restablir la contrasenya.</value>
+  </data>
+  <data name="InvalidToken" xml:space="preserve">
+    <value>Testimoni no vàlid</value>
+  </data>
+  <data name="ReadMore" xml:space="preserve">
+    <value>Llegiu-ne més</value>
+  </data>
+  <data name="LogIn" xml:space="preserve">
+    <value>Connecti's</value>
+  </data>
+  <data name="Dimensions" xml:space="preserve">
+    <value>Dimensions</value>
+  </data>
+  <data name="GetInTouch" xml:space="preserve">
+    <value>Estar en contacte</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="YourName" xml:space="preserve">
+    <value>El seu nom</value>
+  </data>
+  <data name="YourEmail" xml:space="preserve">
+    <value>El seu e-mail</value>
+  </data>
+  <data name="SendMessage" xml:space="preserve">
+    <value>Enviar missatge</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Missatge</value>
+  </data>
+  <data name="SenderName" xml:space="preserve">
+    <value>El seu nom</value>
+  </data>
+  <data name="Careers" xml:space="preserve">
+    <value>carreres</value>
+  </data>
+  <data name="SocialNetwork" xml:space="preserve">
+    <value>Xarxa social</value>
+  </data>
+  <data name="SocialNetworks" xml:space="preserve">
+    <value>Xarxes socials</value>
+  </data>
+  <data name="ShowAll" xml:space="preserve">
+    <value>Mostra-ho tot</value>
+  </data>
+  <data name="ChooseCategory" xml:space="preserve">
+    <value>-- Selecciona categoria-</value>
+  </data>
+  <data name="AddressLine1" xml:space="preserve">
+    <value>Adreça línia 1</value>
+  </data>
+  <data name="AddressLine2" xml:space="preserve">
+    <value>Adreça línia 2</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Estat</value>
+  </data>
+  <data name="ZIP" xml:space="preserve">
+    <value>Codi postal</value>
+  </data>
+  <data name="Newsletter" xml:space="preserve">
+    <value>Butlletí</value>
+  </data>
+  <data name="LatestTweets" xml:space="preserve">
+    <value>Últims Tweets</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Si us plau esperi...</value>
+  </data>
+  <data name="FollowUs" xml:space="preserve">
+    <value>Segueix-nos</value>
+  </data>
+  <data name="ChooseEmployeeType" xml:space="preserve">
+    <value>-- Selecciona tipus empleat-</value>
+  </data>
+  <data name="HasAccount" xml:space="preserve">
+    <value>Té compte?</value>
+  </data>
+  <data name="EmailConfirmed" xml:space="preserve">
+    <value>Correu electrònic confirmada?</value>
+  </data>
+  <data name="UsefulLinks" xml:space="preserve">
+    <value>Heus ací alguns enllaços útils</value>
+  </data>
+  <data name="AwaitingTranslation" xml:space="preserve">
+    <value>L'espera per a la traducció...</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Esquena</value>
+  </data>
+  <data name="StaffDirectory" xml:space="preserve">
+    <value>Directori de personal</value>
+  </data>
+  <data name="SubscribedToMailingList" xml:space="preserve">
+    <value> Que ha estat afegit a la nostra llista de correu.</value>
+  </data>
+  <data name="ThankYouForInterest" xml:space="preserve">
+    <value>Gràcies pel seu interès en les nostres últimes actualitzacions. En breu rebreu un email confirmant la vostra subscripció.</value>
+  </data>
+  <data name="DeleteProfileConfirmation" xml:space="preserve">
+    <value>Esteu segur que voleu suprimir el seu perfil?</value>
+  </data>
+  <data name="DeleteProfile" xml:space="preserve">
+    <value>Suprimir el meu perfil</value>
+  </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>Galeria de fotos</value>
+  </data>
+  <data name="ChooseGallery" xml:space="preserve">
+    <value>-- Selecciona la galeria de fotos-</value>
+  </data>
+  <data name="Galleries" xml:space="preserve">
+    <value>Galeries de fotos</value>
+  </data>
+  <data name="GalleryCategory" xml:space="preserve">
+    <value>Categoria</value>
+  </data>
+  <data name="GalleryCategories" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="UrlSlug" xml:space="preserve">
+    <value>Amistós enllaç</value>
+  </data>
+  <data name="Url" xml:space="preserve">
+    <value>Enllaç</value>
+  </data>
+  <data name="DeveloperURL" xml:space="preserve">
+    <value>Desenvolupador web</value>
+  </data>
+  <data name="Reference" xml:space="preserve">
+    <value>Referència</value>
+  </data>
+  <data name="ContentItems" xml:space="preserve">
+    <value>Elements de contingut</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Configuració</value>
+  </data>
+  <data name="Recruitment" xml:space="preserve">
+    <value>Contractació</value>
+  </data>
+  <data name="Identity" xml:space="preserve">
+    <value>Identitat</value>
+  </data>
+  <data name="Lorem1" xml:space="preserve">
+    <value>La manera més ràpida de fer créixer el seu negoci.</value>
+  </data>
+  <data name="Lorem2" xml:space="preserve">
+    <value>Comprovi el nostre opcions i característiques incloses.</value>
+  </data>
+  <data name="GetStarted" xml:space="preserve">
+    <value>Comenceu ara mateix!</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>o</value>
+  </data>
+  <data name="LearnMore" xml:space="preserve">
+    <value>més informació.</value>
+  </data>
+  <data name="Lorem3" xml:space="preserve">
+    <value>Aquest text és un exemple de text que pot ser substituït en el mateix espai, aquest text ha estat generat des del generador de text llatí.</value>
+  </data>
+  <data name="January" xml:space="preserve">
+    <value>Gener</value>
+  </data>
+  <data name="JohnSmith" xml:space="preserve">
+    <value>John Smith</value>
+  </data>
+  <data name="JobTitleName" xml:space="preserve">
+    <value>CEO 59 fundador - empresa d'ABC</value>
+  </data>
+  <data name="WhatClientsSay" xml:space="preserve">
+    <value>Què diuen els Clients</value>
+  </data>
+  <data name="LoremTitle" xml:space="preserve">
+    <value>Aquest text és un exemple de text que pot ser substituït en el mateix espai.</value>
+  </data>
+  <data name="UploadIcon" xml:space="preserve">
+    <value>pujar</value>
+  </data>
+  <data name="UploadImage" xml:space="preserve">
+    <value>Carregar Imatge</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>Sumari</value>
+  </data>
+  <data name="Icon" xml:space="preserve">
+    <value>Icona</value>
+  </data>
+  <data name="PleaseUploadIconOfType" xml:space="preserve">
+    <value>Si us plau, puja una icona de tipus:!</value>
+  </data>
+  <data name="IconNotes" xml:space="preserve">
+    <value>Si us plau, puja una icona de tipus: PNG!</value>
+  </data>
+  <data name="IconName" xml:space="preserve">
+    <value>Icona</value>
+  </data>
+  <data name="IconPath" xml:space="preserve">
+    <value>Sender icona!</value>
+  </data>
+  <data name="MeetOurTeam" xml:space="preserve">
+    <value>Coneix el nostre equip!</value>
+  </data>
+  <data name="MainDepts" xml:space="preserve">
+    <value>Departaments</value>
+  </data>
+  <data name="PrimaryCaption" xml:space="preserve">
+    <value>Subtítols principal</value>
+  </data>
+  <data name="SecondaryCaption" xml:space="preserve">
+    <value>Llegenda secundària</value>
+  </data>
+  <data name="TertiaryCaption" xml:space="preserve">
+    <value>Llegenda terciària</value>
+  </data>
+  <data name="MedicalTreatment" xml:space="preserve">
+    <value>Tractament mèdic</value>
+  </data>
+  <data name="DoctorsTimetable" xml:space="preserve">
+    <value>Horari de metges</value>
+  </data>
+  <data name="OpeningHours" xml:space="preserve">
+    <value>Horari d'obertura</value>
+  </data>
+  <data name="EmergencyCase" xml:space="preserve">
+    <value>Emergències</value>
+  </data>
+  <data name="Sunday" xml:space="preserve">
+    <value>Diumenge</value>
+  </data>
+  <data name="Monday" xml:space="preserve">
+    <value>Dilluns</value>
+  </data>
+  <data name="Tuesday" xml:space="preserve">
+    <value>Dimarts</value>
+  </data>
+  <data name="Wednesday" xml:space="preserve">
+    <value>Dimecres</value>
+  </data>
+  <data name="Thursday" xml:space="preserve">
+    <value>Dijous</value>
+  </data>
+  <data name="Friday" xml:space="preserve">
+    <value>Divendres</value>
+  </data>
+  <data name="Saturday" xml:space="preserve">
+    <value>Dissabte</value>
+  </data>
+  <data name="Subtitle" xml:space="preserve">
+    <value>Subtítol</value>
+  </data>
+  <data name="ViewMore" xml:space="preserve">
+    <value>Btn Banner</value>
+  </data>
+  <data name="Doctors" xml:space="preserve">
+    <value>Especialistes</value>
+  </data>
+  <data name="OurSpecialists" xml:space="preserve">
+    <value>Els nostres experts en diversió</value>
+  </data>
+  <data name="Staff" xml:space="preserve">
+    <value>Equip</value>
+  </data>
+  <data name="MedicalStaff" xml:space="preserve">
+    <value>Personal mèdic</value>
+  </data>
+  <data name="LatestEvents" xml:space="preserve">
+    <value>Últims esdeveniments</value>
+  </data>
+  <data name="DoctorName" xml:space="preserve">
+    <value>Nom del Especialista</value>
+  </data>
+  <data name="DoctorType" xml:space="preserve">
+    <value>Doctor</value>
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>Número</value>
+  </data>
+  <data name="EnableSsl" xml:space="preserve">
+    <value>Activar</value>
+  </data>
+  <data name="SenderEmail" xml:space="preserve">
+    <value>Remitent correu electrònic</value>
+  </data>
+  <data name="SenderPassword" xml:space="preserve">
+    <value>Emissor contrasenya!</value>
+  </data>
+  <data name="RecipientEmail" xml:space="preserve">
+    <value>E-mail del destinatari</value>
+  </data>
+  <data name="VisitorCounter" xml:space="preserve">
+    <value>Comptador visitants!</value>
+  </data>
+  <data name="RoleInUse" xml:space="preserve">
+    <value>Aquest nom de paper ja s'ha utilitzat.</value>
+  </data>
+  <data name="Administration" xml:space="preserve">
+    <value>Administració</value>
+  </data>
+  <data name="SystemSettings" xml:space="preserve">
+    <value>Configuració de sistema</value>
+  </data>
+  <data name="InvalidCode" xml:space="preserve">
+    <value>no vàlid</value>
+  </data>
+  <data name="UserExist" xml:space="preserve">
+    <value>El compte de Facebook que estàs tractant d'utilitzar  ja ha estat pres per un altre usuari.</value>
+  </data>
+  <data name="FailedToVerifyPhone" xml:space="preserve">
+    <value>Número de telèfon</value>
+  </data>
+  <data name="Maintenance" xml:space="preserve">
+    <value>Manteniment</value>
+  </data>
+  <data name="Forms" xml:space="preserve">
+    <value>Formularis</value>
+  </data>
+  <data name="DontHaveAccount" xml:space="preserve">
+    <value>No tens un compte?</value>
+  </data>
+  <data name="Page" xml:space="preserve">
+    <value>Pàgina</value>
+  </data>
+  <data name="Of" xml:space="preserve">
+    <value>de</value>
+  </data>
+  <data name="TotalRows" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="ChooseInventory" xml:space="preserve">
+    <value>-- Selecciona inventari!</value>
+  </data>
+  <data name="ChooseModel" xml:space="preserve">
+    <value>-- Selecciona model de!</value>
+  </data>
+  <data name="ChooseSite" xml:space="preserve">
+    <value>Escull el lloc</value>
+  </data>
+  <data name="ChooseManufacturer" xml:space="preserve">
+    <value>-- Selecciona fabricant!</value>
+  </data>
+  <data name="ChooseMaintenanceType" xml:space="preserve">
+    <value>-- Selecciona manteniment tipus!</value>
+  </data>
+  <data name="DeviceCard" xml:space="preserve">
+    <value>dispositiu</value>
+  </data>
+  <data name="Installation" xml:space="preserve">
+    <value>Instal·lació</value>
+  </data>
+  <data name="BasicInformation" xml:space="preserve">
+    <value>Informació bàsica!</value>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>Mes</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>Any</value>
+  </data>
+  <data name="ChooseFormStatus" xml:space="preserve">
+    <value>- Escull l'estat de la forma</value>
+  </data>
+  <data name="ChooseDataType" xml:space="preserve">
+    <value>- Escolliu el tipus de dades!</value>
+  </data>
+  <data name="Form" xml:space="preserve">
+    <value>Formulari</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>lnforme</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>Informes</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>S'està processant...</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Anterior</value>
+  </data>
+  <data name="SummaryMessage" xml:space="preserve">
+    <value>S'estan mostrant {0} al {1} {2} entrades!</value>
+  </data>
+  <data name="Fields" xml:space="preserve">
+    <value>Camps</value>
+  </data>
+  <data name="Reorder" xml:space="preserve">
+    <value>Reordenar!</value>
+  </data>
+  <data name="Sections" xml:space="preserve">
+    <value>Personalitzador seccions</value>
+  </data>
+  <data name="Section" xml:space="preserve">
+    <value>Secció</value>
+  </data>
+  <data name="Choices" xml:space="preserve">
+    <value>Eleccions</value>
+  </data>
+  <data name="Choice" xml:space="preserve">
+    <value>Elecció</value>
+  </data>
+  <data name="DataType" xml:space="preserve">
+    <value>Tipus de dada</value>
+  </data>
+  <data name="DataTypes" xml:space="preserve">
+    <value>Tipus de dades</value>
+  </data>
+  <data name="Field" xml:space="preserve">
+    <value>Finca</value>
+  </data>
+  <data name="Property" xml:space="preserve">
+    <value>Immoble</value>
+  </data>
+  <data name="Properties" xml:space="preserve">
+    <value>Immobles</value>
+  </data>
+  <data name="ChoiceList" xml:space="preserve">
+    <value>Elecció</value>
+  </data>
+  <data name="Values" xml:space="preserve">
+    <value>Valors</value>
+  </data>
+  <data name="ChoiceLists" xml:space="preserve">
+    <value>Llistes</value>
+  </data>
+  <data name="WorkflowPath" xml:space="preserve">
+    <value>flux de treball</value>
+  </data>
+  <data name="Workflow" xml:space="preserve">
+    <value>Flux de treball</value>
+  </data>
+  <data name="WorkflowSettings" xml:space="preserve">
+    <value>ajusts</value>
+  </data>
+  <data name="EmpNumber" xml:space="preserve">
+    <value>empleat</value>
+  </data>
+  <data name="EmpNumberInvalid" xml:space="preserve">
+    <value>L&amp;apos;URL no és vàlid.</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Tancar</value>
+  </data>
+  <data name="Approval" xml:space="preserve">
+    <value>Aprovació</value>
+  </data>
+  <data name="ActionStatus" xml:space="preserve">
+    <value>Acció</value>
+  </data>
+  <data name="ChangeStatusConfirmation" xml:space="preserve">
+    <value>Segur que vols sortir?</value>
+  </data>
+  <data name="PendingPrev" xml:space="preserve">
+    <value>Nivell Anterior</value>
+  </data>
+  <data name="PendingNext" xml:space="preserve">
+    <value>Nivell Següent</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Completat</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>Llista</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Actualitza</value>
+  </data>
+  <data name="ChooseFields" xml:space="preserve">
+    <value>Camps</value>
+  </data>
+  <data name="ApprovalTracking" xml:space="preserve">
+    <value>APROVAT</value>
+  </data>
+  <data name="ActionDate" xml:space="preserve">
+    <value>Acció</value>
+  </data>
+  <data name="ChooseGroup" xml:space="preserve">
+    <value>Trieu la ubicació dels fitxers del grup...</value>
+  </data>
+  <data name="Items" xml:space="preserve">
+    <value>Elements</value>
+  </data>
+  <data name="SubmissionDate" xml:space="preserve">
+    <value>ENVIAMENT</value>
+  </data>
+  <data name="ChangeUserName" xml:space="preserve">
+    <value>Canvia la contrasenya de %username%</value>
+  </data>
+  <data name="ChangeUserEmail" xml:space="preserve">
+    <value>Canvia la freqüència del correu electrònic</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Sí</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No\n</value>
+  </data>
+  <data name="DeleteAccount" xml:space="preserve">
+    <value>Suprimeix el compte</value>
+  </data>
+  <data name="AccountSummary" xml:space="preserve">
+    <value>Resum del compte</value>
+  </data>
+  <data name="RecordCreated" xml:space="preserve">
+    <value>Registre creat el</value>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>PERMISOS</value>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>Canvia</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Afegeix</value>
+  </data>
+  <data name="EmailStatus" xml:space="preserve">
+    <value>Seleccioneu l'estat del correu electrònic.</value>
+  </data>
+  <data name="Confirmed" xml:space="preserve">
+    <value>Confirmat</value>
+  </data>
+  <data name="Unconfirmed" xml:space="preserve">
+    <value>La meva circular sense confirmar</value>
+  </data>
+  <data name="ChangeConfirmEmail" xml:space="preserve">
+    <value>Confirma correu electrònic action:</value>
+  </data>
+  <data name="SendVerificationCode" xml:space="preserve">
+    <value>'Si us plau, introduïu el codi de verificació.</value>
+  </data>
+  <data name="RecordCreatedSuccessfully" xml:space="preserve">
+    <value>Prétec creat correctament</value>
+  </data>
+  <data name="RecordUpdated" xml:space="preserve">
+    <value>Registre</value>
+  </data>
+  <data name="RecordUpdatedSuccessfully" xml:space="preserve">
+    <value>Registre actualitzat correctament!</value>
+  </data>
+  <data name="RecordDeleted" xml:space="preserve">
+    <value>Registre</value>
+  </data>
+  <data name="RecordDeletedSuccessfully" xml:space="preserve">
+    <value>Esborrat correctament</value>
+  </data>
+  <data name="NoUsersInRole" xml:space="preserve">
+    <value>No s'han trobat membres en aquest curs.</value>
+  </data>
+  <data name="NoPermissionsInGroup" xml:space="preserve">
+    <value>Cap missatge d’aquest grup.</value>
+  </data>
+  <data name="ListGroupPermissions" xml:space="preserve">
+    <value>us ha convidat al grup</value>
+  </data>
+  <data name="TFAEnabled" xml:space="preserve">
+    <value>autenticació amb dos components</value>
+  </data>
+  <data name="TFADisabled" xml:space="preserve">
+    <value>autenticació amb dos components</value>
+  </data>
+  <data name="TFABrowserRemembered" xml:space="preserve">
+    <value>autenticació amb dos components</value>
+  </data>
+  <data name="ListUserPermissions" xml:space="preserve">
+    <value>Llista d'usuaris en aquest paper:</value>
+  </data>
+  <data name="NoGroupsForUser" xml:space="preserve">
+    <value>No s'han trobat grups</value>
+  </data>
+  <data name="ListGroupsForUser" xml:space="preserve">
+    <value>Pàgina del llistat dels grups</value>
+  </data>
+  <data name="NoPermissionsForUser" xml:space="preserve">
+    <value>No s'han trobat Preguntes Freqüents per a aquesta aplicació</value>
+  </data>
+  <data name="TFABrowserNotRemembered" xml:space="preserve">
+    <value>Navegador actualment no és recordat per dos d'autenticació de Factor:!</value>
+  </data>
+  <data name="ListUsersInPermission" xml:space="preserve">
+    <value>Llista d'usuaris d'aquest permís pertany a:!</value>
+  </data>
+  <data name="ConfirmAccount" xml:space="preserve">
+    <value>Confirmeu el compte</value>
+  </data>
+  <data name="ConfirmAccountMessage" xml:space="preserve">
+    <value>Si us plau, confirmar el seu compte fent clic en aquest enllaç</value>
+  </data>
+  <data name="ResetPasswordMessage" xml:space="preserve">
+    <value>Per favor, restableix la contrasenya fent clic aquí</value>
+  </data>
+  <data name="ConfirmNewPassword" xml:space="preserve">
+    <value>Confirmeu la contrasenya nova</value>
+  </data>
+  <data name="GroupExist" xml:space="preserve">
+    <value>Grup ja és existir.</value>
+  </data>
+  <data name="ForgetBrowser" xml:space="preserve">
+    <value>Oblida&amp;#39;t d&amp;#39;aquest navegador</value>
+  </data>
+  <data name="ChangePasswordSuccess" xml:space="preserve">
+    <value>La vostra contrasenya ha canviat.</value>
+  </data>
+  <data name="SetPasswordSuccess" xml:space="preserve">
+    <value>La contrasenya ha estat posat.</value>
+  </data>
+  <data name="SetTwoFactorSuccess" xml:space="preserve">
+    <value>S'ha fixat el seu proveïdor de dos factor.</value>
+  </data>
+  <data name="AddPhoneSuccess" xml:space="preserve">
+    <value>El número de telèfon s'ha afegit.</value>
+  </data>
+  <data name="RemovePhoneSuccess" xml:space="preserve">
+    <value>El número de telèfon s'ha suprimit.</value>
+  </data>
+  <data name="Showing" xml:space="preserve">
+    <value>Mostrant</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="Entries" xml:space="preserve">
+    <value>en&amp;trades</value>
+  </data>
+  <data name="Documentation" xml:space="preserve">
+    <value>Documentació</value>
+  </data>
+  <data name="BuyNow" xml:space="preserve">
+    <value>Compra ara</value>
+  </data>
+  <data name="Searching" xml:space="preserve">
+    <value>S'està cercant...</value>
+  </data>
+  <data name="Roles1" xml:space="preserve">
+    <value>Funcions</value>
+  </data>
+  <data name="Role1" xml:space="preserve">
+    <value>FUNCIÓ</value>
+  </data>
+  <data name="CRMModules" xml:space="preserve">
+    <value>CRM mòduls</value>
+  </data>
+  <data name="Sales" xml:space="preserve">
+    <value>Vendes</value>
+  </data>
+  <data name="Marketing" xml:space="preserve">
+    <value>Màrqueting</value>
+  </data>
+  <data name="Operations" xml:space="preserve">
+    <value>Operacions</value>
+  </data>
+  <data name="Accounting" xml:space="preserve">
+    <value>Comptabilitat</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>Assistència tècnica</value>
+  </data>
+  <data name="DefaultPasswordFor" xml:space="preserve">
+    <value>Contrasenya predeterminada per:!</value>
+  </data>
+  <data name="DefaultUserPassword" xml:space="preserve">
+    <value>contrasenya predeterminada per als altres usuaris:</value>
+  </data>
+  <data name="AdminUsername" xml:space="preserve">
+    <value>Camp Nom d'usuari:</value>
+  </data>
+  <data name="AdminPassword" xml:space="preserve">
+    <value>paraula Clau:</value>
+  </data>
+</root>

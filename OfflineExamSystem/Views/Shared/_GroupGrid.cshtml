@@ -1,0 +1,29 @@
+﻿@model IEnumerable<OfflineExamSystem.Models.IndexGroupViewModel>
+
+@(
+        Html.Grid(Model)
+        .Build(columns =>
+        {
+            columns.Add(model => model.Name);
+            columns.Add(model => model.Description);
+            columns.Add(model => "<div class='dropdown'> <button class='btn btn-default dropdown-toggle' type='button' data-toggle='dropdown'> " + Resources.Resources.Actions + " <span class='caret'></span> </button> <ul class='dropdown-menu'> <li><a href='#' data-id=" + model.Id + " data-toggle='modal' class='details' data-target='#detailsModal'><i class='glyphicon glyphicon-list-alt'></i> " + Resources.Resources.Details + "</a></li> <li><a href='#' data-id=" + model.Id + " data-toggle='modal' class='edit' data-target='#editModal'><i class='glyphicon glyphicon-edit'></i> " + Resources.Resources.Edit + "</a></li> <li><a href='#' data-id=" + model.Id + " data-toggle='modal' class='delete' data-target='#deleteModal'><i class='glyphicon glyphicon-trash'></i> " + Resources.Resources.Delete + "</a></li> </ul> </div>").Encoded(false);
+            columns.Add(model => Html.ActionLink(Resources.Resources.Roles1, "Index", "GroupRoles", new { model.Id }, new { @class = "form-control btn btn-default" }));
+
+        })
+        .Css("table-condensed")
+        .AppendCss("table-hover")
+        .AppendCss("table-striped")
+        .Empty(Resources.Resources.NoRecordFound)
+        .Id("my-ajax-grid")
+        .Pageable(pager =>
+        {
+            pager.PageSizes = new Dictionary<Int32, String>
+        {   { 10, "10" }, { 15, "15" }, { 20, "20" }, { 25, "25" }, { 30, "30" }, { 35, "35" }, { 40, "40" }, { 45, "45" }, { 50, "50" }/*, { 0, "All" } */};
+            pager.ShowPageSizes = true;
+            pager.PagesToDisplay = 5;
+            pager.RowsPerPage = 10;
+            pager.ProcessorType = GridProcessorType.Manual;
+            pager.TotalRows = ViewBag.TotalRows;
+        })
+        .Sortable()
+)

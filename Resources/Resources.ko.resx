@@ -1,0 +1,2103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BackToList" xml:space="preserve">
+    <value>목록으로 돌아가기</value>
+  </data>
+  <data name="Calendar" xml:space="preserve">
+    <value>달력</value>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>구성</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>암호 확인</value>
+  </data>
+  <data name="ConfirmPasswordCompare" xml:space="preserve">
+    <value>암호와 확인 암호는 일치 하지 않습니다.</value>
+  </data>
+  <data name="Contents" xml:space="preserve">
+    <value>내용</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>만들기</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="DeleteConfirmation" xml:space="preserve">
+    <value>당신은 이것을 삭제 하 시겠습니까?</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>설명</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>세부 정보</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>편집</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>메일 주소</value>
+  </data>
+  <data name="EmailRegularExpression" xml:space="preserve">
+    <value>이메일 유효 하지 않습니다.</value>
+  </data>
+  <data name="Events" xml:space="preserve">
+    <value>이벤트</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>그룹</value>
+  </data>
+  <data name="GroupRolesAssignment" xml:space="preserve">
+    <value>역할 그룹에 할당 된:</value>
+  </data>
+  <data name="Groups" xml:space="preserve">
+    <value>그룹</value>
+  </data>
+  <data name="GroupsAssignment" xml:space="preserve">
+    <value>그룹 사용자 할당:</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>홈</value>
+  </data>
+  <data name="Images" xml:space="preserve">
+    <value>이미지</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>언어</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>마지막 이름</value>
+  </data>
+  <data name="LogOff" xml:space="preserve">
+    <value>로그 오프</value>
+  </data>
+  <data name="LogOn" xml:space="preserve">
+    <value>로그인</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>암호</value>
+  </data>
+  <data name="PasswordStringLength" xml:space="preserve">
+    <value>암호는 적어도 6 자 이어야 합니다.</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>역할</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>역할</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>등록</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>저장</value>
+  </data>
+  <data name="SelectGroups" xml:space="preserve">
+    <value>그룹 선택</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>사용자</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>사용자 이름</value>
+  </data>
+  <data name="UserRolesAssignment" xml:space="preserve">
+    <value>사용자에 할당 된 역할:</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>사용자</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>저자</value>
+  </data>
+  <data name="CreatedOn" xml:space="preserve">
+    <value>만든 날짜</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>활동 종료일</value>
+  </data>
+  <data name="Index" xml:space="preserve">
+    <value>인덱스</value>
+  </data>
+  <data name="IsPublished" xml:space="preserve">
+    <value>게시?</value>
+  </data>
+  <data name="IsTranslated" xml:space="preserve">
+    <value>번역은?</value>
+  </data>
+  <data name="LanguageId" xml:space="preserve">
+    <value>언어 ID</value>
+  </data>
+  <data name="ModifiedBy" xml:space="preserve">
+    <value>마지막으로 수정</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>위치</value>
+  </data>
+  <data name="ModifiedOn" xml:space="preserve">
+    <value>수정 날짜</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>작업 시작 날짜</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>제목</value>
+  </data>
+  <data name="TranslationId" xml:space="preserve">
+    <value>번역</value>
+  </data>
+  <data name="Event" xml:space="preserve">
+    <value>이벤트</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>파일</value>
+  </data>
+  <data name="FilePath" xml:space="preserve">
+    <value>파일 경로</value>
+  </data>
+  <data name="MIME" xml:space="preserve">
+    <value>MIME</value>
+  </data>
+  <data name="Tag" xml:space="preserve">
+    <value>태그</value>
+  </data>
+  <data name="Tags" xml:space="preserve">
+    <value>태그</value>
+  </data>
+  <data name="ThumbPath" xml:space="preserve">
+    <value>엄지손가락 경로</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>보기</value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>콘텐츠</value>
+  </data>
+  <data name="MainContent" xml:space="preserve">
+    <value>주요 내용</value>
+  </data>
+  <data name="MetaDescription" xml:space="preserve">
+    <value>메타 설명</value>
+  </data>
+  <data name="MetaKeywords" xml:space="preserve">
+    <value>메타 키워드</value>
+  </data>
+  <data name="Languages" xml:space="preserve">
+    <value>언어 선택</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>비밀 번호 변경</value>
+  </data>
+  <data name="CurrentPassword" xml:space="preserve">
+    <value>현재 암호</value>
+  </data>
+  <data name="ManageAccount" xml:space="preserve">
+    <value>계정 관리</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>새 암호</value>
+  </data>
+  <data name="OldPassword" xml:space="preserve">
+    <value>이전 암호</value>
+  </data>
+  <data name="RememberMe" xml:space="preserve">
+    <value>나를 기억합니다</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>검색</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>카테고리</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>메뉴</value>
+  </data>
+  <data name="MenuItem" xml:space="preserve">
+    <value>메뉴 항목</value>
+  </data>
+  <data name="MenuItems" xml:space="preserve">
+    <value>메뉴 항목</value>
+  </data>
+  <data name="Menus" xml:space="preserve">
+    <value>메뉴</value>
+  </data>
+  <data name="IsCms" xml:space="preserve">
+    <value>Cms는?</value>
+  </data>
+  <data name="IsLeaf" xml:space="preserve">
+    <value>잎은?</value>
+  </data>
+  <data name="IsParent" xml:space="preserve">
+    <value>부모는?</value>
+  </data>
+  <data name="Ordinal" xml:space="preserve">
+    <value>서 수</value>
+  </data>
+  <data name="Parent" xml:space="preserve">
+    <value>부모</value>
+  </data>
+  <data name="CreateNewAccount" xml:space="preserve">
+    <value>새 계정을 만듭니다.</value>
+  </data>
+  <data name="Deleted" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="Published" xml:space="preserve">
+    <value>게시</value>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>저장</value>
+  </data>
+  <data name="MaximumAllowedSize" xml:space="preserve">
+    <value>최대 허용 크기는:</value>
+  </data>
+  <data name="PleaseUploadImageOfType" xml:space="preserve">
+    <value>종류의 이미지를 업로드 하시기 바랍니다.</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>노트</value>
+  </data>
+  <data name="AddTranslation" xml:space="preserve">
+    <value>번역 추가</value>
+  </data>
+  <data name="ViewTranslation" xml:space="preserve">
+    <value>번역 보기</value>
+  </data>
+  <data name="HasShortcut" xml:space="preserve">
+    <value>홈 페이지에 dispaly</value>
+  </data>
+  <data name="IsScheduled" xml:space="preserve">
+    <value>예정 이다?</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>상태</value>
+  </data>
+  <data name="Announcements" xml:space="preserve">
+    <value>공지 사항</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>뉴스</value>
+  </data>
+  <data name="NoAnnouncements" xml:space="preserve">
+    <value>아무 공지 사항을 확인 하 고 있습니다.</value>
+  </data>
+  <data name="NoEvents" xml:space="preserve">
+    <value>이벤트가 있다.</value>
+  </data>
+  <data name="NoNews" xml:space="preserve">
+    <value>아무런 소식이 있다.</value>
+  </data>
+  <data name="ContentTypes" xml:space="preserve">
+    <value>콘텐츠 형식</value>
+  </data>
+  <data name="Building" xml:space="preserve">
+    <value>건물</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>코드</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>국가</value>
+  </data>
+  <data name="Locality" xml:space="preserve">
+    <value>도시</value>
+  </data>
+  <data name="PostalCode" xml:space="preserve">
+    <value>우편 번호</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>프로 파일</value>
+  </data>
+  <data name="Street" xml:space="preserve">
+    <value>거리</value>
+  </data>
+  <data name="Telephone" xml:space="preserve">
+    <value>전화</value>
+  </data>
+  <data name="EnterCredentials" xml:space="preserve">
+    <value>사용자 이름 및 로그온 암호를 입력 합니다.</value>
+  </data>
+  <data name="ForgetPassword" xml:space="preserve">
+    <value>비밀 번호를 잊으셨나요?</value>
+  </data>
+  <data name="JoinUs" xml:space="preserve">
+    <value>@ 우리와 함께</value>
+  </data>
+  <data name="LoginToSite" xml:space="preserve">
+    <value>우리의 사이트에 로그인</value>
+  </data>
+  <data name="LoginWithSocialMedia" xml:space="preserve">
+    <value>.. 아니면 로그인:</value>
+  </data>
+  <data name="PasswordMatch" xml:space="preserve">
+    <value>새 암호와 확인 암호는 일치 하지 않습니다.</value>
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>전화 번호</value>
+  </data>
+  <data name="RegisterNewUser" xml:space="preserve">
+    <value>새 사용자로 등록</value>
+  </data>
+  <data name="StringLength" xml:space="preserve">
+    <value>{0} 이어야 합니다 적어도 {2} 자.</value>
+  </data>
+  <data name="FillForm" xml:space="preserve">
+    <value>인스턴트 액세스 하려면 아래 양식을 기입.</value>
+  </data>
+  <data name="EmailInvalid" xml:space="preserve">
+    <value>이메일 주소는 유효 하지 않습니다.</value>
+  </data>
+  <data name="SignUp" xml:space="preserve">
+    <value>계정 신청</value>
+  </data>
+  <data name="SignUpInSeconds" xml:space="preserve">
+    <value>초 가입</value>
+  </data>
+  <data name="AlreadyMember" xml:space="preserve">
+    <value>이미 회원이 세요?</value>
+  </data>
+  <data name="EmailLink" xml:space="preserve">
+    <value>이메일 링크</value>
+  </data>
+  <data name="EmailConfirmationCheck" xml:space="preserve">
+    <value>귀하의 계정을 활성화 귀하의 이메일을 확인 하시기 바랍니다.</value>
+  </data>
+  <data name="EnterEmail" xml:space="preserve">
+    <value>이메일 비밀 번호 재설정 링크를 받을 이메일을 입력 합니다.</value>
+  </data>
+  <data name="Instruction" xml:space="preserve">
+    <value>우리는 당신이 보낸 이메일 확인 링크를 포함 하 여 있다. 귀하의 이메일을 확인 하 고 귀하의 가입을 확인 하십시오.</value>
+  </data>
+  <data name="InvalidLoginAttempt" xml:space="preserve">
+    <value>잘못 된 로그인 시도입니다.</value>
+  </data>
+  <data name="Regards" xml:space="preserve">
+    <value>감사합니다</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>시청해 주셔서 감사 합니다!</value>
+  </data>
+  <data name="ThankYouFor" xml:space="preserve">
+    <value>사용해 주셔서 감사</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>환영 합니다</value>
+  </data>
+  <data name="EnterVerificationCode" xml:space="preserve">
+    <value>확인 코드를 입력 합니다.</value>
+  </data>
+  <data name="RememberBrowser" xml:space="preserve">
+    <value>이 브라우저를 기억</value>
+  </data>
+  <data name="SelectTwoFactor" xml:space="preserve">
+    <value>2 단계 인증 방법을 선택 합니다.</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>보내기</value>
+  </data>
+  <data name="TwoFactor" xml:space="preserve">
+    <value>2 단계 인증</value>
+  </data>
+  <data name="TwoFactorType" xml:space="preserve">
+    <value>2 단계 인증 방법</value>
+  </data>
+  <data name="VerificationCode" xml:space="preserve">
+    <value>확인 코드</value>
+  </data>
+  <data name="Verify" xml:space="preserve">
+    <value>지금 확인</value>
+  </data>
+  <data name="ChangeAccountSettings" xml:space="preserve">
+    <value>계정 설정을 변경 합니다.</value>
+  </data>
+  <data name="ExternalLogins" xml:space="preserve">
+    <value>외부 로그인</value>
+  </data>
+  <data name="AddPhoneNumber" xml:space="preserve">
+    <value>전화 번호 추가</value>
+  </data>
+  <data name="ChangeCurrentPassword" xml:space="preserve">
+    <value>변경의 현재 암호입니다.</value>
+  </data>
+  <data name="Disable" xml:space="preserve">
+    <value>사용 안 함</value>
+  </data>
+  <data name="Enable" xml:space="preserve">
+    <value>활성화</value>
+  </data>
+  <data name="ExploreOurSite" xml:space="preserve">
+    <value>우리의 사이트를 찾아보기</value>
+  </data>
+  <data name="ManageLogins" xml:space="preserve">
+    <value>외부 로그인 관리</value>
+  </data>
+  <data name="PhoneNumberOption" xml:space="preserve">
+    <value>확인 코드를 받을 수 있도록 전화 번호를 추가 합니다.</value>
+  </data>
+  <data name="SetPassword" xml:space="preserve">
+    <value>비밀 번호 설정된</value>
+  </data>
+  <data name="VerifyPhoneNumber" xml:space="preserve">
+    <value>전화 번호를 확인</value>
+  </data>
+  <data name="VerifyPhoneNumberOption" xml:space="preserve">
+    <value>본인 확인 인증 코드를 입력 합니다. </value>
+  </data>
+  <data name="ChooseContentType" xml:space="preserve">
+    <value>-선택 콘텐츠 형식-</value>
+  </data>
+  <data name="ChooseLanguage" xml:space="preserve">
+    <value>-선택 언어-</value>
+  </data>
+  <data name="ChooseParentMenuItem" xml:space="preserve">
+    <value>-부모 선택 메뉴 항목-</value>
+  </data>
+  <data name="ContentType" xml:space="preserve">
+    <value>콘텐츠 형식</value>
+  </data>
+  <data name="HasMenuItem" xml:space="preserve">
+    <value>메뉴 링크를 제공?</value>
+  </data>
+  <data name="ChooseMenu" xml:space="preserve">
+    <value>-선택 메뉴-</value>
+  </data>
+  <data name="FacebookUrl" xml:space="preserve">
+    <value>페이 스 북</value>
+  </data>
+  <data name="IsUrgent" xml:space="preserve">
+    <value>급한 바에 표시?</value>
+  </data>
+  <data name="Logo" xml:space="preserve">
+    <value>로고</value>
+  </data>
+  <data name="ParentMenuItem" xml:space="preserve">
+    <value>부모 메뉴 항목</value>
+  </data>
+  <data name="StatusId" xml:space="preserve">
+    <value>상태</value>
+  </data>
+  <data name="TwitterUrl" xml:space="preserve">
+    <value>지 저 귀 다</value>
+  </data>
+  <data name="YouTubeUrl" xml:space="preserve">
+    <value>YouTube</value>
+  </data>
+  <data name="AcademicJournal" xml:space="preserve">
+    <value>학생 음성 잡지</value>
+  </data>
+  <data name="ShortcutTitle" xml:space="preserve">
+    <value>바로 가기 제목</value>
+  </data>
+  <data name="NoArticles" xml:space="preserve">
+    <value>아니 기사 있다.</value>
+  </data>
+  <data name="Vacancy" xml:space="preserve">
+    <value>작업 Annoucement</value>
+  </data>
+  <data name="Degree" xml:space="preserve">
+    <value>학위 </value>
+  </data>
+  <data name="Degrees" xml:space="preserve">
+    <value>도</value>
+  </data>
+  <data name="AddAttachments" xml:space="preserve">
+    <value>다른 첨부 파일 추가...</value>
+  </data>
+  <data name="Applicant" xml:space="preserve">
+    <value>신청자</value>
+  </data>
+  <data name="Requirements" xml:space="preserve">
+    <value>요구 사항</value>
+  </data>
+  <data name="CoverLetter" xml:space="preserve">
+    <value>커버 레터</value>
+  </data>
+  <data name="FileName" xml:space="preserve">
+    <value>파일 이름</value>
+  </data>
+  <data name="Id" xml:space="preserve">
+    <value>일련 번호</value>
+  </data>
+  <data name="IsActive" xml:space="preserve">
+    <value>활성은?</value>
+  </data>
+  <data name="VacancyType" xml:space="preserve">
+    <value>공 실 률 유형</value>
+  </data>
+  <data name="Documents" xml:space="preserve">
+    <value>문서</value>
+  </data>
+  <data name="Submissions" xml:space="preserve">
+    <value>제출</value>
+  </data>
+  <data name="SubmittedOn" xml:space="preserve">
+    <value>Submittion 날짜</value>
+  </data>
+  <data name="Rank" xml:space="preserve">
+    <value>학문적 인 순위</value>
+  </data>
+  <data name="Ranks" xml:space="preserve">
+    <value>학문적 인 순위</value>
+  </data>
+  <data name="ChooseVacancy" xml:space="preserve">
+    <value>-선택 작업 제목-</value>
+  </data>
+  <data name="Applicants" xml:space="preserve">
+    <value>지원자</value>
+  </data>
+  <data name="ApplicantFullName" xml:space="preserve">
+    <value>신청자 이름</value>
+  </data>
+  <data name="Attachments" xml:space="preserve">
+    <value>첨부 파일</value>
+  </data>
+  <data name="CurriculumVitae" xml:space="preserve">
+    <value>이력서</value>
+  </data>
+  <data name="DOB" xml:space="preserve">
+    <value>생년월일</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>다운로드</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>성별</value>
+  </data>
+  <data name="JobTitle" xml:space="preserve">
+    <value>직함</value>
+  </data>
+  <data name="MiddleName" xml:space="preserve">
+    <value>중간 이름</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>모바일 번호</value>
+  </data>
+  <data name="ResumeFileName" xml:space="preserve">
+    <value>이력서</value>
+  </data>
+  <data name="ResumeFilePath" xml:space="preserve">
+    <value>이력서</value>
+  </data>
+  <data name="Submission" xml:space="preserve">
+    <value>제출</value>
+  </data>
+  <data name="NoParentItem" xml:space="preserve">
+    <value>-아니 부모 항목-</value>
+  </data>
+  <data name="ContentList" xml:space="preserve">
+    <value>콘텐츠 목록</value>
+  </data>
+  <data name="ItemContent" xml:space="preserve">
+    <value>항목 내용</value>
+  </data>
+  <data name="PleaseUploadFileOfType" xml:space="preserve">
+    <value>형식의 파일을 업로드 하시기 바랍니다.</value>
+  </data>
+  <data name="JobType" xml:space="preserve">
+    <value>작업 유형</value>
+  </data>
+  <data name="ListItem" xml:space="preserve">
+    <value>목록 항목</value>
+  </data>
+  <data name="ListItems" xml:space="preserve">
+    <value>목록 항목</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>웹사이트</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>팩스</value>
+  </data>
+  <data name="Latitude" xml:space="preserve">
+    <value>위도</value>
+  </data>
+  <data name="Longitude" xml:space="preserve">
+    <value>경도</value>
+  </data>
+  <data name="Organization" xml:space="preserve">
+    <value>조직</value>
+  </data>
+  <data name="Organizations" xml:space="preserve">
+    <value>조직</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>도시</value>
+  </data>
+  <data name="District" xml:space="preserve">
+    <value>지구</value>
+  </data>
+  <data name="Province" xml:space="preserve">
+    <value>주</value>
+  </data>
+  <data name="POBox" xml:space="preserve">
+    <value>사서함</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>연락처 정보</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>부서</value>
+  </data>
+  <data name="Office" xml:space="preserve">
+    <value>사무실</value>
+  </data>
+  <data name="PersonalTitle" xml:space="preserve">
+    <value>개인 타이틀</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>위치</value>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>저희에 게 연락</value>
+  </data>
+  <data name="OurLocationOnMap" xml:space="preserve">
+    <value>우리의 위치에</value>
+  </data>
+  <data name="PersonalTitles" xml:space="preserve">
+    <value>PersonalTitles</value>
+  </data>
+  <data name="Extension" xml:space="preserve">
+    <value>확장</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>전화 번호</value>
+  </data>
+  <data name="ManageLists" xml:space="preserve">
+    <value>목록 관리</value>
+  </data>
+  <data name="Articles" xml:space="preserve">
+    <value>기사</value>
+  </data>
+  <data name="ApplyNow" xml:space="preserve">
+    <value>지금 신청</value>
+  </data>
+  <data name="Class" xml:space="preserve">
+    <value>CSS 클래스</value>
+  </data>
+  <data name="CopyRights" xml:space="preserve">
+    <value>모든 권리 보유</value>
+  </data>
+  <data name="GooglePlusUrl" xml:space="preserve">
+    <value>구글 플러스</value>
+  </data>
+  <data name="LinkedInUrl" xml:space="preserve">
+    <value>링크 드 인</value>
+  </data>
+  <data name="Privacy" xml:space="preserve">
+    <value>개인 정보 보호</value>
+  </data>
+  <data name="RSS" xml:space="preserve">
+    <value>RSS 피드</value>
+  </data>
+  <data name="Terms" xml:space="preserve">
+    <value>번역</value>
+  </data>
+  <data name="WebDevelopedBy" xml:space="preserve">
+    <value>웹사이트 개발자 이름</value>
+  </data>
+  <data name="EnterYourEmail" xml:space="preserve">
+    <value>귀하의 이메일을 입력...</value>
+  </data>
+  <data name="Explore" xml:space="preserve">
+    <value>탐험</value>
+  </data>
+  <data name="KeepInTouch" xml:space="preserve">
+    <value>연락하고 지내다</value>
+  </data>
+  <data name="LatestNews" xml:space="preserve">
+    <value>최신 뉴스</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>전화</value>
+  </data>
+  <data name="Subscribe" xml:space="preserve">
+    <value>구독</value>
+  </data>
+  <data name="SubscriptionMessage" xml:space="preserve">
+    <value>중요 한 뉴스를 얻으려면 우리의 회보를 구독</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>주소</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>적용</value>
+  </data>
+  <data name="Arrow" xml:space="preserve">
+    <value>아이콘-긴-화살표-오른쪽</value>
+  </data>
+  <data name="For" xml:space="preserve">
+    <value>에 대 한</value>
+  </data>
+  <data name="MarginDirClass" xml:space="preserve">
+    <value>여백-왼쪽-10</value>
+  </data>
+  <data name="AllowedAttachmentExtensions" xml:space="preserve">
+    <value>하나 이상의 attachmetns은 유효 하지 않습니다:만. PDF. DOCX. DOC. PNG. JPG. JPEG 파일을 사용할 수 있습니다.</value>
+  </data>
+  <data name="AttachmentsNotes" xml:space="preserve">
+    <value>형식의 첨부 파일을 업로드 하시기 바랍니다:. PDF. DOCX. DOC. PNG. JPG. JPEG</value>
+  </data>
+  <data name="CVNotes" xml:space="preserve">
+    <value>형식의 이력서를 업로드 하시기 바랍니다:. PDF. DOCX. 문서</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>전송</value>
+  </data>
+  <data name="Program" xml:space="preserve">
+    <value>프로그램</value>
+  </data>
+  <data name="Programs" xml:space="preserve">
+    <value>프로그램</value>
+  </data>
+  <data name="JobAnnouncement" xml:space="preserve">
+    <value>일 발표</value>
+  </data>
+  <data name="JobAnnouncements" xml:space="preserve">
+    <value>작업 공지</value>
+  </data>
+  <data name="Departments" xml:space="preserve">
+    <value>부서</value>
+  </data>
+  <data name="EmployeeTypes" xml:space="preserve">
+    <value>직원 유형</value>
+  </data>
+  <data name="EmpInDepts" xml:space="preserve">
+    <value>직원 부서</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>직원</value>
+  </data>
+  <data name="Occupation" xml:space="preserve">
+    <value>직업</value>
+  </data>
+  <data name="Occupations" xml:space="preserve">
+    <value>직종</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>전체 이름</value>
+  </data>
+  <data name="ImagePath" xml:space="preserve">
+    <value>이미지 경로</value>
+  </data>
+  <data name="LandLine" xml:space="preserve">
+    <value>토지 라인 번호</value>
+  </data>
+  <data name="OfficeNumber" xml:space="preserve">
+    <value>사무실 번호</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>직원</value>
+  </data>
+  <data name="ImageNotes" xml:space="preserve">
+    <value>종류의 이미지를 업로드 하시기 바랍니다:. PNG. JPG. JPEG. BMP</value>
+  </data>
+  <data name="PersonalPhoto" xml:space="preserve">
+    <value>개인 사진</value>
+  </data>
+  <data name="ViewCV" xml:space="preserve">
+    <value>이력서 보기</value>
+  </data>
+  <data name="PersonalPhotoName" xml:space="preserve">
+    <value>개인 사진 이름</value>
+  </data>
+  <data name="PersonalPhotoPath" xml:space="preserve">
+    <value>개인 사진</value>
+  </data>
+  <data name="UploadPersonalPhoto" xml:space="preserve">
+    <value>개인 사진 업로드</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>관리자</value>
+  </data>
+  <data name="AllLanguages" xml:space="preserve">
+    <value>모든 언어</value>
+  </data>
+  <data name="Director" xml:space="preserve">
+    <value>감독</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>찾아보기</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>참고</value>
+  </data>
+  <data name="AcademicInfo" xml:space="preserve">
+    <value>학술 정보</value>
+  </data>
+  <data name="Biography" xml:space="preserve">
+    <value>역사</value>
+  </data>
+  <data name="ContactInfo" xml:space="preserve">
+    <value>연락처 정보</value>
+  </data>
+  <data name="PersonalInfo" xml:space="preserve">
+    <value>개인 정보</value>
+  </data>
+  <data name="Manage" xml:space="preserve">
+    <value>관리</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>제거</value>
+  </data>
+  <data name="FillOutPersonalInfo" xml:space="preserve">
+    <value>개인 정보 양식을 작성 하십시오.</value>
+  </data>
+  <data name="AccountSettings" xml:space="preserve">
+    <value>계정 설정</value>
+  </data>
+  <data name="ManageContacts" xml:space="preserve">
+    <value>연락처 관리</value>
+  </data>
+  <data name="ManagePublications" xml:space="preserve">
+    <value>간행물 관리</value>
+  </data>
+  <data name="NoCVUploaded" xml:space="preserve">
+    <value>아니 이력서 업로드!</value>
+  </data>
+  <data name="NoPersonalPhotoUploaded" xml:space="preserve">
+    <value>아니 개인 사진 업로드!</value>
+  </data>
+  <data name="Publication" xml:space="preserve">
+    <value>게시</value>
+  </data>
+  <data name="Publications" xml:space="preserve">
+    <value>출판물</value>
+  </data>
+  <data name="Abstract" xml:space="preserve">
+    <value>개요</value>
+  </data>
+  <data name="CompletedProfile" xml:space="preserve">
+    <value>완성 된 프로 파일</value>
+  </data>
+  <data name="EmployeeType" xml:space="preserve">
+    <value>직원 유형</value>
+  </data>
+  <data name="ViewProfile" xml:space="preserve">
+    <value>프로필 보기</value>
+  </data>
+  <data name="Hello" xml:space="preserve">
+    <value>안녕하세요</value>
+  </data>
+  <data name="OurStaffDirectory" xml:space="preserve">
+    <value>우리의 직원 디렉토리</value>
+  </data>
+  <data name="SearchBy" xml:space="preserve">
+    <value>로 검색</value>
+  </data>
+  <data name="SearchByDepartmet" xml:space="preserve">
+    <value>Departmet으로 검색</value>
+  </data>
+  <data name="DuplicateEmail" xml:space="preserve">
+    <value>이메일 주소는 이미 등록 된다.</value>
+  </data>
+  <data name="InvalidOrganizationEmail" xml:space="preserve">
+    <value>귀하의 직장 이메일 주소를 입력 합니다.</value>
+  </data>
+  <data name="DepartmentStaffList" xml:space="preserve">
+    <value>부서 직원 목록</value>
+  </data>
+  <data name="SearchResult" xml:space="preserve">
+    <value>검색 결과</value>
+  </data>
+  <data name="DuplicateError" xml:space="preserve">
+    <value>중복 레코드를 삽입할 수 없습니다.</value>
+  </data>
+  <data name="EmployeeName" xml:space="preserve">
+    <value>직원 이름</value>
+  </data>
+  <data name="ClickHereToLogin" xml:space="preserve">
+    <value>로그인 하려면 여기를 클릭 하십시오.</value>
+  </data>
+  <data name="ConfirmEmail" xml:space="preserve">
+    <value>이메일 확인</value>
+  </data>
+  <data name="ConfirmEmailThanks" xml:space="preserve">
+    <value>귀하의 이메일을 확인 해 주셔서 감사 합니다.</value>
+  </data>
+  <data name="ForgotPasswordCheck" xml:space="preserve">
+    <value>암호를 다시 설정 하려면 귀하의 이메일을 확인 하시기 바랍니다.</value>
+  </data>
+  <data name="ForgotPasswordConfirmation" xml:space="preserve">
+    <value>분실 비밀 번호 확인</value>
+  </data>
+  <data name="Please" xml:space="preserve">
+    <value>하시기 바랍니다</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>리셋</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>암호 다시 설정</value>
+  </data>
+  <data name="ResetYourPassword" xml:space="preserve">
+    <value>암호를 다시 설정 합니다.</value>
+  </data>
+  <data name="SecurityCode" xml:space="preserve">
+    <value>보안 코드</value>
+  </data>
+  <data name="ApplyFor" xml:space="preserve">
+    <value>에 대 한 적용</value>
+  </data>
+  <data name="ChooseDepartment" xml:space="preserve">
+    <value>-선택 부-</value>
+  </data>
+  <data name="SubmissionId" xml:space="preserve">
+    <value>출원 번호</value>
+  </data>
+  <data name="DownloadApplications" xml:space="preserve">
+    <value>응용 프로그램을 다운로드</value>
+  </data>
+  <data name="NotAvailable" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="GoCuteCMS" xml:space="preserve">
+    <value>CuteCMS로 이동</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>오류</value>
+  </data>
+  <data name="ErrorNotification" xml:space="preserve">
+    <value>우리의 기술적인 직원 자동으로 통보 고 최대한 긴급으로 이것을 찾고 있을 것입니다.</value>
+  </data>
+  <data name="GenericError" xml:space="preserve">
+    <value>뭔가 잘못 되었다.</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>요청 하 신 페이지를 찾을 수 없습니다!</value>
+  </data>
+  <data name="NotPublished" xml:space="preserve">
+    <value>요청 하 신 페이지는 게시 되지 않습니다.</value>
+  </data>
+  <data name="NotTranslated" xml:space="preserve">
+    <value>요청 하 신 페이지는 번역 되지 않습니다.</value>
+  </data>
+  <data name="DataTableLanguage" xml:space="preserve">
+    <value>http://cdn.datatables.net/plug-ins/1.10.12/i18n/English.json</value>
+  </data>
+  <data name="LanguageSelector" xml:space="preserve">
+    <value>언어</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>내보내기</value>
+  </data>
+  <data name="PleaseUploadAttachments" xml:space="preserve">
+    <value>필요한 첨부 파일을 업로드 하시기 바랍니다.</value>
+  </data>
+  <data name="Oops" xml:space="preserve">
+    <value>죄송 합니다!</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>작업</value>
+  </data>
+  <data name="ColVis" xml:space="preserve">
+    <value>열 표시</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>복사</value>
+  </data>
+  <data name="ExportExcel" xml:space="preserve">
+    <value>Excel 내보내기</value>
+  </data>
+  <data name="ExportPDF" xml:space="preserve">
+    <value>PDF 내보내기</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>인쇄</value>
+  </data>
+  <data name="Reload" xml:space="preserve">
+    <value>다시 로드</value>
+  </data>
+  <data name="NoUpcomingEvents" xml:space="preserve">
+    <value>곧 이벤트가 있다.</value>
+  </data>
+  <data name="UpcomingEvents" xml:space="preserve">
+    <value>곧 이벤트</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>에 대 한</value>
+  </data>
+  <data name="RnC" xml:space="preserve">
+    <value>연구 및 회의</value>
+  </data>
+  <data name="MyProfile" xml:space="preserve">
+    <value>내 프로필</value>
+  </data>
+  <data name="NoRecordFound" xml:space="preserve">
+    <value>기록도 발견!</value>
+  </data>
+  <data name="ViewMySocialNetwork" xml:space="preserve">
+    <value>내 소셜 네트워크를 볼 수 있습니다.</value>
+  </data>
+  <data name="CssClass" xml:space="preserve">
+    <value>Css 클래스</value>
+  </data>
+  <data name="Backend" xml:space="preserve">
+    <value>백엔드</value>
+  </data>
+  <data name="Frontend" xml:space="preserve">
+    <value>프론트 엔드</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>이미지</value>
+  </data>
+  <data name="Visible" xml:space="preserve">
+    <value>보이는?</value>
+  </data>
+  <data name="IsDefault" xml:space="preserve">
+    <value>기본은?</value>
+  </data>
+  <data name="PrimaryLogoName" xml:space="preserve">
+    <value>기본 로고 이름</value>
+  </data>
+  <data name="PrimaryLogoPath" xml:space="preserve">
+    <value>기본 로고 경로</value>
+  </data>
+  <data name="SecondaryLogoName" xml:space="preserve">
+    <value>이차 로고 이름</value>
+  </data>
+  <data name="SecondaryLogoPath" xml:space="preserve">
+    <value>이차 로고 경로</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>높이</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>너비</value>
+  </data>
+  <data name="ChooseRole" xml:space="preserve">
+    <value>-선택 역할-</value>
+  </data>
+  <data name="ChooseStatus" xml:space="preserve">
+    <value>-선택 상태-</value>
+  </data>
+  <data name="ChooseAuthor" xml:space="preserve">
+    <value>-선택 저자-</value>
+  </data>
+  <data name="ChooseTag" xml:space="preserve">
+    <value>-선택 태그-</value>
+  </data>
+  <data name="CountryCode" xml:space="preserve">
+    <value>국가 코드</value>
+  </data>
+  <data name="CountryName" xml:space="preserve">
+    <value>국가 이름</value>
+  </data>
+  <data name="IP" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="MetroCode" xml:space="preserve">
+    <value>메트로 코드</value>
+  </data>
+  <data name="RegionCode" xml:space="preserve">
+    <value>지역 코드</value>
+  </data>
+  <data name="RegionName" xml:space="preserve">
+    <value>지역 이름</value>
+  </data>
+  <data name="RequestDate" xml:space="preserve">
+    <value>요청 날짜</value>
+  </data>
+  <data name="TimeZone" xml:space="preserve">
+    <value>시간대</value>
+  </data>
+  <data name="Count" xml:space="preserve">
+    <value>개수</value>
+  </data>
+  <data name="Translations" xml:space="preserve">
+    <value>번역</value>
+  </data>
+  <data name="VacancyUnableToDelete" xml:space="preserve">
+    <value>Submission(s) 관련 있다 그것 때문에이 공석을 삭제할 수 없습니다.</value>
+  </data>
+  <data name="ChoosePersonalTitle" xml:space="preserve">
+    <value>-선택 개인 제목-</value>
+  </data>
+  <data name="Acknowledgement" xml:space="preserve">
+    <value>승인</value>
+  </data>
+  <data name="ApplicationNumber" xml:space="preserve">
+    <value>수는:</value>
+  </data>
+  <data name="Dear" xml:space="preserve">
+    <value>친애 하는</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>값</value>
+  </data>
+  <data name="FlagCode" xml:space="preserve">
+    <value>플래그 코드</value>
+  </data>
+  <data name="Flag" xml:space="preserve">
+    <value>플래그</value>
+  </data>
+  <data name="CultureName" xml:space="preserve">
+    <value>문화권 이름</value>
+  </data>
+  <data name="IsEnabled" xml:space="preserve">
+    <value>사용은?</value>
+  </data>
+  <data name="SMTP" xml:space="preserve">
+    <value>SMTP</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>제목</value>
+  </data>
+  <data name="Body" xml:space="preserve">
+    <value>바디</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>알림</value>
+  </data>
+  <data name="Term" xml:space="preserve">
+    <value>번역</value>
+  </data>
+  <data name="Attachment" xml:space="preserve">
+    <value>첨부 파일</value>
+  </data>
+  <data name="Statistic" xml:space="preserve">
+    <value>통계</value>
+  </data>
+  <data name="SMTPSetting" xml:space="preserve">
+    <value>SMTP 설정</value>
+  </data>
+  <data name="ImageTag" xml:space="preserve">
+    <value>이미지 태그</value>
+  </data>
+  <data name="JobTypes" xml:space="preserve">
+    <value>작업 유형</value>
+  </data>
+  <data name="Genders" xml:space="preserve">
+    <value>성별</value>
+  </data>
+  <data name="PhoneNumbers" xml:space="preserve">
+    <value>전화 번호</value>
+  </data>
+  <data name="Notifications" xml:space="preserve">
+    <value>알림</value>
+  </data>
+  <data name="Contacts" xml:space="preserve">
+    <value>연락처</value>
+  </data>
+  <data name="ImageFiles" xml:space="preserve">
+    <value>이미지 파일</value>
+  </data>
+  <data name="ContentLists" xml:space="preserve">
+    <value>콘텐츠 목록</value>
+  </data>
+  <data name="HomeVisible" xml:space="preserve">
+    <value>홈 페이지에 표시?</value>
+  </data>
+  <data name="TOC" xml:space="preserve">
+    <value>사용의 기간</value>
+  </data>
+  <data name="ShowHeaderDate" xml:space="preserve">
+    <value>날짜 표시</value>
+  </data>
+  <data name="ExpiredOn" xml:space="preserve">
+    <value>에 만료</value>
+  </data>
+  <data name="PublishedOn" xml:space="preserve">
+    <value>에 게시 된</value>
+  </data>
+  <data name="LastUpdatedOn" xml:space="preserve">
+    <value>마지막에 업데이트</value>
+  </data>
+  <data name="InvalidPublishDate" xml:space="preserve">
+    <value>게시 날짜 작아야 활동 시작 날짜 보다 작거나.</value>
+  </data>
+  <data name="InvalidExpiryDate" xml:space="preserve">
+    <value>만료 날짜 보다 크거나 활동 종료 날짜 여야 합니다.</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>보낸 사람</value>
+  </data>
+  <data name="Till" xml:space="preserve">
+    <value>까지</value>
+  </data>
+  <data name="NoResult" xml:space="preserve">
+    <value>아니 결과입니다.</value>
+  </data>
+  <data name="BreakingNews" xml:space="preserve">
+    <value>뉴스 속보</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>사용할 수 있는</value>
+  </data>
+  <data name="Skills" xml:space="preserve">
+    <value>기술</value>
+  </data>
+  <data name="Validity" xml:space="preserve">
+    <value>유효 기간</value>
+  </data>
+  <data name="ChooseJobType" xml:space="preserve">
+    <value>-작업 유형-선택</value>
+  </data>
+  <data name="AbsolutePath" xml:space="preserve">
+    <value>절대 경로</value>
+  </data>
+  <data name="Keywords" xml:space="preserve">
+    <value>키워드</value>
+  </data>
+  <data name="PoweredBy" xml:space="preserve">
+    <value>제공</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>경로</value>
+  </data>
+  <data name="UrgentExpiredOn" xml:space="preserve">
+    <value>긴급에 만료</value>
+  </data>
+  <data name="BackToHome" xml:space="preserve">
+    <value>지금 홈페이지 돌아가기!</value>
+  </data>
+  <data name="PageNotFound" xml:space="preserve">
+    <value>페이지를 찾을 수 없습니다.</value>
+  </data>
+  <data name="PageNotTranslated" xml:space="preserve">
+    <value>페이지를 번역 하지</value>
+  </data>
+  <data name="PageNotPublished" xml:space="preserve">
+    <value>아니라 세계 페이지 않습니다</value>
+  </data>
+  <data name="CreatePassword" xml:space="preserve">
+    <value>암호 만들기</value>
+  </data>
+  <data name="ResetPasswordConfirmation" xml:space="preserve">
+    <value>리셋 암호 확인</value>
+  </data>
+  <data name="PasswordReset" xml:space="preserve">
+    <value>당신의 암호가 재설정 되었습니다.</value>
+  </data>
+  <data name="ClickLogin" xml:space="preserve">
+    <value>로그인 하려면 여기를 클릭 하십시오.</value>
+  </data>
+  <data name="YourAppNumber" xml:space="preserve">
+    <value>수는</value>
+  </data>
+  <data name="ImageTags" xml:space="preserve">
+    <value>이미지 태그</value>
+  </data>
+  <data name="SMTPSettings" xml:space="preserve">
+    <value>SMTP 설정</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>통계</value>
+  </data>
+  <data name="Statuses" xml:space="preserve">
+    <value>상태</value>
+  </data>
+  <data name="Vacancies" xml:space="preserve">
+    <value>공석</value>
+  </data>
+  <data name="LockedOutMessage" xml:space="preserve">
+    <value>이 계정이 잠겨, 나중에 다시 시도 하십시오.</value>
+  </data>
+  <data name="LockedOut" xml:space="preserve">
+    <value>잠겨</value>
+  </data>
+  <data name="TakeTour" xml:space="preserve">
+    <value>둘러보기</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>이 페이지 공유</value>
+  </data>
+  <data name="ForgotPasswordInstructions" xml:space="preserve">
+    <value>암호를 다시 설정 하는 데 필요한 인증 코드와 함께 이메일을 받을 수 아래 양식을 작성.</value>
+  </data>
+  <data name="InvalidToken" xml:space="preserve">
+    <value>잘못 된 토큰</value>
+  </data>
+  <data name="ReadMore" xml:space="preserve">
+    <value>더 읽기</value>
+  </data>
+  <data name="LogIn" xml:space="preserve">
+    <value>로그인</value>
+  </data>
+  <data name="Dimensions" xml:space="preserve">
+    <value>치수</value>
+  </data>
+  <data name="GetInTouch" xml:space="preserve">
+    <value>터치에 머물</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>카테고리</value>
+  </data>
+  <data name="YourName" xml:space="preserve">
+    <value>사용자 이름</value>
+  </data>
+  <data name="YourEmail" xml:space="preserve">
+    <value>귀하의 이메일</value>
+  </data>
+  <data name="SendMessage" xml:space="preserve">
+    <value>메시지 보내기</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>메시지</value>
+  </data>
+  <data name="SenderName" xml:space="preserve">
+    <value>사용자 이름</value>
+  </data>
+  <data name="Careers" xml:space="preserve">
+    <value>채용 정보</value>
+  </data>
+  <data name="SocialNetwork" xml:space="preserve">
+    <value>소셜 네트워크</value>
+  </data>
+  <data name="SocialNetworks" xml:space="preserve">
+    <value>소셜 네트워크</value>
+  </data>
+  <data name="ShowAll" xml:space="preserve">
+    <value>모두 보기</value>
+  </data>
+  <data name="ChooseCategory" xml:space="preserve">
+    <value>-선택 카테고리-</value>
+  </data>
+  <data name="AddressLine1" xml:space="preserve">
+    <value>주소 입력란 1</value>
+  </data>
+  <data name="AddressLine2" xml:space="preserve">
+    <value>주소 입력란 2</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>상태</value>
+  </data>
+  <data name="ZIP" xml:space="preserve">
+    <value>우편 번호</value>
+  </data>
+  <data name="Newsletter" xml:space="preserve">
+    <value>뉴스 레터</value>
+  </data>
+  <data name="LatestTweets" xml:space="preserve">
+    <value>최신 짹짹</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>잠시만 기다려 주십시오...</value>
+  </data>
+  <data name="FollowUs" xml:space="preserve">
+    <value>우리를 따르라합니다</value>
+  </data>
+  <data name="ChooseEmployeeType" xml:space="preserve">
+    <value>-선택 직원 유형-</value>
+  </data>
+  <data name="HasAccount" xml:space="preserve">
+    <value>계정을?</value>
+  </data>
+  <data name="EmailConfirmed" xml:space="preserve">
+    <value>이메일 확인?</value>
+  </data>
+  <data name="UsefulLinks" xml:space="preserve">
+    <value>여기 몇 가지 유용한 링크</value>
+  </data>
+  <data name="AwaitingTranslation" xml:space="preserve">
+    <value>번역을 기다리고...</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>뒤로</value>
+  </data>
+  <data name="StaffDirectory" xml:space="preserve">
+    <value>직원 디렉토리</value>
+  </data>
+  <data name="SubscribedToMailingList" xml:space="preserve">
+    <value> 당신은 우리의 메일링리스트에 추가 되었습니다 했습니다.</value>
+  </data>
+  <data name="ThankYouForInterest" xml:space="preserve">
+    <value>우리의 최신 업데이 트에 관심을 가져 주셔서 감사 합니다. 곧 당신의 가입 확인 이메일을 받게 됩니다.</value>
+  </data>
+  <data name="DeleteProfileConfirmation" xml:space="preserve">
+    <value>당신은 귀하의 프로필을 삭제 하 시겠습니까?</value>
+  </data>
+  <data name="DeleteProfile" xml:space="preserve">
+    <value>내 프로필을 삭제</value>
+  </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>사진 갤러리</value>
+  </data>
+  <data name="ChooseGallery" xml:space="preserve">
+    <value>-선택 사진 갤러리-</value>
+  </data>
+  <data name="Galleries" xml:space="preserve">
+    <value>사진 갤러리</value>
+  </data>
+  <data name="GalleryCategory" xml:space="preserve">
+    <value>카테고리</value>
+  </data>
+  <data name="GalleryCategories" xml:space="preserve">
+    <value>카테고리</value>
+  </data>
+  <data name="UrlSlug" xml:space="preserve">
+    <value>친절 한 링크</value>
+  </data>
+  <data name="Url" xml:space="preserve">
+    <value>링크</value>
+  </data>
+  <data name="DeveloperURL" xml:space="preserve">
+    <value>개발자 웹사이트</value>
+  </data>
+  <data name="Reference" xml:space="preserve">
+    <value>참조</value>
+  </data>
+  <data name="ContentItems" xml:space="preserve">
+    <value>콘텐츠 항목</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>설정</value>
+  </data>
+  <data name="Recruitment" xml:space="preserve">
+    <value>모집</value>
+  </data>
+  <data name="Identity" xml:space="preserve">
+    <value>신원</value>
+  </data>
+  <data name="Lorem1" xml:space="preserve">
+    <value>귀하의 비즈니스를 성장 하는 가장 빠른 방법.</value>
+  </data>
+  <data name="Lorem2" xml:space="preserve">
+    <value>체크 아웃 우리의 옵션 및 기능을 포함.</value>
+  </data>
+  <data name="GetStarted" xml:space="preserve">
+    <value>지금 시작 하십시오!</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>또는</value>
+  </data>
+  <data name="LearnMore" xml:space="preserve">
+    <value>자세히.</value>
+  </data>
+  <data name="Lorem3" xml:space="preserve">
+    <value>이 텍스트는 같은 공간에서 대체 될 수 있는 텍스트의 예를 들어,이 텍스트는 라틴어 텍스트 생성기에서 생성 되었다.</value>
+  </data>
+  <data name="January" xml:space="preserve">
+    <value>1 월</value>
+  </data>
+  <data name="JohnSmith" xml:space="preserve">
+    <value>존 스미스</value>
+  </data>
+  <data name="JobTitleName" xml:space="preserve">
+    <value>CEO 및 창립자-ABC 회사</value>
+  </data>
+  <data name="WhatClientsSay" xml:space="preserve">
+    <value>고객 뭐라 고</value>
+  </data>
+  <data name="LoremTitle" xml:space="preserve">
+    <value>이 텍스트는 같은 공간에서 대체 될 수 있는 텍스트의 예입니다.</value>
+  </data>
+  <data name="UploadIcon" xml:space="preserve">
+    <value>아이콘 업로드</value>
+  </data>
+  <data name="UploadImage" xml:space="preserve">
+    <value>이미지 업로드</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>개요</value>
+  </data>
+  <data name="Icon" xml:space="preserve">
+    <value>아이콘</value>
+  </data>
+  <data name="PleaseUploadIconOfType" xml:space="preserve">
+    <value>유형 아이콘을 업로드하십시오.</value>
+  </data>
+  <data name="IconNotes" xml:space="preserve">
+    <value>유형이 PNG 인 아이콘을 업로드하십시오!</value>
+  </data>
+  <data name="IconName" xml:space="preserve">
+    <value>아이콘</value>
+  </data>
+  <data name="IconPath" xml:space="preserve">
+    <value>아이콘</value>
+  </data>
+  <data name="MeetOurTeam" xml:space="preserve">
+    <value>팀</value>
+  </data>
+  <data name="MainDepts" xml:space="preserve">
+    <value>배양하고 있다.</value>
+  </data>
+  <data name="PrimaryCaption" xml:space="preserve">
+    <value>기본 캡션</value>
+  </data>
+  <data name="SecondaryCaption" xml:space="preserve">
+    <value>보조 캡션</value>
+  </data>
+  <data name="TertiaryCaption" xml:space="preserve">
+    <value>3 차 캡션</value>
+  </data>
+  <data name="MedicalTreatment" xml:space="preserve">
+    <value>의료 치료</value>
+  </data>
+  <data name="DoctorsTimetable" xml:space="preserve">
+    <value>의사</value>
+  </data>
+  <data name="OpeningHours" xml:space="preserve">
+    <value>영업 시간</value>
+  </data>
+  <data name="EmergencyCase" xml:space="preserve">
+    <value>긴급</value>
+  </data>
+  <data name="Sunday" xml:space="preserve">
+    <value>일요일</value>
+  </data>
+  <data name="Monday" xml:space="preserve">
+    <value>월요일</value>
+  </data>
+  <data name="Tuesday" xml:space="preserve">
+    <value>화요일</value>
+  </data>
+  <data name="Wednesday" xml:space="preserve">
+    <value>수요일</value>
+  </data>
+  <data name="Thursday" xml:space="preserve">
+    <value>목요일</value>
+  </data>
+  <data name="Friday" xml:space="preserve">
+    <value>금요일</value>
+  </data>
+  <data name="Saturday" xml:space="preserve">
+    <value>토요일</value>
+  </data>
+  <data name="Subtitle" xml:space="preserve">
+    <value>자막</value>
+  </data>
+  <data name="ViewMore" xml:space="preserve">
+    <value>더 보기</value>
+  </data>
+  <data name="Doctors" xml:space="preserve">
+    <value>의사</value>
+  </data>
+  <data name="OurSpecialists" xml:space="preserve">
+    <value>우리의 전문가</value>
+  </data>
+  <data name="Staff" xml:space="preserve">
+    <value>스테프</value>
+  </data>
+  <data name="MedicalStaff" xml:space="preserve">
+    <value>의료 직원</value>
+  </data>
+  <data name="LatestEvents" xml:space="preserve">
+    <value>최근 등록된 클래스</value>
+  </data>
+  <data name="DoctorName" xml:space="preserve">
+    <value>박사</value>
+  </data>
+  <data name="DoctorType" xml:space="preserve">
+    <value>박사</value>
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>표시 할 항목 수 :</value>
+  </data>
+  <data name="EnableSsl" xml:space="preserve">
+    <value>사용함</value>
+  </data>
+  <data name="SenderEmail" xml:space="preserve">
+    <value>보내는 사람의 이메일</value>
+  </data>
+  <data name="SenderPassword" xml:space="preserve">
+    <value>보낸 사람 암호!</value>
+  </data>
+  <data name="RecipientEmail" xml:space="preserve">
+    <value>받는 사람 이메일</value>
+  </data>
+  <data name="VisitorCounter" xml:space="preserve">
+    <value>방문자 카운터!</value>
+  </data>
+  <data name="RoleInUse" xml:space="preserve">
+    <value>역할 이름이 이미 사용 되었습니다.</value>
+  </data>
+  <data name="Administration" xml:space="preserve">
+    <value>관리자</value>
+  </data>
+  <data name="SystemSettings" xml:space="preserve">
+    <value>시스템 설정</value>
+  </data>
+  <data name="InvalidCode" xml:space="preserve">
+    <value>유효하지 않은 코드</value>
+  </data>
+  <data name="UserExist" xml:space="preserve">
+    <value>이 날짜는 이미 사용되었습니다. 다른 날짜를 사용하세요.</value>
+  </data>
+  <data name="FailedToVerifyPhone" xml:space="preserve">
+    <value>보안 문자 확인 실패</value>
+  </data>
+  <data name="Maintenance" xml:space="preserve">
+    <value>정비</value>
+  </data>
+  <data name="Forms" xml:space="preserve">
+    <value>폼</value>
+  </data>
+  <data name="DontHaveAccount" xml:space="preserve">
+    <value>계정이 없으신가요?</value>
+  </data>
+  <data name="Page" xml:space="preserve">
+    <value>페이지</value>
+  </data>
+  <data name="Of" xml:space="preserve">
+    <value>의</value>
+  </data>
+  <data name="TotalRows" xml:space="preserve">
+    <value>전체 금액</value>
+  </data>
+  <data name="ChooseMaintenanceType" xml:space="preserve">
+    <value>-유지 보수 종류-선택!</value>
+  </data>
+  <data name="ChooseInventory" xml:space="preserve">
+    <value>--선택--</value>
+  </data>
+  <data name="ChooseModel" xml:space="preserve">
+    <value>--선택--</value>
+  </data>
+  <data name="ChooseSite" xml:space="preserve">
+    <value>--선택--</value>
+  </data>
+  <data name="ChooseManufacturer" xml:space="preserve">
+    <value>--선택--</value>
+  </data>
+  <data name="DeviceCard" xml:space="preserve">
+    <value>장치</value>
+  </data>
+  <data name="Installation" xml:space="preserve">
+    <value>설치</value>
+  </data>
+  <data name="BasicInformation" xml:space="preserve">
+    <value>기본 정보</value>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>월</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>년</value>
+  </data>
+  <data name="ChooseFormStatus" xml:space="preserve">
+    <value>- 양식 상태 선택 -</value>
+  </data>
+  <data name="ChooseDataType" xml:space="preserve">
+    <value>- 데이터 유형 선택 -!</value>
+  </data>
+  <data name="Form" xml:space="preserve">
+    <value>양식</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>신고</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>보고서</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>가공</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>다음!</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>이전</value>
+  </data>
+  <data name="SummaryMessage" xml:space="preserve">
+    <value>{0} {1}의 {2} 항목을 보여주는!</value>
+  </data>
+  <data name="Fields" xml:space="preserve">
+    <value>필드</value>
+  </data>
+  <data name="Reorder" xml:space="preserve">
+    <value>재정렬</value>
+  </data>
+  <data name="Sections" xml:space="preserve">
+    <value>섹션</value>
+  </data>
+  <data name="Section" xml:space="preserve">
+    <value>섹션</value>
+  </data>
+  <data name="Choices" xml:space="preserve">
+    <value>선택</value>
+  </data>
+  <data name="Choice" xml:space="preserve">
+    <value>선택</value>
+  </data>
+  <data name="DataType" xml:space="preserve">
+    <value>데이터 형식</value>
+  </data>
+  <data name="DataTypes" xml:space="preserve">
+    <value>데이터 유형</value>
+  </data>
+  <data name="Field" xml:space="preserve">
+    <value>필드</value>
+  </data>
+  <data name="Property" xml:space="preserve">
+    <value>속성</value>
+  </data>
+  <data name="Properties" xml:space="preserve">
+    <value>쿨피스 매물관리</value>
+  </data>
+  <data name="ChoiceList" xml:space="preserve">
+    <value>선택</value>
+  </data>
+  <data name="Values" xml:space="preserve">
+    <value>값</value>
+  </data>
+  <data name="ChoiceLists" xml:space="preserve">
+    <value>리스트</value>
+  </data>
+  <data name="WorkflowPath" xml:space="preserve">
+    <value>작업 흐름</value>
+  </data>
+  <data name="Workflow" xml:space="preserve">
+    <value>작업 흐름</value>
+  </data>
+  <data name="WorkflowSettings" xml:space="preserve">
+    <value>설정</value>
+  </data>
+  <data name="EmpNumber" xml:space="preserve">
+    <value>임직원 ID</value>
+  </data>
+  <data name="EmpNumberInvalid" xml:space="preserve">
+    <value>개체 ID가 잘못되었습니다.</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>접기</value>
+  </data>
+  <data name="Approval" xml:space="preserve">
+    <value>Ad Approval</value>
+  </data>
+  <data name="ActionStatus" xml:space="preserve">
+    <value>작업 상태!</value>
+  </data>
+  <data name="ChangeStatusConfirmation" xml:space="preserve">
+    <value>라우팅 규칙을 변경 하시겠습니까?</value>
+  </data>
+  <data name="PendingPrev" xml:space="preserve">
+    <value>이전 단계</value>
+  </data>
+  <data name="PendingNext" xml:space="preserve">
+    <value>다음 수준 표시(~S)</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>완료</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>목록</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>업데이트</value>
+  </data>
+  <data name="ChooseFields" xml:space="preserve">
+    <value>이미지 선택</value>
+  </data>
+  <data name="ApprovalTracking" xml:space="preserve">
+    <value>추적</value>
+  </data>
+  <data name="ActionDate" xml:space="preserve">
+    <value>작업</value>
+  </data>
+  <data name="ChooseGroup" xml:space="preserve">
+    <value>-선택 그룹!</value>
+  </data>
+  <data name="Items" xml:space="preserve">
+    <value>항목</value>
+  </data>
+  <data name="SubmissionDate" xml:space="preserve">
+    <value>서브미션</value>
+  </data>
+  <data name="ChangeUserName" xml:space="preserve">
+    <value>%username% 암호 변경</value>
+  </data>
+  <data name="ChangeUserEmail" xml:space="preserve">
+    <value>이메일 주소 변경</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>예</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>아니요</value>
+  </data>
+  <data name="DeleteAccount" xml:space="preserve">
+    <value>계정 삭제</value>
+  </data>
+  <data name="ChangeConfirmEmail" xml:space="preserve">
+    <value>이메일 확인</value>
+  </data>
+  <data name="AccountSummary" xml:space="preserve">
+    <value>거래처 요약</value>
+  </data>
+  <data name="SendVerificationCode" xml:space="preserve">
+    <value>인증코드 전송</value>
+  </data>
+  <data name="RecordCreated" xml:space="preserve">
+    <value>레코드 생성됨</value>
+  </data>
+  <data name="RecordCreatedSuccessfully" xml:space="preserve">
+    <value>성공적으로 만든 레코드!</value>
+  </data>
+  <data name="RecordUpdated" xml:space="preserve">
+    <value>레코드가 업데이트되었습니다.</value>
+  </data>
+  <data name="RecordUpdatedSuccessfully" xml:space="preserve">
+    <value>성공적으로 업데이트됐습니다!</value>
+  </data>
+  <data name="RecordDeleted" xml:space="preserve">
+    <value>제공된 자격 증명 ID를 사용하여 삭제된 레코드가 없습니다.</value>
+  </data>
+  <data name="RecordDeletedSuccessfully" xml:space="preserve">
+    <value>성공적으로 삭제됐습니다!</value>
+  </data>
+  <data name="NoUsersInRole" xml:space="preserve">
+    <value>사용자가 없습니다!</value>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>사용 권한</value>
+  </data>
+  <data name="NoPermissionsInGroup" xml:space="preserve">
+    <value>그룹에 표시되지 않습니다</value>
+  </data>
+  <data name="ListGroupPermissions" xml:space="preserve">
+    <value>이 그룹에 부여 된 권한 목록:!</value>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>변경</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>추가...</value>
+  </data>
+  <data name="TFAEnabled" xml:space="preserve">
+    <value>두가지 요소의 인증 단계가 활성화되었습니다</value>
+  </data>
+  <data name="TFADisabled" xml:space="preserve">
+    <value>두 요소 인증 현재 비활성화:!</value>
+  </data>
+  <data name="TFABrowserRemembered" xml:space="preserve">
+    <value>이중 인증</value>
+  </data>
+  <data name="ListUserPermissions" xml:space="preserve">
+    <value>이 사용자 그룹의 사용자 수</value>
+  </data>
+  <data name="NoGroupsForUser" xml:space="preserve">
+    <value>이 사용자에 대한 정보를 찾을 수 없습니다</value>
+  </data>
+  <data name="ListGroupsForUser" xml:space="preserve">
+    <value>사용자가 속한 그룹에 모든 역할을 보여줍니다.</value>
+  </data>
+  <data name="NoPermissionsForUser" xml:space="preserve">
+    <value>이 사용자에 대 한 역할이 발견.!</value>
+  </data>
+  <data name="EmailStatus" xml:space="preserve">
+    <value>이메일 상태</value>
+  </data>
+  <data name="Confirmed" xml:space="preserve">
+    <value>확인됨</value>
+  </data>
+  <data name="Unconfirmed" xml:space="preserve">
+    <value>확정되지 않음</value>
+  </data>
+  <data name="TFABrowserNotRemembered" xml:space="preserve">
+    <value>브라우저 현재 두 요소 인증에 대 한 기억 하지 않:!</value>
+  </data>
+  <data name="ListUsersInPermission" xml:space="preserve">
+    <value>이 권한이 속한 사용자 목록 :!</value>
+  </data>
+  <data name="ConfirmAccount" xml:space="preserve">
+    <value>계정 확인</value>
+  </data>
+  <data name="ConfirmAccountMessage" xml:space="preserve">
+    <value>이 링크를 클릭 하 여 귀하의 계정을 확인 하시기 바랍니다</value>
+  </data>
+  <data name="ResetPasswordMessage" xml:space="preserve">
+    <value>여기를 클릭 하 여 암호를 재설정 하십시오!</value>
+  </data>
+  <data name="ConfirmNewPassword" xml:space="preserve">
+    <value>새 암호 확인</value>
+  </data>
+  <data name="GroupExist" xml:space="preserve">
+    <value>그룹은 이미 존재합니다.</value>
+  </data>
+  <data name="ForgetBrowser" xml:space="preserve">
+    <value>이 브라우저를 잊어 버려</value>
+  </data>
+  <data name="ChangePasswordSuccess" xml:space="preserve">
+    <value>암호가 변경되었습니다.</value>
+  </data>
+  <data name="SetPasswordSuccess" xml:space="preserve">
+    <value>암호가 설정되었습니다.</value>
+  </data>
+  <data name="SetTwoFactorSuccess" xml:space="preserve">
+    <value>귀하의 두 요소 제공자가 설정되었습니다.</value>
+  </data>
+  <data name="AddPhoneSuccess" xml:space="preserve">
+    <value>전화 번호가 추가되었습니다.</value>
+  </data>
+  <data name="RemovePhoneSuccess" xml:space="preserve">
+    <value>귀하의 전화 번호에서 제거 되었습니다.!</value>
+  </data>
+  <data name="Showing" xml:space="preserve">
+    <value>표시 중</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>대상</value>
+  </data>
+  <data name="Entries" xml:space="preserve">
+    <value>항목</value>
+  </data>
+  <data name="Documentation" xml:space="preserve">
+    <value>설명서</value>
+  </data>
+  <data name="BuyNow" xml:space="preserve">
+    <value>지금 구입</value>
+  </data>
+  <data name="Searching" xml:space="preserve">
+    <value>검색 중...</value>
+  </data>
+  <data name="Roles1" xml:space="preserve">
+    <value>역할</value>
+  </data>
+  <data name="Role1" xml:space="preserve">
+    <value>역할</value>
+  </data>
+  <data name="CRMModules" xml:space="preserve">
+    <value>모듈</value>
+  </data>
+  <data name="Sales" xml:space="preserve">
+    <value>영업</value>
+  </data>
+  <data name="Marketing" xml:space="preserve">
+    <value>마케팅</value>
+  </data>
+  <data name="Operations" xml:space="preserve">
+    <value>작업</value>
+  </data>
+  <data name="Accounting" xml:space="preserve">
+    <value>회계업</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>지원</value>
+  </data>
+  <data name="DefaultPasswordFor" xml:space="preserve">
+    <value>기본 암호:</value>
+  </data>
+  <data name="DefaultUserPassword" xml:space="preserve">
+    <value>다른 사용자:</value>
+  </data>
+  <data name="AdminUsername" xml:space="preserve">
+    <value>관리자 이름:</value>
+  </data>
+  <data name="AdminPassword" xml:space="preserve">
+    <value>관리자 암호:</value>
+  </data>
+</root>

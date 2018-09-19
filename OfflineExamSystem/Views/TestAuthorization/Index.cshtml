@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = Resources.Resources.CRMModules;
+}
+<div class="panel panel-default" style="margin-top:10px">
+    <div class="panel-heading">
+        <h1 style="margin:0px !important">@Resources.Resources.CRMModules</h1>
+    </div>
+    <div class="panel-body">
+        <a href="@Url.Action( "Sales", "TestAuthorization")" class="btn btn-primary" role="button">@Resources.Resources.Sales</a>
+
+        <a href="@Url.Action( "Marketing", "TestAuthorization")" class="btn btn-danger" role="button">@Resources.Resources.Marketing</a>
+
+        <a href="@Url.Action( "Accounting", "TestAuthorization")" class="btn btn-info" role="button">@Resources.Resources.Accounting</a>
+
+        <a href="@Url.Action( "Operations", "TestAuthorization")" class="btn btn-warning" role="button">@Resources.Resources.Operations</a>
+
+        <a href="@Url.Action( "Support", "TestAuthorization")" class="btn btn-success" role="button">@Resources.Resources.Support</a>
+    </div>
+</div>
+
+

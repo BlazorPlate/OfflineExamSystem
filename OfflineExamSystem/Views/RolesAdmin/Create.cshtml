@@ -1,0 +1,38 @@
+﻿@model OfflineExamSystem.Models.CreateRoleViewModel
+@using (Ajax.BeginForm("Create", "RolesAdmin", null, new AjaxOptions()
+{
+    HttpMethod = "POST",
+    UpdateTargetId = "createContainer",
+    OnSuccess = "OnSuccessCreate",
+}, new { @id = "createGroup" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h3 class="modal-title">@Resources.Resources.Create</h3>
+        </div>
+        <div class="modal-body">
+            <div class="form-horizontal">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        </div>
+        <div class="modal-footer">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-save"></i> @Resources.Resources.Save</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times" aria-hidden="true"></i> @Resources.Resources.Close</button>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
