@@ -59,14 +59,14 @@ namespace OfflineExamSystem.Areas.Examination.Controllers
         {
             if (ExamMode.Equals("false"))
             {
-                return RedirectToAction("Simulation", "Home", new { ExamId = sessionViewModel.ExamId });
+                return RedirectToAction("InstructionSimulation", "Home", new { ExamId = sessionViewModel.ExamId });
             }
             else
             {
                 return RedirectToAction("Instruction", "Home", new { ExamId = sessionViewModel.ExamId });
             }
         }
-        public ActionResult Simulation(int ExamId)
+        public ActionResult InstructionSimulation(int ExamId)
         {
             SessionViewModel sessionViewModel = new SessionViewModel();
             sessionViewModel.ExamId = ExamId;
@@ -108,6 +108,61 @@ namespace OfflineExamSystem.Areas.Examination.Controllers
                 }
             }
             return View(sessionViewModel);
+        }
+        public ActionResult Register(SessionViewModel model, bool resume = false)
+        {
+            if (model != null)
+                Session["SessionViewModel"] = model;
+            if (model == null || string.IsNullOrEmpty(model.UserName) || model.ExamId < 1)
+            {
+                TempData["message"] = "Invalid Registraion details. Please try again";
+                return RedirectToAction("Init");
+            }
+            Examinee examinee = db.Examinees.Where(x => x.UserName.Equals(model.UserName, StringComparison.InvariantCultureIgnoreCase)
+            && ((string.IsNullOrEmpty(model.Email) && string.IsNullOrEmpty(x.Email)) || (x.Email == model.Email))
+            && ((string.IsNullOrEmpty(model.Phone) && string.IsNullOrEmpty(x.Phone)) || (x.Phone == model.Phone))).FirstOrDefault();
+            if (examinee == null)
+            {
+                examinee = new Examinee()
+                {
+                    UserName = model.UserName,
+                    FullName_En = model.FullName_En,
+                    FullName_Ar = model.FullName_Ar,
+                    Email = model.Email,
+                    Phone = model.Phone,
+                    EntryDate = DateTime.Now,
+                };
+                db.Examinees.Add(examinee);
+                db.SaveChanges();
+            }
+            Session session = db.Sessions.Where(x => x.ExamineeId == examinee.Id
+            && x.ExamId == model.ExamId
+            && x.TokenExpireTime > DateTime.Now).OrderByDescending(r => r.Id).FirstOrDefault();
+            if (session != null && resume)
+            {
+                Session["TOKEN"] = session.Token;
+                Session["TOKENEXPIRE"] = session.TokenExpireTime;
+            }
+            else
+            {
+                Exam exam = db.Exams.Where(x => x.IsActive && x.Id == model.ExamId).FirstOrDefault();
+                if (exam != null)
+                {
+                    Session newSession = new Session()
+                    {
+                        RegistrationDate = DateTime.Now,
+                        ExamId = model.ExamId,
+                        Token = Guid.NewGuid(),
+                        TokenExpireTime = DateTime.Now.AddMinutes(exam.DurationInMinute)
+                    };
+                    examinee.Sessions.Add(newSession);
+                    db.Sessions.Add(newSession);
+                    db.SaveChanges();
+                    Session["TOKEN"] = newSession.Token;
+                    Session["TOKENEXPIRE"] = newSession.TokenExpireTime;
+                }
+            }
+            return RedirectToAction("ExamPaper", new { @token = Session["TOKEN"] });
         }
         public ActionResult RegisterSimulation(SessionViewModel model, bool resume = false)
         {
@@ -175,62 +230,6 @@ namespace OfflineExamSystem.Areas.Examination.Controllers
             }
             return RedirectToAction("ExamPaperSimulation", new { @token = Session["TOKEN"] });
         }
-        public ActionResult Register(SessionViewModel model, bool resume = false)
-        {
-            if (model != null)
-                Session["SessionViewModel"] = model;
-            if (model == null || string.IsNullOrEmpty(model.UserName) || model.ExamId < 1)
-            {
-                TempData["message"] = "Invalid Registraion details. Please try again";
-                return RedirectToAction("Init");
-            }
-            Examinee examinee = db.Examinees.Where(x => x.UserName.Equals(model.UserName, StringComparison.InvariantCultureIgnoreCase)
-            && ((string.IsNullOrEmpty(model.Email) && string.IsNullOrEmpty(x.Email)) || (x.Email == model.Email))
-            && ((string.IsNullOrEmpty(model.Phone) && string.IsNullOrEmpty(x.Phone)) || (x.Phone == model.Phone))).FirstOrDefault();
-            if (examinee == null)
-            {
-                examinee = new Examinee()
-                {
-                    UserName = model.UserName,
-                    FullName_En = model.FullName_En,
-                    FullName_Ar = model.FullName_Ar,
-                    Email = model.Email,
-                    Phone = model.Phone,
-                    EntryDate = DateTime.Now,
-                };
-                db.Examinees.Add(examinee);
-                db.SaveChanges();
-            }
-            Session session = db.Sessions.Where(x => x.ExamineeId == examinee.Id
-            && x.ExamId == model.ExamId
-            && x.TokenExpireTime > DateTime.Now).OrderByDescending(r => r.Id).FirstOrDefault();
-            if (session != null && resume)
-            {
-                Session["TOKEN"] = session.Token;
-                Session["TOKENEXPIRE"] = session.TokenExpireTime;
-            }
-            else
-            {
-                Exam exam = db.Exams.Where(x => x.IsActive && x.Id == model.ExamId).FirstOrDefault();
-                if (exam != null)
-                {
-                    Session newSession = new Session()
-                    {
-                        RegistrationDate = DateTime.Now,
-                        ExamId = model.ExamId,
-                        Token = Guid.NewGuid(),
-                        TokenExpireTime = DateTime.Now.AddMinutes(exam.DurationInMinute)
-                    };
-                    examinee.Sessions.Add(newSession);
-                    db.Sessions.Add(newSession);
-                    db.SaveChanges();
-                    Session["TOKEN"] = newSession.Token;
-                    Session["TOKENEXPIRE"] = newSession.TokenExpireTime;
-                }
-            }
-            return RedirectToAction("ExamPaper", new { @token = Session["TOKEN"] });
-        }
-
         public ActionResult ExamPaper(Guid token, int? page)
         {
             var qno = page;
@@ -441,6 +440,121 @@ namespace OfflineExamSystem.Areas.Examination.Controllers
                 @token = Session["TOKEN"],
                 @page = nextQuestionNumber
             });
+        }
+        [ValidateInput(false)]
+        [HttpPost]
+        public ActionResult PostAnswerSimulation(AnswerViewModel choices)
+        {
+            var session = db.Sessions.Where(x => x.Token.Equals(choices.Token)).FirstOrDefault();
+            if (session == null)
+            {
+                TempData["message"] = "This token is invalid";
+                return RedirectToAction("Init");
+            }
+            if (session.TokenExpireTime < DateTime.Now)
+            {
+                TempData["message"] = "The exam duration has expired at " + session.TokenExpireTime.ToString();
+                return RedirectToAction("Init");
+            }
+            var testQuestionInfo = db.ExamQuestions.Where(x => x.ExamId == session.ExamId
+            && x.QuestionNumber == choices.QuestionId)
+            .Select(x => new
+            {
+                TQId = x.Id,
+                QT = x.Question.QuestionType,
+                QID = x.Id,
+                POINT = (decimal)x.Question.Points
+            }).FirstOrDefault();
+            if (testQuestionInfo != null)
+            {
+                if (choices.UserChoices.Count > 1)
+                {
+                    var allPointValueOfChoices =
+                        (
+                            from a in db.Choices.Where(x => x.IsActive)
+                            join b in choices.UserSelectedId on a.Id equals b
+                            select new { a.Id, Points = (decimal)a.Points }).AsEnumerable()
+                            .Select(x => new Answer()
+                            {
+                                SessionId = session.Id,
+                                ExamQuestionId = testQuestionInfo.QID,
+                                ChoiceId = x.Id,
+                                Answer1 = "CHECKED",
+                                MarkScored = Math.Floor((testQuestionInfo.POINT / 100.00M) * x.Points)
+                            }
+                        ).ToList();
+                    var oldChoices = db.Answers.Where(p => p.ExamQuestionId == choices.QuestionId && p.SessionId == session.Id).ToList();
+                    db.Answers.RemoveRange(oldChoices);
+                    db.Answers.AddRange(allPointValueOfChoices);
+                }
+                else
+                {
+                    //the answer is of type TEXT
+                    db.Answers.Add(new Answer()
+                    {
+                        SessionId = session.Id,
+                        ExamQuestionId = testQuestionInfo.QID,
+                        ChoiceId = choices.UserChoices.FirstOrDefault().ChoiceId,
+                        MarkScored = 1,
+                        Answer1 = choices.Answer
+                    });
+                }
+                db.SaveChanges();
+            }
+            var nextQuestionNumber = 1;
+            if (choices.Direction.Equals("forward", StringComparison.CurrentCultureIgnoreCase))
+            {
+                nextQuestionNumber = db.ExamQuestions.Where(x => x.ExamId == choices.ExamId
+                && x.QuestionNumber > choices.QuestionId)
+                .OrderBy(x => x.QuestionNumber).Take(1).Select(x => x.QuestionNumber).FirstOrDefault();
+            }
+            else
+            {
+                nextQuestionNumber = db.ExamQuestions.Where(x => x.ExamId == choices.ExamId
+                && x.QuestionNumber < choices.QuestionId)
+                .OrderByDescending(x => x.QuestionNumber).Take(1).Select(x => x.QuestionNumber).FirstOrDefault();
+            }
+            if (nextQuestionNumber < 1)
+                nextQuestionNumber = 1;
+            return RedirectToAction("ExamPaperSimulation", new
+            {
+                @token = Session["TOKEN"],
+                @page = nextQuestionNumber
+            });
+        }
+        public ActionResult Completion(bool hasExpired, Guid token)
+        {
+            var session = db.Sessions.Where(s => s.Token == token).FirstOrDefault();
+            var examId = session.ExamId;
+            var questions = db.ExamQuestions.Where(q => q.ExamId == examId);
+            List<decimal> points = new List<decimal>();
+            foreach (var question in questions)
+            {
+                var answers = db.Answers.Where(a => a.SessionId == session.Id && a.ExamQuestionId == question.QuestionId);
+                decimal mark = 1;
+                if (answers.Count() > 0)
+                {
+                    foreach (var answer in answers)
+                        mark = answer.MarkScored.Value * mark;
+                }
+                else
+                {
+                    mark = 0;
+                }
+                points.Add(mark);
+            }
+            int sum = (int)points.Sum();
+            if (hasExpired)
+            {
+                ViewBag.Status = "Your exam time has expired.";
+            }
+            else
+            {
+                ViewBag.Status = "You have finished your exam";
+            }
+            ViewBag.TotalMark = sum;
+            ViewBag.TotalQuestions = questions.Count() - 1;
+            return View();
         }
     }
 }

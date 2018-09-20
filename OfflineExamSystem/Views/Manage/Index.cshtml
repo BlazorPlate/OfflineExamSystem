@@ -31,10 +31,6 @@
             }
             ]
         </p>
-        <p>
-            @Html.Label(Resources.Resources.ExternalLogins): @Model.Logins.Count
-            @Html.ActionLink(Resources.Resources.ManageLogins, "ManageLogins")
-        </p>
         @if (Model.TwoFactor)
         {
             <form method="post" action="@Url.Action("DisableTFA","Manage")">

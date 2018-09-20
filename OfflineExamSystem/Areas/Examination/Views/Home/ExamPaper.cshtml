@@ -22,6 +22,7 @@
         <div class="panel panel-danger">
             <div class="panel-heading">
                 <h3>Time Remaining : <span id="minRemaining"></span>:<span id="secRemaining"></span> </h3>
+                <input type="button" name="finish" id="finish" class="btn btn-warning" value="Finish Exam" />
             </div>
         </div>
         <div class="panel panel-default">
@@ -30,9 +31,12 @@
                     <div class="col-lg-12">
                         <table>
                             <tr>
-                                <td><a href="javascript:void(0);" class="btn btn-primary m-r-10" onclick="saveBackward(this);"><< Save & Previous</a></td>
-                                <td> @Html.PagedListPager((IPagedList)ViewBag.OnePageOfQuestion, page => Url.Action("ExamPaper", new { @token = Session["TOKEN"], @*@tid = Session["TESTID"],*@ page }), new PagedListRenderOptions { MaximumPageNumbersToDisplay = 10 })</td>
-                                <td><a href="javascript:void(0);" class="btn btn-primary m-l-10" onclick="saveForward(this);">Save & Next >></a></td>
+                                <td>
+                                    @Html.PagedListPager((IPagedList)ViewBag.OnePageOfQuestion, page => Url.Action("ExamPaper", new
+                               {
+                                   @token = Session["TOKEN"], @*@tid = Session["TESTID"],*@ page
+                               }), new PagedListRenderOptions { MaximumPageNumbersToDisplay = 10 })
+                                </td>
                             </tr>
                         </table>
                     </div>
@@ -93,6 +97,12 @@
                                 </div>
                                 break;
                         }
+                        <table>
+                            <tr>
+                                <td><a href="javascript:void(0);" class="btn btn-primary m-r-10" onclick="saveBackward(this);"><< Save & Previous</a></td>
+                                <td><a href="javascript:void(0);" class="btn btn-primary m-l-10" onclick="saveForward(this);">Save & Next >></a></td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>
@@ -129,9 +139,8 @@
                     secondsCounter = 60;
             }
             else {
-                alert('Your Exam time has expired');
                 clearInterval(_tick);
-
+                window.location.href = '@Url.Action("Completion", "Home", new { hasExpired = false,token= Session["TOKEN"] })'.replace(/&amp;/g, '&');
             }
         }, 1000);
     }
@@ -146,6 +155,13 @@
     }
 </script>
 @section scripts{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#finish").click(function () {
+                window.location.href = '@Url.Action("Completion", "Home", new { hasExpired = false,token= Session["TOKEN"] })'.replace(/&amp;/g, '&');
+            })
+        });
+    </script>
     <script>
         $(document).ready(function () {
             $('ul.js_choices li input[type="radio"]').on('click', function () {

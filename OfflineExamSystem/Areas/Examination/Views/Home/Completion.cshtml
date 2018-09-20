@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Completion";
+}
+
+<h2>@ViewBag.Status</h2>
+<h4>Total Mark: @ViewBag.TotalMark out of @ViewBag.TotalQuestions</h4>
+@section scripts{
+    <script>
+        $(document).ready(function () {
+            window.history.pushState(null, "", window.location.href);
+            window.onpopstate = function () {
+                window.history.pushState(null, "", window.location.href);
+            };
+        });
+    </script>
+}﻿
+

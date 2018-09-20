@@ -55,5 +55,30 @@
     </div>
 }
 @section Scripts {
-
+    <script type="text/javascript">
+        $("#ExamId").empty();
+        $(document).ready(function () {
+            $("#ExamMode").change(function () {
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("GetExamsByExamMode")',
+                    dataType: 'json',
+                    data: { examMode: $("#ExamMode").val() },
+                    success: function (Exams) {
+                        $("#ExamId").empty();
+                        $("#ExamId").append('<option value="' + -1 + '">--Choose type--</option>');
+                        $.each(Exams, function (i, Exam) {
+                            $("#ExamId").append('<option value="' + Exam.Value + '">' + Exam.Text + '</option>');
+                        });
+                    },
+                    error: function (ex) {
+                        if ($("#ExamMode").val()!="") {
+                            alert('Failed to retrieve Exams.' + ex);
+                        }
+                    }
+                });
+                return false;
+            })
+        });
+    </script>
 }

@@ -207,8 +207,9 @@
     <Content Include="Areas\Examination\Views\Home\Instruction.cshtml" />
     <Content Include="Areas\Examination\Views\_ViewStart.cshtml" />
     <Content Include="Areas\Examination\Views\Home\Index.cshtml" />
-    <Content Include="Areas\Examination\Views\Home\Simulation.cshtml" />
+    <Content Include="Areas\Examination\Views\Home\InstructionSimulation.cshtml" />
     <Content Include="Areas\Examination\Views\Home\ExamPaperSimulation.cshtml" />
+    <Content Include="Areas\Examination\Views\Home\Completion.cshtml" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\custom-select\custom-select-spinner.gif" />
