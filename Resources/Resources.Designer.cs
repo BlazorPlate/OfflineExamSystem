@@ -19,7 +19,7 @@ namespace Resources {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class Resources {
@@ -736,6 +736,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Choose all that is correct.
+        /// </summary>
+        public static string ChooseCorrect {
+            get {
+                return ResourceManager.GetString("ChooseCorrect", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to --Choose data type--.
         /// </summary>
         public static string ChooseDataType {
@@ -759,6 +768,24 @@ namespace Resources {
         public static string ChooseEmployeeType {
             get {
                 return ResourceManager.GetString("ChooseEmployeeType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to --Choose exam mode--.
+        /// </summary>
+        public static string ChooseExamMode {
+            get {
+                return ResourceManager.GetString("ChooseExamMode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to --Choose exam type--.
+        /// </summary>
+        public static string ChooseExamType {
+            get {
+                return ResourceManager.GetString("ChooseExamType", resourceCulture);
             }
         }
         
@@ -1843,6 +1870,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Enabled?.
+        /// </summary>
+        public static string Enabled {
+            get {
+                return ResourceManager.GetString("Enabled", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Enable SSL.
         /// </summary>
         public static string EnableSsl {
@@ -1938,6 +1974,42 @@ namespace Resources {
         public static string Events {
             get {
                 return ResourceManager.GetString("Events", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Exam duration.
+        /// </summary>
+        public static string ExamDuration {
+            get {
+                return ResourceManager.GetString("ExamDuration", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Exam mode.
+        /// </summary>
+        public static string ExamMode {
+            get {
+                return ResourceManager.GetString("ExamMode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Exam time has been finish.
+        /// </summary>
+        public static string ExamTimeFinished {
+            get {
+                return ResourceManager.GetString("ExamTimeFinished", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Exam type.
+        /// </summary>
+        public static string ExamType {
+            get {
+                return ResourceManager.GetString("ExamType", resourceCulture);
             }
         }
         
@@ -2100,6 +2172,24 @@ namespace Resources {
         public static string FillOutPersonalInfo {
             get {
                 return ResourceManager.GetString("FillOutPersonalInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Final mark.
+        /// </summary>
+        public static string FinalMark {
+            get {
+                return ResourceManager.GetString("FinalMark", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Finish exam.
+        /// </summary>
+        public static string FinishExam {
+            get {
+                return ResourceManager.GetString("FinishExam", resourceCulture);
             }
         }
         
@@ -3436,6 +3526,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Minutes.
+        /// </summary>
+        public static string Minutes {
+            get {
+                return ResourceManager.GetString("Minutes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Mobile No..
         /// </summary>
         public static string Mobile {
@@ -4363,6 +4462,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Question.
+        /// </summary>
+        public static string Question {
+            get {
+                return ResourceManager.GetString("Question", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Academic Rank.
         /// </summary>
         public static string Rank {
@@ -5038,6 +5146,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Simulation.
+        /// </summary>
+        public static string Simulation {
+            get {
+                return ResourceManager.GetString("Simulation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Skills.
         /// </summary>
         public static string Skills {
@@ -5092,6 +5209,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Specify correct answer.
+        /// </summary>
+        public static string SpecifyAnswer {
+            get {
+                return ResourceManager.GetString("SpecifyAnswer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Staff.
         /// </summary>
         public static string Staff {
@@ -5106,6 +5232,15 @@ namespace Resources {
         public static string StaffDirectory {
             get {
                 return ResourceManager.GetString("StaffDirectory", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Start.
+        /// </summary>
+        public static string Start {
+            get {
+                return ResourceManager.GetString("Start", resourceCulture);
             }
         }
         
@@ -5488,6 +5623,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Time remaining.
+        /// </summary>
+        public static string TimeRemaining {
+            get {
+                return ResourceManager.GetString("TimeRemaining", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Time Zone.
         /// </summary>
         public static string TimeZone {
@@ -5524,6 +5668,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Total Question.
+        /// </summary>
+        public static string TotalQuestion {
+            get {
+                return ResourceManager.GetString("TotalQuestion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Total rows.
         /// </summary>
         public static string TotalRows {
@@ -5547,6 +5700,15 @@ namespace Resources {
         public static string Translations {
             get {
                 return ResourceManager.GetString("Translations", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to True answer.
+        /// </summary>
+        public static string TrueAnswer {
+            get {
+                return ResourceManager.GetString("TrueAnswer", resourceCulture);
             }
         }
         
@@ -5754,6 +5916,15 @@ namespace Resources {
         public static string VacancyUnableToDelete {
             get {
                 return ResourceManager.GetString("VacancyUnableToDelete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Validate answer.
+        /// </summary>
+        public static string ValidateAnswer {
+            get {
+                return ResourceManager.GetString("ValidateAnswer", resourceCulture);
             }
         }
         
@@ -5970,6 +6141,24 @@ namespace Resources {
         public static string WorkflowSettings {
             get {
                 return ResourceManager.GetString("WorkflowSettings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Write your thoughts.
+        /// </summary>
+        public static string WriteThoughts {
+            get {
+                return ResourceManager.GetString("WriteThoughts", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wrong answer.
+        /// </summary>
+        public static string WrongAnswer {
+            get {
+                return ResourceManager.GetString("WrongAnswer", resourceCulture);
             }
         }
         

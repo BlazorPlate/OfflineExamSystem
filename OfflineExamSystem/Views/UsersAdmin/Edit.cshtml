@@ -46,6 +46,13 @@
                     </div>
                 </div>
                 <div class="form-group">
+                    @Html.LabelFor(m => m.IsEnabled, new { @class = "col-md-2 control-label" })
+                    <div class="col-md-10">
+                        @Html.CheckBoxFor(m => m.IsEnabled, new { @class = "checkbox-inline" })
+                        @Html.ValidationMessageFor(m => m.IsEnabled, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
                     @Html.Label("", Resources.Resources.GroupsAssignment, new { @class = "control-label col-md-2" })
                     <div class="col-md-10">
                         @foreach (var item in Model.GroupsList)

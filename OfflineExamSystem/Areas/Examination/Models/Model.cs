@@ -56,14 +56,6 @@ namespace OfflineExamSystem.Areas.Examination.Models
                 .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Exam>()
-                .Property(e => e.Name)
-                .IsUnicode(false);
-
-            modelBuilder.Entity<Exam>()
-                .Property(e => e.Description)
-                .IsUnicode(false);
-
-            modelBuilder.Entity<Exam>()
                 .HasMany(e => e.ExamQuestions)
                 .WithRequired(e => e.Exam)
                 .WillCascadeOnDelete(false);

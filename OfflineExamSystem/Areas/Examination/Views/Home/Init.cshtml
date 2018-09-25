@@ -1,4 +1,5 @@
-﻿@model OfflineExamSystem.Areas.Examination.ViewModels.SessionViewModel
+﻿@using System.Threading;
+@model OfflineExamSystem.Areas.Examination.ViewModels.SessionViewModel
 <div class="jumbotron">
     <h2> Offline Exam System</h2>
 </div>
@@ -23,16 +24,24 @@
         <div class="row form-horizontal">
 
             <div class="form-group">
-                <div class="col-md-3">@Html.Label("Choose exam mode")</div>
+                <div class="col-md-3">@Html.Label(Resources.Resources.ExamMode)</div>
                 <div class="col-md-5">
-                    @Html.DropDownList("ExamMode", new List<SelectListItem> { new SelectListItem { Text = "Simulation", Value = "false" }, new SelectListItem { Text = "Real", Value = "true" } }, "-- Select mode --", new { @class = "form-control" })
+                    @if (Thread.CurrentThread.CurrentCulture.Name.Equals("en-US"))
+                    {
+                        @Html.DropDownList("ExamMode", new List<SelectListItem> { new SelectListItem { Text = "Simulation", Value = "false" }, new SelectListItem { Text = "Real", Value = "true" } }, Resources.Resources.ChooseExamMode, new { @class = "form-control" })
+
+                    }
+                    else
+                    {
+                        @Html.DropDownList("ExamMode", new List<SelectListItem> { new SelectListItem { Text = "محاكاة", Value = "false" }, new SelectListItem { Text = "حقيقي", Value = "true" } }, Resources.Resources.ChooseExamMode, new { @class = "form-control" })
+                    }
                 </div>
             </div>
 
             <div class="form-group">
-                <div class="col-md-3">@Html.Label("Choose exam type")</div>
+                <div class="col-md-3">@Html.Label(Resources.Resources.ExamType)</div>
                 <div class="col-md-5">
-                    @Html.DropDownListFor(model => model.ExamId, null, "--Choose type--", htmlAttributes: new { @class = "form-control" })
+                        @Html.DropDownListFor(model => model.ExamId, null, Resources.Resources.ChooseExamType, htmlAttributes: new { @class = "form-control" })
                 </div>
             </div>
 
@@ -46,8 +55,8 @@
             <div class="form-group">
                 <div class="col-md-3"></div>
                 <div class="col-md-5">
-                    <a class="btn btn-primary" href="@Url.Action("Index","Home")">Back</a>
-                    <button type="submit" class="btn btn-primary">Next>></button>
+                    <a class="btn btn-primary" href="@Url.Action("Index","Home")">@Resources.Resources.Back</a>
+                    <button type="submit" class="btn btn-primary">@Resources.Resources.Next >></button>
                 </div>
             </div>
 
@@ -66,7 +75,7 @@
                     data: { examMode: $("#ExamMode").val() },
                     success: function (Exams) {
                         $("#ExamId").empty();
-                        $("#ExamId").append('<option value="' + -1 + '">--Choose type--</option>');
+                        $("#ExamId").append('<option value="' + -1 + '">@Resources.Resources.ChooseExamType</option>');
                         $.each(Exams, function (i, Exam) {
                             $("#ExamId").append('<option value="' + Exam.Value + '">' + Exam.Text + '</option>');
                         });

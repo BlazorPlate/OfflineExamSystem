@@ -23,7 +23,7 @@ namespace OfflineExamSystem.Models
         public int EmpId { get; set; }
         public string FullName_En { get; set; }
         public string FullName_Ar { get; set; }
-
+        public bool IsEnabled { get; set; }
         #endregion Public Constructors
 
         #region Public Properties

@@ -161,14 +161,15 @@ namespace OfflineExamSystem.Models
         [Display(Name = "Email", ResourceType = typeof(Resources.Resources))]
         [EmailAddress(ErrorMessageResourceType = typeof(Resources.Resources), ErrorMessageResourceName = "EmailInvalid")]
         public string Email { get; set; }
-
+        [Display(Name = "Enabled", ResourceType = typeof(Resources.Resources))]
+        public bool IsEnabled { get; internal set; }
         [Display(Name = "Roles", ResourceType = typeof(Resources.Resources))]
         public ICollection<SelectListItem> RolesList { get; set; }
 
         [Display(Name = "Groups", ResourceType = typeof(Resources.Resources))]
         public ICollection<SelectListItem> GroupsList { get; set; }
-        #endregion Public Properties
 
+        #endregion Public Properties
     }
     public class CreateUserViewModel
     {
@@ -204,6 +205,8 @@ namespace OfflineExamSystem.Models
         [Display(Name = "ConfirmPassword", ResourceType = typeof(Resources.Resources))]
         [System.ComponentModel.DataAnnotations.Compare("Password", ErrorMessageResourceType = typeof(Resources.Resources), ErrorMessageResourceName = "PasswordMatch")]
         public string ConfirmPassword { get; set; }
+        [Display(Name = "Enabled", ResourceType = typeof(Resources.Resources))]
+        public bool IsEnabled { get; set; }
         [Display(Name = "Roles", ResourceType = typeof(Resources.Resources))]
         public ICollection<SelectListItem> RolesList { get; set; }
         [Display(Name = "Groups", ResourceType = typeof(Resources.Resources))]

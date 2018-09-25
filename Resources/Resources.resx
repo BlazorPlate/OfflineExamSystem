@@ -2109,4 +2109,67 @@
   <data name="FullName_Ar" xml:space="preserve">
     <value>Arabic Name</value>
   </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Enabled?</value>
+  </data>
+  <data name="ExamMode" xml:space="preserve">
+    <value>Exam mode</value>
+  </data>
+  <data name="ExamType" xml:space="preserve">
+    <value>Exam type</value>
+  </data>
+  <data name="ChooseExamType" xml:space="preserve">
+    <value>--Choose exam type--</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="TimeRemaining" xml:space="preserve">
+    <value>Time remaining</value>
+  </data>
+  <data name="FinishExam" xml:space="preserve">
+    <value>Finish exam</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="ChooseCorrect" xml:space="preserve">
+    <value>Choose all that is correct</value>
+  </data>
+  <data name="ExamTimeFinished" xml:space="preserve">
+    <value>Exam time has been finish</value>
+  </data>
+  <data name="FinalMark" xml:space="preserve">
+    <value>Final mark</value>
+  </data>
+  <data name="ChooseExamMode" xml:space="preserve">
+    <value>--Choose exam mode--</value>
+  </data>
+  <data name="ExamDuration" xml:space="preserve">
+    <value>Exam duration</value>
+  </data>
+  <data name="TotalQuestion" xml:space="preserve">
+    <value>Total Question</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="WriteThoughts" xml:space="preserve">
+    <value>Write your thoughts</value>
+  </data>
+  <data name="Simulation" xml:space="preserve">
+    <value>Simulation</value>
+  </data>
+  <data name="ValidateAnswer" xml:space="preserve">
+    <value>Validate answer</value>
+  </data>
+  <data name="TrueAnswer" xml:space="preserve">
+    <value>True answer</value>
+  </data>
+  <data name="WrongAnswer" xml:space="preserve">
+    <value>Wrong answer</value>
+  </data>
+  <data name="SpecifyAnswer" xml:space="preserve">
+    <value>Specify correct answer</value>
+  </data>
 </root>

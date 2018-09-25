@@ -18,12 +18,19 @@ namespace OfflineExamSystem.Areas.Examination.Models
         public int Id { get; set; }
 
         [Required]
-        [StringLength(250)]
-        public string Name { get; set; }
+        public string Name_En { get; set; }
 
         [Required]
-        public string Description { get; set; }
+        public string Description_En { get; set; }
+
+        [Required]
+        public string Name_Ar { get; set; }
+
+        [Required]
+        public string Description_Ar { get; set; }
+
         public bool ExamType { get; set; }
+
         public bool IsActive { get; set; }
 
         public int DurationInMinute { get; set; }

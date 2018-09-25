@@ -176,6 +176,17 @@ namespace OfflineExamSystem.Models
         {
             return user.GenerateUserIdentityAsync((ApplicationUserManager)UserManager);
         }
+        public override Task<SignInStatus> PasswordSignInAsync(string userName, string password, bool rememberMe, bool shouldLockout)
+        {
+            var user = UserManager.FindByEmailAsync(userName).Result;
+
+            if ((/*user.IsEnabled.HasValue && */!user.IsEnabled)/* || !user.IsEnabled.HasValue*/)
+            {
+                return Task.FromResult<SignInStatus>(SignInStatus.LockedOut);
+            }
+
+            return base.PasswordSignInAsync(userName, password, rememberMe, shouldLockout);
+        }
         #endregion Public Methods
     }
 }

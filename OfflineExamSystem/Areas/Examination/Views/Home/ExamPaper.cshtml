@@ -21,8 +21,8 @@
     <div class="panel-group">
         <div class="panel panel-danger">
             <div class="panel-heading">
-                <h3>Time Remaining : <span id="minRemaining"></span>:<span id="secRemaining"></span> </h3>
-                <input type="button" name="finish" id="finish" class="btn btn-warning" value="Finish Exam" />
+                <h3>@Resources.Resources.TimeRemaining : <span id="minRemaining"></span>:<span id="secRemaining"></span> </h3>
+                <input type="button" name="finish" id="finish" class="btn btn-warning" value="@Resources.Resources.FinishExam" />
             </div>
         </div>
         <div class="panel panel-default">
@@ -32,10 +32,7 @@
                         <table>
                             <tr>
                                 <td>
-                                    @Html.PagedListPager((IPagedList)ViewBag.OnePageOfQuestion, page => Url.Action("ExamPaper", new
-                               {
-                                   @token = Session["TOKEN"], @*@tid = Session["TESTID"],*@ page
-                               }), new PagedListRenderOptions { MaximumPageNumbersToDisplay = 10 })
+                                    @Html.PagedListPager((IPagedList)ViewBag.OnePagePerQuestion, page => Url.Action("ExamPaper", new { @token = Session["TOKEN"], page }), new PagedListRenderOptions { MaximumPageNumbersToDisplay = 10 })
                                 </td>
                             </tr>
                         </table>
@@ -45,7 +42,7 @@
         </div>
         <div class="panel panel-info">
             <div class="panel-heading">
-                <h4>Question : @(Model.QuestionNumber)</h4>
+                <h4>@Resources.Resources.Question : @(Model.QuestionNumber)</h4>
             </div>
         </div>
         <div class="panel panel-default">
@@ -59,22 +56,8 @@
 
                         @switch (Model.QuestionType)
                         {
-                            case "RADIO":
-                                <div class="prelude">Choose the correct answer</div>
-                                <ul class="js_choices">
-                                    @for (int i = 0; i < Model.Options.Count; i++)
-                                    {
-                                        <li>
-                                            <input type="hidden" name="UserChoices[@i].ChoiceId" value="@Model.Options[i].ChoiceId" />
-                                            <input type="radio" name="UserChoices[@i].IsChecked" @(!string.IsNullOrEmpty(Model.Options[i].Answer) ? "CHECKED" : "") />
-                                            <span class="code">@Html.Raw(Model.Options[i].Label.Replace("[", "&lt;").Replace("]", "&gt;"))</span>
-                                        </li>
-                                    }
-                                </ul>
-                                <input type="hidden" name="Answer" value="no data" />
-                                break;
                             case "MULTIPLE":
-                                <div class="prelude">Choose all that is correct</div>
+                                <div class="prelude">@Resources.Resources.ChooseCorrect</div>
                                 <ul class="js_choices">
                                     @for (int i = 0; i < Model.Options.Count; i++)
                                     {
@@ -88,7 +71,7 @@
                                 <input type="hidden" name="Answer" />
                                 break;
                             case "TEXT":
-                                <div>Write your thoughts:</div>
+                                <div class="prelude">@Resources.Resources.WriteThoughts</div>
                                 <div>
                                     <p>
                                         <input type="hidden" name="UserChoices[0].ChoiceId" value="@Model.Options[0].ChoiceId" />
@@ -99,8 +82,8 @@
                         }
                         <table>
                             <tr>
-                                <td><a href="javascript:void(0);" class="btn btn-primary m-r-10" onclick="saveBackward(this);"><< Save & Previous</a></td>
-                                <td><a href="javascript:void(0);" class="btn btn-primary m-l-10" onclick="saveForward(this);">Save & Next >></a></td>
+                                <td><a href="javascript:void(0);" class="btn btn-primary m-r-10" onclick="saveBackward(this);"><< @Resources.Resources.Previous</a></td>
+                                <td><a href="javascript:void(0);" class="btn btn-primary m-l-10" onclick="saveForward(this);">@Resources.Resources.Next >></a></td>
                             </tr>
                         </table>
                     </div>

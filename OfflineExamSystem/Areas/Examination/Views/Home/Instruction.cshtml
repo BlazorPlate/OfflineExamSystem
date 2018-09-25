@@ -7,8 +7,9 @@
             @ViewBag.ExamDescription
         </div>
         <div class="col-md-6">
-            Test Duration : @(ViewBag.ExamDuration) minutes
-            <br />Total Question : @ViewBag.QuestionCount
+            <h4>@Resources.Resources.ExamDuration : @(ViewBag.ExamDuration) @Resources.Resources.Minutes</h4>
+            <br />
+            <h4>@Resources.Resources.TotalQuestion : @ViewBag.QuestionCount</h4>
         </div>
     </div>
     <br /><br />
@@ -23,7 +24,7 @@
             @Html.HiddenFor(x => Model.Email)
             @Html.HiddenFor(x => Model.Phone)
             @Html.Hidden("Resume")
-            <a href="javascript:void(0);" onclick="getElementById('formRegister').submit();" class="btn btn-primary">Register and Start</a>
+          <a href="javascript:void(0);" onclick="getElementById('formRegister').submit();" class="btn btn-primary">@Resources.Resources.Start</a>
         }
     }
 

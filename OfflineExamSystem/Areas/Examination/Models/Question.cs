@@ -23,11 +23,20 @@ namespace OfflineExamSystem.Areas.Examination.Models
         [StringLength(50)]
         public string QuestionType { get; set; }
 
-        [Column("Question")]
         [Required]
-        public string Question1 { get; set; }
+        public string Question_En { get; set; }
 
-        public string Hint { get; set; }
+        [Required]
+        public string Question_Ar { get; set; }
+
+        public string CorrectHint_En { get; set; }
+
+        public string CorrectHint_Ar { get; set; }
+
+        public string WrongHint_En { get; set; }
+
+        public string WrongHint_Ar { get; set; }
+
         public int Points { get; set; }
 
         public bool IsActive { get; set; }

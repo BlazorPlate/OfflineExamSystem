@@ -19,7 +19,10 @@ namespace OfflineExamSystem.Areas.Examination.Models
         public int QuestionId { get; set; }
 
         [Required]
-        public string Label { get; set; }
+        public string Label_En { get; set; }
+
+        [Required]
+        public string Label_Ar { get; set; }
 
         public decimal Points { get; set; }
 

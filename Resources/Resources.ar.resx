@@ -2109,4 +2109,67 @@
   <data name="FullName_Ar" xml:space="preserve">
     <value>الاسم بالعربية</value>
   </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>مفعل؟</value>
+  </data>
+  <data name="ExamMode" xml:space="preserve">
+    <value>نمط الامتحان</value>
+  </data>
+  <data name="ExamType" xml:space="preserve">
+    <value>نوع الامتحان</value>
+  </data>
+  <data name="ChooseExamType" xml:space="preserve">
+    <value>--اختر نوع الامتحان--</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>ابدأ</value>
+  </data>
+  <data name="TimeRemaining" xml:space="preserve">
+    <value>الوقت المتبقي</value>
+  </data>
+  <data name="FinishExam" xml:space="preserve">
+    <value>انهاء الامتحان</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>سؤال</value>
+  </data>
+  <data name="ChooseCorrect" xml:space="preserve">
+    <value>اختر كل ما هو صحيح</value>
+  </data>
+  <data name="ExamTimeFinished" xml:space="preserve">
+    <value>تم  انتهاء وقت الامتحان</value>
+  </data>
+  <data name="FinalMark" xml:space="preserve">
+    <value>العلامة النهائية</value>
+  </data>
+  <data name="ChooseExamMode" xml:space="preserve">
+    <value>--اختر نمط الامتحان--</value>
+  </data>
+  <data name="ExamDuration" xml:space="preserve">
+    <value>مدة الامتحان</value>
+  </data>
+  <data name="TotalQuestion" xml:space="preserve">
+    <value>مجموع الأسئلة</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>دقائق</value>
+  </data>
+  <data name="WriteThoughts" xml:space="preserve">
+    <value>اكتب ملاحظات</value>
+  </data>
+  <data name="Simulation" xml:space="preserve">
+    <value>محاكاة</value>
+  </data>
+  <data name="ValidateAnswer" xml:space="preserve">
+    <value>تحقق من الإجابة</value>
+  </data>
+  <data name="TrueAnswer" xml:space="preserve">
+    <value>إجابة صحيحة</value>
+  </data>
+  <data name="WrongAnswer" xml:space="preserve">
+    <value>إجابة خاطئة</value>
+  </data>
+  <data name="SpecifyAnswer" xml:space="preserve">
+    <value>حدد الإجابة الصحيحة</value>
+  </data>
 </root>
