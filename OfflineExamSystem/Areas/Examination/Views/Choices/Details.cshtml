@@ -1,0 +1,50 @@
+﻿@model OfflineExamSystem.Areas.Examination.Models.Choice
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Choice</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Question.Question_En)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Question.Question_En)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Label_En)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Label_En)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Label_Ar)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Label_Ar)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Points)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Points)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index", new { questionId = Model.QuestionId })
+</p>

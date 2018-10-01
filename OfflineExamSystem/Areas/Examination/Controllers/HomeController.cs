@@ -106,7 +106,6 @@ namespace OfflineExamSystem.Areas.Examination.Controllers
                 }
             }
         }
-
         public ActionResult Init()
         {
             if (Thread.CurrentThread.CurrentCulture.Name.Equals("en-US"))

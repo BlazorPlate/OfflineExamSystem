@@ -175,6 +175,7 @@
     <Content Include="assets\plugins\select2\multiselect\js\jquery.multi-select.js" />
     <Content Include="Content\css\select2.css" />
     <Content Include="Content\css\select2.min.css" />
+    <Content Include="Content\custom-css-bootstrap-magic-2018-09-30.css" />
     <Content Include="Content\custom-select.css" />
     <Content Include="Content\Custom.css" />
     <Content Include="Content\font-awesome.css" />
@@ -189,6 +190,7 @@
     <Content Include="Content\spacing\medium-space-util.css" />
     <Content Include="Content\spacing\small-space-util.css" />
     <Content Include="Content\spacing\x-small-space-util.css" />
+    <Content Include="Content\theme_1538308919117.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -210,6 +212,24 @@
     <Content Include="Areas\Examination\Views\Home\InstructionSimulation.cshtml" />
     <Content Include="Areas\Examination\Views\Home\ExamPaperSimulation.cshtml" />
     <Content Include="Areas\Examination\Views\Home\Completion.cshtml" />
+    <Content Include="Areas\Examination\Views\Questions\Create.cshtml" />
+    <Content Include="Areas\Examination\Views\Questions\Delete.cshtml" />
+    <Content Include="Areas\Examination\Views\Questions\Details.cshtml" />
+    <Content Include="Areas\Examination\Views\Questions\Edit.cshtml" />
+    <Content Include="Areas\Examination\Views\Questions\Index.cshtml" />
+    <Content Include="Areas\Examination\Views\Choices\Create.cshtml" />
+    <Content Include="Areas\Examination\Views\Choices\Delete.cshtml" />
+    <Content Include="Areas\Examination\Views\Choices\Details.cshtml" />
+    <Content Include="Areas\Examination\Views\Choices\Edit.cshtml" />
+    <Content Include="Areas\Examination\Views\Choices\Index.cshtml" />
+    <Content Include="Areas\Examination\Views\Shared\MvcGrid\_Grid.cshtml" />
+    <Content Include="Areas\Examination\Views\Shared\MvcGrid\_Pager.cshtml" />
+    <Content Include="Areas\Examination\Views\Shared\_QuestionGrid.cshtml" />
+    <Content Include="Areas\Examination\Views\ExamQuestions\Create.cshtml" />
+    <Content Include="Areas\Examination\Views\ExamQuestions\Delete.cshtml" />
+    <Content Include="Areas\Examination\Views\ExamQuestions\Details.cshtml" />
+    <Content Include="Areas\Examination\Views\ExamQuestions\Edit.cshtml" />
+    <Content Include="Areas\Examination\Views\ExamQuestions\Index.cshtml" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\custom-select\custom-select-spinner.gif" />
@@ -576,6 +596,9 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Areas\Examination\Controllers\ChoicesController.cs" />
+    <Compile Include="Areas\Examination\Controllers\ExamQuestionsController.cs" />
+    <Compile Include="Areas\Examination\Controllers\QuestionsController.cs" />
     <Compile Include="Areas\Examination\DTOs\AnswerDTO.cs" />
     <Compile Include="Areas\Examination\ExaminationAreaRegistration.cs" />
     <Compile Include="Areas\Examination\Models\Answer.cs" />
@@ -807,7 +830,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Areas\Examination\Views\Shared\" />
     <Folder Include="Models\ExamDTO\" />
     <Folder Include="Models\ExamModels\" />
   </ItemGroup>

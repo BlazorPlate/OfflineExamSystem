@@ -32,9 +32,11 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink(Resources.Resources.Home, "Index", "Home", new { area = "" }, null)</li>
-                    <li>@Html.ActionLink(Resources.Resources.Roles1, "Index", "RolesAdmin", new { area = "" }, null)</li>
+                    @*<li>@Html.ActionLink(Resources.Resources.Roles1, "Index", "RolesAdmin", new { area = "" }, null)</li>*@
                     <li>@Html.ActionLink(Resources.Resources.Users, "Index", "UsersAdmin", new { area = "" }, null)</li>
-                    <li>@Html.ActionLink(Resources.Resources.Groups, "Index", "GroupsAdmin", new { area = "" }, null)</li>
+                    @*<li>@Html.ActionLink(Resources.Resources.Groups, "Index", "GroupsAdmin", new { area = "" }, null)</li>*@
+                    <li>@Html.ActionLink(Resources.Resources.QuestionBank, "Index", "Questions", new { area = "Examination" }, null)</li>
+                    <li>@Html.ActionLink(Resources.Resources.Exams, "Index", "ExamQuestions", new { area = "Examination" }, null)</li>
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>

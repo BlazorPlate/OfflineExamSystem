@@ -1,5 +1,6 @@
 namespace OfflineExamSystem.Areas.Examination.Models
 {
+    using Resources;
     using System;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
@@ -14,33 +15,33 @@ namespace OfflineExamSystem.Areas.Examination.Models
             Choices = new HashSet<Choice>();
             ExamQuestions = new HashSet<ExamQuestion>();
         }
-
+        [Display(Name = "Id", ResourceType = typeof(Resources))]
         public int Id { get; set; }
-
+        [Required(ErrorMessageResourceType = typeof(ValidationResources), ErrorMessageResourceName = "PropertyValueRequired")]
+        [Display(Name = "Category", ResourceType = typeof(Resources))]
         public int CategoryId { get; set; }
-
-        [Required]
-        [StringLength(50)]
+        [Required(ErrorMessageResourceType = typeof(ValidationResources), ErrorMessageResourceName = "PropertyValueRequired")]
+        [Display(Name = "QuestionType", ResourceType = typeof(Resources))]
         public string QuestionType { get; set; }
-
-        [Required]
+        [Required(ErrorMessageResourceType = typeof(ValidationResources), ErrorMessageResourceName = "PropertyValueRequired")]
+        [Display(Name = "Question_En", ResourceType = typeof(Resources))]
         public string Question_En { get; set; }
-
-        [Required]
+        [Required(ErrorMessageResourceType = typeof(ValidationResources), ErrorMessageResourceName = "PropertyValueRequired")]
+        [Display(Name = "Question_Ar", ResourceType = typeof(Resources))]
         public string Question_Ar { get; set; }
-
+        [Required(ErrorMessageResourceType = typeof(ValidationResources), ErrorMessageResourceName = "PropertyValueRequired")]
+        [Display(Name = "CorrectHint_En", ResourceType = typeof(Resources))]
         public string CorrectHint_En { get; set; }
-
+        [Display(Name = "CorrectHint_Ar", ResourceType = typeof(Resources))]
         public string CorrectHint_Ar { get; set; }
-
+        [Display(Name = "WrongHint_En", ResourceType = typeof(Resources))]
         public string WrongHint_En { get; set; }
-
+        [Display(Name = "WrongHint_Ar", ResourceType = typeof(Resources))]
         public string WrongHint_Ar { get; set; }
-
+        [Display(Name = "Points", ResourceType = typeof(Resources))]
         public int Points { get; set; }
-
+        [Display(Name = "IsActive", ResourceType = typeof(Resources))]
         public bool IsActive { get; set; }
-
         public virtual Category Category { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

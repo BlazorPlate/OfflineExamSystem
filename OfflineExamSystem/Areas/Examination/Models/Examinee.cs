@@ -1,5 +1,6 @@
 namespace OfflineExamSystem.Areas.Examination.Models
 {
+    using Resources;
     using System;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
@@ -16,24 +17,22 @@ namespace OfflineExamSystem.Areas.Examination.Models
 
         public int Id { get; set; }
 
-        [Required]
-        [StringLength(50)]
+        [Required(ErrorMessageResourceType = typeof(ValidationResources), ErrorMessageResourceName = "PropertyValueRequired")]
+        [Display(Name = "UserName", ResourceType = typeof(Resources))]
         public string UserName { get; set; }
-
-        [Required]
-        [StringLength(50)]
+        [Required(ErrorMessageResourceType = typeof(ValidationResources), ErrorMessageResourceName = "PropertyValueRequired")]
+        [Display(Name = "FullName_En", ResourceType = typeof(Resources))]
         public string FullName_En { get; set; }
-
-        [Required]
-        [StringLength(250)]
+        [Required(ErrorMessageResourceType = typeof(ValidationResources), ErrorMessageResourceName = "PropertyValueRequired")]
+        [Display(Name = "FullName_Ar", ResourceType = typeof(Resources))]
         public string FullName_Ar { get; set; }
-
+        [Required(ErrorMessageResourceType = typeof(ValidationResources), ErrorMessageResourceName = "PropertyValueRequired")]
+        [Display(Name = "EntryDate", ResourceType = typeof(Resources))]
         public DateTime EntryDate { get; set; }
-
-        [StringLength(50)]
+        [Required(ErrorMessageResourceType = typeof(ValidationResources), ErrorMessageResourceName = "PropertyValueRequired")]
+        [Display(Name = "Email", ResourceType = typeof(Resources))]
         public string Email { get; set; }
-
-        [StringLength(50)]
+        [Display(Name = "Phone", ResourceType = typeof(Resources))]
         public string Phone { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

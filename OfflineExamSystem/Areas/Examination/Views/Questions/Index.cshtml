@@ -1,0 +1,36 @@
+﻿@using System.Threading
+@using OfflineExamSystem.Helpers
+@model IEnumerable<OfflineExamSystem.Areas.Examination.Models.Question>
+<div class="panel panel-default m-t-20">
+    <div class="panel-heading">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/@Thread.CurrentThread.CurrentCulture.Name">@Resources.Resources.Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">@Resources.Resources.Question</li>
+            </ol>
+        </nav>
+        <div class="form-inline">
+            <div class="form-group">
+                @Html.TextBox("globalSearch", null, new { @class = "form-control", placeholder = Resources.Resources.Keywords })
+            </div>
+            <button type="button" id="filter" class="btn btn-primary">
+                <i class="fa fa-search" aria-hidden="true"></i> @Resources.Resources.Search
+            </button>
+            <div class="@(CultureHelper.IsRighToLeft() ? "pull-left" : "pull-right")">
+                <a class="btn btn-primary" href="@Url.Action("Create","Questions")" role="button">Create New</a>
+            </div>
+        </div>
+    </div>
+    <div class="panel-body">
+        @Html.AjaxGrid(Url.Action("QuestionGrid"))
+    </div>
+</div>
+@section Scripts {
+    <script>
+        $("#filter").click(function (e) {
+            $('.mvc-grid').mvcgrid({
+                query: 'globalSearch=' + $('#globalSearch').val() + '&' + 'categoryId=' + $('#categoryId').val(),
+                reload: true
+            });
+        });</script>
+}

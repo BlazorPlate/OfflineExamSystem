@@ -5,7 +5,7 @@ namespace OfflineExamSystem.Areas.Examination.Models
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
-
+    using Resources;
     public partial class ExamQuestion
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -13,14 +13,19 @@ namespace OfflineExamSystem.Areas.Examination.Models
         {
             Answers = new HashSet<Answer>();
         }
+        [Display(Name = "Id", ResourceType = typeof(Resources))]
 
         public int Id { get; set; }
+        [Display(Name = "Exam", ResourceType = typeof(Resources))]
 
         public int ExamId { get; set; }
+        [Display(Name = "Question", ResourceType = typeof(Resources))]
 
         public int QuestionId { get; set; }
+        [Display(Name = "QuestionNumber", ResourceType = typeof(Resources))]
 
         public int QuestionNumber { get; set; }
+        [Display(Name = "IsActive", ResourceType = typeof(Resources))]
 
         public bool IsActive { get; set; }
 

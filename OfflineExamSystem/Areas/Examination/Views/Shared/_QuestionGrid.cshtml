@@ -1,0 +1,33 @@
+﻿@model IEnumerable<OfflineExamSystem.Areas.Examination.Models.Question>
+@(
+                    Html.Grid(Model)
+                    .Build(columns =>
+                    {
+                        columns.Add(model => model.Id);
+                        columns.Add(model => model.Question_En);
+                        columns.Add(model => model.Question_Ar);
+                        columns.Add(model => model.CorrectHint_En);
+                        columns.Add(model => model.CorrectHint_Ar);
+                        columns.Add(model => model.WrongHint_En);
+                        columns.Add(model => model.WrongHint_Ar);
+                        columns.Add(model => "<div class='dropdown'> <button class='btn btn-default dropdown-toggle' type='button' data-toggle='dropdown'> " + Resources.Resources.Actions + " <span class='caret'></span> </button> <ul class='dropdown-menu'> <li><a href=" + Url.Action("Edit", "Questions", new { id = model.Id }) + "><i class='glyphicon glyphicon-edit'></i> " + Resources.Resources.Edit + "</a></li><li><a href=" + Url.Action("Details", "Questions", new { id = model.Id }) + "><i class='glyphicon glyphicon-list-alt'></i> " + Resources.Resources.Details + "</a></li> <li><a href=" + Url.Action("Delete", "Questions", new { id = model.Id }) + "><i class='glyphicon glyphicon-trash'></i> " + Resources.Resources.Delete + "</a></li></ul> </div>").Encoded(false);
+                        columns.Add(model => Html.ActionLink(Resources.Resources.Choices, "Index", "Choices", new { questionId = model.Id }, new { @class = "form-control btn btn-default" }));
+
+                    })
+                    .Css("table-condensed")
+                    .AppendCss("table-hover")
+                    .AppendCss("table-striped")
+                    .Empty(Resources.Resources.NoRecordFound)
+                    .Id("my-ajax-grid")
+                    .Pageable(pager =>
+                    {
+                        pager.PageSizes = new Dictionary<Int32, String>
+                    {   { 10, "10" }, { 15, "15" }, { 20, "20" }, { 25, "25" }, { 30, "30" }, { 35, "35" }, { 40, "40" }, { 45, "45" }, { 50, "50" }/*, { 0, "All" } */};
+                        pager.ShowPageSizes = true;
+                        pager.PagesToDisplay = 5;
+                        pager.RowsPerPage = 10;
+                        pager.ProcessorType = GridProcessorType.Manual;
+                        pager.TotalRows = ViewBag.TotalRows;
+                    })
+                    .Sortable()
+)

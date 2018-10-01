@@ -1231,6 +1231,24 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Arabic Correct Hint.
+        /// </summary>
+        public static string CorrectHint_Ar {
+            get {
+                return ResourceManager.GetString("CorrectHint_Ar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to English Correct Hint.
+        /// </summary>
+        public static string CorrectHint_En {
+            get {
+                return ResourceManager.GetString("CorrectHint_En", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Count.
         /// </summary>
         public static string Count {
@@ -1978,6 +1996,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Exam.
+        /// </summary>
+        public static string Exam {
+            get {
+                return ResourceManager.GetString("Exam", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Exam duration.
         /// </summary>
         public static string ExamDuration {
@@ -1992,6 +2019,15 @@ namespace Resources {
         public static string ExamMode {
             get {
                 return ResourceManager.GetString("ExamMode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Exams.
+        /// </summary>
+        public static string Exams {
+            get {
+                return ResourceManager.GetString("Exams", resourceCulture);
             }
         }
         
@@ -2977,6 +3013,24 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Arabic Label.
+        /// </summary>
+        public static string Label_Ar {
+            get {
+                return ResourceManager.GetString("Label_Ar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to English Label.
+        /// </summary>
+        public static string Label_En {
+            get {
+                return ResourceManager.GetString("Label_En", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Land Line No..
         /// </summary>
         public static string LandLine {
@@ -3594,6 +3648,15 @@ namespace Resources {
         public static string Name {
             get {
                 return ResourceManager.GetString("Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to English Name.
+        /// </summary>
+        public static string Name_En {
+            get {
+                return ResourceManager.GetString("Name_En", resourceCulture);
             }
         }
         
@@ -4273,6 +4336,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Points.
+        /// </summary>
+        public static string Points {
+            get {
+                return ResourceManager.GetString("Points", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Port Number.
         /// </summary>
         public static string Port {
@@ -4467,6 +4539,51 @@ namespace Resources {
         public static string Question {
             get {
                 return ResourceManager.GetString("Question", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Arabic Question.
+        /// </summary>
+        public static string Question_Ar {
+            get {
+                return ResourceManager.GetString("Question_Ar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to English Question.
+        /// </summary>
+        public static string Question_En {
+            get {
+                return ResourceManager.GetString("Question_En", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Question Bank.
+        /// </summary>
+        public static string QuestionBank {
+            get {
+                return ResourceManager.GetString("QuestionBank", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Question Number.
+        /// </summary>
+        public static string QuestionNumber {
+            get {
+                return ResourceManager.GetString("QuestionNumber", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Question Type.
+        /// </summary>
+        public static string QuestionType {
+            get {
+                return ResourceManager.GetString("QuestionType", resourceCulture);
             }
         }
         
@@ -6159,6 +6276,24 @@ namespace Resources {
         public static string WrongAnswer {
             get {
                 return ResourceManager.GetString("WrongAnswer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Arabic Wrong Hint.
+        /// </summary>
+        public static string WrongHint_Ar {
+            get {
+                return ResourceManager.GetString("WrongHint_Ar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to English Wrong Hint.
+        /// </summary>
+        public static string WrongHint_En {
+            get {
+                return ResourceManager.GetString("WrongHint_En", resourceCulture);
             }
         }
         

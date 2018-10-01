@@ -2172,4 +2172,49 @@
   <data name="SpecifyAnswer" xml:space="preserve">
     <value>حدد الإجابة الصحيحة</value>
   </data>
+  <data name="Question_En" xml:space="preserve">
+    <value>السؤال بالانجليزية</value>
+  </data>
+  <data name="Question_Ar" xml:space="preserve">
+    <value>السؤال بالعربية</value>
+  </data>
+  <data name="CorrectHint_En" xml:space="preserve">
+    <value>تلميح صحيح بالإنجليزية</value>
+  </data>
+  <data name="WrongHint_En" xml:space="preserve">
+    <value>تلميح خاطئ بالانجليزية</value>
+  </data>
+  <data name="CorrectHint_Ar" xml:space="preserve">
+    <value>تلميح صحيح بالعربية</value>
+  </data>
+  <data name="WrongHint_Ar" xml:space="preserve">
+    <value>تلميح خاطئ بالعربية</value>
+  </data>
+  <data name="QuestionType" xml:space="preserve">
+    <value>نوع السؤال</value>
+  </data>
+  <data name="Label_En" xml:space="preserve">
+    <value>الخيار بالإنجليزية</value>
+  </data>
+  <data name="Label_Ar" xml:space="preserve">
+    <value>الخيار بالعربية</value>
+  </data>
+  <data name="Points" xml:space="preserve">
+    <value>النقاط</value>
+  </data>
+  <data name="Name_En" xml:space="preserve">
+    <value>الاسم بالإنجليزية</value>
+  </data>
+  <data name="QuestionNumber" xml:space="preserve">
+    <value>رقم السؤال</value>
+  </data>
+  <data name="Exam" xml:space="preserve">
+    <value>الامتحان</value>
+  </data>
+  <data name="Exams" xml:space="preserve">
+    <value>الامتحانات</value>
+  </data>
+  <data name="QuestionBank" xml:space="preserve">
+    <value>بنك الأسئلة</value>
+  </data>
 </root>

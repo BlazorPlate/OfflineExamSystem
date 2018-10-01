@@ -2172,4 +2172,49 @@
   <data name="SpecifyAnswer" xml:space="preserve">
     <value>Specify correct answer</value>
   </data>
+  <data name="Question_En" xml:space="preserve">
+    <value>English Question</value>
+  </data>
+  <data name="Question_Ar" xml:space="preserve">
+    <value>Arabic Question</value>
+  </data>
+  <data name="CorrectHint_En" xml:space="preserve">
+    <value>English Correct Hint</value>
+  </data>
+  <data name="CorrectHint_Ar" xml:space="preserve">
+    <value>Arabic Correct Hint</value>
+  </data>
+  <data name="WrongHint_En" xml:space="preserve">
+    <value>English Wrong Hint</value>
+  </data>
+  <data name="WrongHint_Ar" xml:space="preserve">
+    <value>Arabic Wrong Hint</value>
+  </data>
+  <data name="QuestionType" xml:space="preserve">
+    <value>Question Type</value>
+  </data>
+  <data name="Label_En" xml:space="preserve">
+    <value>English Label</value>
+  </data>
+  <data name="Label_Ar" xml:space="preserve">
+    <value>Arabic Label</value>
+  </data>
+  <data name="Points" xml:space="preserve">
+    <value>Points</value>
+  </data>
+  <data name="Name_En" xml:space="preserve">
+    <value>English Name</value>
+  </data>
+  <data name="QuestionNumber" xml:space="preserve">
+    <value>Question Number</value>
+  </data>
+  <data name="Exam" xml:space="preserve">
+    <value>Exam</value>
+  </data>
+  <data name="Exams" xml:space="preserve">
+    <value>Exams</value>
+  </data>
+  <data name="QuestionBank" xml:space="preserve">
+    <value>Question Bank</value>
+  </data>
 </root>
