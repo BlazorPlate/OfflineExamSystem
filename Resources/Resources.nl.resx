@@ -222,7 +222,7 @@
   <data name="User" xml:space="preserve">
     <value>Gebruiker</value>
   </data>
-  <data name="Username" xml:space="preserve">
+  <data name="UserName" xml:space="preserve">
     <value>Gebruikersnaam</value>
   </data>
   <data name="UserRolesAssignment" xml:space="preserve">

@@ -38,6 +38,7 @@ namespace OfflineExamSystem.Areas.Examination.Models
         public string WrongHint_En { get; set; }
         [Display(Name = "WrongHint_Ar", ResourceType = typeof(Resources))]
         public string WrongHint_Ar { get; set; }
+        [Required(ErrorMessageResourceType = typeof(ValidationResources), ErrorMessageResourceName = "PropertyValueRequired")]
         [Display(Name = "Points", ResourceType = typeof(Resources))]
         public int Points { get; set; }
         [Display(Name = "IsActive", ResourceType = typeof(Resources))]

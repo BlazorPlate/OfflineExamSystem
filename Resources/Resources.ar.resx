@@ -948,7 +948,7 @@
   <data name="User" xml:space="preserve">
     <value>مستخدم</value>
   </data>
-  <data name="Username" xml:space="preserve">
+  <data name="UserName" xml:space="preserve">
     <value>اسم المستخدم</value>
   </data>
   <data name="UserRolesAssignment" xml:space="preserve">
@@ -2216,5 +2216,8 @@
   </data>
   <data name="QuestionBank" xml:space="preserve">
     <value>بنك الأسئلة</value>
+  </data>
+  <data name="EntryDate" xml:space="preserve">
+    <value>تاريخ الدخول</value>
   </data>
 </root>

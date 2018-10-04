@@ -1,21 +1,128 @@
-﻿@using System.Globalization
-@{
-    ViewBag.Title = "Index";
-    CultureInfo arCultureInfo = CultureInfo.CreateSpecificCulture("ar-JO");
-    CultureInfo enCultureInfo = CultureInfo.CreateSpecificCulture("en-US");
-}
-<div class="jumbotron">
-    <h2> Offline Exam System</h2>
-</div>
-@using (Html.BeginForm("Init", "Home", FormMethod.Post, new { @id = "formLanguage" }))
+﻿@using System.Threading;
+@model OfflineExamSystem.Areas.Examination.ViewModels.SessionViewModel
+@if (TempData["message"] != null)
 {
-    <div class="form-group">
-        <div class="col-md-3">@Html.Label(Resources.Resources.Language)</div>
-        <div class="col-md-5">
-            <a href="@Url.RouteUrl(new RouteValueDictionary(ViewContext.RouteData.Values.ToDictionary(r => r.Key, r => r.Key == "culture" ? "en-US" : r.Value)))@Request.Url.Query"><img src="~/Content/Images/blank.gif" class="flag flag-us" alt="@enCultureInfo.NativeName"> @enCultureInfo.Name</a> |
-            <a href="@Url.RouteUrl(new RouteValueDictionary(ViewContext.RouteData.Values.ToDictionary(r => r.Key, r => r.Key == "culture" ? "ar-SA" : r.Value)))@Request.Url.Query"><img src="~/Content/Images/blank.gif" class="flag flag-sa" alt="@arCultureInfo.NativeName"> @arCultureInfo.Name</a>
+    <div class="row">
+        <div class="col-md-10">
+            <p>
+                @Html.Raw(TempData["message"])
+            </p>
         </div>
     </div>
-    <a href="javascript:void(0);" onclick="getElementById('formLanguage').submit();" class="btn btn-primary">@Resources.Resources.Next >></a>
 }
+<br /><br />
+<section id="widget-grid" class="">
+    <article class="col-sm-12 col-md-12 col-lg-12 sortable-grid ui-sortable">
 
+        <!-- Widget ID (each widget will need unique ID)-->
+        <div class="jarviswidget jarviswidget-sortable" id="wid-id-1" data-widget-colorbutton="false" data-widget-editbutton="false" data-widget-custombutton="false" role="widget">
+            <!-- widget options:
+            usage: <div class="jarviswidget" id="wid-id-0" data-widget-editbutton="false">
+
+            data-widget-colorbutton="false"
+            data-widget-editbutton="false"
+            data-widget-togglebutton="false"
+            data-widget-deletebutton="false"
+            data-widget-fullscreenbutton="false"
+            data-widget-custombutton="false"
+            data-widget-collapsed="true"
+            data-widget-sortable="false"
+
+            -->
+            <header role="heading">
+                <div class="jarviswidget-ctrls" role="menu">   <a href="javascript:void(0);" class="button-icon jarviswidget-toggle-btn" rel="tooltip" title="" data-placement="bottom" data-original-title="Collapse"><i class="fa fa-minus "></i></a> <a href="javascript:void(0);" class="button-icon jarviswidget-fullscreen-btn" rel="tooltip" title="" data-placement="bottom" data-original-title="Fullscreen"><i class="fa fa-expand "></i></a> <a href="javascript:void(0);" class="button-icon jarviswidget-delete-btn" rel="tooltip" title="" data-placement="bottom" data-original-title="Delete"><i class="fa fa-times"></i></a></div>
+                <span class="widget-icon"> <i class="fa fa-edit"></i> </span>
+                <h2>Basic Form Elements </h2>
+
+                <span class="jarviswidget-loader"><i class="fa fa-refresh fa-spin"></i></span>
+            </header>
+
+            <!-- widget div-->
+            <div>
+
+                <!-- widget edit box -->
+                <div class="jarviswidget-editbox">
+                    <!-- This area used as dropdown edit box -->
+
+                </div>
+                <!-- end widget edit box -->
+                <!-- widget content -->
+                <div class="widget-body no-padding">
+                    @using (Html.BeginForm("Router", "Home", FormMethod.Post, new { id = "checkout-form", @class = "smart-form" }))
+                    {
+                        @Html.HiddenFor(m => m.UserName)
+                        @Html.HiddenFor(m => m.FullName_Ar)
+                        @Html.HiddenFor(m => m.FullName_En)
+                        <fieldset>
+                            <fieldset>
+                                <section>
+                                    <label class="label">@Resources.Resources.ExamMode</label>
+                                    <label class="select">
+                                        @if (Thread.CurrentThread.CurrentCulture.Name.Equals("en-US"))
+                                        {
+                                            @Html.DropDownList("ExamMode", new List<SelectListItem> { new SelectListItem { Text = "Simulation", Value = "false" }, new SelectListItem { Text = "Real", Value = "true" } }, Resources.Resources.ChooseExamMode, new { @class = "input-sm" })
+
+                                        }
+                                        else
+                                        {
+                                            @Html.DropDownList("ExamMode", new List<SelectListItem> { new SelectListItem { Text = "محاكاة", Value = "false" }, new SelectListItem { Text = "حقيقي", Value = "true" } }, Resources.Resources.ChooseExamMode, new { @class = "input-sm" })
+                                        }
+                                        <i></i>
+                                    </label>
+                                </section>
+                                <section>
+                                    <label class="label">@Html.Label(Resources.Resources.ExamType)</label>
+                                    <label class="select">
+                                        @Html.DropDownListFor(model => model.ExamId, null, Resources.Resources.ChooseExamType, htmlAttributes: new { @class = "form-control" })
+
+                                        <i></i>
+                                    </label>
+                                </section>
+                            </fieldset>
+                        </fieldset>
+                        <footer>
+                            <button type="submit" class="btn btn-primary">@Resources.Resources.Next >></button>
+                            <a class="btn btn-primary" href="@Url.Action("Index","Home")">@Resources.Resources.Back</a>
+                        </footer>
+                    }
+
+
+                </div>
+                <!-- end widget content -->
+
+            </div>
+            <!-- end widget div -->
+
+        </div>
+        <!-- end widget -->
+
+    </article>
+</section>
+@section Scripts {
+    <script type="text/javascript">
+        $("#ExamId").empty();
+        $(document).ready(function () {
+            $("#ExamMode").change(function () {
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("GetExamsByExamMode")',
+                    dataType: 'json',
+                    data: { examMode: $("#ExamMode").val() },
+                    success: function (Exams) {
+                        $("#ExamId").empty();
+                        $("#ExamId").append('<option value="' + -1 + '">@Resources.Resources.ChooseExamType</option>');
+                        $.each(Exams, function (i, Exam) {
+                            $("#ExamId").append('<option value="' + Exam.Value + '">' + Exam.Text + '</option>');
+                        });
+                    },
+                    error: function (ex) {
+                        if ($("#ExamMode").val()!="") {
+                            alert('Failed to retrieve Exams.' + ex);
+                        }
+                    }
+                });
+                return false;
+            })
+        });
+    </script>
+}

@@ -4,9 +4,11 @@ using Microsoft.Owin.Security;
 using OfflineExamSystem.Helpers;
 using OfflineExamSystem.Models;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Security;
 
 namespace OfflineExamSystem.Controllers
 {
@@ -63,7 +65,7 @@ namespace OfflineExamSystem.Controllers
             if (Url.IsLocalUrl(returnUrl))
             {
                 return Redirect(returnUrl);
-            }
+            }              
             return RedirectToAction("Index", "Home");
         }
         #endregion Private Methods
@@ -414,7 +416,7 @@ namespace OfflineExamSystem.Controllers
         public ActionResult LogOff()
         {
             AuthenticationManager.SignOut();
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Login", "Account");
         }
 
         //

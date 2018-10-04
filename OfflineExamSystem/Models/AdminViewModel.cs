@@ -125,7 +125,7 @@ namespace OfflineExamSystem.Models
 
         #region Public Properties
         public string Id { get; set; }
-        [Display(Name = "Username", ResourceType = typeof(Resources.Resources))]
+        [Display(Name = "UserName", ResourceType = typeof(Resources.Resources))]
         public string UserName { get; set; }
         [Display(Name = "Email", ResourceType = typeof(Resources.Resources))]
         public string Email { get; set; }
@@ -229,7 +229,7 @@ namespace OfflineExamSystem.Models
         #endregion Public Constructors
 
         #region Public Properties
-        [Display(Name = "Username", ResourceType = typeof(Resources.Resources))]
+        [Display(Name = "UserName", ResourceType = typeof(Resources.Resources))]
         public string UserName { get; set; }
         [Display(Name = "Groups", ResourceType = typeof(Resources.Resources))]
         public IList<string> GroupsList { get; set; }
@@ -252,7 +252,7 @@ namespace OfflineExamSystem.Models
         #endregion Public Constructors
         public string Id { get; set; }
         #region Public Properties
-        [Display(Name = "Username", ResourceType = typeof(Resources.Resources))]
+        [Display(Name = "UserName", ResourceType = typeof(Resources.Resources))]
         public string UserName { get; set; }
         [Display(Name = "Groups", ResourceType = typeof(Resources.Resources))]
         public IList<string> GroupsList { get; set; }
@@ -335,7 +335,7 @@ namespace OfflineExamSystem.Models
         [Display(Name = "Group", ResourceType = typeof(Resources.Resources))]
         public string GroupName { get; set; }
         public string UserId { get; set; }
-        [Display(Name = "Username", ResourceType = typeof(Resources.Resources))]
+        [Display(Name = "UserName", ResourceType = typeof(Resources.Resources))]
         public string UserName { get; set; }
         #endregion Public Properties
 
@@ -373,7 +373,7 @@ namespace OfflineExamSystem.Models
         [Display(Name = "Group", ResourceType = typeof(Resources.Resources))]
         public string GroupName { get; set; }
         public string UserId { get; set; }
-        [Display(Name = "Username", ResourceType = typeof(Resources.Resources))]
+        [Display(Name = "UserName", ResourceType = typeof(Resources.Resources))]
         public string UserName { get; set; }
         #endregion Public Properties
 

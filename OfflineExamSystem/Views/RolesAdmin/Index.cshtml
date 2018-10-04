@@ -61,6 +61,9 @@
 </div>
 @section Scripts {
     <script>
+        $('.mvc-grid').mvcgrid({
+            reload: true
+        });
         $("#filter").click(function (e) {
             $('.mvc-grid').mvcgrid({
                 query: 'name=' + $('#name').val() + '&' + 'groupId=' + $('#groupId').val(),

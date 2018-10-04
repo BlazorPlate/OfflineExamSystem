@@ -222,7 +222,7 @@
   <data name="User" xml:space="preserve">
     <value>User</value>
   </data>
-  <data name="Username" xml:space="preserve">
+  <data name="UserName" xml:space="preserve">
     <value>Username</value>
   </data>
   <data name="UserRolesAssignment" xml:space="preserve">
@@ -2216,5 +2216,8 @@
   </data>
   <data name="QuestionBank" xml:space="preserve">
     <value>Question Bank</value>
+  </data>
+  <data name="EntryDate" xml:space="preserve">
+    <value>Entry Date</value>
   </data>
 </root>

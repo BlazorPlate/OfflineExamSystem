@@ -35,10 +35,6 @@ namespace OfflineExamSystem.Areas.Examination.Controllers
                     .GetUserManager<ApplicationUserManager>();
             private set => _userManager = value;
         }
-        public ActionResult Index()
-        {
-            return View();
-        }
         public JsonResult GetExamsByExamMode(bool examMode)
         {
             IOrderedQueryable<Exam> exams = db.Exams.Where(c => c.ExamType == examMode).OrderBy(c => c.Name_En); ;
@@ -106,7 +102,7 @@ namespace OfflineExamSystem.Areas.Examination.Controllers
                 }
             }
         }
-        public ActionResult Init()
+        public ActionResult Index()
         {
             if (Thread.CurrentThread.CurrentCulture.Name.Equals("en-US"))
             {
@@ -194,7 +190,7 @@ namespace OfflineExamSystem.Areas.Examination.Controllers
             if (model == null || string.IsNullOrEmpty(model.UserName) || model.ExamId < 1)
             {
                 TempData["message"] = "Invalid Registraion details. Please try again";
-                return RedirectToAction("Init");
+                return RedirectToAction("Index");
             }
             Examinee examinee = db.Examinees.Where(x => x.UserName.Equals(model.UserName, StringComparison.InvariantCultureIgnoreCase)
             && ((string.IsNullOrEmpty(model.Email) && string.IsNullOrEmpty(x.Email)) || (x.Email == model.Email))
@@ -252,7 +248,7 @@ namespace OfflineExamSystem.Areas.Examination.Controllers
             if (model == null || model.ExamId < 1)
             {
                 TempData["message"] = "Invalid Registraion details. Please try again";
-                return RedirectToAction("Init");
+                return RedirectToAction("Index");
             }
             Examinee examinee = new Examinee()
             {
@@ -317,18 +313,18 @@ namespace OfflineExamSystem.Areas.Examination.Controllers
             if (token == null)
             {
                 TempData["message"] = "You have an invalid token. Please re-register and try again";
-                return RedirectToAction("Init");
+                return RedirectToAction("Index");
             }
             Session session = db.Sessions.Where(x => x.Token.Equals(token)).FirstOrDefault();
             if (session == null)
             {
                 TempData["message"] = "This token is invalid";
-                return RedirectToAction("Init");
+                return RedirectToAction("Index");
             }
             if (session.TokenExpireTime < DateTime.Now)
             {
                 TempData["message"] = "The exam duration has expired at " + session.TokenExpireTime.ToString();
-                return RedirectToAction("Init");
+                return RedirectToAction("Index");
             }
             if (qno.GetValueOrDefault() < 1)
             {
@@ -387,18 +383,18 @@ namespace OfflineExamSystem.Areas.Examination.Controllers
             if (token == null)
             {
                 TempData["message"] = "You have an invalid token. Please re-register and try again";
-                return RedirectToAction("Init");
+                return RedirectToAction("Index");
             }
             Session session = db.Sessions.Where(s => s.Token.Equals(token)).FirstOrDefault();
             if (session == null)
             {
                 TempData["message"] = "This token is invalid";
-                return RedirectToAction("Init");
+                return RedirectToAction("Index");
             }
             if (session.TokenExpireTime < DateTime.Now)
             {
                 TempData["message"] = "The exam duration has expired at " + session.TokenExpireTime.ToString();
-                return RedirectToAction("Init");
+                return RedirectToAction("Index");
             }
             if (qno.GetValueOrDefault() < 1)
             {
@@ -452,12 +448,12 @@ namespace OfflineExamSystem.Areas.Examination.Controllers
             if (session == null)
             {
                 TempData["message"] = "This token is invalid";
-                return RedirectToAction("Init");
+                return RedirectToAction("Index");
             }
             if (session.TokenExpireTime < DateTime.Now)
             {
                 TempData["message"] = "The exam duration has expired at " + session.TokenExpireTime.ToString();
-                return RedirectToAction("Init");
+                return RedirectToAction("Index");
             }
             var testQuestionInfo = db.ExamQuestions.Where(x => x.ExamId == session.ExamId
             && x.QuestionNumber == choices.QuestionId)
@@ -536,12 +532,12 @@ namespace OfflineExamSystem.Areas.Examination.Controllers
             if (session == null)
             {
                 TempData["message"] = Resources.Resources.InvalidToken;
-                return RedirectToAction("Init");
+                return RedirectToAction("Index");
             }
             if (session.TokenExpireTime < DateTime.Now)
             {
                 TempData["message"] = "The exam duration has expired at " + session.TokenExpireTime.ToString();
-                return RedirectToAction("Init");
+                return RedirectToAction("Index");
             }
             var testQuestionInfo = db.ExamQuestions.Where(x => x.ExamId == session.ExamId
             && x.QuestionNumber == choices.QuestionId)

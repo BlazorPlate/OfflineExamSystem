@@ -1960,6 +1960,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Entry Date.
+        /// </summary>
+        public static string EntryDate {
+            get {
+                return ResourceManager.GetString("EntryDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Error.
         /// </summary>
         public static string Error {
@@ -5976,9 +5985,9 @@ namespace Resources {
         /// <summary>
         ///   Looks up a localized string similar to Username.
         /// </summary>
-        public static string Username {
+        public static string UserName {
             get {
-                return ResourceManager.GetString("Username", resourceCulture);
+                return ResourceManager.GetString("UserName", resourceCulture);
             }
         }
         

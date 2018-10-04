@@ -11,6 +11,10 @@ namespace OfflineExamSystem.Controllers
     {
         public ActionResult Index()
         {
+            if (!User.IsInRole("Admin"))
+            {
+                return RedirectToAction("Index", "Home", new { area = "Examination" });
+            }
             return View();
         }
     }
