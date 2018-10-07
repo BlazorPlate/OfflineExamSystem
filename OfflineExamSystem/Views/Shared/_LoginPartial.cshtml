@@ -6,18 +6,7 @@
     CultureInfo arCultureInfo = CultureInfo.CreateSpecificCulture("ar-JO");
     CultureInfo enCultureInfo = CultureInfo.CreateSpecificCulture("en-US");
 }
-<div class="login-info hidden">
-    <span>
-        <!-- User image size is adjusted inside CSS, it should stay as it -->
-        <a href="~/assets/javascript:void(0);" id="show-shortcut" data-action="toggleShortcut">
-            <img src="~/assets/img/avatars/sunny.png" alt="me" class="online" />
-            <span>
-                @User.Identity.Name
-            </span>
-            <i class="fa fa-angle-down"></i>
-        </a>
-    </span>
-</div>
+
 <div class="pull-right">
 
     @using (Html.BeginForm("LogOff", "Account", new { area = "", returnUrl = HttpContext.Current.Request.Url.AbsolutePath }, FormMethod.Post, new { id = "logoutForm", @class = (CultureHelper.IsRighToLeft() ? "navbar-left" : "navbar-right") }))

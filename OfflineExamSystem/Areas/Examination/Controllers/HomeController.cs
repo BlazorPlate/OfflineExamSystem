@@ -106,11 +106,11 @@ namespace OfflineExamSystem.Areas.Examination.Controllers
         {
             if (Thread.CurrentThread.CurrentCulture.Name.Equals("en-US"))
             {
-                ViewBag.ExamId = new SelectList(db.Exams.Where(x => x.IsActive == true).Select(x => new { x.Id, x.Name_En }), "Id", "Name_En", "--Choose exam type--");
+                ViewBag.ExamId = new SelectList(db.Exams.Where(x => x.IsActive == true).Select(x => new { x.Id, x.Name_En }), "Id", "Name_En");
             }
             else
             {
-                ViewBag.ExamId = new SelectList(db.Exams.Where(x => x.IsActive == true).Select(x => new { x.Id, x.Name_Ar }), "Id", "Name_Ar", "--Choose exam type--");
+                ViewBag.ExamId = new SelectList(db.Exams.Where(x => x.IsActive == true).Select(x => new { x.Id, x.Name_Ar }), "Id", "Name_Ar");
             }
             SessionViewModel sessionViewModel = null;
             if (Session["SessionViewModel"] == null)
@@ -124,16 +124,21 @@ namespace OfflineExamSystem.Areas.Examination.Controllers
 
             return View(sessionViewModel);
         }
-        public ActionResult Router(string ExamMode, SessionViewModel sessionViewModel)
+        public ActionResult Router(SessionViewModel sessionViewModel)
         {
-            if (ExamMode.Equals("false"))
+            if (ModelState.IsValid)
             {
-                return RedirectToAction("InstructionSimulation", "Home", new { ExamId = sessionViewModel.ExamId });
+
+                if (sessionViewModel.ExamMode.Equals("false"))
+                {
+                    return RedirectToAction("InstructionSimulation", "Home", new { sessionViewModel.ExamId });
+                }
+                else
+                {
+                    return RedirectToAction("Instruction", "Home", new { sessionViewModel.ExamId });
+                }
             }
-            else
-            {
-                return RedirectToAction("Instruction", "Home", new { ExamId = sessionViewModel.ExamId });
-            }
+            return View("Index");
         }
         public ActionResult InstructionSimulation(int ExamId)
         {
@@ -152,6 +157,7 @@ namespace OfflineExamSystem.Areas.Examination.Controllers
                     ViewBag.ExamDuration = test.DurationInMinute;
                 }
             }
+            ViewBag.Title = "Exam Information";
             return View(sessionViewModel);
         }
         [LocalizedAuthorize(Roles = "Managerial_Examinee,Technician_Examinee")]
@@ -178,8 +184,10 @@ namespace OfflineExamSystem.Areas.Examination.Controllers
                     ViewBag.ExamDuration = test.DurationInMinute;
                 }
             }
+            ViewBag.Title = "Exam Information";
             return View(sessionViewModel);
         }
+        [LocalizedAuthorize(Roles = "Managerial_Examinee,Technician_Examinee")]
         public ActionResult Register(SessionViewModel model, bool resume = false)
         {
             if (model != null)
@@ -256,6 +264,7 @@ namespace OfflineExamSystem.Areas.Examination.Controllers
                 FullName_Ar = "Trainer_" + DateTime.Now,
                 FullName_En = "Trainer_" + DateTime.Now,
                 EntryDate = DateTime.Now,
+                Email="trainee@exam.com"
             };
             db.Examinees.Add(examinee);
             try
@@ -307,6 +316,7 @@ namespace OfflineExamSystem.Areas.Examination.Controllers
             }
             return RedirectToAction("ExamPaperSimulation", new { @token = Session["TOKEN"] });
         }
+        [LocalizedAuthorize(Roles = "Managerial_Examinee,Technician_Examinee")]
         public ActionResult ExamPaper(Guid token, int? page)
         {
             int? qno = page;

@@ -1,26 +1,83 @@
 ﻿@model OfflineExamSystem.Areas.Examination.ViewModels.SessionViewModel
-<div class="container">
-    <br /><br />
-    <div class="row">
-        <div class="col-md-6">
-            <h2>@ViewBag.ExamName</h2>
-            @ViewBag.ExamDescription
+
+<!-- Widget ID (each widget will need unique ID)-->
+<div class="jarviswidget" id="wid-id-8" data-widget-colorbutton="false" data-widget-editbutton="false" data-widget-togglebutton="false" data-widget-deletebutton="false" data-widget-fullscreenbutton="false" data-widget-custombutton="false" data-widget-sortable="false" role="widget">
+    <!-- widget options:
+    usage: <div class="jarviswidget" id="wid-id-0" data-widget-editbutton="false">
+
+    data-widget-colorbutton="false"
+    data-widget-editbutton="false"
+    data-widget-togglebutton="false"
+    data-widget-deletebutton="false"
+    data-widget-fullscreenbutton="false"
+    data-widget-custombutton="false"
+    data-widget-collapsed="true"
+    data-widget-sortable="false"
+
+    -->
+    <header role="heading">
+        <span class="widget-icon"> <i class="fa fa-info"></i> </span>
+        <h2>Exam Information</h2>
+    </header>
+    <!-- widget div-->
+    <div role="content">
+        <!-- widget edit box -->
+        <div class="jarviswidget-editbox">
+            <!-- This area used as dropdown edit box -->
         </div>
-        <div class="col-md-6">
-            <h4>@Resources.Resources.ExamDuration : @(ViewBag.ExamDuration) @Resources.Resources.Minutes</h4>
-            <br />
-            <h4>@Resources.Resources.TotalQuestion : @ViewBag.QuestionCount</h4>
+        <!-- end widget edit box -->
+        <!-- widget content -->
+        <div class="widget-body">
+            <div class="tab-content">
+                <div class="tab-pane active" id="hb1">
+
+                    <ul id="internal-tab-1" class="nav nav-tabs tabs-pull-left">
+                        <li class="active">
+                            <a href="#is1" data-toggle="tab" aria-expanded="false">Basic Information</a>
+                        </li>
+                        <li>
+                            <a href="#is2" data-toggle="tab" aria-expanded="false">Instruction</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content padding-10">
+                        <div class="tab-pane active" id="is1">
+                            <p>
+                                <label><b>@Resources.Resources.Exam </b></label><br />@ViewBag.ExamName<br /><br />
+                                <label><b>@Resources.Resources.Description </b></label><br />@ViewBag.ExamDescription<br /><br />
+                                <label><b>@Resources.Resources.ExamDuration </b></label><br />@ViewBag.ExamDuration @Resources.Resources.Minutes<br /><br />
+                                <label><b>@Resources.Resources.TotalQuestion </b></label><br />@ViewBag.QuestionCount @Resources.Resources.Question
+                            </p>
+                        </div>
+                        <div class="tab-pane fade" id="is2">
+                            <p>
+                                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+                            </p>
+                            <p>
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            @if (Model != null)
+            {
+                using (Html.BeginForm("RegisterSimulation", "Home", FormMethod.Post, new { @id = "formRegister" }))
+                {
+                    @Html.HiddenFor(x => Model.ExamId)
+
+                    @Html.Hidden("Resume")
+                    <a href="javascript:void(0);" onclick="getElementById('formRegister').submit();" class="btn btn-primary">@Resources.Resources.Start</a>
+                }
+            }
         </div>
+        <!-- end widget content -->
+
     </div>
-    <br /><br />
-    @if (Model != null)
-    {
-        using (Html.BeginForm("RegisterSimulation", "Home", FormMethod.Post, new { @id = "formRegister" }))
-        {
-            @Html.HiddenFor(x => Model.ExamId)
-            @Html.Hidden("Resume")
-          <a href="javascript:void(0);" onclick="getElementById('formRegister').submit();" class="btn btn-primary">@Resources.Resources.Start</a>
-        }
-    }
+    <!-- end widget div -->
 
 </div>
+<!-- end widget -->

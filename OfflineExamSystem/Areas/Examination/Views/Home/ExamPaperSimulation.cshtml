@@ -2,70 +2,55 @@
 @using PagedList;
 @model OfflineExamSystem.Areas.Examination.ViewModels.QuestionViewModel
 @{
-    /**/
-
     var totalQuestion = Model.TotalQuestionInSet;
     var endTime = ((DateTime)ViewBag.TimeExpire);
     var timeRemaining = TimeSpan.FromTicks(endTime.Ticks - DateTime.Now.Ticks).TotalSeconds.ToString("#");
+    ViewBag.Title = "Exam Paper";
 }
-<style>
-    .pagination {
-        display: -webkit-box !important;
-    }
-</style>
 
 @using (Html.BeginForm("PostAnswerSimulation", "Home", FormMethod.Post, new { @id = "form" }))
 {
     <input type="hidden" name="Direction" id="direction" @*value="forward"*@ />
     <input type="hidden" name="Token" value="@(Session["TOKEN"])" />
     <input type="hidden" name="ExamId" value="@(Model.ExamId)" />
-    <input type="hidden" id="QuestionId" name="QuestionId" value="@(Model.QuestionNumber)" />
-    <div class="panel-group">
-        <div class="panel panel-danger">
-            <div class="panel-heading">
-                <h3>@Resources.Resources.TimeRemaining : <span id="minRemaining"></span>:<span id="secRemaining"></span> </h3>
-                <h4>@Resources.Resources.Simulation</h4>
+    <input type="hidden" name="QuestionId" id="QuestionId" value="@(Model.QuestionNumber)" />
+    <!-- Widget ID (each widget will need unique ID)-->
+    <div class="jarviswidget" id="wid-id-10" data-widget-colorbutton="false" data-widget-togglebutton="false" data-widget-editbutton="false" data-widget-fullscreenbutton="false" data-widget-deletebutton="false">
+        <header>
+            <div class="widget-toolbar pull-left">
+                @Html.PagedListPager((IPagedList)ViewBag.OnePagePerQuestion, page => Url.Action("ExamPaper", new { @token = Session["TOKEN"], page }), new PagedListRenderOptions { MaximumPageNumbersToDisplay = 10 })
             </div>
-        </div>
-        <div class="panel panel-default">
-            <div class="panel-heading" style="padding-bottom:0px;padding-top:0px">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <table>
-                            <tr>
-                                <td>
-                                    @Html.PagedListPager((IPagedList)ViewBag.OnePagePerQuestion, page => Url.Action("ExamPaperSimulation", new { @token = Session["TOKEN"], page }), new PagedListRenderOptions { MaximumPageNumbersToDisplay = 10 })
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
+            <div class="widget-toolbar pull-right">
+                <input type="button" name="finish" id="finish" class="btn btn-primary" value="@Resources.Resources.FinishExam" />
             </div>
-        </div>
-        <div class="panel panel-info">
-            <div class="panel-heading">
-                <h4>@Resources.Resources.Question : @(Model.QuestionNumber)</h4>
+            <div class="widget-toolbar pull-right">
+                <strong> @Resources.Resources.TimeRemaining: </strong>
+                <span id="minRemaining"></span>:<span id="secRemaining"></span>
             </div>
-        </div>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4>@Html.Raw(Model.Question ?? "")</h4>
-            </div>
-            <div class="panel-body">
-                <div class="row">
-                    <div class="col-md-6">
-
+        </header>
+        <!-- widget div-->
+        <div>
+            <!-- widget content -->
+            <div class="widget-body no-padding">
+                <div class="padding-10">
+                    <h1><b>@Resources.Resources.Question @(Model.QuestionNumber)</b></h1><hr />
+                    <div class="row">
+                    <div class="col-lg-6">
+                        <p>@Html.Raw(Model.Question ?? "")</p>
                         @switch (Model.QuestionType)
                         {
                             case "MULTIPLE":
-                                <div class="prelude">@Resources.Resources.ChooseCorrect</div>
+                                <p><b>@Resources.Resources.ChooseCorrect</b></p>
                                 <ul id="checkList" class="js_choices">
                                     @for (int i = 0; i < Model.Options.Count; i++)
                                     {
                                         <li>
-                                            <input type="hidden" name="UserChoices[@i].ChoiceId" value="@Model.Options[i].ChoiceId" />
-                                            <input id="@Model.Options[i].ChoiceId" type="checkbox" name="UserChoices[@i].IsChecked" @(!string.IsNullOrEmpty(Model.Options[i].Answer) ? "CHECKED" : "") id="@Model.Options[i].ChoiceId" />
-                                            <span class="code">@Html.Raw(Model.Options[i].Label.Replace("[", "&lt;").Replace("]", "&gt;"))</span>
+                                            <label class="checkbox">
+                                                <input type="hidden" name="UserChoices[@i].ChoiceId" value="@Model.Options[i].ChoiceId" />
+                                                <input id="@Model.Options[i].ChoiceId" type="checkbox" name="UserChoices[@i].IsChecked" @(!string.IsNullOrEmpty(Model.Options[i].Answer) ? "CHECKED" : "") />
+
+                                                <i></i>@Html.Raw(Model.Options[i].Label.Replace("[", "&lt;").Replace("]", "&gt;"))
+                                            </label>
                                         </li>
                                     }
                                 </ul>
@@ -81,31 +66,37 @@
                                 </div>
                                 break;
                         }
-                        <table>
-                            <tr>
-                                @* <td><a href="javascript:void(0);" class="btn btn-primary m-r-10" onclick="saveBackward(this);"><< Save & Previous</a></td>*@
-                                <td>
-                                    <input class="btn btn-primary m-r-10" type="button" id="correct" name="correct" value="@Resources.Resources.ValidateAnswer" />
-                                </td>
-                                <td><a id="nextButton" href="javascript:void(0);" class="btn btn-primary m-l-10" onclick="saveForward(this);">@Resources.Resources.Next >></a></td>
-                            </tr>
-                        </table>
-                        <hr />
+
+                    </div>
+                    <div class="col-lg-6">
                         <label style="font-size:medium" id="result"></label>
-                        <br />
-                        <br />
                         <label style="font-size:small" id="hint"></label>
                     </div>
-                    <div class="col-md-6">
+                    </div>
+                </div>
 
+                <div class="widget-footer">
+                    <div class="pull-left padding-bottom-5">
+                        <input class="btn btn-primary m-r-10" type="button" id="correct" name="correct" value="@Resources.Resources.ValidateAnswer" />
+                        <a href="javascript:void(0);" class="btn btn-sm btn-primary" onclick="saveBackward(this);">
+                            @Resources.Resources.Previous
+                        </a>
+                        <a id="nextButton" href="javascript:void(0);" class="btn btn-sm btn-primary" onclick="saveForward(this);">
+                            @Resources.Resources.Next
+                        </a>
                     </div>
                 </div>
             </div>
+
         </div>
+        <!-- end widget content -->
     </div>
+    <!-- end widget div -->
 
 }
-<script>
+
+@section scripts{
+    <script>
     var remSeconds = @timeRemaining;
         var secondsCounter = remSeconds % 60;
         if (secondsCounter==0) {
@@ -133,8 +124,8 @@
                     secondsCounter = 60;
             }
             else {
-                alert('Your Exam time has expired');
                 clearInterval(_tick);
+                window.location.href = '@Url.Action("Completion", "Home", new { hasExpired = false,token= Session["TOKEN"] })'.replace(/&amp;/g, '&');
             }
         }, 1000);
     }
@@ -147,8 +138,14 @@
         $('#direction').val('backward');
         document.getElementById('form').submit();
     }
-</script>
-@section scripts{
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#finish").click(function () {
+                window.location.href = '@Url.Action("Completion", "Home", new { hasExpired = false,token= Session["TOKEN"] })'.replace(/&amp;/g, '&');
+            })
+        });
+    </script>
     <script>
         $(document).ready(function () {
             $('ul.js_choices li input[type="radio"]').on('click', function () {
@@ -162,11 +159,12 @@
     <script type="text/javascript">
         $("#nextButton").hide();
         $(document).ready(function () {
+
             $("#correct").click(function () {
                 var answers = [];
                 $("#checkList :checkbox:checked").each(function () {
                     var value = $(this).attr("id");
-                    //alert(value);
+
                     answers.push(value);
                 });
                 $.ajax({
@@ -176,7 +174,6 @@
                     data: { questionId: $("#QuestionId").val(), answers: answers  },
                     success: function (hint) {
                         var result = $.parseJSON(hint);
-                        //alert(result['Key']);
                         $("#hint").empty();
                         $("#result").empty();
                         if (result['Key'] =='true') {

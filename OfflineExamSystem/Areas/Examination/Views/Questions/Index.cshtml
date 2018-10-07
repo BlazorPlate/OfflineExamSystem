@@ -3,12 +3,7 @@
 @model IEnumerable<OfflineExamSystem.Areas.Examination.Models.Question>
 <div class="panel panel-default m-t-20">
     <div class="panel-heading">
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/@Thread.CurrentThread.CurrentCulture.Name">@Resources.Resources.Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">@Resources.Resources.Question</li>
-            </ol>
-        </nav>
+
         <div class="form-inline">
             <div class="form-group">
                 @Html.TextBox("globalSearch", null, new { @class = "form-control", placeholder = Resources.Resources.Keywords })

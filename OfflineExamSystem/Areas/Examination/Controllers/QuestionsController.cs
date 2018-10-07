@@ -8,6 +8,7 @@ using System.Web.Mvc;
 
 namespace OfflineExamSystem.Areas.Examination.Controllers
 {
+    [LocalizedAuthorize(Roles = "Admin")]
     public class QuestionsController : BaseController
     {
         private OfflineExamDBEntities db = new OfflineExamDBEntities();

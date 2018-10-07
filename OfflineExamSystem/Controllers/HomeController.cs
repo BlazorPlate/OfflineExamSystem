@@ -7,6 +7,7 @@ using OfflineExamSystem.Helpers;
 
 namespace OfflineExamSystem.Controllers
 {
+    [LocalizedAuthorize]
     public class HomeController : BaseController
     {
         public ActionResult Index()

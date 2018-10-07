@@ -47,12 +47,16 @@
 @using (Html.BeginForm("LogOff", "Account", new { area = "", returnUrl = HttpContext.Current.Request.Url.AbsolutePath }, FormMethod.Post, new { id = "logoutForm", @class = (CultureHelper.IsRighToLeft() ? "navbar-left" : "navbar-right") }))
 {
     @Html.AntiForgeryToken()
-    if (Request.IsAuthenticated)
+<div id="logout" class="btn-header transparent pull-right">
+    @if (Request.IsAuthenticated)
     {
-        <div id="logout" class="btn-header transparent pull-right">
-            <span> <a href="javascript:document.getElementById('logoutForm').submit()" title="Sign Out" data-action="userLogout" data-logout-msg="You can improve your security further after logging out by closing this opened browser"><i class="fa fa-sign-out"></i></a> </span>
-        </div>
+        <span> <a href="javascript:document.getElementById('logoutForm').submit()" title="Sign Out" data-action="userLogout" data-logout-msg="Are you sure you want to logout?"><i class="fa fa-sign-out"></i></a> </span>
     }
+    else
+    {
+        <span> <a href=" @Url.Action("Login", "Account", new { area = "" })" title="Sign In" ><i class="fa fa-sign-in"></i></a> </span>
+    }
+</div>
 
 }
 
@@ -81,24 +85,24 @@
             </div>
         </div>
     </div>*@
-<!-- end voice command -->
-<!-- multiple lang dropdown : find all flags in the flags page -->
-<ul class="header-dropdown-list hidden-xs">
-    <li>
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <img src="~/content/img/blank.gif" class="flag flag-us" alt="United States"> <span> English (US) </span> <i class="fa fa-angle-down"></i> </a>
-        <ul class="dropdown-menu pull-right">
-            @if (CultureHelper.IsRighToLeft())
-            {
-                <li><a href="@Url.RouteUrl(new RouteValueDictionary(ViewContext.RouteData.Values.ToDictionary(r => r.Key, r => r.Key == "culture" ? "en-US" : r.Value)))@Request.Url.Query"><img src="~/Content/img/blank.gif" class="flag flag-us" alt="@enCultureInfo.NativeName"> @enCultureInfo.NativeName.Replace(")", "").Replace("(", "- ")</a></li>
-                <li><a href="@Url.RouteUrl(new RouteValueDictionary(ViewContext.RouteData.Values.ToDictionary(r => r.Key, r => r.Key == "culture" ? "ar-JO" : r.Value)))@Request.Url.Query"><img src="~/Content/img/blank.gif" class="flag flag-jo" alt="@arCultureInfo.NativeName"> @arCultureInfo.NativeName.Replace(")", "").Replace("(", "- ")</a></li>
+        <!-- end voice command -->
+        <!-- multiple lang dropdown : find all flags in the flags page -->
+        <ul class="header-dropdown-list hidden-xs">
+            <li>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <img src="~/content/img/blank.gif" class="flag flag-us" alt="United States"> <span> English (US) </span> <i class="fa fa-angle-down"></i> </a>
+                <ul class="dropdown-menu pull-right">
+                    @if (CultureHelper.IsRighToLeft())
+                                {
+                    <li><a href="@Url.RouteUrl(new RouteValueDictionary(ViewContext.RouteData.Values.ToDictionary(r => r.Key, r => r.Key == "culture" ? "en-US" : r.Value)))@Request.Url.Query"><img src="~/Content/img/blank.gif" class="flag flag-us" alt="@enCultureInfo.NativeName"> @enCultureInfo.NativeName.Replace(")", "").Replace("(", "- ")</a></li>
+                    <li><a href="@Url.RouteUrl(new RouteValueDictionary(ViewContext.RouteData.Values.ToDictionary(r => r.Key, r => r.Key == "culture" ? "ar-JO" : r.Value)))@Request.Url.Query"><img src="~/Content/img/blank.gif" class="flag flag-jo" alt="@arCultureInfo.NativeName"> @arCultureInfo.NativeName.Replace(")", "").Replace("(", "- ")</a></li>
 
-            }
-            else
-            {
-                <li><a href="@Url.RouteUrl(new RouteValueDictionary(ViewContext.RouteData.Values.ToDictionary(r => r.Key, r => r.Key == "culture" ? "ar-JO" : r.Value)))@Request.Url.Query"><img src="~/Content/img/blank.gif" class="flag flag-jo" alt="@arCultureInfo.NativeName"> @arCultureInfo.NativeName.Replace(")", "").Replace("(", "- ")</a></li>
-                <li><a href="@Url.RouteUrl(new RouteValueDictionary(ViewContext.RouteData.Values.ToDictionary(r => r.Key, r => r.Key == "culture" ? "en-US" : r.Value)))@Request.Url.Query"><img src="~/Content/img/blank.gif" class="flag flag-us" alt="@enCultureInfo.NativeName"> @enCultureInfo.NativeName.Replace(")", "").Replace("(", "- ")</a></li>
-            }
+                }
+                        else
+                        {
+            <li><a href="@Url.RouteUrl(new RouteValueDictionary(ViewContext.RouteData.Values.ToDictionary(r => r.Key, r => r.Key == "culture" ? "ar-JO" : r.Value)))@Request.Url.Query"><img src="~/Content/img/blank.gif" class="flag flag-jo" alt="@arCultureInfo.NativeName"> @arCultureInfo.NativeName.Replace(")", "").Replace("(", "- ")</a></li>
+            <li><a href="@Url.RouteUrl(new RouteValueDictionary(ViewContext.RouteData.Values.ToDictionary(r => r.Key, r => r.Key == "culture" ? "en-US" : r.Value)))@Request.Url.Query"><img src="~/Content/img/blank.gif" class="flag flag-us" alt="@enCultureInfo.NativeName"> @enCultureInfo.NativeName.Replace(")", "").Replace("(", "- ")</a></li>
+}
+                </ul>
+            </li>
         </ul>
-    </li>
-</ul>
-<!-- end multiple lang -->
+        <!-- end multiple lang -->

@@ -12,6 +12,7 @@ using OfflineExamSystem.Helpers;
 
 namespace OfflineExamSystem.Areas.Examination.Controllers
 {
+    [LocalizedAuthorize(Roles = "Admin")]
     public class ExamQuestionsController : BaseController
     {
         private OfflineExamDBEntities db = new OfflineExamDBEntities();
