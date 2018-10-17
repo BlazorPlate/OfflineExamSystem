@@ -225,6 +225,7 @@
     <Content Include="assets\img\demo\site-1.jpg" />
     <Content Include="assets\img\demo\site-2.jpg" />
     <Content Include="assets\img\demo\widget-colorpicker.png" />
+    <Content Include="assets\img\demo_usa.png" />
     <Content Include="assets\img\dropzone\spritemap%402x.png" />
     <Content Include="assets\img\dropzone\spritemap.png" />
     <Content Include="assets\img\favicon\1favicon.ico" />
@@ -291,6 +292,7 @@
     <Content Include="assets\img\pattern\sneaker_mesh_fabric.png" />
     <Content Include="assets\img\pattern\tileable_wood_texture-xs.png" />
     <Content Include="assets\img\pattern\tileable_wood_texture.png" />
+    <Content Include="assets\img\Penguins.jpg" />
     <Content Include="assets\img\plus.png" />
     <Content Include="assets\img\ribbon.png" />
     <Content Include="assets\img\sa-dark.png" />
@@ -371,6 +373,7 @@
     <Content Include="assets\js\app.min.js" />
     <Content Include="assets\js\bootstrap\bootstrap.min.js" />
     <Content Include="assets\js\demo.min.js" />
+    <Content Include="assets\js\jquery.maphilight.min.js" />
     <Content Include="assets\js\libs\jquery-2.1.1.min.js" />
     <Content Include="assets\js\libs\jquery-ui-1.10.3.min.js" />
     <Content Include="assets\js\notification\SmartNotification.min.js" />
@@ -1033,6 +1036,12 @@
     <Content Include="Content\img\voicecommand\active-btn.gif" />
     <Content Include="Content\img\vt-menu.png" />
     <Content Include="Content\MvcGrid\mvc-grid.min.css" />
+    <Content Include="Content\questions\1.png" />
+    <Content Include="Content\questions\2.png" />
+    <Content Include="Content\questions\3.png" />
+    <Content Include="Content\questions\4.png" />
+    <Content Include="Content\questions\5.png" />
+    <Content Include="Content\questions\6.png" />
     <Content Include="Content\sound\bigbox.mp3" />
     <Content Include="Content\sound\license.txt" />
     <Content Include="Content\sound\messagebox.mp3" />
@@ -1122,6 +1131,10 @@
     <Content Include="Content\sound\voice_on.ogg" />
     <Content Include="libman.json" />
     <Content Include="Content\MvcGrid\Fonts\GridGlyphs.woff" />
+    <Content Include="Areas\Examination\Views\Images\Create.cshtml" />
+    <Content Include="Areas\Examination\Views\Images\Delete.cshtml" />
+    <Content Include="Areas\Examination\Views\Images\Index.cshtml" />
+    <Content Include="Areas\Examination\Views\Images\Edit.cshtml" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <Content Include="Scripts\app.config.js" />
     <Content Include="Scripts\app.min.js" />
@@ -1849,15 +1862,18 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Areas\Examination\Controllers\ChoicesController.cs" />
     <Compile Include="Areas\Examination\Controllers\ExamQuestionsController.cs" />
+    <Compile Include="Areas\Examination\Controllers\ImagesController.cs" />
     <Compile Include="Areas\Examination\Controllers\QuestionsController.cs" />
     <Compile Include="Areas\Examination\DTOs\AnswerDTO.cs" />
     <Compile Include="Areas\Examination\ExaminationAreaRegistration.cs" />
     <Compile Include="Areas\Examination\Models\Answer.cs" />
     <Compile Include="Areas\Examination\Models\Category.cs" />
     <Compile Include="Areas\Examination\Models\Choice.cs" />
+    <Compile Include="Areas\Examination\Models\Coordinate.cs" />
     <Compile Include="Areas\Examination\Models\Exam.cs" />
     <Compile Include="Areas\Examination\Models\Examinee.cs" />
     <Compile Include="Areas\Examination\Models\ExamQuestion.cs" />
+    <Compile Include="Areas\Examination\Models\Image.cs" />
     <Compile Include="Areas\Examination\Models\Model.cs" />
     <Compile Include="Areas\Examination\Models\Question.cs" />
     <Compile Include="Areas\Examination\Models\Session.cs" />

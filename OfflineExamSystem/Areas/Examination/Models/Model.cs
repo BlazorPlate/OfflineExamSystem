@@ -23,6 +23,11 @@ namespace OfflineExamSystem.Areas.Examination.Models
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Image>()
+                 .HasMany(e => e.Coordinates)
+                 .WithRequired(e => e.Image)
+                 .WillCascadeOnDelete(false);
+
             modelBuilder.Entity<Answer>()
                 .Property(e => e.MarkScored)
                 .HasPrecision(13, 2);
@@ -84,5 +89,7 @@ namespace OfflineExamSystem.Areas.Examination.Models
                 .WithRequired(e => e.Session)
                 .WillCascadeOnDelete(false);
         }
+
+        public System.Data.Entity.DbSet<OfflineExamSystem.Areas.Examination.Models.Image> Images { get; set; }
     }
 }

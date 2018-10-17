@@ -7,7 +7,6 @@
     var timeRemaining = TimeSpan.FromTicks(endTime.Ticks - DateTime.Now.Ticks).TotalSeconds.ToString("#");
     ViewBag.Title = "Exam Paper";
 }
-
 @using (Html.BeginForm("PostAnswerSimulation", "Home", FormMethod.Post, new { @id = "form" }))
 {
     <input type="hidden" name="Direction" id="direction" @*value="forward"*@ />
@@ -68,9 +67,14 @@
                         }
 
                     </div>
-                    <div class="col-lg-6">
-                        <label style="font-size:medium" id="result"></label>
-                        <label style="font-size:small" id="hint"></label>
+                    <div  class="col-lg-6">
+                        <div id="resultType" class="alert fade in">
+                            <button class="close hidden" data-dismiss="alert">
+                                ×
+                            </button>
+                            <i id="icon" class="fa-fw fa"></i>
+                            <strong id="result"></strong><br /><span id="hint"></span>
+                        </div>
                     </div>
                     </div>
                 </div>
@@ -92,7 +96,6 @@
         <!-- end widget content -->
     </div>
     <!-- end widget div -->
-
 }
 
 @section scripts{
@@ -176,19 +179,24 @@
                         var result = $.parseJSON(hint);
                         $("#hint").empty();
                         $("#result").empty();
-                        if (result['Key'] =='true') {
-                            $("#result").append('@Resources.Resources.TrueAnswer').removeClass('label label-danger').removeClass('label label-warning').addClass('label label-success');
-                            $("#hint").append(result['Value']).removeClass('label label-danger').removeClass('label label-warning').addClass('label label-success');;
+                        if (result['Key'] == 'true') {
+                            $("#icon").removeClass('fa-times').removeClass('fa-warning').addClass('fa-check');
+                            $("#resultType").removeClass('alert-warning').removeClass('alert-danger').addClass('alert-success');
+                            $("#result").append('@Resources.Resources.TrueAnswer');
+                            $("#hint").append(result['Value']);
                             $("#nextButton").show();
                         }
                         if (result['Key'] == 'false') {
-                            $("#result").append('@Resources.Resources.WrongAnswer').removeClass('label label-success').addClass('label label-danger');
-                            $("#hint").append(result['Value']).removeClass('label label-success').addClass('label label-danger');;
+                            $("#icon").removeClass('fa-check').removeClass('fa-warning').addClass('fa-times');
+                            $("#resultType").removeClass('alert-warning').removeClass('alert-success').addClass('alert-danger');
+                            $("#result").append('@Resources.Resources.WrongAnswer');
+                            $("#hint").append(result['Value']);
                             $("#nextButton").show();
                         }
                         if (result['Key'] == 'na') {
-                            $("#result").append('@Resources.Resources.SpecifyAnswer').removeClass('label label-success').removeClass('label label-danger').addClass('label label-warning');
-                            //$("#hint").append(result['Value']).removeClass('label label-success').removeClass('label label-danger').addClass('label label-warning');;
+                            $("#icon").removeClass('fa-check').removeClass('fa-warning').addClass('fa-warning');
+                            $("#resultType").removeClass('alert-success').removeClass('alert-danger').addClass('alert-warning');
+                            $("#result").append('@Resources.Resources.SpecifyAnswer');
                         }
                     },
                     error: function (ex) {
