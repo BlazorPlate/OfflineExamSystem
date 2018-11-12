@@ -17,7 +17,7 @@
     int pageNum = 0;
 }
 
-<body onload='myInit()'>
+<body @*onload='myInit()'*@>
     <center>
 
         <input type="hidden" name="Direction" id="direction" @*value="forward"*@ />
@@ -27,7 +27,6 @@
                 <div class="widget-toolbar pull-left">
                     @Html.PagedListPager((IPagedList)Model, page => Url.Action("Index", new { page }))
                 </div>
-
             </header>
             <!-- widget div-->
             <div>
@@ -36,20 +35,27 @@
                     <div class="padding-10">
                         @foreach (var item in Model)
                         {
-
                             <h2>@item.Question</h2> <hr />
                             imageId = item.Id;
                             pageNum = item.PageNum;
-                            <img src="@item.Path" usemap="#imgmap_css_container_imgmap201293016112" class="imgmap_css_container" title="imgmap201293016112" alt="imgmap201293016112" id="2">
-                            <map id="@item.Id" name="imgmap_css_container_imgmap201293016112">
-                                @foreach (var coordinate in item.Coordinates)
-                                {
-                                    <area shape="@coordinate.Shape" onmouseover="myHover(this);" onmouseout="myLeave();" coords="@coordinate.Coordinate1" href="#" alt="@coordinate.Image.Question" title="@coordinate.Image.Name" class="imgmap-area" answer="@(coordinate.AnswerFlag ? "correct":"wrong")">
+                            if (item.Type.Equals("img"))
+                            {
+                                <img src="@item.Path" usemap="#imgmap_css_container_imgmap201293016112" class="imgmap_css_container" title="imgmap201293016112" alt="imgmap201293016112" id="2">
+                                <map id="@item.Id" name="imgmap_css_container_imgmap201293016112">
+                                    @foreach (var coordinate in item.Coordinates)
+                                    {
+                                        <area id="@coordinate.Id" shape="@coordinate.Shape" @*onmouseover="myHover(this);" onmouseout="myLeave();"*@ coords="@coordinate.Coordinate1" href="#" alt="Click to check" title="Click to check" class="imgmap-area" answer="@(coordinate.AnswerFlag ? "correct":"wrong")">
+                                    }
+                                </map>
+                            }
+                            if (item.Type.Equals("vid"))
+                            {
+                                <video width="620" height="340" controls>
+                                    <source src="@item.Path" type="video/mp4">
+                                </video>
+                            }
 
-                                }
-                            </map>
-
-                            <canvas id="myCanvas" width="1024px" height="768px" style="z-index: 1; left: 200px; top: 8px;"></canvas>
+                            <canvas id="myCanvas" width="1024" height="768" style="z-index: 1; left: 200px; top: 8px;"></canvas>
                         }
                     </div>
                     <div class="widget-footer">
@@ -76,113 +82,117 @@
     </center>
 </body>
 @section scripts {
+    @*<script>
+        alert($('.pagination li:last').hasClass('active'));
+    </script>*@
     <script>
-
-            // stores the device context of the canvas we use to draw the outlines
-            // initialized in myInit, used in myHover and myLeave
-            var hdc;
-
-            // shorthand func
-            function byId(e) { return document.getElementById(e); }
-
-            // takes a string that contains coords eg - "227,307,261,309, 339,354, 328,371, 240,331"
-            // draws a line from each co-ord pair to the next - assumes starting point needs to be repeated as ending point.
-            function drawPoly(coOrdStr) {
-                var mCoords = coOrdStr.split(',');
-                var i, n;
-                n = mCoords.length;
-
-                hdc.beginPath();
-                hdc.moveTo(mCoords[0], mCoords[1]);
-                for (i = 2; i < n; i += 2) {
-                    hdc.lineTo(mCoords[i], mCoords[i + 1]);
-                }
-                hdc.lineTo(mCoords[0], mCoords[1]);
-                hdc.fillStyle = "red";
-                hdc.fill();
-                hdc.stroke();
-            }
-            function drawRect(coOrdStr,element) {
-                var mCoords = coOrdStr.split(',');
-                var top, left, bot, right;
-                left = mCoords[0];
-                top = mCoords[1];
-                right = mCoords[2];
-                bot = mCoords[3];
-                hdc.strokeRect(left, top, right - left, bot - top);
-                if (element.getAttribute("answer") == "correct") {
-                    hdc.fillStyle = "blue";
-                }
-                else {
-                    hdc.fillStyle = "red";
-                }
-
-                //alert(element.getAttribute("answer"));
-
-                hdc.globalAlpha = 0.6;
-                hdc.fillRect(left, top, right - left, bot - top);
-            }
-            function myHover(element) {
-                var hoveredElement = element;
-                var coordStr = element.getAttribute('coords');
-                var areaType = element.getAttribute('shape');
-                switch (areaType) {
-                    case 'polygon':
-                    case 'poly':
-                        drawPoly(coordStr);
-                        break;
-                    case 'rect':
-                        drawRect(coordStr,element);
-                }
-            }
-
-            function myLeave() {
-                var canvas = byId('myCanvas');
-                hdc.clearRect(0, 0, canvas.width, canvas.height);
-            }
-
-            function myInit() {
-                // get the target image
-                var img = byId('@imageId');
-
-                var x, y, w, h;
-
-                // get it's position and width+height
-                x = img.offsetLeft;
-                y = img.offsetTop;
-                w = img.clientWidth;
-                h = img.clientHeight;
-
-                // move the canvas, so it's contained by the same parent as the image
-                var imgParent = img.parentNode;
-                var can = byId('myCanvas');
-                imgParent.appendChild(can);
-
-                // place the canvas in front of the image
-                can.style.zIndex = 1;
-
-                // position it over the image
-                can.style.left = x + 'px';
-                can.style.top = y + 'px';
-                // make same size as the image
-                can.setAttribute('width', w + 'px');
-                can.setAttribute('height', h + 'px');
-                // get it's context
-                hdc = can.getContext('2d');
-                // set the 'default' values for the colour/width of fill/stroke operations
-                    hdc.fillStyle = 'red';
-                    hdc.strokeStyle = 'red';
-                hdc.lineWidth = 2;
-            }
+        $("area").click(function () {
+            alert(this.getAttribute("answer"));
+        });
+        $("img").click(function () {
+            alert("Wrong, please try again.");
+        });
     </script>
 
 
+    @*<script>
+                // stores the device context of the canvas we use to draw the outlines
+                // initialized in myInit, used in myHover and myLeave
+            var hdc;
 
+                // shorthand func
+                function byId(e) { return document.getElementById(e); }
+                // takes a string that contains coords eg - "227,307,261,309, 339,354, 328,371, 240,331"
+                // draws a line from each co-ord pair to the next - assumes starting point needs to be repeated as ending point.
+                function drawPoly(coOrdStr) {
+                    var mCoords = coOrdStr.split(',');
+                    var i, n;
+                    n = mCoords.length;
+                    hdc.beginPath();
+                    hdc.moveTo(mCoords[0], mCoords[1]);
+                    for (i = 2; i < n; i += 2) {
+                        hdc.lineTo(mCoords[i], mCoords[i + 1]);
+                    }
+                    hdc.lineTo(mCoords[0], mCoords[1]);
+                    hdc.fillStyle = "red";
+                    hdc.fill();
+                    hdc.stroke();
+                }
+                function drawRect(coOrdStr,element) {
+                    var mCoords = coOrdStr.split(',');
+                    var top, left, bot, right;
+                    left = mCoords[0];
+                    top = mCoords[1];
+                    right = mCoords[2];
+                    bot = mCoords[3];
+                    hdc.strokeRect(left, top, right - left, bot - top);
+                    if (element.getAttribute("answer") == "correct") {
+                        hdc.fillStyle = "blue";
+                        //alert('if');
+                    }
+                    else {
+                        hdc.fillStyle = "red";
+                        //alert('else');
+                    }
+                    //alert(element.getAttribute("answer"));
+                    hdc.globalAlpha = 0.6;
+                    hdc.fillRect(left, top, right - left, bot - top);
+                    //alert(coOrdStr);
+                }
+                function myHover(element) {
+                    var hoveredElement = element;
+                    var coordStr = element.getAttribute('coords');
+                    var areaType = element.getAttribute('shape');
+                    switch (areaType) {
+                        case 'polygon':
+                        case 'poly':
+                            drawPoly(coordStr);
+                            break;
+                        case 'rect':
+                            drawRect(coordStr,element);
+                    }
+                }
 
+                function myLeave() {
+                    var canvas = byId('myCanvas');
+                    hdc.clearRect(0, 0, canvas.width, canvas.height);
+                }
+
+            function myInit() {
+                    // get the target image
+                    var img = byId('@imageId');
+                    var x, y, w, h;
+
+                    // get it's position and width+height
+                    x = img.offsetLeft;
+                    y = img.offsetTop;
+                    w = img.clientWidth;
+                    h = img.clientHeight;
+
+                    // move the canvas, so it's contained by the same parent as the image
+                    var imgParent = img.parentNode;
+                    var can = byId('myCanvas');
+                    imgParent.appendChild(can);
+
+                    // place the canvas in front of the image
+                    can.style.zIndex = 1;
+
+                    // position it over the image
+                    can.style.left = x + 'px';
+                    can.style.top = y + 'px';
+                    // make same size as the image
+                    can.setAttribute('width', w + 'px');
+                    can.setAttribute('height', h + 'px');
+                    // get it's context
+                    hdc = can.getContext('2d');
+                    // set the 'default' values for the colour/width of fill/stroke operations
+                        hdc.fillStyle = 'red';
+                        hdc.strokeStyle = 'red';
+                    hdc.lineWidth = 2;
+                }
+        </script>*@
 }
-
 <script>
-
     function saveForward(sender) {
         $("input[id=direction]").val("forward")
         document.getElementById('form').submit();

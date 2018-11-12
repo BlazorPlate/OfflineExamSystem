@@ -22,7 +22,7 @@ namespace OfflineExamSystem.Areas.Examination.Models
         public string Question { get; set; }
         public string Path { get; set; }
         public int PageNum { get; set; }
-
+        public string Type { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Coordinate> Coordinates { get; set; }
     }

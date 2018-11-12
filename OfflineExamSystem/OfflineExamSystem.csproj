@@ -1041,7 +1041,7 @@
     <Content Include="Content\questions\3.png" />
     <Content Include="Content\questions\4.png" />
     <Content Include="Content\questions\5.png" />
-    <Content Include="Content\questions\6.png" />
+    <Content Include="Content\questions\vid.mp4" />
     <Content Include="Content\sound\bigbox.mp3" />
     <Content Include="Content\sound\license.txt" />
     <Content Include="Content\sound\messagebox.mp3" />
@@ -1131,10 +1131,7 @@
     <Content Include="Content\sound\voice_on.ogg" />
     <Content Include="libman.json" />
     <Content Include="Content\MvcGrid\Fonts\GridGlyphs.woff" />
-    <Content Include="Areas\Examination\Views\Images\Create.cshtml" />
-    <Content Include="Areas\Examination\Views\Images\Delete.cshtml" />
     <Content Include="Areas\Examination\Views\Images\Index.cshtml" />
-    <Content Include="Areas\Examination\Views\Images\Edit.cshtml" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <Content Include="Scripts\app.config.js" />
     <Content Include="Scripts\app.min.js" />
